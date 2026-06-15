@@ -1,0 +1,3478 @@
+{
+  "audit_id": "037",
+  "audit_pass": true,
+  "boundary": "This is a feature audit only. Direct feature matches are evidence, not proof of native meaning. Failure to find direct matches does not refute the pipeline; it means scalar provenance remains open and may require station/provenance fields.",
+  "checks": {
+    "all_targets_have_bit_laws": true,
+    "anchor_payload_pipeline_036_theorem_candidate_pass": true,
+    "free_block_scalar_032_theorem_candidate_pass": true,
+    "mediator_source_is_artifact_007_parsed": true,
+    "relay_selector_035_theorem_candidate_pass": true
+  },
+  "features_by_state": {
+    "B0": {
+      "bit_product": 0,
+      "c_nearest_mediator_dist_max": 1,
+      "c_nearest_mediator_dist_min": 1,
+      "c_nearest_mediator_dist_range": 0,
+      "c_nearest_mediator_dist_size": 3,
+      "c_nearest_mediator_dist_sum": 3,
+      "c_nearest_mediator_dist_sum_mod15": 3,
+      "c_values_max": 5,
+      "c_values_min": 0,
+      "c_values_range": 5,
+      "c_values_size": 3,
+      "c_values_sum": 7,
+      "c_values_sum_mod15": 7,
+      "mediator_nearest_c_dist_max": 4,
+      "mediator_nearest_c_dist_min": 1,
+      "mediator_nearest_c_dist_range": 3,
+      "mediator_nearest_c_dist_size": 5,
+      "mediator_nearest_c_dist_sum": 10,
+      "mediator_nearest_c_dist_sum_mod15": 10,
+      "mediator_row_count": 2,
+      "mediator_row_hit_c_counts_max": 0,
+      "mediator_row_hit_c_counts_min": 0,
+      "mediator_row_hit_c_counts_range": 0,
+      "mediator_row_hit_c_counts_size": 2,
+      "mediator_row_hit_c_counts_sum": 0,
+      "mediator_row_hit_c_counts_sum_mod15": 0,
+      "mediator_row_maxs_max": 14,
+      "mediator_row_maxs_min": 14,
+      "mediator_row_maxs_range": 0,
+      "mediator_row_maxs_size": 2,
+      "mediator_row_maxs_sum": 28,
+      "mediator_row_maxs_sum_mod15": 13,
+      "mediator_row_mins_max": 8,
+      "mediator_row_mins_min": 1,
+      "mediator_row_mins_range": 7,
+      "mediator_row_mins_size": 2,
+      "mediator_row_mins_sum": 9,
+      "mediator_row_mins_sum_mod15": 9,
+      "mediator_row_sizes_max": 5,
+      "mediator_row_sizes_min": 3,
+      "mediator_row_sizes_range": 2,
+      "mediator_row_sizes_size": 2,
+      "mediator_row_sizes_sum": 8,
+      "mediator_row_sizes_sum_mod15": 8,
+      "mediator_row_sums_max": 38,
+      "mediator_row_sums_min": 33,
+      "mediator_row_sums_range": 5,
+      "mediator_row_sums_size": 2,
+      "mediator_row_sums_sum": 71,
+      "mediator_row_sums_sum_mod15": 11,
+      "mediator_union_max": 14,
+      "mediator_union_min": 1,
+      "mediator_union_range": 13,
+      "mediator_union_size": 5,
+      "mediator_union_sum": 38,
+      "mediator_union_sum_mod15": 8,
+      "missing_from_u_max": 13,
+      "missing_from_u_min": 0,
+      "missing_from_u_minus_c_max": 13,
+      "missing_from_u_minus_c_min": 3,
+      "missing_from_u_minus_c_range": 10,
+      "missing_from_u_minus_c_size": 7,
+      "missing_from_u_minus_c_sum": 60,
+      "missing_from_u_minus_c_sum_mod15": 0,
+      "missing_from_u_range": 13,
+      "missing_from_u_size": 10,
+      "missing_from_u_sum": 67,
+      "missing_from_u_sum_mod15": 7,
+      "rank_bit": 0,
+      "shell_bit": 1,
+      "u_inter_c_size": 0,
+      "u_inter_c_sum": 0,
+      "u_inter_c_sum_mod15": 0,
+      "u_minus_c_max": 14,
+      "u_minus_c_min": 1,
+      "u_minus_c_range": 13,
+      "u_minus_c_size": 5,
+      "u_minus_c_sum": 38,
+      "u_minus_c_sum_mod15": 8,
+      "u_union_c_max": 14,
+      "u_union_c_min": 0,
+      "u_union_c_range": 14,
+      "u_union_c_size": 8,
+      "u_union_c_sum": 45,
+      "u_union_c_sum_mod15": 0
+    },
+    "B1": {
+      "bit_product": 1,
+      "c_nearest_mediator_dist_max": 4,
+      "c_nearest_mediator_dist_min": 2,
+      "c_nearest_mediator_dist_range": 2,
+      "c_nearest_mediator_dist_size": 3,
+      "c_nearest_mediator_dist_sum": 9,
+      "c_nearest_mediator_dist_sum_mod15": 9,
+      "c_values_max": 5,
+      "c_values_min": 2,
+      "c_values_range": 3,
+      "c_values_size": 3,
+      "c_values_sum": 11,
+      "c_values_sum_mod15": 11,
+      "mediator_nearest_c_dist_max": 6,
+      "mediator_nearest_c_dist_min": 2,
+      "mediator_nearest_c_dist_range": 4,
+      "mediator_nearest_c_dist_size": 6,
+      "mediator_nearest_c_dist_sum": 23,
+      "mediator_nearest_c_dist_sum_mod15": 8,
+      "mediator_row_count": 2,
+      "mediator_row_hit_c_counts_max": 0,
+      "mediator_row_hit_c_counts_min": 0,
+      "mediator_row_hit_c_counts_range": 0,
+      "mediator_row_hit_c_counts_size": 2,
+      "mediator_row_hit_c_counts_sum": 0,
+      "mediator_row_hit_c_counts_sum_mod15": 0,
+      "mediator_row_maxs_max": 14,
+      "mediator_row_maxs_min": 14,
+      "mediator_row_maxs_range": 0,
+      "mediator_row_maxs_size": 2,
+      "mediator_row_maxs_sum": 28,
+      "mediator_row_maxs_sum_mod15": 13,
+      "mediator_row_mins_max": 8,
+      "mediator_row_mins_min": 0,
+      "mediator_row_mins_range": 8,
+      "mediator_row_mins_size": 2,
+      "mediator_row_mins_sum": 8,
+      "mediator_row_mins_sum_mod15": 8,
+      "mediator_row_sizes_max": 6,
+      "mediator_row_sizes_min": 3,
+      "mediator_row_sizes_range": 3,
+      "mediator_row_sizes_size": 2,
+      "mediator_row_sizes_sum": 9,
+      "mediator_row_sizes_sum_mod15": 9,
+      "mediator_row_sums_max": 56,
+      "mediator_row_sums_min": 33,
+      "mediator_row_sums_range": 23,
+      "mediator_row_sums_size": 2,
+      "mediator_row_sums_sum": 89,
+      "mediator_row_sums_sum_mod15": 14,
+      "mediator_union_max": 14,
+      "mediator_union_min": 0,
+      "mediator_union_range": 14,
+      "mediator_union_size": 6,
+      "mediator_union_sum": 56,
+      "mediator_union_sum_mod15": 11,
+      "missing_from_u_max": 12,
+      "missing_from_u_min": 1,
+      "missing_from_u_minus_c_max": 12,
+      "missing_from_u_minus_c_min": 1,
+      "missing_from_u_minus_c_range": 11,
+      "missing_from_u_minus_c_size": 6,
+      "missing_from_u_minus_c_sum": 38,
+      "missing_from_u_minus_c_sum_mod15": 8,
+      "missing_from_u_range": 11,
+      "missing_from_u_size": 9,
+      "missing_from_u_sum": 49,
+      "missing_from_u_sum_mod15": 4,
+      "rank_bit": 1,
+      "shell_bit": 1,
+      "u_inter_c_size": 0,
+      "u_inter_c_sum": 0,
+      "u_inter_c_sum_mod15": 0,
+      "u_minus_c_max": 14,
+      "u_minus_c_min": 0,
+      "u_minus_c_range": 14,
+      "u_minus_c_size": 6,
+      "u_minus_c_sum": 56,
+      "u_minus_c_sum_mod15": 11,
+      "u_union_c_max": 14,
+      "u_union_c_min": 0,
+      "u_union_c_range": 14,
+      "u_union_c_size": 9,
+      "u_union_c_sum": 67,
+      "u_union_c_sum_mod15": 7
+    },
+    "O0": {
+      "bit_product": 0,
+      "c_nearest_mediator_dist_max": 3,
+      "c_nearest_mediator_dist_min": 0,
+      "c_nearest_mediator_dist_range": 3,
+      "c_nearest_mediator_dist_size": 3,
+      "c_nearest_mediator_dist_sum": 4,
+      "c_nearest_mediator_dist_sum_mod15": 4,
+      "c_values_max": 14,
+      "c_values_min": 2,
+      "c_values_range": 12,
+      "c_values_size": 3,
+      "c_values_sum": 27,
+      "c_values_sum_mod15": 12,
+      "mediator_nearest_c_dist_max": 4,
+      "mediator_nearest_c_dist_min": 0,
+      "mediator_nearest_c_dist_range": 4,
+      "mediator_nearest_c_dist_size": 8,
+      "mediator_nearest_c_dist_sum": 15,
+      "mediator_nearest_c_dist_sum_mod15": 0,
+      "mediator_row_count": 1,
+      "mediator_row_hit_c_counts_max": 1,
+      "mediator_row_hit_c_counts_min": 1,
+      "mediator_row_hit_c_counts_range": 0,
+      "mediator_row_hit_c_counts_size": 1,
+      "mediator_row_hit_c_counts_sum": 1,
+      "mediator_row_hit_c_counts_sum_mod15": 1,
+      "mediator_row_maxs_max": 8,
+      "mediator_row_maxs_min": 8,
+      "mediator_row_maxs_range": 0,
+      "mediator_row_maxs_size": 1,
+      "mediator_row_maxs_sum": 8,
+      "mediator_row_maxs_sum_mod15": 8,
+      "mediator_row_mins_max": 0,
+      "mediator_row_mins_min": 0,
+      "mediator_row_mins_range": 0,
+      "mediator_row_mins_size": 1,
+      "mediator_row_mins_sum": 0,
+      "mediator_row_mins_sum_mod15": 0,
+      "mediator_row_sizes_max": 8,
+      "mediator_row_sizes_min": 8,
+      "mediator_row_sizes_range": 0,
+      "mediator_row_sizes_size": 1,
+      "mediator_row_sizes_sum": 8,
+      "mediator_row_sizes_sum_mod15": 8,
+      "mediator_row_sums_max": 30,
+      "mediator_row_sums_min": 30,
+      "mediator_row_sums_range": 0,
+      "mediator_row_sums_size": 1,
+      "mediator_row_sums_sum": 30,
+      "mediator_row_sums_sum_mod15": 0,
+      "mediator_union_max": 8,
+      "mediator_union_min": 0,
+      "mediator_union_range": 8,
+      "mediator_union_size": 8,
+      "mediator_union_sum": 30,
+      "mediator_union_sum_mod15": 0,
+      "missing_from_u_max": 14,
+      "missing_from_u_min": 6,
+      "missing_from_u_minus_c_max": 13,
+      "missing_from_u_minus_c_min": 6,
+      "missing_from_u_minus_c_range": 7,
+      "missing_from_u_minus_c_size": 5,
+      "missing_from_u_minus_c_sum": 50,
+      "missing_from_u_minus_c_sum_mod15": 5,
+      "missing_from_u_range": 8,
+      "missing_from_u_size": 7,
+      "missing_from_u_sum": 75,
+      "missing_from_u_sum_mod15": 0,
+      "rank_bit": 0,
+      "shell_bit": 0,
+      "u_inter_c_max": 2,
+      "u_inter_c_min": 2,
+      "u_inter_c_range": 0,
+      "u_inter_c_size": 1,
+      "u_inter_c_sum": 2,
+      "u_inter_c_sum_mod15": 2,
+      "u_minus_c_max": 8,
+      "u_minus_c_min": 0,
+      "u_minus_c_range": 8,
+      "u_minus_c_size": 7,
+      "u_minus_c_sum": 28,
+      "u_minus_c_sum_mod15": 13,
+      "u_union_c_max": 14,
+      "u_union_c_min": 0,
+      "u_union_c_range": 14,
+      "u_union_c_size": 10,
+      "u_union_c_sum": 55,
+      "u_union_c_sum_mod15": 10
+    },
+    "O1": {
+      "bit_product": 0,
+      "c_nearest_mediator_dist_max": 3,
+      "c_nearest_mediator_dist_min": 0,
+      "c_nearest_mediator_dist_range": 3,
+      "c_nearest_mediator_dist_size": 3,
+      "c_nearest_mediator_dist_sum": 4,
+      "c_nearest_mediator_dist_sum_mod15": 4,
+      "c_values_max": 13,
+      "c_values_min": 1,
+      "c_values_range": 12,
+      "c_values_size": 3,
+      "c_values_sum": 24,
+      "c_values_sum_mod15": 9,
+      "mediator_nearest_c_dist_max": 4,
+      "mediator_nearest_c_dist_min": 0,
+      "mediator_nearest_c_dist_range": 4,
+      "mediator_nearest_c_dist_size": 6,
+      "mediator_nearest_c_dist_sum": 12,
+      "mediator_nearest_c_dist_sum_mod15": 12,
+      "mediator_row_count": 1,
+      "mediator_row_hit_c_counts_max": 1,
+      "mediator_row_hit_c_counts_min": 1,
+      "mediator_row_hit_c_counts_range": 0,
+      "mediator_row_hit_c_counts_size": 1,
+      "mediator_row_hit_c_counts_sum": 1,
+      "mediator_row_hit_c_counts_sum_mod15": 1,
+      "mediator_row_maxs_max": 9,
+      "mediator_row_maxs_min": 9,
+      "mediator_row_maxs_range": 0,
+      "mediator_row_maxs_size": 1,
+      "mediator_row_maxs_sum": 9,
+      "mediator_row_maxs_sum_mod15": 9,
+      "mediator_row_mins_max": 1,
+      "mediator_row_mins_min": 1,
+      "mediator_row_mins_range": 0,
+      "mediator_row_mins_size": 1,
+      "mediator_row_mins_sum": 1,
+      "mediator_row_mins_sum_mod15": 1,
+      "mediator_row_sizes_max": 6,
+      "mediator_row_sizes_min": 6,
+      "mediator_row_sizes_range": 0,
+      "mediator_row_sizes_size": 1,
+      "mediator_row_sizes_sum": 6,
+      "mediator_row_sizes_sum_mod15": 6,
+      "mediator_row_sums_max": 29,
+      "mediator_row_sums_min": 29,
+      "mediator_row_sums_range": 0,
+      "mediator_row_sums_size": 1,
+      "mediator_row_sums_sum": 29,
+      "mediator_row_sums_sum_mod15": 14,
+      "mediator_union_max": 9,
+      "mediator_union_min": 1,
+      "mediator_union_range": 8,
+      "mediator_union_size": 6,
+      "mediator_union_sum": 29,
+      "mediator_union_sum_mod15": 14,
+      "missing_from_u_max": 14,
+      "missing_from_u_min": 0,
+      "missing_from_u_minus_c_max": 14,
+      "missing_from_u_minus_c_min": 0,
+      "missing_from_u_minus_c_range": 14,
+      "missing_from_u_minus_c_size": 7,
+      "missing_from_u_minus_c_sum": 53,
+      "missing_from_u_minus_c_sum_mod15": 8,
+      "missing_from_u_range": 14,
+      "missing_from_u_size": 9,
+      "missing_from_u_sum": 76,
+      "missing_from_u_sum_mod15": 1,
+      "rank_bit": 1,
+      "shell_bit": 0,
+      "u_inter_c_max": 1,
+      "u_inter_c_min": 1,
+      "u_inter_c_range": 0,
+      "u_inter_c_size": 1,
+      "u_inter_c_sum": 1,
+      "u_inter_c_sum_mod15": 1,
+      "u_minus_c_max": 9,
+      "u_minus_c_min": 2,
+      "u_minus_c_range": 7,
+      "u_minus_c_size": 5,
+      "u_minus_c_sum": 28,
+      "u_minus_c_sum_mod15": 13,
+      "u_union_c_max": 13,
+      "u_union_c_min": 1,
+      "u_union_c_range": 12,
+      "u_union_c_size": 8,
+      "u_union_c_sum": 52,
+      "u_union_c_sum_mod15": 7
+    }
+  },
+  "inputs": {
+    "anchor_payload_pipeline_036": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/local_anchor_payload_pipeline_036.v1.json",
+    "free_block_scalar_selector_032": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/free_block_scalar_law_selector_032.v1.json",
+    "relay_selector_035": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_relay_block_selector_from_mediators_035.v1.json"
+  },
+  "interpretation": "This audit separates two claims. The scalar targets all have compact state-bit laws, already used by 032 and 035. A stronger native derivation would require the targets to appear directly as mediator/C-geometry features, or to be explained by a non-circular provenance law.",
+  "native_direct_derivation_pass": false,
+  "per_target": {
+    "free_min": {
+      "best_native_feature_plus_bit_residuals": [
+        {
+          "feature": "missing_from_u_min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 6,
+            "O1": 0
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": 2,
+              "pb": -2,
+              "pbr": 3,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": 1,
+              "O0": 2,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "u_union_c_sum_mod15",
+          "feature_values": {
+            "B0": 0,
+            "B1": 7,
+            "O0": 10,
+            "O1": 7
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": -2,
+              "pb": 2,
+              "pbr": 0,
+              "pr": -5
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": -5,
+              "O0": -2,
+              "O1": -7
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": -5,
+            "O0": -2,
+            "O1": -7
+          }
+        },
+        {
+          "feature": "c_values_sum_mod15",
+          "feature_values": {
+            "B0": 7,
+            "B1": 11,
+            "O0": 12,
+            "O1": 9
+          },
+          "residual_law": {
+            "coefficient_l1": 15,
+            "coefficients": {
+              "p0": -4,
+              "pb": -3,
+              "pbr": 3,
+              "pr": -5
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -7,
+              "B1": -9,
+              "O0": -4,
+              "O1": -9
+            }
+          },
+          "residual_values": {
+            "B0": -7,
+            "B1": -9,
+            "O0": -4,
+            "O1": -9
+          }
+        },
+        {
+          "feature": "missing_from_u_minus_c_min",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 0
+          },
+          "residual_law": {
+            "coefficient_l1": 15,
+            "coefficients": {
+              "p0": 2,
+              "pb": -5,
+              "pbr": 6,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -3,
+              "B1": 1,
+              "O0": 2,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": -3,
+            "B1": 1,
+            "O0": 2,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_min",
+          "feature_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 17,
+            "coefficients": {
+              "p0": 0,
+              "pb": -3,
+              "pbr": 8,
+              "pr": -6
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -3,
+              "B1": -1,
+              "O0": 0,
+              "O1": -6
+            }
+          },
+          "residual_values": {
+            "B0": -3,
+            "B1": -1,
+            "O0": 0,
+            "O1": -6
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_size",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 18,
+            "coefficients": {
+              "p0": 0,
+              "pb": -5,
+              "pbr": 7,
+              "pr": -6
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -5,
+              "B1": -4,
+              "O0": 0,
+              "O1": -6
+            }
+          },
+          "residual_values": {
+            "B0": -5,
+            "B1": -4,
+            "O0": 0,
+            "O1": -6
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_max",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 18,
+            "coefficients": {
+              "p0": 0,
+              "pb": -5,
+              "pbr": 7,
+              "pr": -6
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -5,
+              "B1": -4,
+              "O0": 0,
+              "O1": -6
+            }
+          },
+          "residual_values": {
+            "B0": -5,
+            "B1": -4,
+            "O0": 0,
+            "O1": -6
+          }
+        },
+        {
+          "feature": "mediator_union_size",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 18,
+            "coefficients": {
+              "p0": 0,
+              "pb": -5,
+              "pbr": 7,
+              "pr": -6
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -5,
+              "B1": -4,
+              "O0": 0,
+              "O1": -6
+            }
+          },
+          "residual_values": {
+            "B0": -5,
+            "B1": -4,
+            "O0": 0,
+            "O1": -6
+          }
+        },
+        {
+          "feature": "u_minus_c_size",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 7,
+            "O1": 5
+          },
+          "residual_law": {
+            "coefficient_l1": 20,
+            "coefficients": {
+              "p0": 1,
+              "pb": -6,
+              "pbr": 7,
+              "pr": -6
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -5,
+              "B1": -4,
+              "O0": 1,
+              "O1": -5
+            }
+          },
+          "residual_values": {
+            "B0": -5,
+            "B1": -4,
+            "O0": 1,
+            "O1": -5
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_sum",
+          "feature_values": {
+            "B0": 10,
+            "B1": 23,
+            "O0": 15,
+            "O1": 12
+          },
+          "residual_law": {
+            "coefficient_l1": 21,
+            "coefficients": {
+              "p0": -7,
+              "pb": -3,
+              "pbr": -6,
+              "pr": -5
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -10,
+              "B1": -21,
+              "O0": -7,
+              "O1": -12
+            }
+          },
+          "residual_values": {
+            "B0": -10,
+            "B1": -21,
+            "O0": -7,
+            "O1": -12
+          }
+        }
+      ],
+      "direct_exact_native_feature_count": 0,
+      "direct_exact_native_features": [],
+      "nearest_native_features_by_l1": [
+        {
+          "feature": "missing_from_u_min",
+          "l1_error": 3,
+          "values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 6,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "missing_from_u_minus_c_min",
+          "l1_error": 6,
+          "values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "c_values_min",
+          "l1_error": 7,
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_range",
+          "l1_error": 8,
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "bit_product",
+          "l1_error": 9,
+          "values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_min",
+          "l1_error": 9,
+          "values": {
+            "B0": 1,
+            "B1": 2,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_min",
+          "l1_error": 9,
+          "values": {
+            "B0": 1,
+            "B1": 2,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "u_inter_c_sum",
+          "l1_error": 9,
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "u_inter_c_sum_mod15",
+          "l1_error": 9,
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_count",
+          "l1_error": 10,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        }
+      ],
+      "target_bit_law": {
+        "coefficient_l1": 34,
+        "coefficients": {
+          "p0": 8,
+          "pb": -8,
+          "pbr": 10,
+          "pr": -8
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "predictions": {
+          "B0": 0,
+          "B1": 2,
+          "O0": 8,
+          "O1": 0
+        }
+      },
+      "target_values": {
+        "B0": 0,
+        "B1": 2,
+        "O0": 8,
+        "O1": 0
+      }
+    },
+    "free_size": {
+      "best_native_feature_plus_bit_residuals": [
+        {
+          "feature": "c_nearest_mediator_dist_size",
+          "feature_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 0,
+            "coefficients": {
+              "p0": 0,
+              "pb": 0,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": 0,
+              "O0": 0,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "c_values_size",
+          "feature_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 0,
+            "coefficients": {
+              "p0": 0,
+              "pb": 0,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": 0,
+              "O0": 0,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_max",
+          "feature_values": {
+            "B0": 4,
+            "B1": 6,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": -1,
+              "pb": 0,
+              "pbr": -2,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -1,
+              "B1": -3,
+              "O0": -1,
+              "O1": -1
+            }
+          },
+          "residual_values": {
+            "B0": -1,
+            "B1": -3,
+            "O0": -1,
+            "O1": -1
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_range",
+          "feature_values": {
+            "B0": 3,
+            "B1": 4,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": -1,
+              "pb": 1,
+              "pbr": -1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": -1,
+              "O0": -1,
+              "O1": -1
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": -1,
+            "O0": -1,
+            "O1": -1
+          }
+        },
+        {
+          "feature": "mediator_row_count",
+          "feature_values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": -1,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 1,
+              "B1": 1,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_max",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": 1,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 3,
+              "B1": 3,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": 1,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 3,
+              "B1": 3,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_range",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 3,
+              "pb": 0,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 3,
+              "B1": 3,
+              "O0": 3,
+              "O1": 3
+            }
+          },
+          "residual_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": -1,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 1,
+              "B1": 1,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_sum",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": 1,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 3,
+              "B1": 3,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        }
+      ],
+      "direct_exact_native_feature_count": 2,
+      "direct_exact_native_features": [
+        {
+          "feature": "c_nearest_mediator_dist_size",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "c_values_size",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        }
+      ],
+      "nearest_native_features_by_l1": [
+        {
+          "feature": "c_nearest_mediator_dist_max",
+          "l1_error": 3,
+          "values": {
+            "B0": 1,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_range",
+          "l1_error": 3,
+          "values": {
+            "B0": 3,
+            "B1": 4,
+            "O0": 4,
+            "O1": 4
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_range",
+          "l1_error": 4,
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_max",
+          "l1_error": 6,
+          "values": {
+            "B0": 4,
+            "B1": 6,
+            "O0": 4,
+            "O1": 4
+          }
+        },
+        {
+          "feature": "mediator_row_count",
+          "l1_error": 6,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_size",
+          "l1_error": 6,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_maxs_size",
+          "l1_error": 6,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_mins_size",
+          "l1_error": 6,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_size",
+          "l1_error": 6,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_sums_size",
+          "l1_error": 6,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        }
+      ],
+      "target_bit_law": {
+        "coefficient_l1": 3,
+        "coefficients": {
+          "p0": 3,
+          "pb": 0,
+          "pbr": 0,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "predictions": {
+          "B0": 3,
+          "B1": 3,
+          "O0": 3,
+          "O1": 3
+        }
+      },
+      "target_values": {
+        "B0": 3,
+        "B1": 3,
+        "O0": 3,
+        "O1": 3
+      }
+    },
+    "free_sum": {
+      "best_native_feature_plus_bit_residuals": [
+        {
+          "feature": "c_values_sum",
+          "feature_values": {
+            "B0": 7,
+            "B1": 11,
+            "O0": 27,
+            "O1": 24
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": 2,
+              "pb": -4,
+              "pbr": 2,
+              "pr": 1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -2,
+              "B1": 1,
+              "O0": 2,
+              "O1": 3
+            }
+          },
+          "residual_values": {
+            "B0": -2,
+            "B1": 1,
+            "O0": 2,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "u_union_c_sum_mod15",
+          "feature_values": {
+            "B0": 0,
+            "B1": 7,
+            "O0": 10,
+            "O1": 7
+          },
+          "residual_law": {
+            "coefficient_l1": 35,
+            "coefficients": {
+              "p0": 19,
+              "pb": -14,
+              "pbr": -1,
+              "pr": 1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 5,
+              "B1": 5,
+              "O0": 19,
+              "O1": 20
+            }
+          },
+          "residual_values": {
+            "B0": 5,
+            "B1": 5,
+            "O0": 19,
+            "O1": 20
+          }
+        },
+        {
+          "feature": "mediator_row_sums_min",
+          "feature_values": {
+            "B0": 33,
+            "B1": 33,
+            "O0": 30,
+            "O1": 29
+          },
+          "residual_law": {
+            "coefficient_l1": 37,
+            "coefficients": {
+              "p0": -1,
+              "pb": -27,
+              "pbr": 8,
+              "pr": -1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -28,
+              "B1": -21,
+              "O0": -1,
+              "O1": -2
+            }
+          },
+          "residual_values": {
+            "B0": -28,
+            "B1": -21,
+            "O0": -1,
+            "O1": -2
+          }
+        },
+        {
+          "feature": "c_values_max",
+          "feature_values": {
+            "B0": 5,
+            "B1": 5,
+            "O0": 14,
+            "O1": 13
+          },
+          "residual_law": {
+            "coefficient_l1": 39,
+            "coefficients": {
+              "p0": 15,
+              "pb": -15,
+              "pbr": 8,
+              "pr": -1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": 7,
+              "O0": 15,
+              "O1": 14
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": 7,
+            "O0": 15,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "c_values_sum_mod15",
+          "feature_values": {
+            "B0": 7,
+            "B1": 11,
+            "O0": 12,
+            "O1": 9
+          },
+          "residual_law": {
+            "coefficient_l1": 39,
+            "coefficients": {
+              "p0": 17,
+              "pb": -19,
+              "pbr": 2,
+              "pr": 1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -2,
+              "B1": 1,
+              "O0": 17,
+              "O1": 18
+            }
+          },
+          "residual_values": {
+            "B0": -2,
+            "B1": 1,
+            "O0": 17,
+            "O1": 18
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_sum",
+          "feature_values": {
+            "B0": 10,
+            "B1": 23,
+            "O0": 15,
+            "O1": 12
+          },
+          "residual_law": {
+            "coefficient_l1": 41,
+            "coefficients": {
+              "p0": 14,
+              "pb": -19,
+              "pbr": -7,
+              "pr": 1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -5,
+              "B1": -11,
+              "O0": 14,
+              "O1": 15
+            }
+          },
+          "residual_values": {
+            "B0": -5,
+            "B1": -11,
+            "O0": 14,
+            "O1": 15
+          }
+        },
+        {
+          "feature": "u_minus_c_sum_mod15",
+          "feature_values": {
+            "B0": 8,
+            "B1": 11,
+            "O0": 13,
+            "O1": 13
+          },
+          "residual_law": {
+            "coefficient_l1": 43,
+            "coefficients": {
+              "p0": 16,
+              "pb": -19,
+              "pbr": 6,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -3,
+              "B1": 1,
+              "O0": 16,
+              "O1": 14
+            }
+          },
+          "residual_values": {
+            "B0": -3,
+            "B1": 1,
+            "O0": 16,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "mediator_row_sums_max",
+          "feature_values": {
+            "B0": 38,
+            "B1": 56,
+            "O0": 30,
+            "O1": 29
+          },
+          "residual_law": {
+            "coefficient_l1": 44,
+            "coefficients": {
+              "p0": -1,
+              "pb": -32,
+              "pbr": -10,
+              "pr": -1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -33,
+              "B1": -44,
+              "O0": -1,
+              "O1": -2
+            }
+          },
+          "residual_values": {
+            "B0": -33,
+            "B1": -44,
+            "O0": -1,
+            "O1": -2
+          }
+        },
+        {
+          "feature": "mediator_union_sum",
+          "feature_values": {
+            "B0": 38,
+            "B1": 56,
+            "O0": 30,
+            "O1": 29
+          },
+          "residual_law": {
+            "coefficient_l1": 44,
+            "coefficients": {
+              "p0": -1,
+              "pb": -32,
+              "pbr": -10,
+              "pr": -1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -33,
+              "B1": -44,
+              "O0": -1,
+              "O1": -2
+            }
+          },
+          "residual_values": {
+            "B0": -33,
+            "B1": -44,
+            "O0": -1,
+            "O1": -2
+          }
+        },
+        {
+          "feature": "u_minus_c_sum",
+          "feature_values": {
+            "B0": 38,
+            "B1": 56,
+            "O0": 28,
+            "O1": 28
+          },
+          "residual_law": {
+            "coefficient_l1": 46,
+            "coefficients": {
+              "p0": 1,
+              "pb": -34,
+              "pbr": -9,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -33,
+              "B1": -44,
+              "O0": 1,
+              "O1": -1
+            }
+          },
+          "residual_values": {
+            "B0": -33,
+            "B1": -44,
+            "O0": 1,
+            "O1": -1
+          }
+        }
+      ],
+      "direct_exact_native_feature_count": 0,
+      "direct_exact_native_features": [],
+      "nearest_native_features_by_l1": [
+        {
+          "feature": "c_values_sum",
+          "l1_error": 8,
+          "values": {
+            "B0": 7,
+            "B1": 11,
+            "O0": 27,
+            "O1": 24
+          }
+        },
+        {
+          "feature": "u_minus_c_sum_mod15",
+          "l1_error": 34,
+          "values": {
+            "B0": 8,
+            "B1": 11,
+            "O0": 13,
+            "O1": 13
+          }
+        },
+        {
+          "feature": "c_values_max",
+          "l1_error": 36,
+          "values": {
+            "B0": 5,
+            "B1": 5,
+            "O0": 14,
+            "O1": 13
+          }
+        },
+        {
+          "feature": "missing_from_u_max",
+          "l1_error": 36,
+          "values": {
+            "B0": 13,
+            "B1": 12,
+            "O0": 14,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "missing_from_u_minus_c_max",
+          "l1_error": 37,
+          "values": {
+            "B0": 13,
+            "B1": 12,
+            "O0": 13,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "c_values_sum_mod15",
+          "l1_error": 38,
+          "values": {
+            "B0": 7,
+            "B1": 11,
+            "O0": 12,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "u_union_c_max",
+          "l1_error": 40,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 14,
+            "O1": 13
+          }
+        },
+        {
+          "feature": "c_values_range",
+          "l1_error": 41,
+          "values": {
+            "B0": 5,
+            "B1": 3,
+            "O0": 12,
+            "O1": 12
+          }
+        },
+        {
+          "feature": "missing_from_u_minus_c_range",
+          "l1_error": 41,
+          "values": {
+            "B0": 10,
+            "B1": 11,
+            "O0": 7,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "u_union_c_range",
+          "l1_error": 41,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 14,
+            "O1": 12
+          }
+        }
+      ],
+      "target_bit_law": {
+        "coefficient_l1": 64,
+        "coefficients": {
+          "p0": 29,
+          "pb": -24,
+          "pbr": 9,
+          "pr": -2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "predictions": {
+          "B0": 5,
+          "B1": 12,
+          "O0": 29,
+          "O1": 27
+        }
+      },
+      "target_values": {
+        "B0": 5,
+        "B1": 12,
+        "O0": 29,
+        "O1": 27
+      }
+    },
+    "relay_max": {
+      "best_native_feature_plus_bit_residuals": [
+        {
+          "feature": "mediator_row_sizes_sum",
+          "feature_values": {
+            "B0": 8,
+            "B1": 9,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 6,
+            "coefficients": {
+              "p0": -1,
+              "pb": 1,
+              "pbr": 0,
+              "pr": 4
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": 4,
+              "O0": -1,
+              "O1": 3
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": 4,
+            "O0": -1,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_sum_mod15",
+          "feature_values": {
+            "B0": 8,
+            "B1": 9,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 6,
+            "coefficients": {
+              "p0": -1,
+              "pb": 1,
+              "pbr": 0,
+              "pr": 4
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": 4,
+              "O0": -1,
+              "O1": 3
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": 4,
+            "O0": -1,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_max",
+          "feature_values": {
+            "B0": 4,
+            "B1": 6,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 7,
+            "coefficients": {
+              "p0": 3,
+              "pb": 1,
+              "pbr": 1,
+              "pr": 2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 4,
+              "B1": 7,
+              "O0": 3,
+              "O1": 5
+            }
+          },
+          "residual_values": {
+            "B0": 4,
+            "B1": 7,
+            "O0": 3,
+            "O1": 5
+          }
+        },
+        {
+          "feature": "u_minus_c_size",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 7,
+            "O1": 5
+          },
+          "residual_law": {
+            "coefficient_l1": 7,
+            "coefficients": {
+              "p0": 0,
+              "pb": 3,
+              "pbr": 0,
+              "pr": 4
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 3,
+              "B1": 7,
+              "O0": 0,
+              "O1": 4
+            }
+          },
+          "residual_values": {
+            "B0": 3,
+            "B1": 7,
+            "O0": 0,
+            "O1": 4
+          }
+        },
+        {
+          "feature": "missing_from_u_size",
+          "feature_values": {
+            "B0": 10,
+            "B1": 9,
+            "O0": 7,
+            "O1": 9
+          },
+          "residual_law": {
+            "coefficient_l1": 8,
+            "coefficients": {
+              "p0": 0,
+              "pb": -2,
+              "pbr": 6,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -2,
+              "B1": 4,
+              "O0": 0,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": -2,
+            "B1": 4,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_max",
+          "feature_values": {
+            "B0": 1,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": 4,
+              "pb": 3,
+              "pbr": 0,
+              "pr": 2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 7,
+              "B1": 9,
+              "O0": 4,
+              "O1": 6
+            }
+          },
+          "residual_values": {
+            "B0": 7,
+            "B1": 9,
+            "O0": 4,
+            "O1": 6
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_range",
+          "feature_values": {
+            "B0": 3,
+            "B1": 4,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": 3,
+              "pb": 2,
+              "pbr": 2,
+              "pr": 2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 5,
+              "B1": 9,
+              "O0": 3,
+              "O1": 5
+            }
+          },
+          "residual_values": {
+            "B0": 5,
+            "B1": 9,
+            "O0": 3,
+            "O1": 5
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_size",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": -1,
+              "pb": 4,
+              "pbr": 0,
+              "pr": 4
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 3,
+              "B1": 7,
+              "O0": -1,
+              "O1": 3
+            }
+          },
+          "residual_values": {
+            "B0": 3,
+            "B1": 7,
+            "O0": -1,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_max",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": -1,
+              "pb": 4,
+              "pbr": 0,
+              "pr": 4
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 3,
+              "B1": 7,
+              "O0": -1,
+              "O1": 3
+            }
+          },
+          "residual_values": {
+            "B0": 3,
+            "B1": 7,
+            "O0": -1,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_union_range",
+          "feature_values": {
+            "B0": 13,
+            "B1": 14,
+            "O0": 8,
+            "O1": 8
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": -1,
+              "pb": -4,
+              "pbr": 2,
+              "pr": 2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -5,
+              "B1": -1,
+              "O0": -1,
+              "O1": 1
+            }
+          },
+          "residual_values": {
+            "B0": -5,
+            "B1": -1,
+            "O0": -1,
+            "O1": 1
+          }
+        }
+      ],
+      "direct_exact_native_feature_count": 0,
+      "direct_exact_native_features": [],
+      "nearest_native_features_by_l1": [
+        {
+          "feature": "mediator_row_maxs_sum_mod15",
+          "l1_error": 6,
+          "values": {
+            "B0": 13,
+            "B1": 13,
+            "O0": 8,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "missing_from_u_size",
+          "l1_error": 6,
+          "values": {
+            "B0": 10,
+            "B1": 9,
+            "O0": 7,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "c_values_sum_mod15",
+          "l1_error": 8,
+          "values": {
+            "B0": 7,
+            "B1": 11,
+            "O0": 12,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "mediator_row_maxs_max",
+          "l1_error": 8,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 8,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "mediator_row_maxs_min",
+          "l1_error": 8,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 8,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_sum",
+          "l1_error": 8,
+          "values": {
+            "B0": 8,
+            "B1": 9,
+            "O0": 8,
+            "O1": 6
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_sum_mod15",
+          "l1_error": 8,
+          "values": {
+            "B0": 8,
+            "B1": 9,
+            "O0": 8,
+            "O1": 6
+          }
+        },
+        {
+          "feature": "mediator_union_max",
+          "l1_error": 8,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 8,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "mediator_union_range",
+          "l1_error": 8,
+          "values": {
+            "B0": 13,
+            "B1": 14,
+            "O0": 8,
+            "O1": 8
+          }
+        },
+        {
+          "feature": "u_minus_c_max",
+          "l1_error": 8,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 8,
+            "O1": 9
+          }
+        }
+      ],
+      "target_bit_law": {
+        "coefficient_l1": 13,
+        "coefficients": {
+          "p0": 7,
+          "pb": 1,
+          "pbr": 3,
+          "pr": 2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "predictions": {
+          "B0": 8,
+          "B1": 13,
+          "O0": 7,
+          "O1": 9
+        }
+      },
+      "target_values": {
+        "B0": 8,
+        "B1": 13,
+        "O0": 7,
+        "O1": 9
+      }
+    },
+    "relay_min": {
+      "best_native_feature_plus_bit_residuals": [
+        {
+          "feature": "c_nearest_mediator_dist_sum",
+          "feature_values": {
+            "B0": 3,
+            "B1": 9,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 0,
+              "pb": 1,
+              "pbr": 0,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 1,
+              "B1": -1,
+              "O0": 0,
+              "O1": -2
+            }
+          },
+          "residual_values": {
+            "B0": 1,
+            "B1": -1,
+            "O0": 0,
+            "O1": -2
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_sum_mod15",
+          "feature_values": {
+            "B0": 3,
+            "B1": 9,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 0,
+              "pb": 1,
+              "pbr": 0,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 1,
+              "B1": -1,
+              "O0": 0,
+              "O1": -2
+            }
+          },
+          "residual_values": {
+            "B0": 1,
+            "B1": -1,
+            "O0": 0,
+            "O1": -2
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_max",
+          "feature_values": {
+            "B0": 4,
+            "B1": 6,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 6,
+            "coefficients": {
+              "p0": 0,
+              "pb": 0,
+              "pbr": 4,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 0,
+              "B1": 2,
+              "O0": 0,
+              "O1": -2
+            }
+          },
+          "residual_values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 0,
+            "O1": -2
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_sum",
+          "feature_values": {
+            "B0": 8,
+            "B1": 9,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 7,
+            "coefficients": {
+              "p0": -4,
+              "pb": 0,
+              "pbr": 3,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -4,
+              "B1": -1,
+              "O0": -4,
+              "O1": -4
+            }
+          },
+          "residual_values": {
+            "B0": -4,
+            "B1": -1,
+            "O0": -4,
+            "O1": -4
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_sum_mod15",
+          "feature_values": {
+            "B0": 8,
+            "B1": 9,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 7,
+            "coefficients": {
+              "p0": -4,
+              "pb": 0,
+              "pbr": 3,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -4,
+              "B1": -1,
+              "O0": -4,
+              "O1": -4
+            }
+          },
+          "residual_values": {
+            "B0": -4,
+            "B1": -1,
+            "O0": -4,
+            "O1": -4
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_max",
+          "feature_values": {
+            "B0": 1,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 8,
+            "coefficients": {
+              "p0": 1,
+              "pb": 2,
+              "pbr": 3,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 3,
+              "B1": 4,
+              "O0": 1,
+              "O1": -1
+            }
+          },
+          "residual_values": {
+            "B0": 3,
+            "B1": 4,
+            "O0": 1,
+            "O1": -1
+          }
+        },
+        {
+          "feature": "c_values_min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 8,
+            "coefficients": {
+              "p0": 2,
+              "pb": 2,
+              "pbr": 3,
+              "pr": -1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 4,
+              "B1": 6,
+              "O0": 2,
+              "O1": 1
+            }
+          },
+          "residual_values": {
+            "B0": 4,
+            "B1": 6,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_range",
+          "feature_values": {
+            "B0": 3,
+            "B1": 4,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 8,
+            "coefficients": {
+              "p0": 0,
+              "pb": 1,
+              "pbr": 5,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 1,
+              "B1": 4,
+              "O0": 0,
+              "O1": -2
+            }
+          },
+          "residual_values": {
+            "B0": 1,
+            "B1": 4,
+            "O0": 0,
+            "O1": -2
+          }
+        },
+        {
+          "feature": "u_minus_c_size",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 7,
+            "O1": 5
+          },
+          "residual_law": {
+            "coefficient_l1": 8,
+            "coefficients": {
+              "p0": -3,
+              "pb": 2,
+              "pbr": 3,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -1,
+              "B1": 2,
+              "O0": -3,
+              "O1": -3
+            }
+          },
+          "residual_values": {
+            "B0": -1,
+            "B1": 2,
+            "O0": -3,
+            "O1": -3
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_size",
+          "feature_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 9,
+            "coefficients": {
+              "p0": 1,
+              "pb": 0,
+              "pbr": 6,
+              "pr": -2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 1,
+              "B1": 5,
+              "O0": 1,
+              "O1": -1
+            }
+          },
+          "residual_values": {
+            "B0": 1,
+            "B1": 5,
+            "O0": 1,
+            "O1": -1
+          }
+        }
+      ],
+      "direct_exact_native_feature_count": 0,
+      "direct_exact_native_features": [],
+      "nearest_native_features_by_l1": [
+        {
+          "feature": "c_nearest_mediator_dist_sum",
+          "l1_error": 4,
+          "values": {
+            "B0": 3,
+            "B1": 9,
+            "O0": 4,
+            "O1": 4
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_sum_mod15",
+          "l1_error": 4,
+          "values": {
+            "B0": 3,
+            "B1": 9,
+            "O0": 4,
+            "O1": 4
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_max",
+          "l1_error": 4,
+          "values": {
+            "B0": 4,
+            "B1": 6,
+            "O0": 4,
+            "O1": 4
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_range",
+          "l1_error": 7,
+          "values": {
+            "B0": 3,
+            "B1": 4,
+            "O0": 4,
+            "O1": 4
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_size",
+          "l1_error": 8,
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "c_values_size",
+          "l1_error": 8,
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_max",
+          "l1_error": 9,
+          "values": {
+            "B0": 1,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_row_mins_max",
+          "l1_error": 9,
+          "values": {
+            "B0": 8,
+            "B1": 8,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_mins_range",
+          "l1_error": 9,
+          "values": {
+            "B0": 7,
+            "B1": 8,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "u_minus_c_size",
+          "l1_error": 9,
+          "values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 7,
+            "O1": 5
+          }
+        }
+      ],
+      "target_bit_law": {
+        "coefficient_l1": 12,
+        "coefficients": {
+          "p0": 4,
+          "pb": 0,
+          "pbr": 6,
+          "pr": -2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "predictions": {
+          "B0": 4,
+          "B1": 8,
+          "O0": 4,
+          "O1": 2
+        }
+      },
+      "target_values": {
+        "B0": 4,
+        "B1": 8,
+        "O0": 4,
+        "O1": 2
+      }
+    },
+    "relay_size": {
+      "best_native_feature_plus_bit_residuals": [
+        {
+          "feature": "mediator_nearest_c_dist_range",
+          "feature_values": {
+            "B0": 3,
+            "B1": 4,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 1,
+            "coefficients": {
+              "p0": -1,
+              "pb": 0,
+              "pbr": 0,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -1,
+              "B1": -1,
+              "O0": -1,
+              "O1": -1
+            }
+          },
+          "residual_values": {
+            "B0": -1,
+            "B1": -1,
+            "O0": -1,
+            "O1": -1
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_size",
+          "feature_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 2,
+            "coefficients": {
+              "p0": 0,
+              "pb": -1,
+              "pbr": 1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -1,
+              "B1": 0,
+              "O0": 0,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": -1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "c_values_size",
+          "feature_values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 2,
+            "coefficients": {
+              "p0": 0,
+              "pb": -1,
+              "pbr": 1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -1,
+              "B1": 0,
+              "O0": 0,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": -1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_max",
+          "feature_values": {
+            "B0": 1,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 0,
+              "pb": 1,
+              "pbr": -2,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 1,
+              "B1": -1,
+              "O0": 0,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": 1,
+            "B1": -1,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_range",
+          "feature_values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 3,
+            "O1": 3
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 0,
+              "pb": 2,
+              "pbr": -1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 2,
+              "B1": 1,
+              "O0": 0,
+              "O1": 0
+            }
+          },
+          "residual_values": {
+            "B0": 2,
+            "B1": 1,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_max",
+          "feature_values": {
+            "B0": 4,
+            "B1": 6,
+            "O0": 4,
+            "O1": 4
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": -1,
+              "pb": -1,
+              "pbr": -1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -2,
+              "B1": -3,
+              "O0": -1,
+              "O1": -1
+            }
+          },
+          "residual_values": {
+            "B0": -2,
+            "B1": -3,
+            "O0": -1,
+            "O1": -1
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_max",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": 0,
+              "pbr": 1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 2,
+              "B1": 3,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": 0,
+              "pbr": 1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 2,
+              "B1": 3,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_sum",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": 0,
+              "pbr": 1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 2,
+              "B1": 3,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_sum_mod15",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 1
+          },
+          "residual_law": {
+            "coefficient_l1": 3,
+            "coefficients": {
+              "p0": 2,
+              "pb": 0,
+              "pbr": 1,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 2,
+              "B1": 3,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        }
+      ],
+      "direct_exact_native_feature_count": 0,
+      "direct_exact_native_features": [],
+      "nearest_native_features_by_l1": [
+        {
+          "feature": "c_nearest_mediator_dist_size",
+          "l1_error": 1,
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "c_values_size",
+          "l1_error": 1,
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_max",
+          "l1_error": 2,
+          "values": {
+            "B0": 1,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "c_nearest_mediator_dist_range",
+          "l1_error": 3,
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_range",
+          "l1_error": 4,
+          "values": {
+            "B0": 3,
+            "B1": 4,
+            "O0": 4,
+            "O1": 4
+          }
+        },
+        {
+          "feature": "mediator_row_count",
+          "l1_error": 5,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_hit_c_counts_size",
+          "l1_error": 5,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_maxs_size",
+          "l1_error": 5,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_mins_size",
+          "l1_error": 5,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_size",
+          "l1_error": 5,
+          "values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 1,
+            "O1": 1
+          }
+        }
+      ],
+      "target_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 3,
+          "pb": -1,
+          "pbr": 1,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "predictions": {
+          "B0": 2,
+          "B1": 3,
+          "O0": 3,
+          "O1": 3
+        }
+      },
+      "target_values": {
+        "B0": 2,
+        "B1": 3,
+        "O0": 3,
+        "O1": 3
+      }
+    },
+    "relay_sum": {
+      "best_native_feature_plus_bit_residuals": [
+        {
+          "feature": "mediator_nearest_c_dist_sum",
+          "feature_values": {
+            "B0": 10,
+            "B1": 23,
+            "O0": 15,
+            "O1": 12
+          },
+          "residual_law": {
+            "coefficient_l1": 8,
+            "coefficients": {
+              "p0": 1,
+              "pb": 1,
+              "pbr": 4,
+              "pr": 2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 2,
+              "B1": 8,
+              "O0": 1,
+              "O1": 3
+            }
+          },
+          "residual_values": {
+            "B0": 2,
+            "B1": 8,
+            "O0": 1,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "c_values_sum_mod15",
+          "feature_values": {
+            "B0": 7,
+            "B1": 11,
+            "O0": 12,
+            "O1": 9
+          },
+          "residual_law": {
+            "coefficient_l1": 20,
+            "coefficients": {
+              "p0": 4,
+              "pb": 1,
+              "pbr": 13,
+              "pr": 2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 5,
+              "B1": 20,
+              "O0": 4,
+              "O1": 6
+            }
+          },
+          "residual_values": {
+            "B0": 5,
+            "B1": 20,
+            "O0": 4,
+            "O1": 6
+          }
+        },
+        {
+          "feature": "u_minus_c_sum_mod15",
+          "feature_values": {
+            "B0": 8,
+            "B1": 11,
+            "O0": 13,
+            "O1": 13
+          },
+          "residual_law": {
+            "coefficient_l1": 22,
+            "coefficients": {
+              "p0": 3,
+              "pb": 1,
+              "pbr": 17,
+              "pr": -1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 4,
+              "B1": 20,
+              "O0": 3,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 4,
+            "B1": 20,
+            "O0": 3,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "u_union_c_sum_mod15",
+          "feature_values": {
+            "B0": 0,
+            "B1": 7,
+            "O0": 10,
+            "O1": 7
+          },
+          "residual_law": {
+            "coefficient_l1": 24,
+            "coefficients": {
+              "p0": 6,
+              "pb": 6,
+              "pbr": 10,
+              "pr": 2
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 12,
+              "B1": 24,
+              "O0": 6,
+              "O1": 8
+            }
+          },
+          "residual_values": {
+            "B0": 12,
+            "B1": 24,
+            "O0": 6,
+            "O1": 8
+          }
+        },
+        {
+          "feature": "u_union_c_max",
+          "feature_values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 14,
+            "O1": 13
+          },
+          "residual_law": {
+            "coefficient_l1": 25,
+            "coefficients": {
+              "p0": 2,
+              "pb": -4,
+              "pbr": 19,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -2,
+              "B1": 17,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": -2,
+            "B1": 17,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "u_union_c_range",
+          "feature_values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 14,
+            "O1": 12
+          },
+          "residual_law": {
+            "coefficient_l1": 25,
+            "coefficients": {
+              "p0": 2,
+              "pb": -4,
+              "pbr": 18,
+              "pr": 1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": -2,
+              "B1": 17,
+              "O0": 2,
+              "O1": 3
+            }
+          },
+          "residual_values": {
+            "B0": -2,
+            "B1": 17,
+            "O0": 2,
+            "O1": 3
+          }
+        },
+        {
+          "feature": "c_values_max",
+          "feature_values": {
+            "B0": 5,
+            "B1": 5,
+            "O0": 14,
+            "O1": 13
+          },
+          "residual_law": {
+            "coefficient_l1": 26,
+            "coefficients": {
+              "p0": 2,
+              "pb": 5,
+              "pbr": 19,
+              "pr": 0
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 7,
+              "B1": 26,
+              "O0": 2,
+              "O1": 2
+            }
+          },
+          "residual_values": {
+            "B0": 7,
+            "B1": 26,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "feature": "u_union_c_size",
+          "feature_values": {
+            "B0": 8,
+            "B1": 9,
+            "O0": 10,
+            "O1": 8
+          },
+          "residual_law": {
+            "coefficient_l1": 26,
+            "coefficients": {
+              "p0": 6,
+              "pb": -2,
+              "pbr": 17,
+              "pr": 1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 4,
+              "B1": 22,
+              "O0": 6,
+              "O1": 7
+            }
+          },
+          "residual_values": {
+            "B0": 4,
+            "B1": 22,
+            "O0": 6,
+            "O1": 7
+          }
+        },
+        {
+          "feature": "mediator_nearest_c_dist_size",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 27,
+            "coefficients": {
+              "p0": 8,
+              "pb": -1,
+              "pbr": 17,
+              "pr": 1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 7,
+              "B1": 25,
+              "O0": 8,
+              "O1": 9
+            }
+          },
+          "residual_values": {
+            "B0": 7,
+            "B1": 25,
+            "O0": 8,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "mediator_row_sizes_max",
+          "feature_values": {
+            "B0": 5,
+            "B1": 6,
+            "O0": 8,
+            "O1": 6
+          },
+          "residual_law": {
+            "coefficient_l1": 27,
+            "coefficients": {
+              "p0": 8,
+              "pb": -1,
+              "pbr": 17,
+              "pr": 1
+            },
+            "formula": "p0 + pb*b + pr*r + pbr*b*r",
+            "predictions": {
+              "B0": 7,
+              "B1": 25,
+              "O0": 8,
+              "O1": 9
+            }
+          },
+          "residual_values": {
+            "B0": 7,
+            "B1": 25,
+            "O0": 8,
+            "O1": 9
+          }
+        }
+      ],
+      "direct_exact_native_feature_count": 0,
+      "direct_exact_native_features": [],
+      "nearest_native_features_by_l1": [
+        {
+          "feature": "mediator_nearest_c_dist_sum",
+          "l1_error": 14,
+          "values": {
+            "B0": 10,
+            "B1": 23,
+            "O0": 15,
+            "O1": 12
+          }
+        },
+        {
+          "feature": "missing_from_u_max",
+          "l1_error": 23,
+          "values": {
+            "B0": 13,
+            "B1": 12,
+            "O0": 14,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "u_union_c_max",
+          "l1_error": 23,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 14,
+            "O1": 13
+          }
+        },
+        {
+          "feature": "missing_from_u_minus_c_max",
+          "l1_error": 24,
+          "values": {
+            "B0": 13,
+            "B1": 12,
+            "O0": 13,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "u_union_c_range",
+          "l1_error": 24,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 14,
+            "O1": 12
+          }
+        },
+        {
+          "feature": "u_minus_c_sum_mod15",
+          "l1_error": 29,
+          "values": {
+            "B0": 8,
+            "B1": 11,
+            "O0": 13,
+            "O1": 13
+          }
+        },
+        {
+          "feature": "missing_from_u_range",
+          "l1_error": 30,
+          "values": {
+            "B0": 13,
+            "B1": 11,
+            "O0": 8,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "missing_from_u_minus_c_range",
+          "l1_error": 32,
+          "values": {
+            "B0": 10,
+            "B1": 11,
+            "O0": 7,
+            "O1": 14
+          }
+        },
+        {
+          "feature": "mediator_row_maxs_max",
+          "l1_error": 33,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 8,
+            "O1": 9
+          }
+        },
+        {
+          "feature": "mediator_row_maxs_min",
+          "l1_error": 33,
+          "values": {
+            "B0": 14,
+            "B1": 14,
+            "O0": 8,
+            "O1": 9
+          }
+        }
+      ],
+      "target_bit_law": {
+        "coefficient_l1": 41,
+        "coefficients": {
+          "p0": 16,
+          "pb": -4,
+          "pbr": 20,
+          "pr": -1
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "predictions": {
+          "B0": 12,
+          "B1": 31,
+          "O0": 16,
+          "O1": 15
+        }
+      },
+      "target_values": {
+        "B0": 12,
+        "B1": 31,
+        "O0": 16,
+        "O1": 15
+      }
+    }
+  },
+  "question": "Are the scalar targets used by 032 and 035 directly visible as native mediator/C-geometry features, or do they remain compact state-bit selector laws?",
+  "status": "native_scalar_law_feature_audit_recorded"
+}
