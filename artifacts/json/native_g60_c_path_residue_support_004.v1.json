@@ -1,0 +1,397 @@
+{
+  "all_c_paths_directed_residue_supported": false,
+  "all_c_paths_undirected_residue_supported": false,
+  "all_checks_pass": true,
+  "any_c_path_directed_residue_supported": true,
+  "any_c_path_undirected_residue_supported": true,
+  "audit_id": "004",
+  "boundary": "This is only a residue-projection support test using vertex mod 15. It does not prove native local-cell provenance, does not test all possible quotient maps or station fields, does not derive the full role-labeled shared_B universe, and does not close Gap A.",
+  "checks": {
+    "g60_edge_count_is_120": true,
+    "literal_test_003_checks_passed": true,
+    "literal_test_003_found_zero_literal_edges": true,
+    "source_ledger_ready": true,
+    "tested_c_path_edge_count_is_12": true
+  },
+  "directed_residue_support_fraction": 0.5,
+  "directed_residue_supported_count": 6,
+  "g60_edge_count": 120,
+  "inputs": {
+    "g60_edges": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv",
+    "literal_test_003": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_literal_test_003.v1.json",
+    "source_ledger_002": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/source_ledger_and_target_alignment_002.v1.json"
+  },
+  "interpretation": "This tests whether Project 22 C-path transitions are supported after projecting native G60 vertices to residues mod 15. Positive support would suggest the C paths are quotient-visible rather than literal vertex-adjacency paths. Negative support would push the search toward station provenance or transition overlays.",
+  "per_state": {
+    "B0": {
+      "all_directed_supported": false,
+      "all_undirected_supported": false,
+      "any_directed_supported": true,
+      "any_undirected_supported": true,
+      "directed_flags": [
+        false,
+        false,
+        true
+      ],
+      "directed_support_counts": [
+        0,
+        0,
+        1
+      ],
+      "path": [
+        2,
+        5,
+        0,
+        2
+      ],
+      "undirected_flags": [
+        false,
+        false,
+        true
+      ],
+      "undirected_support_counts": [
+        0,
+        0,
+        1
+      ]
+    },
+    "B1": {
+      "all_directed_supported": false,
+      "all_undirected_supported": false,
+      "any_directed_supported": true,
+      "any_undirected_supported": true,
+      "directed_flags": [
+        true,
+        false,
+        false
+      ],
+      "directed_support_counts": [
+        1,
+        0,
+        0
+      ],
+      "path": [
+        4,
+        5,
+        2,
+        4
+      ],
+      "undirected_flags": [
+        true,
+        false,
+        false
+      ],
+      "undirected_support_counts": [
+        1,
+        0,
+        0
+      ]
+    },
+    "O0": {
+      "all_directed_supported": false,
+      "all_undirected_supported": false,
+      "any_directed_supported": true,
+      "any_undirected_supported": true,
+      "directed_flags": [
+        true,
+        true,
+        false
+      ],
+      "directed_support_counts": [
+        2,
+        2,
+        0
+      ],
+      "path": [
+        11,
+        2,
+        14,
+        11
+      ],
+      "undirected_flags": [
+        true,
+        true,
+        false
+      ],
+      "undirected_support_counts": [
+        2,
+        2,
+        0
+      ]
+    },
+    "O1": {
+      "all_directed_supported": false,
+      "all_undirected_supported": false,
+      "any_directed_supported": true,
+      "any_undirected_supported": true,
+      "directed_flags": [
+        true,
+        true,
+        false
+      ],
+      "directed_support_counts": [
+        2,
+        2,
+        0
+      ],
+      "path": [
+        13,
+        1,
+        10,
+        13
+      ],
+      "undirected_flags": [
+        true,
+        true,
+        false
+      ],
+      "undirected_support_counts": [
+        2,
+        2,
+        0
+      ]
+    }
+  },
+  "rows": [
+    {
+      "directed_examples": [],
+      "directed_residue_support_count": 0,
+      "directed_residue_supported": false,
+      "from_c": 2,
+      "state": "B0",
+      "step": 0,
+      "to_c": 5,
+      "undirected_examples": [],
+      "undirected_residue_support_count": 0,
+      "undirected_residue_supported": false
+    },
+    {
+      "directed_examples": [],
+      "directed_residue_support_count": 0,
+      "directed_residue_supported": false,
+      "from_c": 5,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0,
+      "undirected_examples": [],
+      "undirected_residue_support_count": 0,
+      "undirected_residue_supported": false
+    },
+    {
+      "directed_examples": [
+        [
+          45,
+          2
+        ]
+      ],
+      "directed_residue_support_count": 1,
+      "directed_residue_supported": true,
+      "from_c": 0,
+      "state": "B0",
+      "step": 2,
+      "to_c": 2,
+      "undirected_examples": [
+        [
+          2,
+          45
+        ]
+      ],
+      "undirected_residue_support_count": 1,
+      "undirected_residue_supported": true
+    },
+    {
+      "directed_examples": [
+        [
+          34,
+          20
+        ]
+      ],
+      "directed_residue_support_count": 1,
+      "directed_residue_supported": true,
+      "from_c": 4,
+      "state": "B1",
+      "step": 0,
+      "to_c": 5,
+      "undirected_examples": [
+        [
+          20,
+          34
+        ]
+      ],
+      "undirected_residue_support_count": 1,
+      "undirected_residue_supported": true
+    },
+    {
+      "directed_examples": [],
+      "directed_residue_support_count": 0,
+      "directed_residue_supported": false,
+      "from_c": 5,
+      "state": "B1",
+      "step": 1,
+      "to_c": 2,
+      "undirected_examples": [],
+      "undirected_residue_support_count": 0,
+      "undirected_residue_supported": false
+    },
+    {
+      "directed_examples": [],
+      "directed_residue_support_count": 0,
+      "directed_residue_supported": false,
+      "from_c": 2,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4,
+      "undirected_examples": [],
+      "undirected_residue_support_count": 0,
+      "undirected_residue_supported": false
+    },
+    {
+      "directed_examples": [
+        [
+          11,
+          17
+        ],
+        [
+          41,
+          47
+        ]
+      ],
+      "directed_residue_support_count": 2,
+      "directed_residue_supported": true,
+      "from_c": 11,
+      "state": "O0",
+      "step": 0,
+      "to_c": 2,
+      "undirected_examples": [
+        [
+          11,
+          17
+        ],
+        [
+          41,
+          47
+        ]
+      ],
+      "undirected_residue_support_count": 2,
+      "undirected_residue_supported": true
+    },
+    {
+      "directed_examples": [
+        [
+          17,
+          59
+        ],
+        [
+          32,
+          44
+        ]
+      ],
+      "directed_residue_support_count": 2,
+      "directed_residue_supported": true,
+      "from_c": 2,
+      "state": "O0",
+      "step": 1,
+      "to_c": 14,
+      "undirected_examples": [
+        [
+          17,
+          59
+        ],
+        [
+          32,
+          44
+        ]
+      ],
+      "undirected_residue_support_count": 2,
+      "undirected_residue_supported": true
+    },
+    {
+      "directed_examples": [],
+      "directed_residue_support_count": 0,
+      "directed_residue_supported": false,
+      "from_c": 14,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11,
+      "undirected_examples": [],
+      "undirected_residue_support_count": 0,
+      "undirected_residue_supported": false
+    },
+    {
+      "directed_examples": [
+        [
+          58,
+          16
+        ],
+        [
+          43,
+          31
+        ]
+      ],
+      "directed_residue_support_count": 2,
+      "directed_residue_supported": true,
+      "from_c": 13,
+      "state": "O1",
+      "step": 0,
+      "to_c": 1,
+      "undirected_examples": [
+        [
+          16,
+          58
+        ],
+        [
+          31,
+          43
+        ]
+      ],
+      "undirected_residue_support_count": 2,
+      "undirected_residue_supported": true
+    },
+    {
+      "directed_examples": [
+        [
+          16,
+          55
+        ],
+        [
+          31,
+          40
+        ]
+      ],
+      "directed_residue_support_count": 2,
+      "directed_residue_supported": true,
+      "from_c": 1,
+      "state": "O1",
+      "step": 1,
+      "to_c": 10,
+      "undirected_examples": [
+        [
+          16,
+          55
+        ],
+        [
+          31,
+          40
+        ]
+      ],
+      "undirected_residue_support_count": 2,
+      "undirected_residue_supported": true
+    },
+    {
+      "directed_examples": [],
+      "directed_residue_support_count": 0,
+      "directed_residue_supported": false,
+      "from_c": 10,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13,
+      "undirected_examples": [],
+      "undirected_residue_support_count": 0,
+      "undirected_residue_supported": false
+    }
+  ],
+  "status": "native_g60_c_path_residue_support_recorded",
+  "total_tested_c_path_steps": 12,
+  "undirected_residue_support_fraction": 0.5,
+  "undirected_residue_supported_count": 6
+}
