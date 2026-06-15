@@ -1,0 +1,1968 @@
+{
+  "audit_id": "054",
+  "boundary": "This is a targeted source probe, not native closure. It does not derive the completion ladder from the full native G60/shared_B universe, it is not full role-labeled shared_B universe derivation, and is not Gap A closure.",
+  "checks": {
+    "c_row_source_found": true,
+    "candidate_count": 10690,
+    "completion_frontier_053_pass": true,
+    "completion_source_found": true,
+    "forbidden_phrases_absent": true,
+    "json_file_count": 25,
+    "null_completion_header_052_pass": true,
+    "offset_check_source_found": true,
+    "required_phrases_present": true,
+    "source_root_exists": true,
+    "target_c_row_is_0_1_2_3": true,
+    "target_completion_level_is_2_3_4_5": true
+  },
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "completion_ladder_provenance_frontier_053": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/completion_ladder_provenance_frontier_053.v1.json",
+    "locator_module": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/scripts/header_upstream_source_locator_049.py",
+    "null_completion_header_interpretation_052": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/null_completion_header_interpretation_052.v1.json",
+    "source_root": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/upstream_station_provenance"
+  },
+  "interpretation": "The completion ladder is now the provenance target. This probe checks whether the current imported upstream cache already contains a candidate source for the completion level vector or the c_row vector.",
+  "missing_required_phrases": [],
+  "per_target": {
+    "c_row": {
+      "exact_source_count": 10,
+      "exact_sources_first": [
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        }
+      ],
+      "nearest_source_count": 30,
+      "nearest_sources_first": [
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/0/transitions",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/0/transitions",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/0/transitions",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        }
+      ],
+      "source_found": true,
+      "target_values": {
+        "B0": 2,
+        "B1": 3,
+        "O0": 0,
+        "O1": 1
+      }
+    },
+    "completion_level": {
+      "exact_source_count": 5,
+      "exact_sources_first": [
+        {
+          "a": 1,
+          "c": 2,
+          "feature": "form_index__max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 5,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 2,
+          "feature": "form_index__min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 5,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 2,
+          "feature": "form_index__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 5,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 2,
+          "feature": "form_index__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 5,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 2,
+          "feature": "form_index__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 5,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        }
+      ],
+      "nearest_source_count": 30,
+      "nearest_sources_first": [
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "B_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "B_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "B_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "B_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_station_provenance_law_audit_010.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_station_provenance_law_audit_010.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta_mod15__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "B_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "B_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "B_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "B_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_station_provenance_law_audit_010.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_station_provenance_law_audit_010.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "slot_delta_mod15__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 1,
+          "feature": "C_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json",
+          "source_path": "predictions",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        },
+        {
+          "a": 1,
+          "c": 1,
+          "feature": "C_delta__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 4,
+            "B1": 4,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 2,
+            "O1": 2
+          }
+        }
+      ],
+      "source_found": true,
+      "target_values": {
+        "B0": 4,
+        "B1": 5,
+        "O0": 2,
+        "O1": 3
+      }
+    },
+    "completion_offset_plus_two_check": {
+      "exact_source_count": 10,
+      "exact_sources_first": [
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "form_index__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 0,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 0,
+            "O1": 1
+          }
+        }
+      ],
+      "nearest_source_count": 30,
+      "nearest_sources_first": [
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/0/transitions",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/0/transitions",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/0/transitions",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/4/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/0/rows",
+          "values": {
+            "B0": 3,
+            "B1": 3,
+            "O0": 0,
+            "O1": 0
+          }
+        }
+      ],
+      "source_found": true,
+      "target_values": {
+        "B0": 2,
+        "B1": 3,
+        "O0": 0,
+        "O1": 1
+      }
+    }
+  },
+  "probe_pass": true,
+  "source_statement": "Artifact 054 is a completion ladder source probe. It scans the imported upstream provenance cache for exact or affine candidate sources of completion_level and c_row. A hit would be a candidate requiring validation, not native closure.",
+  "status": "completion_ladder_native_source_probe_recorded",
+  "targets": {
+    "c_row": {
+      "B0": 2,
+      "B1": 3,
+      "O0": 0,
+      "O1": 1
+    },
+    "completion_level": {
+      "B0": 4,
+      "B1": 5,
+      "O0": 2,
+      "O1": 3
+    },
+    "completion_offset_plus_two_check": {
+      "B0": 2,
+      "B1": 3,
+      "O0": 0,
+      "O1": 1
+    }
+  },
+  "verdict": "completion_level_source_candidate_found"
+}
