@@ -1,0 +1,186 @@
+{
+  "all_checks_pass": true,
+  "audit_id": "030",
+  "boundary": "This is a law search over observed free blocks. It does not prove native provenance, does not select relay mediators, does not derive the full shared_B universe, and does not close Gap A.",
+  "checks": {
+    "all_free_blocks_nonempty": true,
+    "candidate_census_020_theorem_pass": true,
+    "o0_free_block_is_8_9_12": true,
+    "o0_selector_029_checks_pass": true,
+    "unlifted_relay_cover_011_theorem_pass": true
+  },
+  "exact_law_hit_count_reported": 0,
+  "exact_law_hits_first_50": [],
+  "inputs": {
+    "candidate_census_fixed_020": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_path_candidate_census_fixed_020.v1.json",
+    "o0_selector_assault_029": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/o0_anchor_residue_set_selector_assault_029.v1.json",
+    "unlifted_relay_cover_011": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_unlifted_anchor_relay_cover_011.v1.json"
+  },
+  "interpretation": "This searches for a common law generating the free block from relay hits or C values. If no common transform appears, the free block likely requires station/provenance context or a richer relational law.",
+  "per_state_offset_summaries": {
+    "B0": {
+      "c_to_free_offsets": [],
+      "relay_to_free_offsets": []
+    },
+    "B1": {
+      "c_to_free_offsets": [],
+      "relay_to_free_offsets": []
+    },
+    "O0": {
+      "c_to_free_offsets": [],
+      "relay_to_free_offsets": []
+    },
+    "O1": {
+      "c_to_free_offsets": [],
+      "relay_to_free_offsets": []
+    }
+  },
+  "rows": [
+    {
+      "c_overlap_free": [],
+      "c_signature": "2,11,14",
+      "c_values": [
+        2,
+        11,
+        14
+      ],
+      "free_block": [
+        8,
+        9,
+        12
+      ],
+      "free_signature": "8,9,12",
+      "free_size": 3,
+      "observed_set": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "rank_bit": 0,
+      "relay_block": [
+        4,
+        5,
+        7
+      ],
+      "relay_signature": "4,5,7",
+      "shell_bit": 0,
+      "state": "O0",
+      "unique_relay_hits": []
+    },
+    {
+      "c_overlap_free": [
+        13
+      ],
+      "c_signature": "1,10,13",
+      "c_values": [
+        1,
+        10,
+        13
+      ],
+      "free_block": [
+        0,
+        13,
+        14
+      ],
+      "free_signature": "0,13,14",
+      "free_size": 3,
+      "observed_set": [
+        0,
+        2,
+        4,
+        9,
+        13,
+        14
+      ],
+      "rank_bit": 1,
+      "relay_block": [
+        2,
+        4,
+        9
+      ],
+      "relay_signature": "2,4,9",
+      "shell_bit": 0,
+      "state": "O1",
+      "unique_relay_hits": []
+    },
+    {
+      "c_overlap_free": [
+        0,
+        2
+      ],
+      "c_signature": "0,2,5",
+      "c_values": [
+        0,
+        2,
+        5
+      ],
+      "free_block": [
+        0,
+        2,
+        3
+      ],
+      "free_signature": "0,2,3",
+      "free_size": 3,
+      "observed_set": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "rank_bit": 0,
+      "relay_block": [
+        4,
+        8
+      ],
+      "relay_signature": "4,8",
+      "shell_bit": 1,
+      "state": "B0",
+      "unique_relay_hits": [
+        8
+      ]
+    },
+    {
+      "c_overlap_free": [
+        2
+      ],
+      "c_signature": "2,4,5",
+      "c_values": [
+        2,
+        4,
+        5
+      ],
+      "free_block": [
+        2,
+        3,
+        7
+      ],
+      "free_signature": "2,3,7",
+      "free_size": 3,
+      "observed_set": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13
+      ],
+      "rank_bit": 1,
+      "relay_block": [
+        8,
+        10,
+        13
+      ],
+      "relay_signature": "8,10,13",
+      "shell_bit": 1,
+      "state": "B1",
+      "unique_relay_hits": [
+        8
+      ]
+    }
+  ],
+  "status": "anchor_free_block_law_search_recorded"
+}
