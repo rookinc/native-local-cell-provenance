@@ -1,0 +1,645 @@
+{
+  "audit_id": "045",
+  "boundary": "This proves only a reduced four-state residual compression property. Since any four values can be interpolated by a two-bit polynomial, the load-bearing claim is the small coefficient bound and the station-register complexity reduction. This does not derive the full role-labeled shared_B universe and does not close Gap A.",
+  "checks": {
+    "all_residuals_compress_target_bit_law": true,
+    "all_residuals_small_header": true,
+    "corrected_or_zero_count": 3,
+    "input_044_audit_pass": true,
+    "max_residual_abs_coeff": 3,
+    "max_residual_coeff_l1": 9,
+    "nontrivial_target_count": 6,
+    "remaining_small_header_count": 3,
+    "shared_header_grammar_pass": true
+  },
+  "classification_counts": {
+    "exact_station_register_correction": 2,
+    "small_header_residual_remaining": 3,
+    "station_base_exact_zero_residual": 1
+  },
+  "classification_targets": {
+    "exact_station_register_correction": [
+      "free_min",
+      "relay_min"
+    ],
+    "small_header_residual_remaining": [
+      "free_sum",
+      "relay_max",
+      "relay_sum"
+    ],
+    "station_base_exact_zero_residual": [
+      "relay_size"
+    ]
+  },
+  "grammar_candidate": {
+    "basis": [
+      "1",
+      "b",
+      "r",
+      "b*r"
+    ],
+    "bound": "max_abs_coeff <= 3 and coefficient_l1 <= 9",
+    "interpretation": "After station-register base readouts and exact station corrections, every nontrivial scalar residual is a small two-bit header correction over branch bit b and rank bit r.",
+    "law": "residual = p0 + pb*b + pr*r + pbr*b*r",
+    "name": "bounded two-bit residual header"
+  },
+  "input": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/residual_correction_law_audit_044.v1.json",
+  "interpretation": "Artifact 044 improved the exact scalar correction frontier to 3 of 6 nontrivial targets. This audit does not search for new station features. It checks whether the remaining residuals share a small two-bit header grammar. The result records a constrained grammar candidate rather than a full native derivation.",
+  "rows": [
+    {
+      "base_bit_law": {
+        "coefficient_l1": 36,
+        "coefficients": {
+          "p0": 9,
+          "pb": -9,
+          "pbr": 9,
+          "pr": -9
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 9,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 0,
+          "O0": 9,
+          "O1": 0
+        }
+      },
+      "base_coeff_l1": 36,
+      "base_feature": "set__q3__to_C__range",
+      "base_values": {
+        "B0": 0,
+        "B1": 0,
+        "O0": 9,
+        "O1": 0
+      },
+      "classification": "exact_station_register_correction",
+      "exact_correction_count": 1,
+      "exact_non_bit_correction_count_first_saved": 1,
+      "residual": {
+        "B0": 0,
+        "B1": 2,
+        "O0": -1,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 4,
+        "coefficients": {
+          "p0": -1,
+          "pb": 1,
+          "pbr": 1,
+          "pr": 1
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 1,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 2,
+          "O0": -1,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 4,
+      "residual_is_small_header": true,
+      "residual_is_zero": false,
+      "residual_l1_reduction_from_target": 30,
+      "residual_max_abs_coeff": 1,
+      "target": "free_min",
+      "target_bit_law": {
+        "coefficient_l1": 34,
+        "coefficients": {
+          "p0": 8,
+          "pb": -8,
+          "pbr": 10,
+          "pr": -8
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 10,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 2,
+          "O0": 8,
+          "O1": 0
+        }
+      },
+      "target_coeff_l1": 34,
+      "target_values": {
+        "B0": 0,
+        "B1": 2,
+        "O0": 8,
+        "O1": 0
+      }
+    },
+    {
+      "base_bit_law": {
+        "coefficient_l1": 61,
+        "coefficients": {
+          "p0": 27,
+          "pb": -22,
+          "pbr": 9,
+          "pr": -3
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 27,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 5,
+          "B1": 11,
+          "O0": 27,
+          "O1": 24
+        }
+      },
+      "base_coeff_l1": 61,
+      "base_feature": "op__q0__A_delta__cpath_minus__sum",
+      "base_values": {
+        "B0": 5,
+        "B1": 11,
+        "O0": 27,
+        "O1": 24
+      },
+      "classification": "small_header_residual_remaining",
+      "exact_correction_count": 0,
+      "exact_non_bit_correction_count_first_saved": 0,
+      "residual": {
+        "B0": 0,
+        "B1": 1,
+        "O0": 2,
+        "O1": 3
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 2,
+          "pb": -2,
+          "pbr": 0,
+          "pr": 1
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 2,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 1,
+          "O0": 2,
+          "O1": 3
+        }
+      },
+      "residual_coeff_l1": 5,
+      "residual_is_small_header": true,
+      "residual_is_zero": false,
+      "residual_l1_reduction_from_target": 59,
+      "residual_max_abs_coeff": 2,
+      "target": "free_sum",
+      "target_bit_law": {
+        "coefficient_l1": 64,
+        "coefficients": {
+          "p0": 29,
+          "pb": -24,
+          "pbr": 9,
+          "pr": -2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 29,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 5,
+          "B1": 12,
+          "O0": 29,
+          "O1": 27
+        }
+      },
+      "target_coeff_l1": 64,
+      "target_values": {
+        "B0": 5,
+        "B1": 12,
+        "O0": 29,
+        "O1": 27
+      }
+    },
+    {
+      "base_bit_law": {
+        "coefficient_l1": 12,
+        "coefficients": {
+          "p0": 7,
+          "pb": 3,
+          "pbr": 0,
+          "pr": 2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 7,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr"
+        ],
+        "predictions": {
+          "B0": 10,
+          "B1": 12,
+          "O0": 7,
+          "O1": 9
+        }
+      },
+      "base_coeff_l1": 12,
+      "base_feature": "set__rolepair_IW_YZ__to_A__max",
+      "base_values": {
+        "B0": 10,
+        "B1": 12,
+        "O0": 7,
+        "O1": 9
+      },
+      "classification": "small_header_residual_remaining",
+      "exact_correction_count": 0,
+      "exact_non_bit_correction_count_first_saved": 0,
+      "residual": {
+        "B0": -2,
+        "B1": 1,
+        "O0": 0,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 0,
+          "pb": -2,
+          "pbr": 3,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "pb",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -2,
+          "B1": 1,
+          "O0": 0,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 5,
+      "residual_is_small_header": true,
+      "residual_is_zero": false,
+      "residual_l1_reduction_from_target": 8,
+      "residual_max_abs_coeff": 3,
+      "target": "relay_max",
+      "target_bit_law": {
+        "coefficient_l1": 13,
+        "coefficients": {
+          "p0": 7,
+          "pb": 1,
+          "pbr": 3,
+          "pr": 2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 7,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 8,
+          "B1": 13,
+          "O0": 7,
+          "O1": 9
+        }
+      },
+      "target_coeff_l1": 13,
+      "target_values": {
+        "B0": 8,
+        "B1": 13,
+        "O0": 7,
+        "O1": 9
+      }
+    },
+    {
+      "base_bit_law": {
+        "coefficient_l1": 20,
+        "coefficients": {
+          "p0": 6,
+          "pb": -2,
+          "pbr": 8,
+          "pr": -4
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 8,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 4,
+          "B1": 8,
+          "O0": 6,
+          "O1": 2
+        }
+      },
+      "base_coeff_l1": 20,
+      "base_feature": "op__shared__A_delta__minus_cpath__min",
+      "base_values": {
+        "B0": 4,
+        "B1": 8,
+        "O0": 6,
+        "O1": 2
+      },
+      "classification": "exact_station_register_correction",
+      "exact_correction_count": 40,
+      "exact_non_bit_correction_count_first_saved": 39,
+      "residual": {
+        "B0": 0,
+        "B1": 0,
+        "O0": -2,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 8,
+        "coefficients": {
+          "p0": -2,
+          "pb": 2,
+          "pbr": -2,
+          "pr": 2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 2,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 0,
+          "O0": -2,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 8,
+      "residual_is_small_header": true,
+      "residual_is_zero": false,
+      "residual_l1_reduction_from_target": 4,
+      "residual_max_abs_coeff": 2,
+      "target": "relay_min",
+      "target_bit_law": {
+        "coefficient_l1": 12,
+        "coefficients": {
+          "p0": 4,
+          "pb": 0,
+          "pbr": 6,
+          "pr": -2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 6,
+        "nonzero_terms": [
+          "p0",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 4,
+          "B1": 8,
+          "O0": 4,
+          "O1": 2
+        }
+      },
+      "target_coeff_l1": 12,
+      "target_values": {
+        "B0": 4,
+        "B1": 8,
+        "O0": 4,
+        "O1": 2
+      }
+    },
+    {
+      "base_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 3,
+          "pb": -1,
+          "pbr": 1,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 2,
+          "B1": 3,
+          "O0": 3,
+          "O1": 3
+        }
+      },
+      "base_coeff_l1": 5,
+      "base_feature": "op__q0__B_delta__cpath_minus__size",
+      "base_values": {
+        "B0": 2,
+        "B1": 3,
+        "O0": 3,
+        "O1": 3
+      },
+      "classification": "station_base_exact_zero_residual",
+      "exact_correction_count": 40,
+      "exact_non_bit_correction_count_first_saved": 40,
+      "residual": {
+        "B0": 0,
+        "B1": 0,
+        "O0": 0,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 0,
+        "coefficients": {
+          "p0": 0,
+          "pb": 0,
+          "pbr": 0,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 0,
+        "nonzero_terms": [],
+        "predictions": {
+          "B0": 0,
+          "B1": 0,
+          "O0": 0,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 0,
+      "residual_is_small_header": true,
+      "residual_is_zero": true,
+      "residual_l1_reduction_from_target": 5,
+      "residual_max_abs_coeff": 0,
+      "target": "relay_size",
+      "target_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 3,
+          "pb": -1,
+          "pbr": 1,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 2,
+          "B1": 3,
+          "O0": 3,
+          "O1": 3
+        }
+      },
+      "target_coeff_l1": 5,
+      "target_values": {
+        "B0": 2,
+        "B1": 3,
+        "O0": 3,
+        "O1": 3
+      }
+    },
+    {
+      "base_bit_law": {
+        "coefficient_l1": 50,
+        "coefficients": {
+          "p0": 19,
+          "pb": -6,
+          "pbr": 21,
+          "pr": -4
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 21,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 13,
+          "B1": 30,
+          "O0": 19,
+          "O1": 15
+        }
+      },
+      "base_coeff_l1": 50,
+      "base_feature": "op__all__A_delta__minus_cpath__sum",
+      "base_values": {
+        "B0": 13,
+        "B1": 30,
+        "O0": 19,
+        "O1": 15
+      },
+      "classification": "small_header_residual_remaining",
+      "exact_correction_count": 0,
+      "exact_non_bit_correction_count_first_saved": 0,
+      "residual": {
+        "B0": -1,
+        "B1": 1,
+        "O0": -3,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 9,
+        "coefficients": {
+          "p0": -3,
+          "pb": 2,
+          "pbr": -1,
+          "pr": 3
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -1,
+          "B1": 1,
+          "O0": -3,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 9,
+      "residual_is_small_header": true,
+      "residual_is_zero": false,
+      "residual_l1_reduction_from_target": 32,
+      "residual_max_abs_coeff": 3,
+      "target": "relay_sum",
+      "target_bit_law": {
+        "coefficient_l1": 41,
+        "coefficients": {
+          "p0": 16,
+          "pb": -4,
+          "pbr": 20,
+          "pr": -1
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 20,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 12,
+          "B1": 31,
+          "O0": 16,
+          "O1": 15
+        }
+      },
+      "target_coeff_l1": 41,
+      "target_values": {
+        "B0": 12,
+        "B1": 31,
+        "O0": 16,
+        "O1": 15
+      }
+    }
+  ],
+  "status": "shared_residual_correction_grammar_recorded"
+}
