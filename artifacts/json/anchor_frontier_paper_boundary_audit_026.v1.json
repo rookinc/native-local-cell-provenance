@@ -1,11 +1,11 @@
 {
   "audit_id": "026",
-  "boundary_pass": false,
+  "boundary_pass": true,
   "checks": {
     "all_required_boundary_phrases_present": true,
     "all_required_closed_phrases_present": true,
     "anchor_after_c_cover": true,
-    "anchor_before_boundary_or_conclusion": false,
+    "anchor_before_boundary_or_conclusion": true,
     "c_cover_section_present": true,
     "frontier_checkpoint_024_pass": true,
     "main_file_exists": true,
@@ -27,9 +27,9 @@
   "open_boundary": "The paper continues to state that Gap A is not closed and that native provenance must still derive the anchor residue sets, pair-size profiles, and rank law.",
   "positions": {
     "anchor_include": 684,
-    "boundary_or_none": null,
+    "boundary_or_none": 734,
     "c_cover_include": 635,
-    "conclusion_or_none": null
+    "conclusion_or_none": 763
   },
   "status": "anchor_frontier_paper_boundary_audit_recorded"
 }

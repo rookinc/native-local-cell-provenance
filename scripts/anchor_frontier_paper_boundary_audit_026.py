@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,6 +26,17 @@ def find_first(text, needles):
         i = text.find(n)
         if i >= 0:
             hits.append((i, n))
+    if not hits:
+        return None
+    return min(hits)[0]
+
+
+def find_first_regex(text, patterns):
+    hits = []
+    for pattern in patterns:
+        m = re.search(pattern, text)
+        if m:
+            hits.append((m.start(), pattern))
     if not hits:
         return None
     return min(hits)[0]
@@ -57,8 +69,20 @@ def main():
 
     anchor_pos = main_text.find(anchor_include)
     c_cover_pos = main_text.find(c_cover_include)
-    boundary_pos = find_first(main_text, boundary_needles)
-    conclusion_pos = find_first(main_text, conclusion_needles)
+    boundary_pos = find_first_regex(
+        main_text,
+        [
+            r"\\input\{sections/[^}]*boundary\}",
+            r"\\section\{Boundar(?:y|ies)\}",
+        ],
+    )
+    conclusion_pos = find_first_regex(
+        main_text,
+        [
+            r"\\input\{sections/[^}]*conclusion\}",
+            r"\\section\{Conclusion\}",
+        ],
+    )
 
     required_closed_phrases = [
         "not literal walks",

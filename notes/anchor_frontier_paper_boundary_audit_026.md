@@ -4,7 +4,7 @@ Status: anchor_frontier_paper_boundary_audit_recorded
 
 ## Result
 
-- boundary_pass: `False`
+- boundary_pass: `True`
 
 ## Closed statement
 
@@ -23,7 +23,7 @@ The paper continues to state that Gap A is not closed and that native provenance
 - main_includes_anchor_frontier_section: `True`
 - c_cover_section_present: `True`
 - anchor_after_c_cover: `True`
-- anchor_before_boundary_or_conclusion: `False`
+- anchor_before_boundary_or_conclusion: `True`
 - all_required_closed_phrases_present: `True`
 - all_required_boundary_phrases_present: `True`
 - no_forbidden_unqualified_claims_present: `True`
