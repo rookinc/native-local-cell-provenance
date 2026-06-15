@@ -3,8 +3,8 @@
 Status: overleaf_zip_build_recorded
 
 - zip_path: `/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/dist/native_local_cell_provenance_overleaf.zip`
-- zip_sha256: `7f1e36670af9ff4142f78025d3432d03d89095c02d88e688c2e1f5bd6cf77e1c`
-- zip_size_bytes: `5907`
+- zip_sha256: `116bf5295761ae0a7fbda5d921bdf648404ddd3d68d492eac40db93c2c00bf58`
+- zip_size_bytes: `5956`
 - file_count: `11`
 - contains_main_tex: `True`
 
