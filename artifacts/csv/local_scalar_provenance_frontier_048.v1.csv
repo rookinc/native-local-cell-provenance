@@ -1,0 +1,14 @@
+group,item,status,evidence
+closed,canonical_24_row_station_register,closed_for_local_normal_form,046 confirms canonical_24_row_station_register=true using 041.
+closed,clean_state_to_station_join,closed_for_local_normal_form,046 confirms clean_state_to_station_join=true using 042.
+closed,relay_size_station_base_exact,closed_for_local_normal_form,046 classifies relay_size as station_base_exact_zero_residual.
+closed,free_min_station_register_correction,closed_for_local_normal_form,046 classifies free_min as exact_station_register_correction.
+closed,relay_min_station_register_correction,closed_for_local_normal_form,046 classifies relay_min as exact_station_register_correction.
+closed,bounded_two_bit_header_normal_form,closed_as_compression_not_source,"046 confirms all_residuals_small_header=true, max_residual_abs_coeff<=3, max_residual_coeff_l1<=9."
+open,free_sum_header_source,open,047 finds no exact station-feature source for free_sum header residual.
+open,relay_max_header_source,open,047 finds no exact station-feature source for relay_max header residual.
+open,relay_sum_header_source,open,047 finds no exact station-feature source for relay_sum header residual.
+open,shared_header_station_family,open,047 reports shared_near_station_family_exists=false.
+open,small_integer_relation_among_headers,open,047 reports small_integer_relation_found=false.
+open,full_role_labeled_shared_B_universe,open,046 and 047 explicitly do not derive the full role-labeled shared_B universe.
+open,Gap_A_closure,open,046 and 047 explicitly state this is not Gap A closure.
