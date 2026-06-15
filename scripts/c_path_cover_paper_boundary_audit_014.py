@@ -55,10 +55,10 @@ def main():
         "Every Project 22 C-path step is covered",
         "direct mod15 G60 residue support",
         "same-state unlifted anchor-path relay support",
-        "12/12\ \text{C-path steps covered}",
-        "6\ \text{direct residue steps}",
-        "6\ \text{unlifted anchor-relay steps}",
-        "0\ \text{uncovered steps}",
+        r"12/12\ \text{C-path steps covered}",
+        r"6\ \text{direct residue steps}",
+        r"6\ \text{unlifted anchor-relay steps}",
+        r"0\ \text{uncovered steps}",
         "one completed intermediate cover theorem",
     ]
 

@@ -4,7 +4,7 @@ Status: c_path_cover_paper_boundary_audit_recorded
 
 ## Result
 
-- boundary_pass: `False`
+- boundary_pass: `True`
 - completed intermediate theorem present: `True`
 - forbidden unqualified claims absent: `True`
 
@@ -27,17 +27,14 @@ The paper still does not derive the anchor paths or lift masks from native G60 p
 - cover_section_contains_theorem: `True`
 - cover_section_contains_boundary: `True`
 - boundary_section_still_refuses_gap_a_closure: `True`
-- all_required_closed_phrases_present: `False`
+- all_required_closed_phrases_present: `True`
 - all_required_boundary_phrases_present: `True`
 - no_forbidden_unqualified_claims_present: `True`
 - counts_match_012: `True`
 
 ## Missing required closed phrases
 
-- `12/12\ 	ext{C-path steps covered}`
-- `6\ 	ext{direct residue steps}`
-- `6\ 	ext{unlifted anchor-relay steps}`
-- `0\ 	ext{uncovered steps}`
+- none
 
 ## Missing required boundary phrases
 

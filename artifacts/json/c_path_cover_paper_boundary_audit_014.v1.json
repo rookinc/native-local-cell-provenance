@@ -8,11 +8,11 @@
     "does not select unique mediators for every relay": true,
     "does not yet derive the Project 22 local-cell kernel from native G60 provenance": true
   },
-  "boundary_pass": false,
+  "boundary_pass": true,
   "checks": {
     "abstract_updated_for_intermediate_theorem": true,
     "all_required_boundary_phrases_present": true,
-    "all_required_closed_phrases_present": false,
+    "all_required_closed_phrases_present": true,
     "artifact_012_theorem_pass": true,
     "artifact_013_section_recorded": true,
     "boundary_section_still_refuses_gap_a_closure": true,
@@ -25,10 +25,10 @@
     "no_forbidden_unqualified_claims_present": true
   },
   "closed_hits": {
-    "0\\ \text{uncovered steps}": false,
-    "12/12\\ \text{C-path steps covered}": false,
-    "6\\ \text{direct residue steps}": false,
-    "6\\ \text{unlifted anchor-relay steps}": false,
+    "0\\ \\text{uncovered steps}": true,
+    "12/12\\ \\text{C-path steps covered}": true,
+    "6\\ \\text{direct residue steps}": true,
+    "6\\ \\text{unlifted anchor-relay steps}": true,
     "C-path quotient-anchor cover": true,
     "Every Project 22 C-path step is covered": true,
     "direct mod15 G60 residue support": true,
