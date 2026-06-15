@@ -1,0 +1,13 @@
+state,b,r,c_row,completion_level,completion_name,anchor_col,selected_candidate_index,target,observed,predicted,match
+O0,0,0,0,2,edge,1,1,free_sum,2,2,True
+O0,0,0,0,2,edge,1,1,relay_max,0,0,True
+O0,0,0,0,2,edge,1,1,relay_sum,-3,-3,True
+O1,0,1,1,3,hinge,2,6,free_sum,3,3,True
+O1,0,1,1,3,hinge,2,6,relay_max,0,0,True
+O1,0,1,1,3,hinge,2,6,relay_sum,0,0,True
+B0,1,0,2,4,closed_face,0,8,free_sum,0,0,True
+B0,1,0,2,4,closed_face,0,8,relay_max,-2,-2,True
+B0,1,0,2,4,closed_face,0,8,relay_sum,-1,-1,True
+B1,1,1,3,5,filled_cell,3,15,free_sum,1,1,True
+B1,1,1,3,5,filled_cell,3,15,relay_max,1,1,True
+B1,1,1,3,5,filled_cell,3,15,relay_sum,1,1,True
