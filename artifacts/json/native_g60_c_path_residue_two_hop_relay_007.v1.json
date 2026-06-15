@@ -1,0 +1,1523 @@
+{
+  "audit_id": "007",
+  "boundary": "This is only a two-hop relay audit in the simple mod15 residue quotient. It does not derive the C paths, does not derive the local cell from native G60 provenance, does not test station fields or lifted masks, does not derive the full role-labeled shared_B edge universe, and does not close Gap A.",
+  "checks": {
+    "all_unsupported_have_distance_2_in_005": true,
+    "all_unsupported_have_two_hop_relay": true,
+    "bit_law_006_theorem_pass": true,
+    "residue_distance_005_checks_pass": true,
+    "residue_support_004_checks_pass": true,
+    "unsupported_row_count_is_6": true
+  },
+  "inputs": {
+    "bit_law_006": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_residue_support_bit_law_006.v1.json",
+    "g60_edges": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv",
+    "residue_distance_005": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_residue_distance_005.v1.json",
+    "residue_support_004": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_residue_support_004.v1.json"
+  },
+  "interpretation": "The six C transitions not directly supported in the mod15 residue quotient are tested for two-hop relay support. If every unsupported transition has a residue mediator, then the missing half of the bit-law support pattern is not absence; it is a two-hop relay layer in the quotient graph.",
+  "mediator_by_shell_rank_step": {
+    "b0_r0_s2": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "b0_r1_s2": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      9
+    ],
+    "b1_r0_s0": [
+      8,
+      11,
+      14
+    ],
+    "b1_r0_s1": [
+      1,
+      4,
+      8,
+      11,
+      14
+    ],
+    "b1_r1_s1": [
+      8,
+      11,
+      14
+    ],
+    "b1_r1_s2": [
+      0,
+      8,
+      10,
+      11,
+      13,
+      14
+    ]
+  },
+  "mediator_by_state_step": {
+    "B0_step0": [
+      8,
+      11,
+      14
+    ],
+    "B0_step1": [
+      1,
+      4,
+      8,
+      11,
+      14
+    ],
+    "B1_step1": [
+      8,
+      11,
+      14
+    ],
+    "B1_step2": [
+      0,
+      8,
+      10,
+      11,
+      13,
+      14
+    ],
+    "O0_step2": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "O1_step2": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      9
+    ]
+  },
+  "mediator_counts": {
+    "0": 2,
+    "1": 3,
+    "2": 2,
+    "3": 1,
+    "4": 3,
+    "5": 1,
+    "6": 1,
+    "7": 2,
+    "8": 5,
+    "9": 1,
+    "10": 1,
+    "11": 4,
+    "13": 1,
+    "14": 4
+  },
+  "relay_row_count": 31,
+  "relay_rows": [
+    {
+      "from_c": 2,
+      "left_support_count": 3,
+      "mediator": 8,
+      "path": [
+        2,
+        8,
+        5
+      ],
+      "rank_bit": 0,
+      "right_support_count": 1,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "from_c": 2,
+      "left_support_count": 2,
+      "mediator": 11,
+      "path": [
+        2,
+        11,
+        5
+      ],
+      "rank_bit": 0,
+      "right_support_count": 3,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "from_c": 2,
+      "left_support_count": 2,
+      "mediator": 14,
+      "path": [
+        2,
+        14,
+        5
+      ],
+      "rank_bit": 0,
+      "right_support_count": 3,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "from_c": 5,
+      "left_support_count": 2,
+      "mediator": 1,
+      "path": [
+        5,
+        1,
+        0
+      ],
+      "rank_bit": 0,
+      "right_support_count": 2,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "from_c": 5,
+      "left_support_count": 1,
+      "mediator": 4,
+      "path": [
+        5,
+        4,
+        0
+      ],
+      "rank_bit": 0,
+      "right_support_count": 3,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "from_c": 5,
+      "left_support_count": 1,
+      "mediator": 8,
+      "path": [
+        5,
+        8,
+        0
+      ],
+      "rank_bit": 0,
+      "right_support_count": 1,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "from_c": 5,
+      "left_support_count": 3,
+      "mediator": 11,
+      "path": [
+        5,
+        11,
+        0
+      ],
+      "rank_bit": 0,
+      "right_support_count": 2,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "from_c": 5,
+      "left_support_count": 3,
+      "mediator": 14,
+      "path": [
+        5,
+        14,
+        0
+      ],
+      "rank_bit": 0,
+      "right_support_count": 2,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "from_c": 5,
+      "left_support_count": 1,
+      "mediator": 8,
+      "path": [
+        5,
+        8,
+        2
+      ],
+      "rank_bit": 1,
+      "right_support_count": 3,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 1,
+      "to_c": 2
+    },
+    {
+      "from_c": 5,
+      "left_support_count": 3,
+      "mediator": 11,
+      "path": [
+        5,
+        11,
+        2
+      ],
+      "rank_bit": 1,
+      "right_support_count": 2,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 1,
+      "to_c": 2
+    },
+    {
+      "from_c": 5,
+      "left_support_count": 3,
+      "mediator": 14,
+      "path": [
+        5,
+        14,
+        2
+      ],
+      "rank_bit": 1,
+      "right_support_count": 2,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 1,
+      "to_c": 2
+    },
+    {
+      "from_c": 2,
+      "left_support_count": 1,
+      "mediator": 0,
+      "path": [
+        2,
+        0,
+        4
+      ],
+      "rank_bit": 1,
+      "right_support_count": 3,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "from_c": 2,
+      "left_support_count": 3,
+      "mediator": 8,
+      "path": [
+        2,
+        8,
+        4
+      ],
+      "rank_bit": 1,
+      "right_support_count": 2,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "from_c": 2,
+      "left_support_count": 1,
+      "mediator": 10,
+      "path": [
+        2,
+        10,
+        4
+      ],
+      "rank_bit": 1,
+      "right_support_count": 2,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "from_c": 2,
+      "left_support_count": 2,
+      "mediator": 11,
+      "path": [
+        2,
+        11,
+        4
+      ],
+      "rank_bit": 1,
+      "right_support_count": 1,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "from_c": 2,
+      "left_support_count": 3,
+      "mediator": 13,
+      "path": [
+        2,
+        13,
+        4
+      ],
+      "rank_bit": 1,
+      "right_support_count": 1,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "from_c": 2,
+      "left_support_count": 2,
+      "mediator": 14,
+      "path": [
+        2,
+        14,
+        4
+      ],
+      "rank_bit": 1,
+      "right_support_count": 1,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "from_c": 14,
+      "left_support_count": 2,
+      "mediator": 0,
+      "path": [
+        14,
+        0,
+        11
+      ],
+      "rank_bit": 0,
+      "right_support_count": 2,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 14,
+      "left_support_count": 1,
+      "mediator": 1,
+      "path": [
+        14,
+        1,
+        11
+      ],
+      "rank_bit": 0,
+      "right_support_count": 1,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 14,
+      "left_support_count": 2,
+      "mediator": 2,
+      "path": [
+        14,
+        2,
+        11
+      ],
+      "rank_bit": 0,
+      "right_support_count": 2,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 14,
+      "left_support_count": 1,
+      "mediator": 3,
+      "path": [
+        14,
+        3,
+        11
+      ],
+      "rank_bit": 0,
+      "right_support_count": 2,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 14,
+      "left_support_count": 1,
+      "mediator": 4,
+      "path": [
+        14,
+        4,
+        11
+      ],
+      "rank_bit": 0,
+      "right_support_count": 1,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 14,
+      "left_support_count": 3,
+      "mediator": 5,
+      "path": [
+        14,
+        5,
+        11
+      ],
+      "rank_bit": 0,
+      "right_support_count": 3,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 14,
+      "left_support_count": 2,
+      "mediator": 7,
+      "path": [
+        14,
+        7,
+        11
+      ],
+      "rank_bit": 0,
+      "right_support_count": 2,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 14,
+      "left_support_count": 2,
+      "mediator": 8,
+      "path": [
+        14,
+        8,
+        11
+      ],
+      "rank_bit": 0,
+      "right_support_count": 3,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 10,
+      "left_support_count": 2,
+      "mediator": 1,
+      "path": [
+        10,
+        1,
+        13
+      ],
+      "rank_bit": 1,
+      "right_support_count": 2,
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    },
+    {
+      "from_c": 10,
+      "left_support_count": 1,
+      "mediator": 2,
+      "path": [
+        10,
+        2,
+        13
+      ],
+      "rank_bit": 1,
+      "right_support_count": 3,
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    },
+    {
+      "from_c": 10,
+      "left_support_count": 2,
+      "mediator": 4,
+      "path": [
+        10,
+        4,
+        13
+      ],
+      "rank_bit": 1,
+      "right_support_count": 1,
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    },
+    {
+      "from_c": 10,
+      "left_support_count": 3,
+      "mediator": 6,
+      "path": [
+        10,
+        6,
+        13
+      ],
+      "rank_bit": 1,
+      "right_support_count": 2,
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    },
+    {
+      "from_c": 10,
+      "left_support_count": 1,
+      "mediator": 7,
+      "path": [
+        10,
+        7,
+        13
+      ],
+      "rank_bit": 1,
+      "right_support_count": 3,
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    },
+    {
+      "from_c": 10,
+      "left_support_count": 4,
+      "mediator": 9,
+      "path": [
+        10,
+        9,
+        13
+      ],
+      "rank_bit": 1,
+      "right_support_count": 1,
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    }
+  ],
+  "status": "native_g60_c_path_residue_two_hop_relay_recorded",
+  "theorem_pass": true,
+  "unsupported_row_count": 6,
+  "unsupported_rows": [
+    {
+      "all_relays_are_two_hop": true,
+      "from_c": 2,
+      "mediator_count": 3,
+      "mediators": [
+        8,
+        11,
+        14
+      ],
+      "rank_bit": 0,
+      "relay_records": [
+        {
+          "left_examples": [
+            [
+              17,
+              23
+            ],
+            [
+              32,
+              38
+            ],
+            [
+              47,
+              53
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 8,
+          "right_examples": [
+            [
+              8,
+              50
+            ]
+          ],
+          "right_support_count": 1
+        },
+        {
+          "left_examples": [
+            [
+              11,
+              17
+            ],
+            [
+              41,
+              47
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 11,
+          "right_examples": [
+            [
+              5,
+              11
+            ],
+            [
+              11,
+              20
+            ],
+            [
+              41,
+              50
+            ]
+          ],
+          "right_support_count": 3
+        },
+        {
+          "left_examples": [
+            [
+              17,
+              59
+            ],
+            [
+              32,
+              44
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 14,
+          "right_examples": [
+            [
+              5,
+              14
+            ],
+            [
+              14,
+              50
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "right_support_count": 3
+        }
+      ],
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "all_relays_are_two_hop": true,
+      "from_c": 5,
+      "mediator_count": 5,
+      "mediators": [
+        1,
+        4,
+        8,
+        11,
+        14
+      ],
+      "rank_bit": 0,
+      "relay_records": [
+        {
+          "left_examples": [
+            [
+              1,
+              35
+            ],
+            [
+              35,
+              46
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 1,
+          "right_examples": [
+            [
+              0,
+              16
+            ],
+            [
+              1,
+              15
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              20,
+              34
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 4,
+          "right_examples": [
+            [
+              0,
+              19
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              4,
+              45
+            ]
+          ],
+          "right_support_count": 3
+        },
+        {
+          "left_examples": [
+            [
+              8,
+              50
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 8,
+          "right_examples": [
+            [
+              8,
+              30
+            ]
+          ],
+          "right_support_count": 1
+        },
+        {
+          "left_examples": [
+            [
+              5,
+              11
+            ],
+            [
+              11,
+              20
+            ],
+            [
+              41,
+              50
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 11,
+          "right_examples": [
+            [
+              15,
+              26
+            ],
+            [
+              45,
+              56
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              5,
+              14
+            ],
+            [
+              14,
+              50
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 14,
+          "right_examples": [
+            [
+              15,
+              59
+            ],
+            [
+              30,
+              44
+            ]
+          ],
+          "right_support_count": 2
+        }
+      ],
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "all_relays_are_two_hop": true,
+      "from_c": 5,
+      "mediator_count": 3,
+      "mediators": [
+        8,
+        11,
+        14
+      ],
+      "rank_bit": 1,
+      "relay_records": [
+        {
+          "left_examples": [
+            [
+              8,
+              50
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 8,
+          "right_examples": [
+            [
+              17,
+              23
+            ],
+            [
+              32,
+              38
+            ],
+            [
+              47,
+              53
+            ]
+          ],
+          "right_support_count": 3
+        },
+        {
+          "left_examples": [
+            [
+              5,
+              11
+            ],
+            [
+              11,
+              20
+            ],
+            [
+              41,
+              50
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 11,
+          "right_examples": [
+            [
+              11,
+              17
+            ],
+            [
+              41,
+              47
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              5,
+              14
+            ],
+            [
+              14,
+              50
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 14,
+          "right_examples": [
+            [
+              17,
+              59
+            ],
+            [
+              32,
+              44
+            ]
+          ],
+          "right_support_count": 2
+        }
+      ],
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 1,
+      "to_c": 2
+    },
+    {
+      "all_relays_are_two_hop": true,
+      "from_c": 2,
+      "mediator_count": 6,
+      "mediators": [
+        0,
+        8,
+        10,
+        11,
+        13,
+        14
+      ],
+      "rank_bit": 1,
+      "relay_records": [
+        {
+          "left_examples": [
+            [
+              2,
+              45
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 0,
+          "right_examples": [
+            [
+              0,
+              19
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              4,
+              45
+            ]
+          ],
+          "right_support_count": 3
+        },
+        {
+          "left_examples": [
+            [
+              17,
+              23
+            ],
+            [
+              32,
+              38
+            ],
+            [
+              47,
+              53
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 8,
+          "right_examples": [
+            [
+              19,
+              23
+            ],
+            [
+              49,
+              53
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              2,
+              25
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 10,
+          "right_examples": [
+            [
+              19,
+              25
+            ],
+            [
+              49,
+              55
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              11,
+              17
+            ],
+            [
+              41,
+              47
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 11,
+          "right_examples": [
+            [
+              4,
+              56
+            ]
+          ],
+          "right_support_count": 1
+        },
+        {
+          "left_examples": [
+            [
+              13,
+              17
+            ],
+            [
+              28,
+              32
+            ],
+            [
+              43,
+              47
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 13,
+          "right_examples": [
+            [
+              28,
+              34
+            ]
+          ],
+          "right_support_count": 1
+        },
+        {
+          "left_examples": [
+            [
+              17,
+              59
+            ],
+            [
+              32,
+              44
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 14,
+          "right_examples": [
+            [
+              4,
+              59
+            ]
+          ],
+          "right_support_count": 1
+        }
+      ],
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "all_relays_are_two_hop": true,
+      "from_c": 14,
+      "mediator_count": 8,
+      "mediators": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "rank_bit": 0,
+      "relay_records": [
+        {
+          "left_examples": [
+            [
+              15,
+              59
+            ],
+            [
+              30,
+              44
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 0,
+          "right_examples": [
+            [
+              15,
+              26
+            ],
+            [
+              45,
+              56
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              1,
+              29
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 1,
+          "right_examples": [
+            [
+              1,
+              26
+            ]
+          ],
+          "right_support_count": 1
+        },
+        {
+          "left_examples": [
+            [
+              17,
+              59
+            ],
+            [
+              32,
+              44
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 2,
+          "right_examples": [
+            [
+              11,
+              17
+            ],
+            [
+              41,
+              47
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              29,
+              33
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 3,
+          "right_examples": [
+            [
+              18,
+              26
+            ],
+            [
+              48,
+              56
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              4,
+              59
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 4,
+          "right_examples": [
+            [
+              4,
+              56
+            ]
+          ],
+          "right_support_count": 1
+        },
+        {
+          "left_examples": [
+            [
+              5,
+              14
+            ],
+            [
+              14,
+              50
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 5,
+          "right_examples": [
+            [
+              5,
+              11
+            ],
+            [
+              11,
+              20
+            ],
+            [
+              41,
+              50
+            ]
+          ],
+          "right_support_count": 3
+        },
+        {
+          "left_examples": [
+            [
+              14,
+              52
+            ],
+            [
+              29,
+              37
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 7,
+          "right_examples": [
+            [
+              22,
+              26
+            ],
+            [
+              52,
+              56
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              8,
+              44
+            ],
+            [
+              38,
+              44
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 8,
+          "right_examples": [
+            [
+              8,
+              41
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              41,
+              53
+            ]
+          ],
+          "right_support_count": 3
+        }
+      ],
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "all_relays_are_two_hop": true,
+      "from_c": 10,
+      "mediator_count": 6,
+      "mediators": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        9
+      ],
+      "rank_bit": 1,
+      "relay_records": [
+        {
+          "left_examples": [
+            [
+              16,
+              55
+            ],
+            [
+              31,
+              40
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 1,
+          "right_examples": [
+            [
+              16,
+              58
+            ],
+            [
+              31,
+              43
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              2,
+              25
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 2,
+          "right_examples": [
+            [
+              13,
+              17
+            ],
+            [
+              28,
+              32
+            ],
+            [
+              43,
+              47
+            ]
+          ],
+          "right_support_count": 3
+        },
+        {
+          "left_examples": [
+            [
+              19,
+              25
+            ],
+            [
+              49,
+              55
+            ]
+          ],
+          "left_support_count": 2,
+          "mediator": 4,
+          "right_examples": [
+            [
+              28,
+              34
+            ]
+          ],
+          "right_support_count": 1
+        },
+        {
+          "left_examples": [
+            [
+              6,
+              10
+            ],
+            [
+              10,
+              51
+            ],
+            [
+              25,
+              36
+            ]
+          ],
+          "left_support_count": 3,
+          "mediator": 6,
+          "right_examples": [
+            [
+              13,
+              51
+            ],
+            [
+              28,
+              36
+            ]
+          ],
+          "right_support_count": 2
+        },
+        {
+          "left_examples": [
+            [
+              7,
+              40
+            ]
+          ],
+          "left_support_count": 1,
+          "mediator": 7,
+          "right_examples": [
+            [
+              22,
+              28
+            ],
+            [
+              37,
+              43
+            ],
+            [
+              52,
+              58
+            ]
+          ],
+          "right_support_count": 3
+        },
+        {
+          "left_examples": [
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              40
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              40,
+              54
+            ]
+          ],
+          "left_support_count": 4,
+          "mediator": 9,
+          "right_examples": [
+            [
+              39,
+              43
+            ]
+          ],
+          "right_support_count": 1
+        }
+      ],
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    }
+  ]
+}
