@@ -1,0 +1,1153 @@
+{
+  "schema": "c_transition_overlay_delta_generator_001.v1",
+  "status": "c_transition_overlay_delta_generator_found",
+  "timestamp_utc": "2026-06-15T14:04:34.598959+00:00",
+  "purpose": "Lift the exact context feature set from_C,to_C into an explicit WXYZTI overlay fiber-delta generator table.",
+  "summary": {
+    "edge_count": 24,
+    "label_counts": {
+      "reverse_partner": 12,
+      "shared_B": 12
+    },
+    "c_transition_group_count": 12,
+    "c_transition_counts": {
+      "(0, 2)": 2,
+      "(1, 10)": 2,
+      "(2, 4)": 2,
+      "(2, 5)": 2,
+      "(2, 14)": 2,
+      "(4, 5)": 2,
+      "(5, 0)": 2,
+      "(5, 2)": 2,
+      "(10, 13)": 2,
+      "(11, 2)": 2,
+      "(13, 1)": 2,
+      "(14, 11)": 2
+    },
+    "c_transition_label_counts": {
+      "(0, 2, 'reverse_partner')": 1,
+      "(0, 2, 'shared_B')": 1,
+      "(1, 10, 'reverse_partner')": 1,
+      "(1, 10, 'shared_B')": 1,
+      "(2, 4, 'reverse_partner')": 1,
+      "(2, 4, 'shared_B')": 1,
+      "(2, 5, 'reverse_partner')": 1,
+      "(2, 5, 'shared_B')": 1,
+      "(2, 14, 'reverse_partner')": 1,
+      "(2, 14, 'shared_B')": 1,
+      "(4, 5, 'reverse_partner')": 1,
+      "(4, 5, 'shared_B')": 1,
+      "(5, 0, 'reverse_partner')": 1,
+      "(5, 0, 'shared_B')": 1,
+      "(5, 2, 'reverse_partner')": 1,
+      "(5, 2, 'shared_B')": 1,
+      "(10, 13, 'reverse_partner')": 1,
+      "(10, 13, 'shared_B')": 1,
+      "(11, 2, 'reverse_partner')": 1,
+      "(11, 2, 'shared_B')": 1,
+      "(13, 1, 'reverse_partner')": 1,
+      "(13, 1, 'shared_B')": 1,
+      "(14, 11, 'reverse_partner')": 1,
+      "(14, 11, 'shared_B')": 1
+    },
+    "delta_counts": {
+      "1": 2,
+      "2": 4,
+      "3": 4,
+      "9": 2,
+      "12": 2,
+      "48": 2,
+      "51": 2,
+      "55": 2,
+      "57": 4
+    },
+    "ambiguous_c_transition_count": 0,
+    "prediction_match_count": 24,
+    "prediction_exact": true,
+    "c_transition_delta_rule_found": true,
+    "rule_table": {
+      "(0, 2)": 2,
+      "(1, 10)": 9,
+      "(2, 4)": 2,
+      "(2, 5)": 3,
+      "(2, 14)": 12,
+      "(4, 5)": 1,
+      "(5, 0)": 55,
+      "(5, 2)": 57,
+      "(10, 13)": 3,
+      "(11, 2)": 51,
+      "(13, 1)": 48,
+      "(14, 11)": 57
+    },
+    "gap_a_closed": false,
+    "full_g900_admission_found": false,
+    "next_step": "derive_c_transition_rule_from_native_g60_structure"
+  },
+  "rule_members": {
+    "(0, 2)": [
+      {
+        "form_index": 2,
+        "edge_index": 0,
+        "edge_role": "WX",
+        "label": "reverse_partner",
+        "from_slot": 2,
+        "to_slot": 0,
+        "from_fiber": 0,
+        "to_fiber": 2,
+        "fiber_delta_mod60": 2,
+        "slot_delta_mod15": 13,
+        "from_A": 1,
+        "to_A": 1,
+        "from_B": 2,
+        "to_B": 0,
+        "from_C": 0,
+        "to_C": 2,
+        "from_columns": [
+          0,
+          4
+        ],
+        "to_columns": [
+          0,
+          4
+        ]
+      },
+      {
+        "form_index": 2,
+        "edge_index": 3,
+        "edge_role": "ZT",
+        "label": "shared_B",
+        "from_slot": 5,
+        "to_slot": 5,
+        "from_fiber": 0,
+        "to_fiber": 2,
+        "fiber_delta_mod60": 2,
+        "slot_delta_mod15": 0,
+        "from_A": 10,
+        "to_A": 12,
+        "from_B": 5,
+        "to_B": 5,
+        "from_C": 0,
+        "to_C": 2,
+        "from_columns": [
+          2,
+          17
+        ],
+        "to_columns": [
+          8,
+          18
+        ]
+      }
+    ],
+    "(1, 10)": [
+      {
+        "form_index": 1,
+        "edge_index": 2,
+        "edge_role": "YZ",
+        "label": "reverse_partner",
+        "from_slot": 10,
+        "to_slot": 1,
+        "from_fiber": 1,
+        "to_fiber": 10,
+        "fiber_delta_mod60": 9,
+        "slot_delta_mod15": 6,
+        "from_A": 0,
+        "to_A": 0,
+        "from_B": 10,
+        "to_B": 1,
+        "from_C": 1,
+        "to_C": 10,
+        "from_columns": [
+          0,
+          2
+        ],
+        "to_columns": [
+          0,
+          2
+        ]
+      },
+      {
+        "form_index": 1,
+        "edge_index": 5,
+        "edge_role": "IW",
+        "label": "shared_B",
+        "from_slot": 13,
+        "to_slot": 13,
+        "from_fiber": 1,
+        "to_fiber": 10,
+        "fiber_delta_mod60": 9,
+        "slot_delta_mod15": 0,
+        "from_A": 2,
+        "to_A": 9,
+        "from_B": 13,
+        "to_B": 13,
+        "from_C": 1,
+        "to_C": 10,
+        "from_columns": [
+          4,
+          9
+        ],
+        "to_columns": [
+          28,
+          29
+        ]
+      }
+    ],
+    "(2, 4)": [
+      {
+        "form_index": 3,
+        "edge_index": 0,
+        "edge_role": "WX",
+        "label": "reverse_partner",
+        "from_slot": 4,
+        "to_slot": 2,
+        "from_fiber": 2,
+        "to_fiber": 4,
+        "fiber_delta_mod60": 2,
+        "slot_delta_mod15": 13,
+        "from_A": 3,
+        "to_A": 3,
+        "from_B": 4,
+        "to_B": 2,
+        "from_C": 2,
+        "to_C": 4,
+        "from_columns": [
+          7,
+          10
+        ],
+        "to_columns": [
+          7,
+          10
+        ]
+      },
+      {
+        "form_index": 3,
+        "edge_index": 3,
+        "edge_role": "ZT",
+        "label": "shared_B",
+        "from_slot": 5,
+        "to_slot": 5,
+        "from_fiber": 2,
+        "to_fiber": 4,
+        "fiber_delta_mod60": 2,
+        "slot_delta_mod15": 0,
+        "from_A": 12,
+        "to_A": 10,
+        "from_B": 5,
+        "to_B": 5,
+        "from_C": 2,
+        "to_C": 4,
+        "from_columns": [
+          8,
+          18
+        ],
+        "to_columns": [
+          13,
+          17
+        ]
+      }
+    ],
+    "(2, 5)": [
+      {
+        "form_index": 2,
+        "edge_index": 1,
+        "edge_role": "XY",
+        "label": "shared_B",
+        "from_slot": 0,
+        "to_slot": 0,
+        "from_fiber": 2,
+        "to_fiber": 5,
+        "fiber_delta_mod60": 3,
+        "slot_delta_mod15": 0,
+        "from_A": 1,
+        "to_A": 10,
+        "from_B": 0,
+        "to_B": 0,
+        "from_C": 2,
+        "to_C": 5,
+        "from_columns": [
+          0,
+          4
+        ],
+        "to_columns": [
+          2,
+          17
+        ]
+      },
+      {
+        "form_index": 2,
+        "edge_index": 4,
+        "edge_role": "TI",
+        "label": "reverse_partner",
+        "from_slot": 5,
+        "to_slot": 2,
+        "from_fiber": 2,
+        "to_fiber": 5,
+        "fiber_delta_mod60": 3,
+        "slot_delta_mod15": 12,
+        "from_A": 12,
+        "to_A": 12,
+        "from_B": 5,
+        "to_B": 2,
+        "from_C": 2,
+        "to_C": 5,
+        "from_columns": [
+          8,
+          18
+        ],
+        "to_columns": [
+          8,
+          18
+        ]
+      }
+    ],
+    "(2, 14)": [
+      {
+        "form_index": 0,
+        "edge_index": 2,
+        "edge_role": "YZ",
+        "label": "reverse_partner",
+        "from_slot": 14,
+        "to_slot": 2,
+        "from_fiber": 2,
+        "to_fiber": 14,
+        "fiber_delta_mod60": 12,
+        "slot_delta_mod15": 3,
+        "from_A": 3,
+        "to_A": 3,
+        "from_B": 14,
+        "to_B": 2,
+        "from_C": 2,
+        "to_C": 14,
+        "from_columns": [
+          7,
+          12
+        ],
+        "to_columns": [
+          7,
+          12
+        ]
+      },
+      {
+        "form_index": 0,
+        "edge_index": 5,
+        "edge_role": "IW",
+        "label": "shared_B",
+        "from_slot": 11,
+        "to_slot": 11,
+        "from_fiber": 2,
+        "to_fiber": 14,
+        "fiber_delta_mod60": 12,
+        "slot_delta_mod15": 0,
+        "from_A": 1,
+        "to_A": 7,
+        "from_B": 11,
+        "to_B": 11,
+        "from_C": 2,
+        "to_C": 14,
+        "from_columns": [
+          4,
+          5
+        ],
+        "to_columns": [
+          23,
+          24
+        ]
+      }
+    ],
+    "(4, 5)": [
+      {
+        "form_index": 3,
+        "edge_index": 1,
+        "edge_role": "XY",
+        "label": "shared_B",
+        "from_slot": 2,
+        "to_slot": 2,
+        "from_fiber": 4,
+        "to_fiber": 5,
+        "fiber_delta_mod60": 1,
+        "slot_delta_mod15": 0,
+        "from_A": 3,
+        "to_A": 12,
+        "from_B": 2,
+        "to_B": 2,
+        "from_C": 4,
+        "to_C": 5,
+        "from_columns": [
+          7,
+          10
+        ],
+        "to_columns": [
+          8,
+          18
+        ]
+      },
+      {
+        "form_index": 3,
+        "edge_index": 4,
+        "edge_role": "TI",
+        "label": "reverse_partner",
+        "from_slot": 5,
+        "to_slot": 4,
+        "from_fiber": 4,
+        "to_fiber": 5,
+        "fiber_delta_mod60": 1,
+        "slot_delta_mod15": 14,
+        "from_A": 10,
+        "to_A": 10,
+        "from_B": 5,
+        "to_B": 4,
+        "from_C": 4,
+        "to_C": 5,
+        "from_columns": [
+          13,
+          17
+        ],
+        "to_columns": [
+          13,
+          17
+        ]
+      }
+    ],
+    "(5, 0)": [
+      {
+        "form_index": 2,
+        "edge_index": 2,
+        "edge_role": "YZ",
+        "label": "reverse_partner",
+        "from_slot": 0,
+        "to_slot": 5,
+        "from_fiber": 5,
+        "to_fiber": 0,
+        "fiber_delta_mod60": 55,
+        "slot_delta_mod15": 5,
+        "from_A": 10,
+        "to_A": 10,
+        "from_B": 0,
+        "to_B": 5,
+        "from_C": 5,
+        "to_C": 0,
+        "from_columns": [
+          2,
+          17
+        ],
+        "to_columns": [
+          2,
+          17
+        ]
+      },
+      {
+        "form_index": 2,
+        "edge_index": 5,
+        "edge_role": "IW",
+        "label": "shared_B",
+        "from_slot": 2,
+        "to_slot": 2,
+        "from_fiber": 5,
+        "to_fiber": 0,
+        "fiber_delta_mod60": 55,
+        "slot_delta_mod15": 0,
+        "from_A": 12,
+        "to_A": 1,
+        "from_B": 2,
+        "to_B": 2,
+        "from_C": 5,
+        "to_C": 0,
+        "from_columns": [
+          8,
+          18
+        ],
+        "to_columns": [
+          0,
+          4
+        ]
+      }
+    ],
+    "(5, 2)": [
+      {
+        "form_index": 3,
+        "edge_index": 2,
+        "edge_role": "YZ",
+        "label": "reverse_partner",
+        "from_slot": 2,
+        "to_slot": 5,
+        "from_fiber": 5,
+        "to_fiber": 2,
+        "fiber_delta_mod60": 57,
+        "slot_delta_mod15": 3,
+        "from_A": 12,
+        "to_A": 12,
+        "from_B": 2,
+        "to_B": 5,
+        "from_C": 5,
+        "to_C": 2,
+        "from_columns": [
+          8,
+          18
+        ],
+        "to_columns": [
+          8,
+          18
+        ]
+      },
+      {
+        "form_index": 3,
+        "edge_index": 5,
+        "edge_role": "IW",
+        "label": "shared_B",
+        "from_slot": 4,
+        "to_slot": 4,
+        "from_fiber": 5,
+        "to_fiber": 2,
+        "fiber_delta_mod60": 57,
+        "slot_delta_mod15": 0,
+        "from_A": 10,
+        "to_A": 3,
+        "from_B": 4,
+        "to_B": 4,
+        "from_C": 5,
+        "to_C": 2,
+        "from_columns": [
+          13,
+          17
+        ],
+        "to_columns": [
+          7,
+          10
+        ]
+      }
+    ],
+    "(10, 13)": [
+      {
+        "form_index": 1,
+        "edge_index": 0,
+        "edge_role": "WX",
+        "label": "reverse_partner",
+        "from_slot": 13,
+        "to_slot": 10,
+        "from_fiber": 10,
+        "to_fiber": 13,
+        "fiber_delta_mod60": 3,
+        "slot_delta_mod15": 12,
+        "from_A": 9,
+        "to_A": 9,
+        "from_B": 13,
+        "to_B": 10,
+        "from_C": 10,
+        "to_C": 13,
+        "from_columns": [
+          28,
+          29
+        ],
+        "to_columns": [
+          28,
+          29
+        ]
+      },
+      {
+        "form_index": 1,
+        "edge_index": 3,
+        "edge_role": "ZT",
+        "label": "shared_B",
+        "from_slot": 1,
+        "to_slot": 1,
+        "from_fiber": 10,
+        "to_fiber": 13,
+        "fiber_delta_mod60": 3,
+        "slot_delta_mod15": 0,
+        "from_A": 0,
+        "to_A": 2,
+        "from_B": 1,
+        "to_B": 1,
+        "from_C": 10,
+        "to_C": 13,
+        "from_columns": [
+          0,
+          2
+        ],
+        "to_columns": [
+          4,
+          9
+        ]
+      }
+    ],
+    "(11, 2)": [
+      {
+        "form_index": 0,
+        "edge_index": 1,
+        "edge_role": "XY",
+        "label": "shared_B",
+        "from_slot": 14,
+        "to_slot": 14,
+        "from_fiber": 11,
+        "to_fiber": 2,
+        "fiber_delta_mod60": 51,
+        "slot_delta_mod15": 0,
+        "from_A": 7,
+        "to_A": 3,
+        "from_B": 14,
+        "to_B": 14,
+        "from_C": 11,
+        "to_C": 2,
+        "from_columns": [
+          23,
+          24
+        ],
+        "to_columns": [
+          7,
+          12
+        ]
+      },
+      {
+        "form_index": 0,
+        "edge_index": 4,
+        "edge_role": "TI",
+        "label": "reverse_partner",
+        "from_slot": 2,
+        "to_slot": 11,
+        "from_fiber": 11,
+        "to_fiber": 2,
+        "fiber_delta_mod60": 51,
+        "slot_delta_mod15": 9,
+        "from_A": 1,
+        "to_A": 1,
+        "from_B": 2,
+        "to_B": 11,
+        "from_C": 11,
+        "to_C": 2,
+        "from_columns": [
+          4,
+          5
+        ],
+        "to_columns": [
+          4,
+          5
+        ]
+      }
+    ],
+    "(13, 1)": [
+      {
+        "form_index": 1,
+        "edge_index": 1,
+        "edge_role": "XY",
+        "label": "shared_B",
+        "from_slot": 10,
+        "to_slot": 10,
+        "from_fiber": 13,
+        "to_fiber": 1,
+        "fiber_delta_mod60": 48,
+        "slot_delta_mod15": 0,
+        "from_A": 9,
+        "to_A": 0,
+        "from_B": 10,
+        "to_B": 10,
+        "from_C": 13,
+        "to_C": 1,
+        "from_columns": [
+          28,
+          29
+        ],
+        "to_columns": [
+          0,
+          2
+        ]
+      },
+      {
+        "form_index": 1,
+        "edge_index": 4,
+        "edge_role": "TI",
+        "label": "reverse_partner",
+        "from_slot": 1,
+        "to_slot": 13,
+        "from_fiber": 13,
+        "to_fiber": 1,
+        "fiber_delta_mod60": 48,
+        "slot_delta_mod15": 12,
+        "from_A": 2,
+        "to_A": 2,
+        "from_B": 1,
+        "to_B": 13,
+        "from_C": 13,
+        "to_C": 1,
+        "from_columns": [
+          4,
+          9
+        ],
+        "to_columns": [
+          4,
+          9
+        ]
+      }
+    ],
+    "(14, 11)": [
+      {
+        "form_index": 0,
+        "edge_index": 0,
+        "edge_role": "WX",
+        "label": "reverse_partner",
+        "from_slot": 11,
+        "to_slot": 14,
+        "from_fiber": 14,
+        "to_fiber": 11,
+        "fiber_delta_mod60": 57,
+        "slot_delta_mod15": 3,
+        "from_A": 7,
+        "to_A": 7,
+        "from_B": 11,
+        "to_B": 14,
+        "from_C": 14,
+        "to_C": 11,
+        "from_columns": [
+          23,
+          24
+        ],
+        "to_columns": [
+          23,
+          24
+        ]
+      },
+      {
+        "form_index": 0,
+        "edge_index": 3,
+        "edge_role": "ZT",
+        "label": "shared_B",
+        "from_slot": 2,
+        "to_slot": 2,
+        "from_fiber": 14,
+        "to_fiber": 11,
+        "fiber_delta_mod60": 57,
+        "slot_delta_mod15": 0,
+        "from_A": 3,
+        "to_A": 1,
+        "from_B": 2,
+        "to_B": 2,
+        "from_C": 14,
+        "to_C": 11,
+        "from_columns": [
+          7,
+          12
+        ],
+        "to_columns": [
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "form_index": 0,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "c_transition": [
+        14,
+        11
+      ],
+      "from_fiber": 14,
+      "actual_to_fiber": 11,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 11,
+      "match": true
+    },
+    {
+      "form_index": 0,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "c_transition": [
+        11,
+        2
+      ],
+      "from_fiber": 11,
+      "actual_to_fiber": 2,
+      "predicted_delta": 51,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "form_index": 0,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "c_transition": [
+        2,
+        14
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 14,
+      "predicted_delta": 12,
+      "predicted_to_fiber": 14,
+      "match": true
+    },
+    {
+      "form_index": 0,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "c_transition": [
+        14,
+        11
+      ],
+      "from_fiber": 14,
+      "actual_to_fiber": 11,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 11,
+      "match": true
+    },
+    {
+      "form_index": 0,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "c_transition": [
+        11,
+        2
+      ],
+      "from_fiber": 11,
+      "actual_to_fiber": 2,
+      "predicted_delta": 51,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "form_index": 0,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "c_transition": [
+        2,
+        14
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 14,
+      "predicted_delta": 12,
+      "predicted_to_fiber": 14,
+      "match": true
+    },
+    {
+      "form_index": 1,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "c_transition": [
+        10,
+        13
+      ],
+      "from_fiber": 10,
+      "actual_to_fiber": 13,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 13,
+      "match": true
+    },
+    {
+      "form_index": 1,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "c_transition": [
+        13,
+        1
+      ],
+      "from_fiber": 13,
+      "actual_to_fiber": 1,
+      "predicted_delta": 48,
+      "predicted_to_fiber": 1,
+      "match": true
+    },
+    {
+      "form_index": 1,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "c_transition": [
+        1,
+        10
+      ],
+      "from_fiber": 1,
+      "actual_to_fiber": 10,
+      "predicted_delta": 9,
+      "predicted_to_fiber": 10,
+      "match": true
+    },
+    {
+      "form_index": 1,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "c_transition": [
+        10,
+        13
+      ],
+      "from_fiber": 10,
+      "actual_to_fiber": 13,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 13,
+      "match": true
+    },
+    {
+      "form_index": 1,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "c_transition": [
+        13,
+        1
+      ],
+      "from_fiber": 13,
+      "actual_to_fiber": 1,
+      "predicted_delta": 48,
+      "predicted_to_fiber": 1,
+      "match": true
+    },
+    {
+      "form_index": 1,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "c_transition": [
+        1,
+        10
+      ],
+      "from_fiber": 1,
+      "actual_to_fiber": 10,
+      "predicted_delta": 9,
+      "predicted_to_fiber": 10,
+      "match": true
+    },
+    {
+      "form_index": 2,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "c_transition": [
+        0,
+        2
+      ],
+      "from_fiber": 0,
+      "actual_to_fiber": 2,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "form_index": 2,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "c_transition": [
+        2,
+        5
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 5,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 5,
+      "match": true
+    },
+    {
+      "form_index": 2,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "c_transition": [
+        5,
+        0
+      ],
+      "from_fiber": 5,
+      "actual_to_fiber": 0,
+      "predicted_delta": 55,
+      "predicted_to_fiber": 0,
+      "match": true
+    },
+    {
+      "form_index": 2,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "c_transition": [
+        0,
+        2
+      ],
+      "from_fiber": 0,
+      "actual_to_fiber": 2,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "form_index": 2,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "c_transition": [
+        2,
+        5
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 5,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 5,
+      "match": true
+    },
+    {
+      "form_index": 2,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "c_transition": [
+        5,
+        0
+      ],
+      "from_fiber": 5,
+      "actual_to_fiber": 0,
+      "predicted_delta": 55,
+      "predicted_to_fiber": 0,
+      "match": true
+    },
+    {
+      "form_index": 3,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "c_transition": [
+        2,
+        4
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 4,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 4,
+      "match": true
+    },
+    {
+      "form_index": 3,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "c_transition": [
+        4,
+        5
+      ],
+      "from_fiber": 4,
+      "actual_to_fiber": 5,
+      "predicted_delta": 1,
+      "predicted_to_fiber": 5,
+      "match": true
+    },
+    {
+      "form_index": 3,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "c_transition": [
+        5,
+        2
+      ],
+      "from_fiber": 5,
+      "actual_to_fiber": 2,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "form_index": 3,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "c_transition": [
+        2,
+        4
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 4,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 4,
+      "match": true
+    },
+    {
+      "form_index": 3,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "c_transition": [
+        4,
+        5
+      ],
+      "from_fiber": 4,
+      "actual_to_fiber": 5,
+      "predicted_delta": 1,
+      "predicted_to_fiber": 5,
+      "match": true
+    },
+    {
+      "form_index": 3,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "c_transition": [
+        5,
+        2
+      ],
+      "from_fiber": 5,
+      "actual_to_fiber": 2,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 2,
+      "match": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "previous_search_loaded",
+      "status": true,
+      "detail": "g60_native_overlay_generator_not_found_in_tested_family"
+    },
+    {
+      "id": "context_search_loaded",
+      "status": true,
+      "detail": "context_dependent_overlay_delta_rule_found"
+    },
+    {
+      "id": "edge_count_24",
+      "status": true,
+      "detail": 24
+    },
+    {
+      "id": "label_split_12_12",
+      "status": true,
+      "detail": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      }
+    },
+    {
+      "id": "c_transition_groups_12",
+      "status": true,
+      "detail": 12
+    },
+    {
+      "id": "no_ambiguous_c_transitions",
+      "status": true,
+      "detail": {}
+    },
+    {
+      "id": "all_predictions_match",
+      "status": true,
+      "detail": {
+        "match_count": 24,
+        "edge_count": 24
+      }
+    },
+    {
+      "id": "no_gap_a_claim_made",
+      "status": true,
+      "detail": "C-transition delta table only"
+    }
+  ],
+  "boundary": [
+    "This is an exact overlay delta generator table.",
+    "The rule is expressed in station provenance terms from_C and to_C.",
+    "This is not yet a G60-native derivation of C itself.",
+    "This does not close Gap A.",
+    "This does not prove full G900."
+  ]
+}

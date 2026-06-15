@@ -1,0 +1,639 @@
+{
+  "schema": "c_transition_delta_lift_decomposition_001.v1",
+  "status": "c_transition_delta_lift_decomposition_found",
+  "timestamp_utc": "2026-06-15T14:06:08.130921+00:00",
+  "purpose": "Decompose the exact C-transition overlay delta rule into base C motion modulo 15 plus a four-sheet lift choice.",
+  "summary": {
+    "row_count": 24,
+    "transition_group_count": 12,
+    "all_deltas_match_c_delta_mod15": true,
+    "bad_mod15_count": 0,
+    "lift_q_counts": {
+      "0": 14,
+      "3": 10
+    },
+    "lift_q_by_label": {
+      "reverse_partner": {
+        "0": 7,
+        "3": 5
+      },
+      "shared_B": {
+        "0": 7,
+        "3": 5
+      }
+    },
+    "lift_q_by_role": {
+      "IW": {
+        "0": 2,
+        "3": 2
+      },
+      "TI": {
+        "0": 2,
+        "3": 2
+      },
+      "WX": {
+        "0": 3,
+        "3": 1
+      },
+      "XY": {
+        "0": 2,
+        "3": 2
+      },
+      "YZ": {
+        "0": 2,
+        "3": 2
+      },
+      "ZT": {
+        "0": 3,
+        "3": 1
+      }
+    },
+    "lift_q_by_c_delta": {
+      "1": {
+        "0": 2
+      },
+      "2": {
+        "0": 4
+      },
+      "3": {
+        "0": 4,
+        "3": 2
+      },
+      "6": {
+        "3": 2
+      },
+      "9": {
+        "0": 2
+      },
+      "10": {
+        "3": 2
+      },
+      "12": {
+        "0": 2,
+        "3": 4
+      }
+    },
+    "transition_table": {
+      "(14, 11)": {
+        "c_delta_mod15": 12,
+        "fiber_delta_mod60": 57,
+        "lift_q_mod4": 3
+      },
+      "(11, 2)": {
+        "c_delta_mod15": 6,
+        "fiber_delta_mod60": 51,
+        "lift_q_mod4": 3
+      },
+      "(2, 14)": {
+        "c_delta_mod15": 12,
+        "fiber_delta_mod60": 12,
+        "lift_q_mod4": 0
+      },
+      "(10, 13)": {
+        "c_delta_mod15": 3,
+        "fiber_delta_mod60": 3,
+        "lift_q_mod4": 0
+      },
+      "(13, 1)": {
+        "c_delta_mod15": 3,
+        "fiber_delta_mod60": 48,
+        "lift_q_mod4": 3
+      },
+      "(1, 10)": {
+        "c_delta_mod15": 9,
+        "fiber_delta_mod60": 9,
+        "lift_q_mod4": 0
+      },
+      "(0, 2)": {
+        "c_delta_mod15": 2,
+        "fiber_delta_mod60": 2,
+        "lift_q_mod4": 0
+      },
+      "(2, 5)": {
+        "c_delta_mod15": 3,
+        "fiber_delta_mod60": 3,
+        "lift_q_mod4": 0
+      },
+      "(5, 0)": {
+        "c_delta_mod15": 10,
+        "fiber_delta_mod60": 55,
+        "lift_q_mod4": 3
+      },
+      "(2, 4)": {
+        "c_delta_mod15": 2,
+        "fiber_delta_mod60": 2,
+        "lift_q_mod4": 0
+      },
+      "(4, 5)": {
+        "c_delta_mod15": 1,
+        "fiber_delta_mod60": 1,
+        "lift_q_mod4": 0
+      },
+      "(5, 2)": {
+        "c_delta_mod15": 12,
+        "fiber_delta_mod60": 57,
+        "lift_q_mod4": 3
+      }
+    },
+    "interpretation": "Each WXYZTI overlay fiber delta decomposes as base C motion modulo 15 plus a Z4 lift sheet choice.",
+    "gap_a_closed": false,
+    "full_g900_admission_found": false,
+    "next_step": "derive_lift_q_from_native_g60_context"
+  },
+  "rows": [
+    {
+      "form_index": 0,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "c_transition": [
+        14,
+        11
+      ],
+      "from_fiber": 14,
+      "actual_to_fiber": 11,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 11,
+      "match": true,
+      "c_delta_mod15": 12,
+      "delta_mod15": 12,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 0,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "c_transition": [
+        11,
+        2
+      ],
+      "from_fiber": 11,
+      "actual_to_fiber": 2,
+      "predicted_delta": 51,
+      "predicted_to_fiber": 2,
+      "match": true,
+      "c_delta_mod15": 6,
+      "delta_mod15": 6,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 0,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "c_transition": [
+        2,
+        14
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 14,
+      "predicted_delta": 12,
+      "predicted_to_fiber": 14,
+      "match": true,
+      "c_delta_mod15": 12,
+      "delta_mod15": 12,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 0,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "c_transition": [
+        14,
+        11
+      ],
+      "from_fiber": 14,
+      "actual_to_fiber": 11,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 11,
+      "match": true,
+      "c_delta_mod15": 12,
+      "delta_mod15": 12,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 0,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "c_transition": [
+        11,
+        2
+      ],
+      "from_fiber": 11,
+      "actual_to_fiber": 2,
+      "predicted_delta": 51,
+      "predicted_to_fiber": 2,
+      "match": true,
+      "c_delta_mod15": 6,
+      "delta_mod15": 6,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 0,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "c_transition": [
+        2,
+        14
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 14,
+      "predicted_delta": 12,
+      "predicted_to_fiber": 14,
+      "match": true,
+      "c_delta_mod15": 12,
+      "delta_mod15": 12,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 1,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "c_transition": [
+        10,
+        13
+      ],
+      "from_fiber": 10,
+      "actual_to_fiber": 13,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 13,
+      "match": true,
+      "c_delta_mod15": 3,
+      "delta_mod15": 3,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 1,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "c_transition": [
+        13,
+        1
+      ],
+      "from_fiber": 13,
+      "actual_to_fiber": 1,
+      "predicted_delta": 48,
+      "predicted_to_fiber": 1,
+      "match": true,
+      "c_delta_mod15": 3,
+      "delta_mod15": 3,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 1,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "c_transition": [
+        1,
+        10
+      ],
+      "from_fiber": 1,
+      "actual_to_fiber": 10,
+      "predicted_delta": 9,
+      "predicted_to_fiber": 10,
+      "match": true,
+      "c_delta_mod15": 9,
+      "delta_mod15": 9,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 1,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "c_transition": [
+        10,
+        13
+      ],
+      "from_fiber": 10,
+      "actual_to_fiber": 13,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 13,
+      "match": true,
+      "c_delta_mod15": 3,
+      "delta_mod15": 3,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 1,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "c_transition": [
+        13,
+        1
+      ],
+      "from_fiber": 13,
+      "actual_to_fiber": 1,
+      "predicted_delta": 48,
+      "predicted_to_fiber": 1,
+      "match": true,
+      "c_delta_mod15": 3,
+      "delta_mod15": 3,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 1,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "c_transition": [
+        1,
+        10
+      ],
+      "from_fiber": 1,
+      "actual_to_fiber": 10,
+      "predicted_delta": 9,
+      "predicted_to_fiber": 10,
+      "match": true,
+      "c_delta_mod15": 9,
+      "delta_mod15": 9,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 2,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "c_transition": [
+        0,
+        2
+      ],
+      "from_fiber": 0,
+      "actual_to_fiber": 2,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 2,
+      "match": true,
+      "c_delta_mod15": 2,
+      "delta_mod15": 2,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 2,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "c_transition": [
+        2,
+        5
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 5,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 5,
+      "match": true,
+      "c_delta_mod15": 3,
+      "delta_mod15": 3,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 2,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "c_transition": [
+        5,
+        0
+      ],
+      "from_fiber": 5,
+      "actual_to_fiber": 0,
+      "predicted_delta": 55,
+      "predicted_to_fiber": 0,
+      "match": true,
+      "c_delta_mod15": 10,
+      "delta_mod15": 10,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 2,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "c_transition": [
+        0,
+        2
+      ],
+      "from_fiber": 0,
+      "actual_to_fiber": 2,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 2,
+      "match": true,
+      "c_delta_mod15": 2,
+      "delta_mod15": 2,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 2,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "c_transition": [
+        2,
+        5
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 5,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 5,
+      "match": true,
+      "c_delta_mod15": 3,
+      "delta_mod15": 3,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 2,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "c_transition": [
+        5,
+        0
+      ],
+      "from_fiber": 5,
+      "actual_to_fiber": 0,
+      "predicted_delta": 55,
+      "predicted_to_fiber": 0,
+      "match": true,
+      "c_delta_mod15": 10,
+      "delta_mod15": 10,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 3,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "c_transition": [
+        2,
+        4
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 4,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 4,
+      "match": true,
+      "c_delta_mod15": 2,
+      "delta_mod15": 2,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 3,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "c_transition": [
+        4,
+        5
+      ],
+      "from_fiber": 4,
+      "actual_to_fiber": 5,
+      "predicted_delta": 1,
+      "predicted_to_fiber": 5,
+      "match": true,
+      "c_delta_mod15": 1,
+      "delta_mod15": 1,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 3,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "c_transition": [
+        5,
+        2
+      ],
+      "from_fiber": 5,
+      "actual_to_fiber": 2,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 2,
+      "match": true,
+      "c_delta_mod15": 12,
+      "delta_mod15": 12,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    },
+    {
+      "form_index": 3,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "c_transition": [
+        2,
+        4
+      ],
+      "from_fiber": 2,
+      "actual_to_fiber": 4,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 4,
+      "match": true,
+      "c_delta_mod15": 2,
+      "delta_mod15": 2,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 3,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "c_transition": [
+        4,
+        5
+      ],
+      "from_fiber": 4,
+      "actual_to_fiber": 5,
+      "predicted_delta": 1,
+      "predicted_to_fiber": 5,
+      "match": true,
+      "c_delta_mod15": 1,
+      "delta_mod15": 1,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 0
+    },
+    {
+      "form_index": 3,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "c_transition": [
+        5,
+        2
+      ],
+      "from_fiber": 5,
+      "actual_to_fiber": 2,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 2,
+      "match": true,
+      "c_delta_mod15": 12,
+      "delta_mod15": 12,
+      "delta_matches_c_delta_mod15": true,
+      "lift_q_mod4": 3
+    }
+  ],
+  "checks": [
+    {
+      "id": "source_loaded",
+      "status": true,
+      "detail": "c_transition_overlay_delta_generator_found"
+    },
+    {
+      "id": "row_count_24",
+      "status": true,
+      "detail": 24
+    },
+    {
+      "id": "all_predictions_match",
+      "status": true,
+      "detail": "all prediction rows match"
+    },
+    {
+      "id": "all_deltas_match_c_delta_mod15",
+      "status": true,
+      "detail": []
+    },
+    {
+      "id": "transition_group_count_12",
+      "status": true,
+      "detail": 12
+    },
+    {
+      "id": "no_gap_a_claim_made",
+      "status": true,
+      "detail": "decomposition only"
+    }
+  ],
+  "boundary": [
+    "This decomposes the overlay delta rule.",
+    "It does not yet derive the Z4 lift choice from native G60 structure.",
+    "It does not close Gap A.",
+    "It does not prove full G900."
+  ]
+}

@@ -1,0 +1,1706 @@
+{
+  "alignments": [
+    {
+      "all_native_members": [
+        {
+          "edge_role": "YZ",
+          "fiber_delta_mod60": 9,
+          "from_A": 0,
+          "from_B": 10,
+          "from_C": 1,
+          "from_slot": 10,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 6,
+          "to_A": 0,
+          "to_B": 1,
+          "to_C": 10,
+          "to_slot": 1
+        },
+        {
+          "edge_role": "IW",
+          "fiber_delta_mod60": 9,
+          "from_A": 2,
+          "from_B": 13,
+          "from_C": 1,
+          "from_slot": 13,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 9,
+          "to_B": 13,
+          "to_C": 10,
+          "to_slot": 13
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 0,
+        "R_minus_S_from_A": 13,
+        "S_A_delta": 7,
+        "S_B": 13,
+        "S_B_minus_c1": 3,
+        "S_from_A": 2,
+        "S_to_A": 9,
+        "c0": 1,
+        "c1": 10,
+        "key": [
+          "IW/YZ",
+          1,
+          10,
+          "IW",
+          "YZ"
+        ],
+        "reverse": "YZ",
+        "role_pair": "IW/YZ",
+        "shared": "IW"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "reverse_partner",
+          "edge_role": "YZ",
+          "from_columns": [
+            0,
+            2
+          ],
+          "from_fiber": 1,
+          "label": "reverse_partner",
+          "to_columns": [
+            0,
+            2
+          ],
+          "to_fiber": 10
+        },
+        {
+          "class": "shared_B",
+          "edge_role": "IW",
+          "from_columns": [
+            4,
+            9
+          ],
+          "from_fiber": 1,
+          "label": "shared_B",
+          "to_columns": [
+            28,
+            29
+          ],
+          "to_fiber": 10
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "YZ",
+          "fiber_delta_mod60": 9,
+          "from_A": 0,
+          "from_B": 10,
+          "from_C": 1,
+          "from_slot": 10,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 6,
+          "to_A": 0,
+          "to_B": 1,
+          "to_C": 10,
+          "to_slot": 1
+        }
+      ],
+      "reverse_role_from_002": "YZ",
+      "role_pair": "IW/YZ",
+      "shared_B_members": [
+        {
+          "edge_role": "IW",
+          "fiber_delta_mod60": 9,
+          "from_A": 2,
+          "from_B": 13,
+          "from_C": 1,
+          "from_slot": 13,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 9,
+          "to_B": 13,
+          "to_C": 10,
+          "to_slot": 13
+        }
+      ],
+      "shared_role_from_002": "IW",
+      "transition_key": [
+        1,
+        10
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "YZ",
+          "fiber_delta_mod60": 12,
+          "from_A": 3,
+          "from_B": 14,
+          "from_C": 2,
+          "from_slot": 14,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 3,
+          "to_A": 3,
+          "to_B": 2,
+          "to_C": 14,
+          "to_slot": 2
+        },
+        {
+          "edge_role": "IW",
+          "fiber_delta_mod60": 12,
+          "from_A": 1,
+          "from_B": 11,
+          "from_C": 2,
+          "from_slot": 11,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 7,
+          "to_B": 11,
+          "to_C": 14,
+          "to_slot": 11
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 3,
+        "R_minus_S_from_A": 2,
+        "S_A_delta": 6,
+        "S_B": 11,
+        "S_B_minus_c1": 12,
+        "S_from_A": 1,
+        "S_to_A": 7,
+        "c0": 2,
+        "c1": 14,
+        "key": [
+          "IW/YZ",
+          2,
+          14,
+          "IW",
+          "YZ"
+        ],
+        "reverse": "YZ",
+        "role_pair": "IW/YZ",
+        "shared": "IW"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "reverse_partner",
+          "edge_role": "YZ",
+          "from_columns": [
+            7,
+            12
+          ],
+          "from_fiber": 2,
+          "label": "reverse_partner",
+          "to_columns": [
+            7,
+            12
+          ],
+          "to_fiber": 14
+        },
+        {
+          "class": "shared_B",
+          "edge_role": "IW",
+          "from_columns": [
+            4,
+            5
+          ],
+          "from_fiber": 2,
+          "label": "shared_B",
+          "to_columns": [
+            23,
+            24
+          ],
+          "to_fiber": 14
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "YZ",
+          "fiber_delta_mod60": 12,
+          "from_A": 3,
+          "from_B": 14,
+          "from_C": 2,
+          "from_slot": 14,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 3,
+          "to_A": 3,
+          "to_B": 2,
+          "to_C": 14,
+          "to_slot": 2
+        }
+      ],
+      "reverse_role_from_002": "YZ",
+      "role_pair": "IW/YZ",
+      "shared_B_members": [
+        {
+          "edge_role": "IW",
+          "fiber_delta_mod60": 12,
+          "from_A": 1,
+          "from_B": 11,
+          "from_C": 2,
+          "from_slot": 11,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 7,
+          "to_B": 11,
+          "to_C": 14,
+          "to_slot": 11
+        }
+      ],
+      "shared_role_from_002": "IW",
+      "transition_key": [
+        2,
+        14
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "YZ",
+          "fiber_delta_mod60": 55,
+          "from_A": 10,
+          "from_B": 0,
+          "from_C": 5,
+          "from_slot": 0,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 5,
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 0,
+          "to_slot": 5
+        },
+        {
+          "edge_role": "IW",
+          "fiber_delta_mod60": 55,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_slot": 2,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 0,
+          "to_slot": 2
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 10,
+        "R_minus_S_from_A": 13,
+        "S_A_delta": 4,
+        "S_B": 2,
+        "S_B_minus_c1": 2,
+        "S_from_A": 12,
+        "S_to_A": 1,
+        "c0": 5,
+        "c1": 0,
+        "key": [
+          "IW/YZ",
+          5,
+          0,
+          "IW",
+          "YZ"
+        ],
+        "reverse": "YZ",
+        "role_pair": "IW/YZ",
+        "shared": "IW"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "reverse_partner",
+          "edge_role": "YZ",
+          "from_columns": [
+            2,
+            17
+          ],
+          "from_fiber": 5,
+          "label": "reverse_partner",
+          "to_columns": [
+            2,
+            17
+          ],
+          "to_fiber": 0
+        },
+        {
+          "class": "shared_B",
+          "edge_role": "IW",
+          "from_columns": [
+            8,
+            18
+          ],
+          "from_fiber": 5,
+          "label": "shared_B",
+          "to_columns": [
+            0,
+            4
+          ],
+          "to_fiber": 0
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "YZ",
+          "fiber_delta_mod60": 55,
+          "from_A": 10,
+          "from_B": 0,
+          "from_C": 5,
+          "from_slot": 0,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 5,
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 0,
+          "to_slot": 5
+        }
+      ],
+      "reverse_role_from_002": "YZ",
+      "role_pair": "IW/YZ",
+      "shared_B_members": [
+        {
+          "edge_role": "IW",
+          "fiber_delta_mod60": 55,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_slot": 2,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 0,
+          "to_slot": 2
+        }
+      ],
+      "shared_role_from_002": "IW",
+      "transition_key": [
+        5,
+        0
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "YZ",
+          "fiber_delta_mod60": 57,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_slot": 2,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 3,
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_slot": 5
+        },
+        {
+          "edge_role": "IW",
+          "fiber_delta_mod60": 57,
+          "from_A": 10,
+          "from_B": 4,
+          "from_C": 5,
+          "from_slot": 4,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 3,
+          "to_B": 4,
+          "to_C": 2,
+          "to_slot": 4
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 12,
+        "R_minus_S_from_A": 2,
+        "S_A_delta": 8,
+        "S_B": 4,
+        "S_B_minus_c1": 2,
+        "S_from_A": 10,
+        "S_to_A": 3,
+        "c0": 5,
+        "c1": 2,
+        "key": [
+          "IW/YZ",
+          5,
+          2,
+          "IW",
+          "YZ"
+        ],
+        "reverse": "YZ",
+        "role_pair": "IW/YZ",
+        "shared": "IW"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "reverse_partner",
+          "edge_role": "YZ",
+          "from_columns": [
+            8,
+            18
+          ],
+          "from_fiber": 5,
+          "label": "reverse_partner",
+          "to_columns": [
+            8,
+            18
+          ],
+          "to_fiber": 2
+        },
+        {
+          "class": "shared_B",
+          "edge_role": "IW",
+          "from_columns": [
+            13,
+            17
+          ],
+          "from_fiber": 5,
+          "label": "shared_B",
+          "to_columns": [
+            7,
+            10
+          ],
+          "to_fiber": 2
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "YZ",
+          "fiber_delta_mod60": 57,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_slot": 2,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 3,
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_slot": 5
+        }
+      ],
+      "reverse_role_from_002": "YZ",
+      "role_pair": "IW/YZ",
+      "shared_B_members": [
+        {
+          "edge_role": "IW",
+          "fiber_delta_mod60": 57,
+          "from_A": 10,
+          "from_B": 4,
+          "from_C": 5,
+          "from_slot": 4,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 3,
+          "to_B": 4,
+          "to_C": 2,
+          "to_slot": 4
+        }
+      ],
+      "shared_role_from_002": "IW",
+      "transition_key": [
+        5,
+        2
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "XY",
+          "fiber_delta_mod60": 3,
+          "from_A": 1,
+          "from_B": 0,
+          "from_C": 2,
+          "from_slot": 0,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 10,
+          "to_B": 0,
+          "to_C": 5,
+          "to_slot": 0
+        },
+        {
+          "edge_role": "TI",
+          "fiber_delta_mod60": 3,
+          "from_A": 12,
+          "from_B": 5,
+          "from_C": 2,
+          "from_slot": 5,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 12,
+          "to_A": 12,
+          "to_B": 2,
+          "to_C": 5,
+          "to_slot": 2
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 12,
+        "R_minus_S_from_A": 11,
+        "S_A_delta": 9,
+        "S_B": 0,
+        "S_B_minus_c1": 10,
+        "S_from_A": 1,
+        "S_to_A": 10,
+        "c0": 2,
+        "c1": 5,
+        "key": [
+          "TI/XY",
+          2,
+          5,
+          "XY",
+          "TI"
+        ],
+        "reverse": "TI",
+        "role_pair": "TI/XY",
+        "shared": "XY"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "shared_B",
+          "edge_role": "XY",
+          "from_columns": [
+            0,
+            4
+          ],
+          "from_fiber": 2,
+          "label": "shared_B",
+          "to_columns": [
+            2,
+            17
+          ],
+          "to_fiber": 5
+        },
+        {
+          "class": "reverse_partner",
+          "edge_role": "TI",
+          "from_columns": [
+            8,
+            18
+          ],
+          "from_fiber": 2,
+          "label": "reverse_partner",
+          "to_columns": [
+            8,
+            18
+          ],
+          "to_fiber": 5
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "TI",
+          "fiber_delta_mod60": 3,
+          "from_A": 12,
+          "from_B": 5,
+          "from_C": 2,
+          "from_slot": 5,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 12,
+          "to_A": 12,
+          "to_B": 2,
+          "to_C": 5,
+          "to_slot": 2
+        }
+      ],
+      "reverse_role_from_002": "TI",
+      "role_pair": "TI/XY",
+      "shared_B_members": [
+        {
+          "edge_role": "XY",
+          "fiber_delta_mod60": 3,
+          "from_A": 1,
+          "from_B": 0,
+          "from_C": 2,
+          "from_slot": 0,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 10,
+          "to_B": 0,
+          "to_C": 5,
+          "to_slot": 0
+        }
+      ],
+      "shared_role_from_002": "XY",
+      "transition_key": [
+        2,
+        5
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "XY",
+          "fiber_delta_mod60": 1,
+          "from_A": 3,
+          "from_B": 2,
+          "from_C": 4,
+          "from_slot": 2,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 12,
+          "to_B": 2,
+          "to_C": 5,
+          "to_slot": 2
+        },
+        {
+          "edge_role": "TI",
+          "fiber_delta_mod60": 1,
+          "from_A": 10,
+          "from_B": 5,
+          "from_C": 4,
+          "from_slot": 5,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 14,
+          "to_A": 10,
+          "to_B": 4,
+          "to_C": 5,
+          "to_slot": 4
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 10,
+        "R_minus_S_from_A": 7,
+        "S_A_delta": 9,
+        "S_B": 2,
+        "S_B_minus_c1": 12,
+        "S_from_A": 3,
+        "S_to_A": 12,
+        "c0": 4,
+        "c1": 5,
+        "key": [
+          "TI/XY",
+          4,
+          5,
+          "XY",
+          "TI"
+        ],
+        "reverse": "TI",
+        "role_pair": "TI/XY",
+        "shared": "XY"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "shared_B",
+          "edge_role": "XY",
+          "from_columns": [
+            7,
+            10
+          ],
+          "from_fiber": 4,
+          "label": "shared_B",
+          "to_columns": [
+            8,
+            18
+          ],
+          "to_fiber": 5
+        },
+        {
+          "class": "reverse_partner",
+          "edge_role": "TI",
+          "from_columns": [
+            13,
+            17
+          ],
+          "from_fiber": 4,
+          "label": "reverse_partner",
+          "to_columns": [
+            13,
+            17
+          ],
+          "to_fiber": 5
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "TI",
+          "fiber_delta_mod60": 1,
+          "from_A": 10,
+          "from_B": 5,
+          "from_C": 4,
+          "from_slot": 5,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 14,
+          "to_A": 10,
+          "to_B": 4,
+          "to_C": 5,
+          "to_slot": 4
+        }
+      ],
+      "reverse_role_from_002": "TI",
+      "role_pair": "TI/XY",
+      "shared_B_members": [
+        {
+          "edge_role": "XY",
+          "fiber_delta_mod60": 1,
+          "from_A": 3,
+          "from_B": 2,
+          "from_C": 4,
+          "from_slot": 2,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 12,
+          "to_B": 2,
+          "to_C": 5,
+          "to_slot": 2
+        }
+      ],
+      "shared_role_from_002": "XY",
+      "transition_key": [
+        4,
+        5
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "XY",
+          "fiber_delta_mod60": 51,
+          "from_A": 7,
+          "from_B": 14,
+          "from_C": 11,
+          "from_slot": 14,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 3,
+          "to_B": 14,
+          "to_C": 2,
+          "to_slot": 14
+        },
+        {
+          "edge_role": "TI",
+          "fiber_delta_mod60": 51,
+          "from_A": 1,
+          "from_B": 2,
+          "from_C": 11,
+          "from_slot": 2,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 9,
+          "to_A": 1,
+          "to_B": 11,
+          "to_C": 2,
+          "to_slot": 11
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 1,
+        "R_minus_S_from_A": 9,
+        "S_A_delta": 11,
+        "S_B": 14,
+        "S_B_minus_c1": 12,
+        "S_from_A": 7,
+        "S_to_A": 3,
+        "c0": 11,
+        "c1": 2,
+        "key": [
+          "TI/XY",
+          11,
+          2,
+          "XY",
+          "TI"
+        ],
+        "reverse": "TI",
+        "role_pair": "TI/XY",
+        "shared": "XY"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "shared_B",
+          "edge_role": "XY",
+          "from_columns": [
+            23,
+            24
+          ],
+          "from_fiber": 11,
+          "label": "shared_B",
+          "to_columns": [
+            7,
+            12
+          ],
+          "to_fiber": 2
+        },
+        {
+          "class": "reverse_partner",
+          "edge_role": "TI",
+          "from_columns": [
+            4,
+            5
+          ],
+          "from_fiber": 11,
+          "label": "reverse_partner",
+          "to_columns": [
+            4,
+            5
+          ],
+          "to_fiber": 2
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "TI",
+          "fiber_delta_mod60": 51,
+          "from_A": 1,
+          "from_B": 2,
+          "from_C": 11,
+          "from_slot": 2,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 9,
+          "to_A": 1,
+          "to_B": 11,
+          "to_C": 2,
+          "to_slot": 11
+        }
+      ],
+      "reverse_role_from_002": "TI",
+      "role_pair": "TI/XY",
+      "shared_B_members": [
+        {
+          "edge_role": "XY",
+          "fiber_delta_mod60": 51,
+          "from_A": 7,
+          "from_B": 14,
+          "from_C": 11,
+          "from_slot": 14,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 3,
+          "to_B": 14,
+          "to_C": 2,
+          "to_slot": 14
+        }
+      ],
+      "shared_role_from_002": "XY",
+      "transition_key": [
+        11,
+        2
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "XY",
+          "fiber_delta_mod60": 48,
+          "from_A": 9,
+          "from_B": 10,
+          "from_C": 13,
+          "from_slot": 10,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 0,
+          "to_B": 10,
+          "to_C": 1,
+          "to_slot": 10
+        },
+        {
+          "edge_role": "TI",
+          "fiber_delta_mod60": 48,
+          "from_A": 2,
+          "from_B": 1,
+          "from_C": 13,
+          "from_slot": 1,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 12,
+          "to_A": 2,
+          "to_B": 13,
+          "to_C": 1,
+          "to_slot": 13
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 2,
+        "R_minus_S_from_A": 8,
+        "S_A_delta": 6,
+        "S_B": 10,
+        "S_B_minus_c1": 9,
+        "S_from_A": 9,
+        "S_to_A": 0,
+        "c0": 13,
+        "c1": 1,
+        "key": [
+          "TI/XY",
+          13,
+          1,
+          "XY",
+          "TI"
+        ],
+        "reverse": "TI",
+        "role_pair": "TI/XY",
+        "shared": "XY"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "shared_B",
+          "edge_role": "XY",
+          "from_columns": [
+            28,
+            29
+          ],
+          "from_fiber": 13,
+          "label": "shared_B",
+          "to_columns": [
+            0,
+            2
+          ],
+          "to_fiber": 1
+        },
+        {
+          "class": "reverse_partner",
+          "edge_role": "TI",
+          "from_columns": [
+            4,
+            9
+          ],
+          "from_fiber": 13,
+          "label": "reverse_partner",
+          "to_columns": [
+            4,
+            9
+          ],
+          "to_fiber": 1
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "TI",
+          "fiber_delta_mod60": 48,
+          "from_A": 2,
+          "from_B": 1,
+          "from_C": 13,
+          "from_slot": 1,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 12,
+          "to_A": 2,
+          "to_B": 13,
+          "to_C": 1,
+          "to_slot": 13
+        }
+      ],
+      "reverse_role_from_002": "TI",
+      "role_pair": "TI/XY",
+      "shared_B_members": [
+        {
+          "edge_role": "XY",
+          "fiber_delta_mod60": 48,
+          "from_A": 9,
+          "from_B": 10,
+          "from_C": 13,
+          "from_slot": 10,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 0,
+          "to_B": 10,
+          "to_C": 1,
+          "to_slot": 10
+        }
+      ],
+      "shared_role_from_002": "XY",
+      "transition_key": [
+        13,
+        1
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "WX",
+          "fiber_delta_mod60": 2,
+          "from_A": 1,
+          "from_B": 2,
+          "from_C": 0,
+          "from_slot": 2,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 13,
+          "to_A": 1,
+          "to_B": 0,
+          "to_C": 2,
+          "to_slot": 0
+        },
+        {
+          "edge_role": "ZT",
+          "fiber_delta_mod60": 2,
+          "from_A": 10,
+          "from_B": 5,
+          "from_C": 0,
+          "from_slot": 5,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_slot": 5
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 1,
+        "R_minus_S_from_A": 6,
+        "S_A_delta": 2,
+        "S_B": 5,
+        "S_B_minus_c1": 3,
+        "S_from_A": 10,
+        "S_to_A": 12,
+        "c0": 0,
+        "c1": 2,
+        "key": [
+          "WX/ZT",
+          0,
+          2,
+          "ZT",
+          "WX"
+        ],
+        "reverse": "WX",
+        "role_pair": "WX/ZT",
+        "shared": "ZT"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "reverse_partner",
+          "edge_role": "WX",
+          "from_columns": [
+            0,
+            4
+          ],
+          "from_fiber": 0,
+          "label": "reverse_partner",
+          "to_columns": [
+            0,
+            4
+          ],
+          "to_fiber": 2
+        },
+        {
+          "class": "shared_B",
+          "edge_role": "ZT",
+          "from_columns": [
+            2,
+            17
+          ],
+          "from_fiber": 0,
+          "label": "shared_B",
+          "to_columns": [
+            8,
+            18
+          ],
+          "to_fiber": 2
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "WX",
+          "fiber_delta_mod60": 2,
+          "from_A": 1,
+          "from_B": 2,
+          "from_C": 0,
+          "from_slot": 2,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 13,
+          "to_A": 1,
+          "to_B": 0,
+          "to_C": 2,
+          "to_slot": 0
+        }
+      ],
+      "reverse_role_from_002": "WX",
+      "role_pair": "WX/ZT",
+      "shared_B_members": [
+        {
+          "edge_role": "ZT",
+          "fiber_delta_mod60": 2,
+          "from_A": 10,
+          "from_B": 5,
+          "from_C": 0,
+          "from_slot": 5,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_slot": 5
+        }
+      ],
+      "shared_role_from_002": "ZT",
+      "transition_key": [
+        0,
+        2
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "WX",
+          "fiber_delta_mod60": 2,
+          "from_A": 3,
+          "from_B": 4,
+          "from_C": 2,
+          "from_slot": 4,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 13,
+          "to_A": 3,
+          "to_B": 2,
+          "to_C": 4,
+          "to_slot": 2
+        },
+        {
+          "edge_role": "ZT",
+          "fiber_delta_mod60": 2,
+          "from_A": 12,
+          "from_B": 5,
+          "from_C": 2,
+          "from_slot": 5,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 4,
+          "to_slot": 5
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 3,
+        "R_minus_S_from_A": 6,
+        "S_A_delta": 13,
+        "S_B": 5,
+        "S_B_minus_c1": 1,
+        "S_from_A": 12,
+        "S_to_A": 10,
+        "c0": 2,
+        "c1": 4,
+        "key": [
+          "WX/ZT",
+          2,
+          4,
+          "ZT",
+          "WX"
+        ],
+        "reverse": "WX",
+        "role_pair": "WX/ZT",
+        "shared": "ZT"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "reverse_partner",
+          "edge_role": "WX",
+          "from_columns": [
+            7,
+            10
+          ],
+          "from_fiber": 2,
+          "label": "reverse_partner",
+          "to_columns": [
+            7,
+            10
+          ],
+          "to_fiber": 4
+        },
+        {
+          "class": "shared_B",
+          "edge_role": "ZT",
+          "from_columns": [
+            8,
+            18
+          ],
+          "from_fiber": 2,
+          "label": "shared_B",
+          "to_columns": [
+            13,
+            17
+          ],
+          "to_fiber": 4
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "WX",
+          "fiber_delta_mod60": 2,
+          "from_A": 3,
+          "from_B": 4,
+          "from_C": 2,
+          "from_slot": 4,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 13,
+          "to_A": 3,
+          "to_B": 2,
+          "to_C": 4,
+          "to_slot": 2
+        }
+      ],
+      "reverse_role_from_002": "WX",
+      "role_pair": "WX/ZT",
+      "shared_B_members": [
+        {
+          "edge_role": "ZT",
+          "fiber_delta_mod60": 2,
+          "from_A": 12,
+          "from_B": 5,
+          "from_C": 2,
+          "from_slot": 5,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 4,
+          "to_slot": 5
+        }
+      ],
+      "shared_role_from_002": "ZT",
+      "transition_key": [
+        2,
+        4
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "WX",
+          "fiber_delta_mod60": 3,
+          "from_A": 9,
+          "from_B": 13,
+          "from_C": 10,
+          "from_slot": 13,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 12,
+          "to_A": 9,
+          "to_B": 10,
+          "to_C": 13,
+          "to_slot": 10
+        },
+        {
+          "edge_role": "ZT",
+          "fiber_delta_mod60": 3,
+          "from_A": 0,
+          "from_B": 1,
+          "from_C": 10,
+          "from_slot": 1,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 2,
+          "to_B": 1,
+          "to_C": 13,
+          "to_slot": 1
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 9,
+        "R_minus_S_from_A": 9,
+        "S_A_delta": 2,
+        "S_B": 1,
+        "S_B_minus_c1": 3,
+        "S_from_A": 0,
+        "S_to_A": 2,
+        "c0": 10,
+        "c1": 13,
+        "key": [
+          "WX/ZT",
+          10,
+          13,
+          "ZT",
+          "WX"
+        ],
+        "reverse": "WX",
+        "role_pair": "WX/ZT",
+        "shared": "ZT"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "reverse_partner",
+          "edge_role": "WX",
+          "from_columns": [
+            28,
+            29
+          ],
+          "from_fiber": 10,
+          "label": "reverse_partner",
+          "to_columns": [
+            28,
+            29
+          ],
+          "to_fiber": 13
+        },
+        {
+          "class": "shared_B",
+          "edge_role": "ZT",
+          "from_columns": [
+            0,
+            2
+          ],
+          "from_fiber": 10,
+          "label": "shared_B",
+          "to_columns": [
+            4,
+            9
+          ],
+          "to_fiber": 13
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "WX",
+          "fiber_delta_mod60": 3,
+          "from_A": 9,
+          "from_B": 13,
+          "from_C": 10,
+          "from_slot": 13,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 12,
+          "to_A": 9,
+          "to_B": 10,
+          "to_C": 13,
+          "to_slot": 10
+        }
+      ],
+      "reverse_role_from_002": "WX",
+      "role_pair": "WX/ZT",
+      "shared_B_members": [
+        {
+          "edge_role": "ZT",
+          "fiber_delta_mod60": 3,
+          "from_A": 0,
+          "from_B": 1,
+          "from_C": 10,
+          "from_slot": 1,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 2,
+          "to_B": 1,
+          "to_C": 13,
+          "to_slot": 1
+        }
+      ],
+      "shared_role_from_002": "ZT",
+      "transition_key": [
+        10,
+        13
+      ]
+    },
+    {
+      "all_native_members": [
+        {
+          "edge_role": "WX",
+          "fiber_delta_mod60": 57,
+          "from_A": 7,
+          "from_B": 11,
+          "from_C": 14,
+          "from_slot": 11,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 3,
+          "to_A": 7,
+          "to_B": 14,
+          "to_C": 11,
+          "to_slot": 14
+        },
+        {
+          "edge_role": "ZT",
+          "fiber_delta_mod60": 57,
+          "from_A": 3,
+          "from_B": 2,
+          "from_C": 14,
+          "from_slot": 2,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 11,
+          "to_slot": 2
+        }
+      ],
+      "free_variable_record_found": true,
+      "free_variable_values_from_004": {
+        "R_A": 7,
+        "R_minus_S_from_A": 4,
+        "S_A_delta": 13,
+        "S_B": 2,
+        "S_B_minus_c1": 6,
+        "S_from_A": 3,
+        "S_to_A": 1,
+        "c0": 14,
+        "c1": 11,
+        "key": [
+          "WX/ZT",
+          14,
+          11,
+          "ZT",
+          "WX"
+        ],
+        "reverse": "WX",
+        "role_pair": "WX/ZT",
+        "shared": "ZT"
+      },
+      "native_class_counts": {
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "native_columns": [
+        {
+          "class": "reverse_partner",
+          "edge_role": "WX",
+          "from_columns": [
+            23,
+            24
+          ],
+          "from_fiber": 14,
+          "label": "reverse_partner",
+          "to_columns": [
+            23,
+            24
+          ],
+          "to_fiber": 11
+        },
+        {
+          "class": "shared_B",
+          "edge_role": "ZT",
+          "from_columns": [
+            7,
+            12
+          ],
+          "from_fiber": 14,
+          "label": "shared_B",
+          "to_columns": [
+            4,
+            5
+          ],
+          "to_fiber": 11
+        }
+      ],
+      "native_free_variable_match": true,
+      "native_member_count": 2,
+      "reverse_partner_members": [
+        {
+          "edge_role": "WX",
+          "fiber_delta_mod60": 57,
+          "from_A": 7,
+          "from_B": 11,
+          "from_C": 14,
+          "from_slot": 11,
+          "label": "reverse_partner",
+          "slot_delta_mod15": 3,
+          "to_A": 7,
+          "to_B": 14,
+          "to_C": 11,
+          "to_slot": 14
+        }
+      ],
+      "reverse_role_from_002": "WX",
+      "role_pair": "WX/ZT",
+      "shared_B_members": [
+        {
+          "edge_role": "ZT",
+          "fiber_delta_mod60": 57,
+          "from_A": 3,
+          "from_B": 2,
+          "from_C": 14,
+          "from_slot": 2,
+          "label": "shared_B",
+          "slot_delta_mod15": 0,
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 11,
+          "to_slot": 2
+        }
+      ],
+      "shared_role_from_002": "ZT",
+      "transition_key": [
+        14,
+        11
+      ]
+    }
+  ],
+  "ambiguous_member_count": 0,
+  "audit_id": "012",
+  "boundary": "This is an alignment audit. It does not yet derive the rule_members natively from G60, and therefore does not close Gap A by itself.",
+  "flat_member_class_counts": {
+    "reverse_partner": 12,
+    "shared_B": 12
+  },
+  "flat_member_edge_role_counts": {
+    "IW": 4,
+    "TI": 4,
+    "WX": 4,
+    "XY": 4,
+    "YZ": 4,
+    "ZT": 4
+  },
+  "flat_member_label_counts": {
+    "reverse_partner": 12,
+    "shared_B": 12
+  },
+  "free_variable_match_count": 12,
+  "input_free_variable_table_004": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/realized_free_variable_table_004.v1.json",
+  "input_native_rule_members": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_overlay_delta_generator_001.v1.json",
+  "input_selector_002": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json",
+  "interpretation": "This audit aligns the native rule_members from the imported Project 18 native-chain artifact with the 12 selected C-tracks from Project 21. If the native members match the free variables in 004, then the A/B assignments are not absent; they are present in the earlier native transition member layer.",
+  "missing_transition_keys": [],
+  "native_flat_member_count": 24,
+  "native_transition_count": 12,
+  "native_transition_keys": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      11,
+      2
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      14,
+      11
+    ]
+  ],
+  "selected_transition_count": 12,
+  "selected_transition_keys": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      11,
+      2
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      14,
+      11
+    ]
+  ],
+  "selected_transitions_with_two_members": 12,
+  "status": "native_rule_member_alignment_recorded"
+}

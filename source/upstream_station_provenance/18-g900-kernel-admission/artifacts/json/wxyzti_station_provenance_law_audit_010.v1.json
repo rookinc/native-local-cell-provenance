@@ -1,0 +1,1768 @@
+{
+  "boundary": "This audits only realized station rows. It does not compare against non-realized candidate rows, does not prove a complete generator, and does not close Gap A.",
+  "deterministic_test_count": 96,
+  "exact_deterministic_test_count": 23,
+  "exact_deterministic_tests_first_40": [
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 9,
+      "keys": [
+        "from_C"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "from_C"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 22,
+      "keys": [
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 22,
+      "keys": [
+        "station_role",
+        "from_C"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 22,
+      "keys": [
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 23,
+      "keys": [
+        "role_pair",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "C_delta"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "fiber_delta"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "fiber_delta_from_fields"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "slot_delta"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "to_C"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "to_fiber"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_slot",
+        "from_fiber"
+      ],
+      "value": "to_slot"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 23,
+      "keys": [
+        "role_pair",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "C_delta"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "fiber_delta"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "fiber_delta_from_fields"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "lift_q"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "slot_delta"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "to_C"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "to_fiber"
+    },
+    {
+      "ambiguous_group_count": 0,
+      "ambiguous_groups_first_10": {},
+      "deterministic": true,
+      "group_count": 24,
+      "keys": [
+        "station_role",
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "value": "to_slot"
+    }
+  ],
+  "input": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_station_transition_feature_inspection_009.v1.json",
+  "interpretation": "This audits realized WXYZTI station rows for provenance laws. It checks field deltas, same-field constraints, and deterministic maps such as station_role+from_C -> to_C.",
+  "role_class_counts": {
+    "reverse_partner": 12,
+    "shared_B": 12
+  },
+  "role_class_summary": [
+    {
+      "A_same_count": 12,
+      "B_same_count": 0,
+      "C_delta_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "6": 1,
+        "9": 1,
+        "10": 1,
+        "12": 3
+      },
+      "count": 12,
+      "fiber_delta_field_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "9": 1,
+        "12": 1,
+        "48": 1,
+        "51": 1,
+        "55": 1,
+        "57": 2
+      },
+      "fiber_delta_matches_canonical_count": 12,
+      "from_C_values": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        13,
+        14
+      ],
+      "lift_q_counts": {
+        "0": 7,
+        "3": 5
+      },
+      "role_class": "reverse_partner",
+      "slot_delta_counts": {
+        "3": 3,
+        "5": 1,
+        "6": 1,
+        "9": 1,
+        "12": 3,
+        "13": 2,
+        "14": 1
+      },
+      "slot_same_count": 0,
+      "to_C_values": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        13,
+        14
+      ]
+    },
+    {
+      "A_same_count": 0,
+      "B_same_count": 12,
+      "C_delta_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "6": 1,
+        "9": 1,
+        "10": 1,
+        "12": 3
+      },
+      "count": 12,
+      "fiber_delta_field_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "9": 1,
+        "12": 1,
+        "48": 1,
+        "51": 1,
+        "55": 1,
+        "57": 2
+      },
+      "fiber_delta_matches_canonical_count": 12,
+      "from_C_values": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        13,
+        14
+      ],
+      "lift_q_counts": {
+        "0": 7,
+        "3": 5
+      },
+      "role_class": "shared_B",
+      "slot_delta_counts": {
+        "0": 12
+      },
+      "slot_same_count": 12,
+      "to_C_values": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        13,
+        14
+      ]
+    }
+  ],
+  "role_counts": {
+    "IW": 4,
+    "TI": 4,
+    "WX": 4,
+    "XY": 4,
+    "YZ": 4,
+    "ZT": 4
+  },
+  "role_pair_counts": {
+    "IW/YZ": 8,
+    "TI/XY": 8,
+    "WX/ZT": 8
+  },
+  "role_pair_summary": [
+    {
+      "A_same_count": 4,
+      "B_same_count": 4,
+      "C_delta_counts": {
+        "9": 2,
+        "10": 2,
+        "12": 4
+      },
+      "count": 8,
+      "fiber_delta_field_counts": {
+        "9": 2,
+        "12": 2,
+        "55": 2,
+        "57": 2
+      },
+      "fiber_delta_matches_canonical_count": 8,
+      "from_C_values": [
+        1,
+        2,
+        5
+      ],
+      "lift_q_counts": {
+        "0": 4,
+        "3": 4
+      },
+      "role_pair": "IW/YZ",
+      "slot_delta_counts": {
+        "0": 4,
+        "3": 2,
+        "5": 1,
+        "6": 1
+      },
+      "slot_same_count": 4,
+      "to_C_values": [
+        0,
+        2,
+        10,
+        14
+      ]
+    },
+    {
+      "A_same_count": 4,
+      "B_same_count": 4,
+      "C_delta_counts": {
+        "1": 2,
+        "3": 4,
+        "6": 2
+      },
+      "count": 8,
+      "fiber_delta_field_counts": {
+        "1": 2,
+        "3": 2,
+        "48": 2,
+        "51": 2
+      },
+      "fiber_delta_matches_canonical_count": 8,
+      "from_C_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "lift_q_counts": {
+        "0": 4,
+        "3": 4
+      },
+      "role_pair": "TI/XY",
+      "slot_delta_counts": {
+        "0": 4,
+        "9": 1,
+        "12": 2,
+        "14": 1
+      },
+      "slot_same_count": 4,
+      "to_C_values": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "A_same_count": 4,
+      "B_same_count": 4,
+      "C_delta_counts": {
+        "2": 4,
+        "3": 2,
+        "12": 2
+      },
+      "count": 8,
+      "fiber_delta_field_counts": {
+        "2": 4,
+        "3": 2,
+        "57": 2
+      },
+      "fiber_delta_matches_canonical_count": 8,
+      "from_C_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "lift_q_counts": {
+        "0": 6,
+        "3": 2
+      },
+      "role_pair": "WX/ZT",
+      "slot_delta_counts": {
+        "0": 4,
+        "3": 1,
+        "12": 1,
+        "13": 2
+      },
+      "slot_same_count": 4,
+      "to_C_values": [
+        2,
+        4,
+        11,
+        13
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 9,
+      "base_delta_mod15": 9,
+      "features": {
+        "edge_role": "IW",
+        "from_A": 2,
+        "from_B": 13,
+        "from_C": 1,
+        "from_fiber": 1,
+        "from_slot": 13,
+        "label": "shared_B",
+        "to_A": 9,
+        "to_B": 13,
+        "to_C": 10,
+        "to_fiber": 10,
+        "to_slot": 13
+      },
+      "fiber_delta": 9,
+      "fiber_delta_from_fields": 9,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 2,
+      "from_B": 13,
+      "from_C": 1,
+      "from_fiber": 1,
+      "from_slot": 13,
+      "lift_q": 0,
+      "path": "root.rule_members.(1, 10)[1]",
+      "role_class": "shared_B",
+      "role_pair": "IW/YZ",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "IW",
+      "to_A": 9,
+      "to_B": 13,
+      "to_C": 10,
+      "to_fiber": 10,
+      "to_slot": 13
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 12,
+      "base_delta_mod15": 12,
+      "features": {
+        "edge_role": "IW",
+        "from_A": 1,
+        "from_B": 11,
+        "from_C": 2,
+        "from_fiber": 2,
+        "from_slot": 11,
+        "label": "shared_B",
+        "to_A": 7,
+        "to_B": 11,
+        "to_C": 14,
+        "to_fiber": 14,
+        "to_slot": 11
+      },
+      "fiber_delta": 12,
+      "fiber_delta_from_fields": 12,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 1,
+      "from_B": 11,
+      "from_C": 2,
+      "from_fiber": 2,
+      "from_slot": 11,
+      "lift_q": 0,
+      "path": "root.rule_members.(2, 14)[1]",
+      "role_class": "shared_B",
+      "role_pair": "IW/YZ",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "IW",
+      "to_A": 7,
+      "to_B": 11,
+      "to_C": 14,
+      "to_fiber": 14,
+      "to_slot": 11
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 10,
+      "base_delta_mod15": 10,
+      "features": {
+        "edge_role": "IW",
+        "from_A": 12,
+        "from_B": 2,
+        "from_C": 5,
+        "from_fiber": 5,
+        "from_slot": 2,
+        "label": "shared_B",
+        "to_A": 1,
+        "to_B": 2,
+        "to_C": 0,
+        "to_fiber": 0,
+        "to_slot": 2
+      },
+      "fiber_delta": 55,
+      "fiber_delta_from_fields": 55,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 12,
+      "from_B": 2,
+      "from_C": 5,
+      "from_fiber": 5,
+      "from_slot": 2,
+      "lift_q": 3,
+      "path": "root.rule_members.(5, 0)[1]",
+      "role_class": "shared_B",
+      "role_pair": "IW/YZ",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "IW",
+      "to_A": 1,
+      "to_B": 2,
+      "to_C": 0,
+      "to_fiber": 0,
+      "to_slot": 2
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 12,
+      "base_delta_mod15": 12,
+      "features": {
+        "edge_role": "IW",
+        "from_A": 10,
+        "from_B": 4,
+        "from_C": 5,
+        "from_fiber": 5,
+        "from_slot": 4,
+        "label": "shared_B",
+        "to_A": 3,
+        "to_B": 4,
+        "to_C": 2,
+        "to_fiber": 2,
+        "to_slot": 4
+      },
+      "fiber_delta": 57,
+      "fiber_delta_from_fields": 57,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 10,
+      "from_B": 4,
+      "from_C": 5,
+      "from_fiber": 5,
+      "from_slot": 4,
+      "lift_q": 3,
+      "path": "root.rule_members.(5, 2)[1]",
+      "role_class": "shared_B",
+      "role_pair": "IW/YZ",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "IW",
+      "to_A": 3,
+      "to_B": 4,
+      "to_C": 2,
+      "to_fiber": 2,
+      "to_slot": 4
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 9,
+      "base_delta_mod15": 9,
+      "features": {
+        "edge_role": "YZ",
+        "from_A": 0,
+        "from_B": 10,
+        "from_C": 1,
+        "from_fiber": 1,
+        "from_slot": 10,
+        "label": "reverse_partner",
+        "to_A": 0,
+        "to_B": 1,
+        "to_C": 10,
+        "to_fiber": 10,
+        "to_slot": 1
+      },
+      "fiber_delta": 9,
+      "fiber_delta_from_fields": 9,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 0,
+      "from_B": 10,
+      "from_C": 1,
+      "from_fiber": 1,
+      "from_slot": 10,
+      "lift_q": 0,
+      "path": "root.rule_members.(1, 10)[0]",
+      "role_class": "reverse_partner",
+      "role_pair": "IW/YZ",
+      "slot_delta": 6,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "YZ",
+      "to_A": 0,
+      "to_B": 1,
+      "to_C": 10,
+      "to_fiber": 10,
+      "to_slot": 1
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 12,
+      "base_delta_mod15": 12,
+      "features": {
+        "edge_role": "YZ",
+        "from_A": 3,
+        "from_B": 14,
+        "from_C": 2,
+        "from_fiber": 2,
+        "from_slot": 14,
+        "label": "reverse_partner",
+        "to_A": 3,
+        "to_B": 2,
+        "to_C": 14,
+        "to_fiber": 14,
+        "to_slot": 2
+      },
+      "fiber_delta": 12,
+      "fiber_delta_from_fields": 12,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 3,
+      "from_B": 14,
+      "from_C": 2,
+      "from_fiber": 2,
+      "from_slot": 14,
+      "lift_q": 0,
+      "path": "root.rule_members.(2, 14)[0]",
+      "role_class": "reverse_partner",
+      "role_pair": "IW/YZ",
+      "slot_delta": 3,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "YZ",
+      "to_A": 3,
+      "to_B": 2,
+      "to_C": 14,
+      "to_fiber": 14,
+      "to_slot": 2
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 10,
+      "base_delta_mod15": 10,
+      "features": {
+        "edge_role": "YZ",
+        "from_A": 10,
+        "from_B": 0,
+        "from_C": 5,
+        "from_fiber": 5,
+        "from_slot": 0,
+        "label": "reverse_partner",
+        "to_A": 10,
+        "to_B": 5,
+        "to_C": 0,
+        "to_fiber": 0,
+        "to_slot": 5
+      },
+      "fiber_delta": 55,
+      "fiber_delta_from_fields": 55,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 10,
+      "from_B": 0,
+      "from_C": 5,
+      "from_fiber": 5,
+      "from_slot": 0,
+      "lift_q": 3,
+      "path": "root.rule_members.(5, 0)[0]",
+      "role_class": "reverse_partner",
+      "role_pair": "IW/YZ",
+      "slot_delta": 5,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "YZ",
+      "to_A": 10,
+      "to_B": 5,
+      "to_C": 0,
+      "to_fiber": 0,
+      "to_slot": 5
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 12,
+      "base_delta_mod15": 12,
+      "features": {
+        "edge_role": "YZ",
+        "from_A": 12,
+        "from_B": 2,
+        "from_C": 5,
+        "from_fiber": 5,
+        "from_slot": 2,
+        "label": "reverse_partner",
+        "to_A": 12,
+        "to_B": 5,
+        "to_C": 2,
+        "to_fiber": 2,
+        "to_slot": 5
+      },
+      "fiber_delta": 57,
+      "fiber_delta_from_fields": 57,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 12,
+      "from_B": 2,
+      "from_C": 5,
+      "from_fiber": 5,
+      "from_slot": 2,
+      "lift_q": 3,
+      "path": "root.rule_members.(5, 2)[0]",
+      "role_class": "reverse_partner",
+      "role_pair": "IW/YZ",
+      "slot_delta": 3,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "YZ",
+      "to_A": 12,
+      "to_B": 5,
+      "to_C": 2,
+      "to_fiber": 2,
+      "to_slot": 5
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 3,
+      "base_delta_mod15": 3,
+      "features": {
+        "edge_role": "TI",
+        "from_A": 12,
+        "from_B": 5,
+        "from_C": 2,
+        "from_fiber": 2,
+        "from_slot": 5,
+        "label": "reverse_partner",
+        "to_A": 12,
+        "to_B": 2,
+        "to_C": 5,
+        "to_fiber": 5,
+        "to_slot": 2
+      },
+      "fiber_delta": 3,
+      "fiber_delta_from_fields": 3,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 12,
+      "from_B": 5,
+      "from_C": 2,
+      "from_fiber": 2,
+      "from_slot": 5,
+      "lift_q": 0,
+      "path": "root.rule_members.(2, 5)[1]",
+      "role_class": "reverse_partner",
+      "role_pair": "TI/XY",
+      "slot_delta": 12,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "TI",
+      "to_A": 12,
+      "to_B": 2,
+      "to_C": 5,
+      "to_fiber": 5,
+      "to_slot": 2
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 1,
+      "base_delta_mod15": 1,
+      "features": {
+        "edge_role": "TI",
+        "from_A": 10,
+        "from_B": 5,
+        "from_C": 4,
+        "from_fiber": 4,
+        "from_slot": 5,
+        "label": "reverse_partner",
+        "to_A": 10,
+        "to_B": 4,
+        "to_C": 5,
+        "to_fiber": 5,
+        "to_slot": 4
+      },
+      "fiber_delta": 1,
+      "fiber_delta_from_fields": 1,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 10,
+      "from_B": 5,
+      "from_C": 4,
+      "from_fiber": 4,
+      "from_slot": 5,
+      "lift_q": 0,
+      "path": "root.rule_members.(4, 5)[1]",
+      "role_class": "reverse_partner",
+      "role_pair": "TI/XY",
+      "slot_delta": 14,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "TI",
+      "to_A": 10,
+      "to_B": 4,
+      "to_C": 5,
+      "to_fiber": 5,
+      "to_slot": 4
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 6,
+      "base_delta_mod15": 6,
+      "features": {
+        "edge_role": "TI",
+        "from_A": 1,
+        "from_B": 2,
+        "from_C": 11,
+        "from_fiber": 11,
+        "from_slot": 2,
+        "label": "reverse_partner",
+        "to_A": 1,
+        "to_B": 11,
+        "to_C": 2,
+        "to_fiber": 2,
+        "to_slot": 11
+      },
+      "fiber_delta": 51,
+      "fiber_delta_from_fields": 51,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 1,
+      "from_B": 2,
+      "from_C": 11,
+      "from_fiber": 11,
+      "from_slot": 2,
+      "lift_q": 3,
+      "path": "root.rule_members.(11, 2)[1]",
+      "role_class": "reverse_partner",
+      "role_pair": "TI/XY",
+      "slot_delta": 9,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "TI",
+      "to_A": 1,
+      "to_B": 11,
+      "to_C": 2,
+      "to_fiber": 2,
+      "to_slot": 11
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 3,
+      "base_delta_mod15": 3,
+      "features": {
+        "edge_role": "TI",
+        "from_A": 2,
+        "from_B": 1,
+        "from_C": 13,
+        "from_fiber": 13,
+        "from_slot": 1,
+        "label": "reverse_partner",
+        "to_A": 2,
+        "to_B": 13,
+        "to_C": 1,
+        "to_fiber": 1,
+        "to_slot": 13
+      },
+      "fiber_delta": 48,
+      "fiber_delta_from_fields": 48,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 2,
+      "from_B": 1,
+      "from_C": 13,
+      "from_fiber": 13,
+      "from_slot": 1,
+      "lift_q": 3,
+      "path": "root.rule_members.(13, 1)[1]",
+      "role_class": "reverse_partner",
+      "role_pair": "TI/XY",
+      "slot_delta": 12,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "TI",
+      "to_A": 2,
+      "to_B": 13,
+      "to_C": 1,
+      "to_fiber": 1,
+      "to_slot": 13
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 3,
+      "base_delta_mod15": 3,
+      "features": {
+        "edge_role": "XY",
+        "from_A": 1,
+        "from_B": 0,
+        "from_C": 2,
+        "from_fiber": 2,
+        "from_slot": 0,
+        "label": "shared_B",
+        "to_A": 10,
+        "to_B": 0,
+        "to_C": 5,
+        "to_fiber": 5,
+        "to_slot": 0
+      },
+      "fiber_delta": 3,
+      "fiber_delta_from_fields": 3,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 1,
+      "from_B": 0,
+      "from_C": 2,
+      "from_fiber": 2,
+      "from_slot": 0,
+      "lift_q": 0,
+      "path": "root.rule_members.(2, 5)[0]",
+      "role_class": "shared_B",
+      "role_pair": "TI/XY",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "XY",
+      "to_A": 10,
+      "to_B": 0,
+      "to_C": 5,
+      "to_fiber": 5,
+      "to_slot": 0
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 1,
+      "base_delta_mod15": 1,
+      "features": {
+        "edge_role": "XY",
+        "from_A": 3,
+        "from_B": 2,
+        "from_C": 4,
+        "from_fiber": 4,
+        "from_slot": 2,
+        "label": "shared_B",
+        "to_A": 12,
+        "to_B": 2,
+        "to_C": 5,
+        "to_fiber": 5,
+        "to_slot": 2
+      },
+      "fiber_delta": 1,
+      "fiber_delta_from_fields": 1,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 3,
+      "from_B": 2,
+      "from_C": 4,
+      "from_fiber": 4,
+      "from_slot": 2,
+      "lift_q": 0,
+      "path": "root.rule_members.(4, 5)[0]",
+      "role_class": "shared_B",
+      "role_pair": "TI/XY",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "XY",
+      "to_A": 12,
+      "to_B": 2,
+      "to_C": 5,
+      "to_fiber": 5,
+      "to_slot": 2
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 6,
+      "base_delta_mod15": 6,
+      "features": {
+        "edge_role": "XY",
+        "from_A": 7,
+        "from_B": 14,
+        "from_C": 11,
+        "from_fiber": 11,
+        "from_slot": 14,
+        "label": "shared_B",
+        "to_A": 3,
+        "to_B": 14,
+        "to_C": 2,
+        "to_fiber": 2,
+        "to_slot": 14
+      },
+      "fiber_delta": 51,
+      "fiber_delta_from_fields": 51,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 7,
+      "from_B": 14,
+      "from_C": 11,
+      "from_fiber": 11,
+      "from_slot": 14,
+      "lift_q": 3,
+      "path": "root.rule_members.(11, 2)[0]",
+      "role_class": "shared_B",
+      "role_pair": "TI/XY",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "XY",
+      "to_A": 3,
+      "to_B": 14,
+      "to_C": 2,
+      "to_fiber": 2,
+      "to_slot": 14
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 3,
+      "base_delta_mod15": 3,
+      "features": {
+        "edge_role": "XY",
+        "from_A": 9,
+        "from_B": 10,
+        "from_C": 13,
+        "from_fiber": 13,
+        "from_slot": 10,
+        "label": "shared_B",
+        "to_A": 0,
+        "to_B": 10,
+        "to_C": 1,
+        "to_fiber": 1,
+        "to_slot": 10
+      },
+      "fiber_delta": 48,
+      "fiber_delta_from_fields": 48,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 9,
+      "from_B": 10,
+      "from_C": 13,
+      "from_fiber": 13,
+      "from_slot": 10,
+      "lift_q": 3,
+      "path": "root.rule_members.(13, 1)[0]",
+      "role_class": "shared_B",
+      "role_pair": "TI/XY",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "XY",
+      "to_A": 0,
+      "to_B": 10,
+      "to_C": 1,
+      "to_fiber": 1,
+      "to_slot": 10
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 2,
+      "base_delta_mod15": 2,
+      "features": {
+        "edge_role": "WX",
+        "from_A": 1,
+        "from_B": 2,
+        "from_C": 0,
+        "from_fiber": 0,
+        "from_slot": 2,
+        "label": "reverse_partner",
+        "to_A": 1,
+        "to_B": 0,
+        "to_C": 2,
+        "to_fiber": 2,
+        "to_slot": 0
+      },
+      "fiber_delta": 2,
+      "fiber_delta_from_fields": 2,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 1,
+      "from_B": 2,
+      "from_C": 0,
+      "from_fiber": 0,
+      "from_slot": 2,
+      "lift_q": 0,
+      "path": "root.rule_members.(0, 2)[0]",
+      "role_class": "reverse_partner",
+      "role_pair": "WX/ZT",
+      "slot_delta": 13,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "WX",
+      "to_A": 1,
+      "to_B": 0,
+      "to_C": 2,
+      "to_fiber": 2,
+      "to_slot": 0
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 2,
+      "base_delta_mod15": 2,
+      "features": {
+        "edge_role": "WX",
+        "from_A": 3,
+        "from_B": 4,
+        "from_C": 2,
+        "from_fiber": 2,
+        "from_slot": 4,
+        "label": "reverse_partner",
+        "to_A": 3,
+        "to_B": 2,
+        "to_C": 4,
+        "to_fiber": 4,
+        "to_slot": 2
+      },
+      "fiber_delta": 2,
+      "fiber_delta_from_fields": 2,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 3,
+      "from_B": 4,
+      "from_C": 2,
+      "from_fiber": 2,
+      "from_slot": 4,
+      "lift_q": 0,
+      "path": "root.rule_members.(2, 4)[0]",
+      "role_class": "reverse_partner",
+      "role_pair": "WX/ZT",
+      "slot_delta": 13,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "WX",
+      "to_A": 3,
+      "to_B": 2,
+      "to_C": 4,
+      "to_fiber": 4,
+      "to_slot": 2
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 3,
+      "base_delta_mod15": 3,
+      "features": {
+        "edge_role": "WX",
+        "from_A": 9,
+        "from_B": 13,
+        "from_C": 10,
+        "from_fiber": 10,
+        "from_slot": 13,
+        "label": "reverse_partner",
+        "to_A": 9,
+        "to_B": 10,
+        "to_C": 13,
+        "to_fiber": 13,
+        "to_slot": 10
+      },
+      "fiber_delta": 3,
+      "fiber_delta_from_fields": 3,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 9,
+      "from_B": 13,
+      "from_C": 10,
+      "from_fiber": 10,
+      "from_slot": 13,
+      "lift_q": 0,
+      "path": "root.rule_members.(10, 13)[0]",
+      "role_class": "reverse_partner",
+      "role_pair": "WX/ZT",
+      "slot_delta": 12,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "WX",
+      "to_A": 9,
+      "to_B": 10,
+      "to_C": 13,
+      "to_fiber": 13,
+      "to_slot": 10
+    },
+    {
+      "A_same": true,
+      "B_same": false,
+      "C_delta": 12,
+      "base_delta_mod15": 12,
+      "features": {
+        "edge_role": "WX",
+        "from_A": 7,
+        "from_B": 11,
+        "from_C": 14,
+        "from_fiber": 14,
+        "from_slot": 11,
+        "label": "reverse_partner",
+        "to_A": 7,
+        "to_B": 14,
+        "to_C": 11,
+        "to_fiber": 11,
+        "to_slot": 14
+      },
+      "fiber_delta": 57,
+      "fiber_delta_from_fields": 57,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 7,
+      "from_B": 11,
+      "from_C": 14,
+      "from_fiber": 14,
+      "from_slot": 11,
+      "lift_q": 3,
+      "path": "root.rule_members.(14, 11)[0]",
+      "role_class": "reverse_partner",
+      "role_pair": "WX/ZT",
+      "slot_delta": 3,
+      "slot_same": false,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "WX",
+      "to_A": 7,
+      "to_B": 14,
+      "to_C": 11,
+      "to_fiber": 11,
+      "to_slot": 14
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 2,
+      "base_delta_mod15": 2,
+      "features": {
+        "edge_role": "ZT",
+        "from_A": 10,
+        "from_B": 5,
+        "from_C": 0,
+        "from_fiber": 0,
+        "from_slot": 5,
+        "label": "shared_B",
+        "to_A": 12,
+        "to_B": 5,
+        "to_C": 2,
+        "to_fiber": 2,
+        "to_slot": 5
+      },
+      "fiber_delta": 2,
+      "fiber_delta_from_fields": 2,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 10,
+      "from_B": 5,
+      "from_C": 0,
+      "from_fiber": 0,
+      "from_slot": 5,
+      "lift_q": 0,
+      "path": "root.rule_members.(0, 2)[1]",
+      "role_class": "shared_B",
+      "role_pair": "WX/ZT",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "ZT",
+      "to_A": 12,
+      "to_B": 5,
+      "to_C": 2,
+      "to_fiber": 2,
+      "to_slot": 5
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 2,
+      "base_delta_mod15": 2,
+      "features": {
+        "edge_role": "ZT",
+        "from_A": 12,
+        "from_B": 5,
+        "from_C": 2,
+        "from_fiber": 2,
+        "from_slot": 5,
+        "label": "shared_B",
+        "to_A": 10,
+        "to_B": 5,
+        "to_C": 4,
+        "to_fiber": 4,
+        "to_slot": 5
+      },
+      "fiber_delta": 2,
+      "fiber_delta_from_fields": 2,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 12,
+      "from_B": 5,
+      "from_C": 2,
+      "from_fiber": 2,
+      "from_slot": 5,
+      "lift_q": 0,
+      "path": "root.rule_members.(2, 4)[1]",
+      "role_class": "shared_B",
+      "role_pair": "WX/ZT",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "ZT",
+      "to_A": 10,
+      "to_B": 5,
+      "to_C": 4,
+      "to_fiber": 4,
+      "to_slot": 5
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 3,
+      "base_delta_mod15": 3,
+      "features": {
+        "edge_role": "ZT",
+        "from_A": 0,
+        "from_B": 1,
+        "from_C": 10,
+        "from_fiber": 10,
+        "from_slot": 1,
+        "label": "shared_B",
+        "to_A": 2,
+        "to_B": 1,
+        "to_C": 13,
+        "to_fiber": 13,
+        "to_slot": 1
+      },
+      "fiber_delta": 3,
+      "fiber_delta_from_fields": 3,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 0,
+      "from_B": 1,
+      "from_C": 10,
+      "from_fiber": 10,
+      "from_slot": 1,
+      "lift_q": 0,
+      "path": "root.rule_members.(10, 13)[1]",
+      "role_class": "shared_B",
+      "role_pair": "WX/ZT",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "ZT",
+      "to_A": 2,
+      "to_B": 1,
+      "to_C": 13,
+      "to_fiber": 13,
+      "to_slot": 1
+    },
+    {
+      "A_same": false,
+      "B_same": true,
+      "C_delta": 12,
+      "base_delta_mod15": 12,
+      "features": {
+        "edge_role": "ZT",
+        "from_A": 3,
+        "from_B": 2,
+        "from_C": 14,
+        "from_fiber": 14,
+        "from_slot": 2,
+        "label": "shared_B",
+        "to_A": 1,
+        "to_B": 2,
+        "to_C": 11,
+        "to_fiber": 11,
+        "to_slot": 2
+      },
+      "fiber_delta": 57,
+      "fiber_delta_from_fields": 57,
+      "fiber_delta_matches_canonical": true,
+      "from_A": 3,
+      "from_B": 2,
+      "from_C": 14,
+      "from_fiber": 14,
+      "from_slot": 2,
+      "lift_q": 3,
+      "path": "root.rule_members.(14, 11)[1]",
+      "role_class": "shared_B",
+      "role_pair": "WX/ZT",
+      "slot_delta": 0,
+      "slot_same": true,
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "station_role": "ZT",
+      "to_A": 1,
+      "to_B": 2,
+      "to_C": 11,
+      "to_fiber": 11,
+      "to_slot": 2
+    }
+  ],
+  "semantic_row_count": 24,
+  "station_role_summary": [
+    {
+      "A_same_count": 0,
+      "B_same_count": 4,
+      "C_delta_counts": {
+        "9": 1,
+        "10": 1,
+        "12": 2
+      },
+      "count": 4,
+      "fiber_delta_field_counts": {
+        "9": 1,
+        "12": 1,
+        "55": 1,
+        "57": 1
+      },
+      "fiber_delta_matches_canonical_count": 4,
+      "from_C_values": [
+        1,
+        2,
+        5
+      ],
+      "lift_q_counts": {
+        "0": 2,
+        "3": 2
+      },
+      "slot_delta_counts": {
+        "0": 4
+      },
+      "slot_same_count": 4,
+      "station_role": "IW",
+      "to_C_values": [
+        0,
+        2,
+        10,
+        14
+      ]
+    },
+    {
+      "A_same_count": 4,
+      "B_same_count": 0,
+      "C_delta_counts": {
+        "1": 1,
+        "3": 2,
+        "6": 1
+      },
+      "count": 4,
+      "fiber_delta_field_counts": {
+        "1": 1,
+        "3": 1,
+        "48": 1,
+        "51": 1
+      },
+      "fiber_delta_matches_canonical_count": 4,
+      "from_C_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "lift_q_counts": {
+        "0": 2,
+        "3": 2
+      },
+      "slot_delta_counts": {
+        "9": 1,
+        "12": 2,
+        "14": 1
+      },
+      "slot_same_count": 0,
+      "station_role": "TI",
+      "to_C_values": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "A_same_count": 4,
+      "B_same_count": 0,
+      "C_delta_counts": {
+        "2": 2,
+        "3": 1,
+        "12": 1
+      },
+      "count": 4,
+      "fiber_delta_field_counts": {
+        "2": 2,
+        "3": 1,
+        "57": 1
+      },
+      "fiber_delta_matches_canonical_count": 4,
+      "from_C_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "lift_q_counts": {
+        "0": 3,
+        "3": 1
+      },
+      "slot_delta_counts": {
+        "3": 1,
+        "12": 1,
+        "13": 2
+      },
+      "slot_same_count": 0,
+      "station_role": "WX",
+      "to_C_values": [
+        2,
+        4,
+        11,
+        13
+      ]
+    },
+    {
+      "A_same_count": 0,
+      "B_same_count": 4,
+      "C_delta_counts": {
+        "1": 1,
+        "3": 2,
+        "6": 1
+      },
+      "count": 4,
+      "fiber_delta_field_counts": {
+        "1": 1,
+        "3": 1,
+        "48": 1,
+        "51": 1
+      },
+      "fiber_delta_matches_canonical_count": 4,
+      "from_C_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "lift_q_counts": {
+        "0": 2,
+        "3": 2
+      },
+      "slot_delta_counts": {
+        "0": 4
+      },
+      "slot_same_count": 4,
+      "station_role": "XY",
+      "to_C_values": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "A_same_count": 4,
+      "B_same_count": 0,
+      "C_delta_counts": {
+        "9": 1,
+        "10": 1,
+        "12": 2
+      },
+      "count": 4,
+      "fiber_delta_field_counts": {
+        "9": 1,
+        "12": 1,
+        "55": 1,
+        "57": 1
+      },
+      "fiber_delta_matches_canonical_count": 4,
+      "from_C_values": [
+        1,
+        2,
+        5
+      ],
+      "lift_q_counts": {
+        "0": 2,
+        "3": 2
+      },
+      "slot_delta_counts": {
+        "3": 2,
+        "5": 1,
+        "6": 1
+      },
+      "slot_same_count": 0,
+      "station_role": "YZ",
+      "to_C_values": [
+        0,
+        2,
+        10,
+        14
+      ]
+    },
+    {
+      "A_same_count": 0,
+      "B_same_count": 4,
+      "C_delta_counts": {
+        "2": 2,
+        "3": 1,
+        "12": 1
+      },
+      "count": 4,
+      "fiber_delta_field_counts": {
+        "2": 2,
+        "3": 1,
+        "57": 1
+      },
+      "fiber_delta_matches_canonical_count": 4,
+      "from_C_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "lift_q_counts": {
+        "0": 3,
+        "3": 1
+      },
+      "slot_delta_counts": {
+        "0": 4
+      },
+      "slot_same_count": 4,
+      "station_role": "ZT",
+      "to_C_values": [
+        2,
+        4,
+        11,
+        13
+      ]
+    }
+  ],
+  "status": "wxyzti_station_provenance_law_audit_recorded"
+}

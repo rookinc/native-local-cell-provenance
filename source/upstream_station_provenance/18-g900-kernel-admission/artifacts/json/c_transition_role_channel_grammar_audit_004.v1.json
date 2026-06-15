@@ -1,0 +1,613 @@
+{
+  "boundary": "This is still a channel-grammar audit over the WXYZTI overlay. It does not derive the role-pair channels from G60-native structure and does not close Gap A.",
+  "complement": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    12
+  ],
+  "complement_equals_unobserved": true,
+  "from_deterministic_q": true,
+  "from_rows": [
+    {
+      "from_C": 0,
+      "from_class": "q0",
+      "lift_q_values": [
+        0
+      ],
+      "role_pairs": [
+        "WX/ZT"
+      ],
+      "to_values": [
+        2
+      ],
+      "transition_count": 1
+    },
+    {
+      "from_C": 1,
+      "from_class": "q0",
+      "lift_q_values": [
+        0
+      ],
+      "role_pairs": [
+        "IW/YZ"
+      ],
+      "to_values": [
+        10
+      ],
+      "transition_count": 1
+    },
+    {
+      "from_C": 2,
+      "from_class": "q0",
+      "lift_q_values": [
+        0
+      ],
+      "role_pairs": [
+        "IW/YZ",
+        "TI/XY",
+        "WX/ZT"
+      ],
+      "to_values": [
+        4,
+        5,
+        14
+      ],
+      "transition_count": 3
+    },
+    {
+      "from_C": 4,
+      "from_class": "q0",
+      "lift_q_values": [
+        0
+      ],
+      "role_pairs": [
+        "TI/XY"
+      ],
+      "to_values": [
+        5
+      ],
+      "transition_count": 1
+    },
+    {
+      "from_C": 5,
+      "from_class": "q3",
+      "lift_q_values": [
+        3
+      ],
+      "role_pairs": [
+        "IW/YZ"
+      ],
+      "to_values": [
+        0,
+        2
+      ],
+      "transition_count": 2
+    },
+    {
+      "from_C": 10,
+      "from_class": "q0",
+      "lift_q_values": [
+        0
+      ],
+      "role_pairs": [
+        "WX/ZT"
+      ],
+      "to_values": [
+        13
+      ],
+      "transition_count": 1
+    },
+    {
+      "from_C": 11,
+      "from_class": "q3",
+      "lift_q_values": [
+        3
+      ],
+      "role_pairs": [
+        "TI/XY"
+      ],
+      "to_values": [
+        2
+      ],
+      "transition_count": 1
+    },
+    {
+      "from_C": 13,
+      "from_class": "q3",
+      "lift_q_values": [
+        3
+      ],
+      "role_pairs": [
+        "TI/XY"
+      ],
+      "to_values": [
+        1
+      ],
+      "transition_count": 1
+    },
+    {
+      "from_C": 14,
+      "from_class": "q3",
+      "lift_q_values": [
+        3
+      ],
+      "role_pairs": [
+        "WX/ZT"
+      ],
+      "to_values": [
+        11
+      ],
+      "transition_count": 1
+    }
+  ],
+  "input": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_station_role_cover_audit_003b.v1.json",
+  "interpretation": "This audits whether the 12 canonical C-transitions organize into role-pair channels, and whether role_pair plus from_C determines the transition target and fiber delta.",
+  "role_pair_count": 3,
+  "role_pair_from_rows": [
+    {
+      "fiber_delta_values": [
+        9
+      ],
+      "from_C": 1,
+      "lift_q_values": [
+        0
+      ],
+      "role_pair": "IW/YZ",
+      "row_count": 1,
+      "to_values": [
+        10
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        12
+      ],
+      "from_C": 2,
+      "lift_q_values": [
+        0
+      ],
+      "role_pair": "IW/YZ",
+      "row_count": 1,
+      "to_values": [
+        14
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        55,
+        57
+      ],
+      "from_C": 5,
+      "lift_q_values": [
+        3
+      ],
+      "role_pair": "IW/YZ",
+      "row_count": 2,
+      "to_values": [
+        0,
+        2
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        3
+      ],
+      "from_C": 2,
+      "lift_q_values": [
+        0
+      ],
+      "role_pair": "TI/XY",
+      "row_count": 1,
+      "to_values": [
+        5
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        1
+      ],
+      "from_C": 4,
+      "lift_q_values": [
+        0
+      ],
+      "role_pair": "TI/XY",
+      "row_count": 1,
+      "to_values": [
+        5
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        51
+      ],
+      "from_C": 11,
+      "lift_q_values": [
+        3
+      ],
+      "role_pair": "TI/XY",
+      "row_count": 1,
+      "to_values": [
+        2
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        48
+      ],
+      "from_C": 13,
+      "lift_q_values": [
+        3
+      ],
+      "role_pair": "TI/XY",
+      "row_count": 1,
+      "to_values": [
+        1
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        2
+      ],
+      "from_C": 0,
+      "lift_q_values": [
+        0
+      ],
+      "role_pair": "WX/ZT",
+      "row_count": 1,
+      "to_values": [
+        2
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        2
+      ],
+      "from_C": 2,
+      "lift_q_values": [
+        0
+      ],
+      "role_pair": "WX/ZT",
+      "row_count": 1,
+      "to_values": [
+        4
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        3
+      ],
+      "from_C": 10,
+      "lift_q_values": [
+        0
+      ],
+      "role_pair": "WX/ZT",
+      "row_count": 1,
+      "to_values": [
+        13
+      ]
+    },
+    {
+      "fiber_delta_values": [
+        57
+      ],
+      "from_C": 14,
+      "lift_q_values": [
+        3
+      ],
+      "role_pair": "WX/ZT",
+      "row_count": 1,
+      "to_values": [
+        11
+      ]
+    }
+  ],
+  "role_pair_plus_from_determines_delta": false,
+  "role_pair_plus_from_determines_to": false,
+  "role_pair_rows": [
+    {
+      "base_delta_counts": {
+        "9": 1,
+        "10": 1,
+        "12": 2
+      },
+      "fiber_delta_counts": {
+        "9": 1,
+        "12": 1,
+        "55": 1,
+        "57": 1
+      },
+      "from_class_counts": {
+        "q0": 2,
+        "q3": 2
+      },
+      "from_values": [
+        1,
+        2,
+        5
+      ],
+      "q_counts": {
+        "0": 2,
+        "3": 2
+      },
+      "role_pair": "IW/YZ",
+      "to_class_counts": {
+        "q0": 3,
+        "q3": 1
+      },
+      "to_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "transition_count": 4,
+      "transitions": [
+        {
+          "base_delta_mod15": 9,
+          "fiber_delta": 9,
+          "from_C": 1,
+          "from_class": "q0",
+          "lift_q": 0,
+          "role_pair": "IW/YZ",
+          "station_roles": [
+            "IW",
+            "YZ"
+          ],
+          "to_C": 10,
+          "to_class": "q0"
+        },
+        {
+          "base_delta_mod15": 12,
+          "fiber_delta": 12,
+          "from_C": 2,
+          "from_class": "q0",
+          "lift_q": 0,
+          "role_pair": "IW/YZ",
+          "station_roles": [
+            "IW",
+            "YZ"
+          ],
+          "to_C": 14,
+          "to_class": "q3"
+        },
+        {
+          "base_delta_mod15": 10,
+          "fiber_delta": 55,
+          "from_C": 5,
+          "from_class": "q3",
+          "lift_q": 3,
+          "role_pair": "IW/YZ",
+          "station_roles": [
+            "IW",
+            "YZ"
+          ],
+          "to_C": 0,
+          "to_class": "q0"
+        },
+        {
+          "base_delta_mod15": 12,
+          "fiber_delta": 57,
+          "from_C": 5,
+          "from_class": "q3",
+          "lift_q": 3,
+          "role_pair": "IW/YZ",
+          "station_roles": [
+            "IW",
+            "YZ"
+          ],
+          "to_C": 2,
+          "to_class": "q0"
+        }
+      ]
+    },
+    {
+      "base_delta_counts": {
+        "1": 1,
+        "3": 2,
+        "6": 1
+      },
+      "fiber_delta_counts": {
+        "1": 1,
+        "3": 1,
+        "48": 1,
+        "51": 1
+      },
+      "from_class_counts": {
+        "q0": 2,
+        "q3": 2
+      },
+      "from_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "q_counts": {
+        "0": 2,
+        "3": 2
+      },
+      "role_pair": "TI/XY",
+      "to_class_counts": {
+        "q0": 2,
+        "q3": 2
+      },
+      "to_values": [
+        1,
+        2,
+        5
+      ],
+      "transition_count": 4,
+      "transitions": [
+        {
+          "base_delta_mod15": 3,
+          "fiber_delta": 3,
+          "from_C": 2,
+          "from_class": "q0",
+          "lift_q": 0,
+          "role_pair": "TI/XY",
+          "station_roles": [
+            "TI",
+            "XY"
+          ],
+          "to_C": 5,
+          "to_class": "q3"
+        },
+        {
+          "base_delta_mod15": 1,
+          "fiber_delta": 1,
+          "from_C": 4,
+          "from_class": "q0",
+          "lift_q": 0,
+          "role_pair": "TI/XY",
+          "station_roles": [
+            "TI",
+            "XY"
+          ],
+          "to_C": 5,
+          "to_class": "q3"
+        },
+        {
+          "base_delta_mod15": 6,
+          "fiber_delta": 51,
+          "from_C": 11,
+          "from_class": "q3",
+          "lift_q": 3,
+          "role_pair": "TI/XY",
+          "station_roles": [
+            "TI",
+            "XY"
+          ],
+          "to_C": 2,
+          "to_class": "q0"
+        },
+        {
+          "base_delta_mod15": 3,
+          "fiber_delta": 48,
+          "from_C": 13,
+          "from_class": "q3",
+          "lift_q": 3,
+          "role_pair": "TI/XY",
+          "station_roles": [
+            "TI",
+            "XY"
+          ],
+          "to_C": 1,
+          "to_class": "q0"
+        }
+      ]
+    },
+    {
+      "base_delta_counts": {
+        "2": 2,
+        "3": 1,
+        "12": 1
+      },
+      "fiber_delta_counts": {
+        "2": 2,
+        "3": 1,
+        "57": 1
+      },
+      "from_class_counts": {
+        "q0": 3,
+        "q3": 1
+      },
+      "from_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "q_counts": {
+        "0": 3,
+        "3": 1
+      },
+      "role_pair": "WX/ZT",
+      "to_class_counts": {
+        "q0": 2,
+        "q3": 2
+      },
+      "to_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "transition_count": 4,
+      "transitions": [
+        {
+          "base_delta_mod15": 2,
+          "fiber_delta": 2,
+          "from_C": 0,
+          "from_class": "q0",
+          "lift_q": 0,
+          "role_pair": "WX/ZT",
+          "station_roles": [
+            "WX",
+            "ZT"
+          ],
+          "to_C": 2,
+          "to_class": "q0"
+        },
+        {
+          "base_delta_mod15": 2,
+          "fiber_delta": 2,
+          "from_C": 2,
+          "from_class": "q0",
+          "lift_q": 0,
+          "role_pair": "WX/ZT",
+          "station_roles": [
+            "WX",
+            "ZT"
+          ],
+          "to_C": 4,
+          "to_class": "q0"
+        },
+        {
+          "base_delta_mod15": 3,
+          "fiber_delta": 3,
+          "from_C": 10,
+          "from_class": "q0",
+          "lift_q": 0,
+          "role_pair": "WX/ZT",
+          "station_roles": [
+            "WX",
+            "ZT"
+          ],
+          "to_C": 13,
+          "to_class": "q3"
+        },
+        {
+          "base_delta_mod15": 12,
+          "fiber_delta": 57,
+          "from_C": 14,
+          "from_class": "q3",
+          "lift_q": 3,
+          "role_pair": "WX/ZT",
+          "station_roles": [
+            "WX",
+            "ZT"
+          ],
+          "to_C": 11,
+          "to_class": "q3"
+        }
+      ]
+    }
+  ],
+  "status": "c_transition_role_channel_grammar_audit_recorded",
+  "support": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    10,
+    11,
+    13,
+    14
+  ],
+  "support_equals_observed": true,
+  "transition_count": 12
+}

@@ -1,0 +1,834 @@
+{
+  "boundary": "This is over realized rows only. Role-specific affine laws may be descriptive or overfit; they do not prove selection from non-realized candidates and do not close Gap A.",
+  "input": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+  "interpretation": "This searches the shared_B residual station roles IW, XY, and ZT for role-specific affine mod-15 laws for to_C. It separates source-side laws from laws that use target-side fields.",
+  "role_results": [
+    {
+      "named_laws_first_20": [
+        {
+          "exact": false,
+          "law": "to_C = from_B - 2",
+          "match_count": 2,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot - 2",
+          "match_count": 2,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 3",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 2",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B + 3",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B - 3",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot + 3",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot - 3",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 3",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B + 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B + 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B - 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_C",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot + 1",
+          "match_count": 0,
+          "row_count": 4
+        }
+      ],
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 9,
+          "from_A": 2,
+          "from_B": 13,
+          "from_C": 1,
+          "from_slot": 13,
+          "integer_C_delta": 9,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 9,
+          "to_B": 13,
+          "to_C": 10,
+          "to_slot": 13
+        },
+        {
+          "C_delta": 12,
+          "from_A": 1,
+          "from_B": 11,
+          "from_C": 2,
+          "from_slot": 11,
+          "integer_C_delta": 12,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 7,
+          "to_B": 11,
+          "to_C": 14,
+          "to_slot": 11
+        },
+        {
+          "C_delta": 10,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_slot": 2,
+          "integer_C_delta": -5,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 0,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 12,
+          "from_A": 10,
+          "from_B": 4,
+          "from_C": 5,
+          "from_slot": 4,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 3,
+          "to_B": 4,
+          "to_C": 2,
+          "to_slot": 4
+        }
+      ],
+      "source_side_exact_law_count": 6,
+      "source_side_laws_first_20": [
+        {
+          "coeffs": [
+            2,
+            12,
+            3
+          ],
+          "const": 0,
+          "expr": "2*from_A + 12*from_C + 3*from_slot mod 15",
+          "nonzero_coeff_count": 3,
+          "row_count": 4,
+          "term_count": 3,
+          "terms": [
+            "from_A",
+            "from_C",
+            "from_slot"
+          ],
+          "uses_target_side": false
+        },
+        {
+          "coeffs": [
+            2,
+            3,
+            12
+          ],
+          "const": 0,
+          "expr": "2*from_A + 3*from_B + 12*from_C mod 15",
+          "nonzero_coeff_count": 3,
+          "row_count": 4,
+          "term_count": 3,
+          "terms": [
+            "from_A",
+            "from_B",
+            "from_C"
+          ],
+          "uses_target_side": false
+        },
+        {
+          "coeffs": [
+            2,
+            3,
+            12
+          ],
+          "const": 0,
+          "expr": "2*from_A + 3*from_B + 12*from_fiber_mod15 mod 15",
+          "nonzero_coeff_count": 3,
+          "row_count": 4,
+          "term_count": 3,
+          "terms": [
+            "from_A",
+            "from_B",
+            "from_fiber_mod15"
+          ],
+          "uses_target_side": false
+        },
+        {
+          "coeffs": [
+            2,
+            3,
+            12
+          ],
+          "const": 0,
+          "expr": "2*from_A + 3*from_B + 12*from_fiber_mod30 mod 15",
+          "nonzero_coeff_count": 3,
+          "row_count": 4,
+          "term_count": 3,
+          "terms": [
+            "from_A",
+            "from_B",
+            "from_fiber_mod30"
+          ],
+          "uses_target_side": false
+        },
+        {
+          "coeffs": [
+            2,
+            3,
+            12
+          ],
+          "const": 0,
+          "expr": "2*from_A + 3*from_slot + 12*from_fiber_mod15 mod 15",
+          "nonzero_coeff_count": 3,
+          "row_count": 4,
+          "term_count": 3,
+          "terms": [
+            "from_A",
+            "from_slot",
+            "from_fiber_mod15"
+          ],
+          "uses_target_side": false
+        },
+        {
+          "coeffs": [
+            2,
+            3,
+            12
+          ],
+          "const": 0,
+          "expr": "2*from_A + 3*from_slot + 12*from_fiber_mod30 mod 15",
+          "nonzero_coeff_count": 3,
+          "row_count": 4,
+          "term_count": 3,
+          "terms": [
+            "from_A",
+            "from_slot",
+            "from_fiber_mod30"
+          ],
+          "uses_target_side": false
+        }
+      ],
+      "station_role": "IW",
+      "with_target_side_exact_law_count": 0,
+      "with_target_side_laws_first_20": []
+    },
+    {
+      "named_laws_first_20": [
+        {
+          "exact": false,
+          "law": "to_C = from_B + 3",
+          "match_count": 2,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot + 3",
+          "match_count": 2,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 2",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 3",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 3",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B + 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B + 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B - 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B - 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B - 3",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_C",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot + 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot + 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot - 1",
+          "match_count": 0,
+          "row_count": 4
+        }
+      ],
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 3,
+          "from_A": 1,
+          "from_B": 0,
+          "from_C": 2,
+          "from_slot": 0,
+          "integer_C_delta": 3,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_A": 10,
+          "to_B": 0,
+          "to_C": 5,
+          "to_slot": 0
+        },
+        {
+          "C_delta": 1,
+          "from_A": 3,
+          "from_B": 2,
+          "from_C": 4,
+          "from_slot": 2,
+          "integer_C_delta": 1,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_A": 12,
+          "to_B": 2,
+          "to_C": 5,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 6,
+          "from_A": 7,
+          "from_B": 14,
+          "from_C": 11,
+          "from_slot": 14,
+          "integer_C_delta": -9,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_A": 3,
+          "to_B": 14,
+          "to_C": 2,
+          "to_slot": 14
+        },
+        {
+          "C_delta": 3,
+          "from_A": 9,
+          "from_B": 10,
+          "from_C": 13,
+          "from_slot": 10,
+          "integer_C_delta": -12,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_A": 0,
+          "to_B": 10,
+          "to_C": 1,
+          "to_slot": 10
+        }
+      ],
+      "source_side_exact_law_count": 0,
+      "source_side_laws_first_20": [],
+      "station_role": "XY",
+      "with_target_side_exact_law_count": 0,
+      "with_target_side_laws_first_20": []
+    },
+    {
+      "named_laws_first_20": [
+        {
+          "exact": false,
+          "law": "to_C = from_B - 3",
+          "match_count": 2,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot - 3",
+          "match_count": 2,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 2",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B - 1",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot - 1",
+          "match_count": 1,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A + 3",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_A - 3",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B + 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B + 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B + 3",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_B - 2",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_C",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot + 1",
+          "match_count": 0,
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "to_C = from_slot + 2",
+          "match_count": 0,
+          "row_count": 4
+        }
+      ],
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 2,
+          "from_A": 10,
+          "from_B": 5,
+          "from_C": 0,
+          "from_slot": 5,
+          "integer_C_delta": 2,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "WX/ZT",
+          "station_role": "ZT",
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_slot": 5
+        },
+        {
+          "C_delta": 2,
+          "from_A": 12,
+          "from_B": 5,
+          "from_C": 2,
+          "from_slot": 5,
+          "integer_C_delta": 2,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "WX/ZT",
+          "station_role": "ZT",
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 4,
+          "to_slot": 5
+        },
+        {
+          "C_delta": 3,
+          "from_A": 0,
+          "from_B": 1,
+          "from_C": 10,
+          "from_slot": 1,
+          "integer_C_delta": 3,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "WX/ZT",
+          "station_role": "ZT",
+          "to_A": 2,
+          "to_B": 1,
+          "to_C": 13,
+          "to_slot": 1
+        },
+        {
+          "C_delta": 12,
+          "from_A": 3,
+          "from_B": 2,
+          "from_C": 14,
+          "from_slot": 2,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "WX/ZT",
+          "station_role": "ZT",
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 11,
+          "to_slot": 2
+        }
+      ],
+      "source_side_exact_law_count": 0,
+      "source_side_laws_first_20": [],
+      "station_role": "ZT",
+      "with_target_side_exact_law_count": 0,
+      "with_target_side_laws_first_20": []
+    }
+  ],
+  "sharedB_named_laws_first_20": [
+    {
+      "exact": false,
+      "law": "to_C = from_B + 3",
+      "match_count": 3,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_B - 3",
+      "match_count": 3,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_slot + 3",
+      "match_count": 3,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_slot - 3",
+      "match_count": 3,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_A - 2",
+      "match_count": 2,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_B - 2",
+      "match_count": 2,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_slot - 2",
+      "match_count": 2,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_A + 2",
+      "match_count": 1,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_A + 3",
+      "match_count": 1,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_B - 1",
+      "match_count": 1,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_slot - 1",
+      "match_count": 1,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_A",
+      "match_count": 0,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_A + 1",
+      "match_count": 0,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_A - 1",
+      "match_count": 0,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_A - 3",
+      "match_count": 0,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_B",
+      "match_count": 0,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_B + 1",
+      "match_count": 0,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_B + 2",
+      "match_count": 0,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_C",
+      "match_count": 0,
+      "row_count": 12
+    },
+    {
+      "exact": false,
+      "law": "to_C = from_slot",
+      "match_count": 0,
+      "row_count": 12
+    }
+  ],
+  "sharedB_row_count": 12,
+  "source_side_roles_with_exact_law": 1,
+  "station_role_counts": {
+    "IW": 4,
+    "XY": 4,
+    "ZT": 4
+  },
+  "status": "wxyzti_sharedB_residual_law_search_recorded"
+}

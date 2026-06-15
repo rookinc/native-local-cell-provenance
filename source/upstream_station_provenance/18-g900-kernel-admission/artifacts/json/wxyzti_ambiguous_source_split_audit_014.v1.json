@@ -1,0 +1,687 @@
+{
+  "ambiguous_station_sources": [
+    {
+      "from_C": 5,
+      "minimal_splitters_to_to_C": [
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "C_delta"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "from_A"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "from_B"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "from_slot"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "integer_C_delta"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "to_A"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "to_B"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "to_fiber"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "to_slot"
+          ],
+          "target": "to_C"
+        }
+      ],
+      "row_count": 2,
+      "rows": [
+        {
+          "C_delta": 10,
+          "C_wrap_flag": true,
+          "fiber_delta": 55,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_fiber": 5,
+          "from_slot": 2,
+          "integer_C_delta": -5,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 0,
+          "to_fiber": 0,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 12,
+          "C_wrap_flag": true,
+          "fiber_delta": 57,
+          "from_A": 10,
+          "from_B": 4,
+          "from_C": 5,
+          "from_fiber": 5,
+          "from_slot": 4,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 3,
+          "to_B": 4,
+          "to_C": 2,
+          "to_fiber": 2,
+          "to_slot": 4
+        }
+      ],
+      "station_role": "IW",
+      "to_C_values": [
+        0,
+        2
+      ]
+    },
+    {
+      "from_C": 5,
+      "minimal_splitters_to_to_C": [
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "C_delta"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "from_A"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "from_B"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "from_slot"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "integer_C_delta"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "to_A"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "1": 2
+          },
+          "keys": [
+            "to_fiber"
+          ],
+          "target": "to_C"
+        }
+      ],
+      "row_count": 2,
+      "rows": [
+        {
+          "C_delta": 10,
+          "C_wrap_flag": true,
+          "fiber_delta": 55,
+          "from_A": 10,
+          "from_B": 0,
+          "from_C": 5,
+          "from_fiber": 5,
+          "from_slot": 0,
+          "integer_C_delta": -5,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "IW/YZ",
+          "station_role": "YZ",
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 0,
+          "to_fiber": 0,
+          "to_slot": 5
+        },
+        {
+          "C_delta": 12,
+          "C_wrap_flag": true,
+          "fiber_delta": 57,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_fiber": 5,
+          "from_slot": 2,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "IW/YZ",
+          "station_role": "YZ",
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_fiber": 2,
+          "to_slot": 5
+        }
+      ],
+      "station_role": "YZ",
+      "to_C_values": [
+        0,
+        2
+      ]
+    }
+  ],
+  "base_tests": [
+    {
+      "ambiguous_group_count": 1,
+      "ambiguous_groups_first_10": {
+        "('IW/YZ', 5)": [
+          0,
+          2
+        ]
+      },
+      "deterministic": false,
+      "group_count": 11,
+      "group_size_counts": {
+        "2": 10,
+        "4": 1
+      },
+      "keys": [
+        "role_pair",
+        "from_C"
+      ],
+      "target": "to_C"
+    },
+    {
+      "ambiguous_group_count": 2,
+      "ambiguous_groups_first_10": {
+        "('IW', 5)": [
+          0,
+          2
+        ],
+        "('YZ', 5)": [
+          0,
+          2
+        ]
+      },
+      "deterministic": false,
+      "group_count": 22,
+      "group_size_counts": {
+        "1": 20,
+        "2": 2
+      },
+      "keys": [
+        "station_role",
+        "from_C"
+      ],
+      "target": "to_C"
+    },
+    {
+      "ambiguous_group_count": 1,
+      "ambiguous_groups_first_10": {
+        "('IW/YZ', 5)": [
+          -5,
+          -3
+        ]
+      },
+      "deterministic": false,
+      "group_count": 11,
+      "group_size_counts": {
+        "2": 10,
+        "4": 1
+      },
+      "keys": [
+        "role_pair",
+        "from_C"
+      ],
+      "target": "integer_C_delta"
+    },
+    {
+      "ambiguous_group_count": 2,
+      "ambiguous_groups_first_10": {
+        "('IW', 5)": [
+          -5,
+          -3
+        ],
+        "('YZ', 5)": [
+          -5,
+          -3
+        ]
+      },
+      "deterministic": false,
+      "group_count": 22,
+      "group_size_counts": {
+        "1": 20,
+        "2": 2
+      },
+      "keys": [
+        "station_role",
+        "from_C"
+      ],
+      "target": "integer_C_delta"
+    },
+    {
+      "ambiguous_group_count": 1,
+      "ambiguous_groups_first_10": {
+        "('IW/YZ', 5)": [
+          10,
+          12
+        ]
+      },
+      "deterministic": false,
+      "group_count": 11,
+      "group_size_counts": {
+        "2": 10,
+        "4": 1
+      },
+      "keys": [
+        "role_pair",
+        "from_C"
+      ],
+      "target": "C_delta"
+    },
+    {
+      "ambiguous_group_count": 2,
+      "ambiguous_groups_first_10": {
+        "('IW', 5)": [
+          10,
+          12
+        ],
+        "('YZ', 5)": [
+          10,
+          12
+        ]
+      },
+      "deterministic": false,
+      "group_count": 22,
+      "group_size_counts": {
+        "1": 20,
+        "2": 2
+      },
+      "keys": [
+        "station_role",
+        "from_C"
+      ],
+      "target": "C_delta"
+    }
+  ],
+  "boundary": "This is still over realized rows only. A splitter here explains a realized ambiguity but does not prove selection from a non-realized candidate universe or close Gap A.",
+  "focus_groups": [
+    {
+      "C_delta_counts": {
+        "10": 2,
+        "12": 2
+      },
+      "from_A_counts": {
+        "10": 2,
+        "12": 2
+      },
+      "from_B_counts": {
+        "0": 1,
+        "2": 2,
+        "4": 1
+      },
+      "group_keys": [
+        "role_pair",
+        "from_C"
+      ],
+      "group_values": [
+        "IW/YZ",
+        5
+      ],
+      "integer_C_delta_counts": {
+        "-5": 2,
+        "-3": 2
+      },
+      "lift_q_counts": {
+        "3": 4
+      },
+      "minimal_splitters_to_integer_C_delta": [
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "2": 2
+          },
+          "keys": [
+            "C_delta"
+          ],
+          "target": "integer_C_delta"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "2": 2
+          },
+          "keys": [
+            "to_fiber"
+          ],
+          "target": "integer_C_delta"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 4,
+          "group_size_counts": {
+            "1": 4
+          },
+          "keys": [
+            "to_A"
+          ],
+          "target": "integer_C_delta"
+        }
+      ],
+      "minimal_splitters_to_to_C": [
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "2": 2
+          },
+          "keys": [
+            "C_delta"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "2": 2
+          },
+          "keys": [
+            "integer_C_delta"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 2,
+          "group_size_counts": {
+            "2": 2
+          },
+          "keys": [
+            "to_fiber"
+          ],
+          "target": "to_C"
+        },
+        {
+          "ambiguous_group_count": 0,
+          "ambiguous_groups_first_10": {},
+          "deterministic": true,
+          "group_count": 4,
+          "group_size_counts": {
+            "1": 4
+          },
+          "keys": [
+            "to_A"
+          ],
+          "target": "to_C"
+        }
+      ],
+      "name": "role_pair_IW_YZ_from_C_5",
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 10,
+          "C_wrap_flag": true,
+          "fiber_delta": 55,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_fiber": 5,
+          "from_slot": 2,
+          "integer_C_delta": -5,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 0,
+          "to_fiber": 0,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 12,
+          "C_wrap_flag": true,
+          "fiber_delta": 57,
+          "from_A": 10,
+          "from_B": 4,
+          "from_C": 5,
+          "from_fiber": 5,
+          "from_slot": 4,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 3,
+          "to_B": 4,
+          "to_C": 2,
+          "to_fiber": 2,
+          "to_slot": 4
+        },
+        {
+          "C_delta": 10,
+          "C_wrap_flag": true,
+          "fiber_delta": 55,
+          "from_A": 10,
+          "from_B": 0,
+          "from_C": 5,
+          "from_fiber": 5,
+          "from_slot": 0,
+          "integer_C_delta": -5,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "IW/YZ",
+          "station_role": "YZ",
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 0,
+          "to_fiber": 0,
+          "to_slot": 5
+        },
+        {
+          "C_delta": 12,
+          "C_wrap_flag": true,
+          "fiber_delta": 57,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_fiber": 5,
+          "from_slot": 2,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "IW/YZ",
+          "station_role": "YZ",
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_fiber": 2,
+          "to_slot": 5
+        }
+      ],
+      "station_role_counts": {
+        "IW": 2,
+        "YZ": 2
+      },
+      "to_A_counts": {
+        "1": 1,
+        "3": 1,
+        "10": 1,
+        "12": 1
+      },
+      "to_B_counts": {
+        "2": 1,
+        "4": 1,
+        "5": 2
+      },
+      "to_C_values": [
+        0,
+        2
+      ]
+    }
+  ],
+  "input": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+  "interpretation": "This focuses on the remaining allowed-pair ambiguity after 013, especially role_pair=IW/YZ with from_C=5, and asks which station/provenance fields split to_C=0 from to_C=2.",
+  "row_count": 24,
+  "status": "wxyzti_ambiguous_source_split_audit_recorded"
+}

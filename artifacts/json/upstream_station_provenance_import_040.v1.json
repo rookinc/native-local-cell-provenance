@@ -1,0 +1,1210 @@
+{
+  "audit_id": "040",
+  "boundary": "This is an import and manifest artifact. It does not prove scalar provenance, does not derive the role-labeled shared_B universe, and does not close Gap A.",
+  "checks": {
+    "copied_all_selected_existing": true,
+    "copied_file_count": 24,
+    "locator_039_complete": true,
+    "locator_has_rich_station_files": true,
+    "manifest_written": true,
+    "missing_file_count": 0,
+    "selected_file_count": 24
+  },
+  "copied": [
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_station_provenance_law_audit_010.v1.json",
+      "key_counts": {
+        "edge_role": 24,
+        "from_A": 48,
+        "from_B": 48,
+        "from_C": 48,
+        "from_fiber": 48,
+        "from_slot": 48,
+        "lift_q": 24,
+        "reverse_partner": 1,
+        "role_pair": 27,
+        "shared_B": 1,
+        "source": 24,
+        "station_role": 30,
+        "to_A": 48,
+        "to_B": 48,
+        "to_C": 48,
+        "to_fiber": 48,
+        "to_slot": 48
+      },
+      "role_token_counts": {
+        "IW": 17,
+        "TI": 17,
+        "WX": 17,
+        "XY": 17,
+        "YZ": 17,
+        "ZT": 17,
+        "reverse_partner": 27,
+        "shared_B": 27
+      },
+      "score": 150,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/wxyzti_station_provenance_law_audit_010.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "deterministic_test_count",
+          "exact_deterministic_test_count",
+          "exact_deterministic_tests_first_40",
+          "input",
+          "interpretation",
+          "role_class_counts",
+          "role_class_summary",
+          "role_counts",
+          "role_pair_counts",
+          "role_pair_summary",
+          "rows",
+          "semantic_row_count",
+          "station_role_summary",
+          "status"
+        ],
+        "row_count": 24,
+        "status": "wxyzti_station_provenance_law_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+      "key_counts": {
+        "edge_role": 24,
+        "from_A": 48,
+        "from_B": 48,
+        "from_C": 48,
+        "from_fiber": 48,
+        "from_slot": 48,
+        "lift_q": 26,
+        "role_pair": 27,
+        "source": 24,
+        "station_role": 30,
+        "to_A": 48,
+        "to_B": 48,
+        "to_C": 48,
+        "to_fiber": 48,
+        "to_slot": 48
+      },
+      "role_token_counts": {
+        "IW": 15,
+        "TI": 15,
+        "WX": 15,
+        "XY": 15,
+        "YZ": 15,
+        "ZT": 15,
+        "reverse_partner": 24,
+        "shared_B": 24
+      },
+      "score": 150,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "all_fiber_mod15_delta_equals_C_delta",
+          "all_fiber_sheet15_delta_equals_lift_q",
+          "all_from_fiber_mod15_equals_from_C",
+          "all_q3_sheet30_rule",
+          "all_to_fiber_mod15_equals_to_C",
+          "boundary",
+          "exact_deterministic_test_count",
+          "exact_deterministic_tests_first_50",
+          "from_fiber_sheet15_summary",
+          "from_fiber_sheet30_summary",
+          "input",
+          "interpretation",
+          "lift_q_summary",
+          "role_pair_summary",
+          "row_count",
+          "rows",
+          "station_role_summary",
+          "status"
+        ],
+        "row_count": 24,
+        "status": "wxyzti_g30_shadow_sheet_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+      "key_counts": {
+        "edge_role": 24,
+        "from_A": 48,
+        "from_B": 48,
+        "from_C": 48,
+        "from_fiber": 48,
+        "from_slot": 48,
+        "lift_q": 24,
+        "role_pair": 27,
+        "source": 24,
+        "station_role": 30,
+        "to_A": 48,
+        "to_B": 48,
+        "to_C": 48,
+        "to_fiber": 48,
+        "to_slot": 48
+      },
+      "role_token_counts": {
+        "IW": 15,
+        "TI": 15,
+        "WX": 15,
+        "XY": 15,
+        "YZ": 15,
+        "ZT": 15,
+        "reverse_partner": 24,
+        "shared_B": 24
+      },
+      "score": 150,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "all_predicted_fiber_delta_matches",
+          "all_predicted_lift_q_matches",
+          "all_same_sheet15",
+          "all_same_sheet30",
+          "boundary",
+          "input",
+          "integer_C_delta_counts",
+          "law",
+          "lift_q_counts",
+          "role_pair_summary",
+          "row_count",
+          "rows",
+          "station_role_summary",
+          "status",
+          "wrap_flag_counts"
+        ],
+        "row_count": 24,
+        "status": "wxyzti_same_sheet_wrap_carry_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_ambiguous_source_split_audit_014.v1.json",
+      "key_counts": {
+        "from_A": 8,
+        "from_B": 8,
+        "from_C": 10,
+        "from_fiber": 8,
+        "from_slot": 8,
+        "lift_q": 8,
+        "role_pair": 8,
+        "station_role": 10,
+        "target": 29,
+        "to_A": 8,
+        "to_B": 8,
+        "to_C": 8,
+        "to_fiber": 8,
+        "to_slot": 8
+      },
+      "role_token_counts": {
+        "IW": 19,
+        "YZ": 19,
+        "reverse_partner": 7,
+        "shared_B": 7
+      },
+      "score": 145,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/wxyzti_ambiguous_source_split_audit_014.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "ambiguous_station_sources",
+          "base_tests",
+          "boundary",
+          "focus_groups",
+          "input",
+          "interpretation",
+          "row_count",
+          "status"
+        ],
+        "row_count": 24,
+        "status": "wxyzti_ambiguous_source_split_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+      "key_counts": {
+        "from_A": 528,
+        "from_B": 528,
+        "from_C": 528,
+        "from_slot": 528,
+        "lift_q": 48,
+        "role_pair": 48,
+        "station_role": 528,
+        "to_A": 48,
+        "to_B": 48,
+        "to_C": 528,
+        "to_slot": 48
+      },
+      "role_token_counts": {
+        "IW": 123,
+        "TI": 123,
+        "WX": 123,
+        "XY": 123,
+        "YZ": 123,
+        "ZT": 123,
+        "reverse_partner": 29,
+        "shared_B": 29
+      },
+      "score": 135,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "input",
+          "interpretation",
+          "reverse_partner_summary",
+          "row_count",
+          "shared_B_summary",
+          "station_summaries",
+          "status"
+        ],
+        "row_count": 24,
+        "status": "wxyzti_reverse_partner_vs_sharedB_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+      "key_counts": {
+        "from_A": 12,
+        "from_B": 12,
+        "from_C": 12,
+        "from_slot": 12,
+        "lift_q": 12,
+        "role_pair": 12,
+        "station_role": 15,
+        "to_A": 12,
+        "to_B": 12,
+        "to_C": 12,
+        "to_slot": 12
+      },
+      "role_token_counts": {
+        "IW": 7,
+        "TI": 6,
+        "WX": 6,
+        "XY": 7,
+        "YZ": 6,
+        "ZT": 7,
+        "shared_B": 16
+      },
+      "score": 135,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "input",
+          "interpretation",
+          "role_results",
+          "sharedB_named_laws_first_20",
+          "sharedB_row_count",
+          "source_side_roles_with_exact_law",
+          "station_role_counts",
+          "status"
+        ],
+        "row_count": null,
+        "status": "wxyzti_sharedB_residual_law_search_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+      "key_counts": {
+        "from_A": 72,
+        "from_B": 72,
+        "from_C": 72,
+        "from_fiber": 72,
+        "from_slot": 72,
+        "lift_q": 72,
+        "role_pair": 72,
+        "station_role": 72,
+        "to_A": 72,
+        "to_B": 72,
+        "to_C": 72,
+        "to_fiber": 72,
+        "to_slot": 72
+      },
+      "role_token_counts": {
+        "IW": 38,
+        "TI": 38,
+        "WX": 38,
+        "XY": 38,
+        "YZ": 38,
+        "ZT": 38,
+        "reverse_partner": 44,
+        "shared_B": 44
+      },
+      "score": 145,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "input",
+          "interpretation",
+          "reverse_partner_summary",
+          "role_pair_summaries",
+          "row_count",
+          "shared_B_summary",
+          "station_summaries",
+          "status"
+        ],
+        "row_count": 24,
+        "status": "wxyzti_role_class_invariant_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_station_transform_map_audit_019.v1.json",
+      "key_counts": {
+        "from_A": 24,
+        "from_B": 24,
+        "from_C": 24,
+        "from_slot": 24,
+        "lift_q": 24,
+        "role_pair": 48,
+        "station_role": 60,
+        "to_A": 24,
+        "to_B": 24,
+        "to_C": 24,
+        "to_slot": 24
+      },
+      "role_token_counts": {
+        "IW": 19,
+        "TI": 22,
+        "WX": 22,
+        "XY": 19,
+        "YZ": 22,
+        "ZT": 19,
+        "reverse_partner": 1,
+        "shared_B": 28
+      },
+      "score": 135,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_station_transform_map_audit_019.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "input",
+          "interpretation",
+          "name",
+          "reverse_partner_matches",
+          "reverse_partner_misses",
+          "reverse_partner_row_count",
+          "reverse_partner_swap_BC_exact",
+          "reverse_partner_swap_BC_match_count",
+          "reverse_partner_swap_BC_miss_count",
+          "row_count",
+          "shared_B_by_role",
+          "shared_B_delta_counts",
+          "shared_B_items",
+          "shared_B_row_count",
+          "status"
+        ],
+        "row_count": 24,
+        "status": "wxyzti_station_transform_map_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_shared_reverse_pair_coupling_audit_021.v1.json",
+      "key_counts": {
+        "from_A": 24,
+        "from_B": 24,
+        "from_C": 24,
+        "from_slot": 24,
+        "lift_q": 24,
+        "role_pair": 24,
+        "station_role": 24,
+        "to_A": 24,
+        "to_B": 24,
+        "to_C": 24,
+        "to_slot": 24
+      },
+      "role_token_counts": {
+        "IW": 14,
+        "TI": 14,
+        "WX": 14,
+        "XY": 14,
+        "YZ": 14,
+        "ZT": 14,
+        "reverse_partner": 25,
+        "shared_B": 25
+      },
+      "score": 135,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_shared_reverse_pair_coupling_audit_021.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "bad_bucket_count",
+          "bad_buckets",
+          "boundary",
+          "exact_true_flag_count",
+          "exact_true_flags",
+          "flag_counts",
+          "input",
+          "interpretation",
+          "pair_count",
+          "pair_records",
+          "partial_flags",
+          "reverse_role_counts",
+          "shared_role_counts",
+          "status"
+        ],
+        "row_count": null,
+        "status": "wxyzti_shared_reverse_pair_coupling_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "key_counts": {
+        "from_A": 84,
+        "from_B": 84,
+        "from_C": 84,
+        "from_slot": 84,
+        "lift_q": 84,
+        "role_pair": 126,
+        "station_role": 84,
+        "to_A": 84,
+        "to_B": 84,
+        "to_C": 84,
+        "to_slot": 84
+      },
+      "role_token_counts": {
+        "IW": 55,
+        "TI": 55,
+        "WX": 35,
+        "XY": 55,
+        "YZ": 55,
+        "ZT": 35,
+        "reverse_partner": 85,
+        "shared_B": 85
+      },
+      "score": 135,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "accepted_strict_pairs",
+          "boundary",
+          "candidate_count",
+          "candidate_role_pair_counts",
+          "candidate_universe",
+          "exact_selectors",
+          "expected_pair_count",
+          "expected_role_pair_counts",
+          "input_pairs",
+          "input_rows",
+          "interpretation",
+          "rejected_strict_pairs_first_30",
+          "reverse_row_count",
+          "selector_scores",
+          "shared_row_count",
+          "status",
+          "strict_pair_grammar_accepted_count",
+          "strict_pair_grammar_rejected_count"
+        ],
+        "row_count": 12,
+        "status": "wxyzti_answer_pair_candidate_universe_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_station_transition_feature_inspection_009.v1.json",
+      "key_counts": {
+        "edge_role": 24,
+        "from_A": 24,
+        "from_B": 24,
+        "from_C": 48,
+        "from_fiber": 24,
+        "from_slot": 24,
+        "source": 24,
+        "station_role": 24,
+        "to_A": 24,
+        "to_B": 24,
+        "to_C": 48,
+        "to_fiber": 24,
+        "to_slot": 24
+      },
+      "role_token_counts": {
+        "IW": 12,
+        "TI": 12,
+        "WX": 12,
+        "XY": 12,
+        "YZ": 12,
+        "ZT": 12,
+        "reverse_partner": 14,
+        "shared_B": 14
+      },
+      "score": 131,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/wxyzti_station_transition_feature_inspection_009.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "expected_pair_role_row_count",
+          "expected_role_counts",
+          "expected_rows_first_40",
+          "feature_keys",
+          "feature_summaries",
+          "interpretation",
+          "nonexpected_pair_role_row_count",
+          "nonexpected_role_counts",
+          "nonexpected_rows_first_40",
+          "raw_row_count",
+          "role_counts",
+          "scanned_files",
+          "semantic_pair_role_row_count",
+          "status"
+        ],
+        "row_count": null,
+        "status": "wxyzti_station_transition_feature_inspection_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_overlay_delta_generator_001.v1.json",
+      "key_counts": {
+        "edge_role": 48,
+        "from_A": 24,
+        "from_B": 24,
+        "from_C": 24,
+        "from_fiber": 48,
+        "from_slot": 24,
+        "reverse_partner": 2,
+        "shared_B": 2,
+        "to_A": 24,
+        "to_B": 24,
+        "to_C": 24,
+        "to_fiber": 24,
+        "to_slot": 24
+      },
+      "role_token_counts": {
+        "IW": 9,
+        "TI": 10,
+        "WX": 10,
+        "XY": 10,
+        "YZ": 10,
+        "ZT": 10,
+        "reverse_partner": 29,
+        "shared_B": 29
+      },
+      "score": 131,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/c_transition_overlay_delta_generator_001.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "checks",
+          "predictions",
+          "purpose",
+          "rule_members",
+          "schema",
+          "status",
+          "summary",
+          "timestamp_utc"
+        ],
+        "row_count": null,
+        "status": "c_transition_overlay_delta_generator_found"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/synthetic_pair_skeleton_universe_003.v1.json",
+      "key_counts": {
+        "from_A": 48,
+        "from_B": 48,
+        "from_C": 48,
+        "from_slot": 48,
+        "lift_q": 48,
+        "role_pair": 48,
+        "station_role": 48,
+        "to_A": 48,
+        "to_B": 48,
+        "to_C": 48,
+        "to_slot": 48
+      },
+      "role_token_counts": {
+        "IW": 29,
+        "TI": 29,
+        "WX": 29,
+        "XY": 29,
+        "YZ": 29,
+        "ZT": 29,
+        "reverse_partner": 61,
+        "shared_B": 61
+      },
+      "score": 135,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/artifacts/json/synthetic_pair_skeleton_universe_003.v1.json",
+      "source_summary": {
+        "audit_id": "003",
+        "keys_top_level": [
+          "audit_id",
+          "boundary",
+          "free_variable_count_per_key",
+          "input_realized_rows_for_evaluation_only",
+          "input_selector_002",
+          "interpretation",
+          "matched_examples_first_20",
+          "overgeneration_factor_per_realized_pair",
+          "per_key",
+          "realized_pair_signature_count",
+          "selected_key_count",
+          "status",
+          "synthetic_candidate_count_per_key",
+          "total_realized_match_count",
+          "total_synthetic_candidate_count",
+          "uses_project18_expected_pair_records",
+          "uses_realized_rows_for_evaluation",
+          "uses_realized_rows_for_generation",
+          "values_per_free_variable"
+        ],
+        "row_count": null,
+        "status": "synthetic_pair_skeleton_universe_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/triangle_frame_assignment_audit_006.v1.json",
+      "key_counts": {
+        "from_A": 24,
+        "from_B": 24,
+        "from_C": 24,
+        "from_slot": 24,
+        "lift_q": 24,
+        "role_pair": 48,
+        "station_role": 24,
+        "to_A": 24,
+        "to_B": 24,
+        "to_C": 24,
+        "to_slot": 24
+      },
+      "role_token_counts": {
+        "IW": 18,
+        "TI": 18,
+        "WX": 18,
+        "XY": 18,
+        "YZ": 18,
+        "ZT": 18,
+        "reverse_partner": 37,
+        "shared_B": 37
+      },
+      "score": 135,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/artifacts/json/triangle_frame_assignment_audit_006.v1.json",
+      "source_summary": {
+        "audit_id": "006",
+        "keys_top_level": [
+          "audit_id",
+          "boundary",
+          "candidate_count",
+          "candidate_universe",
+          "input_rows",
+          "interpretation",
+          "selected_C_tracks",
+          "selected_count",
+          "selected_frames",
+          "selected_role_pair_counts",
+          "sketch_reading",
+          "status"
+        ],
+        "row_count": 48,
+        "status": "triangle_frame_assignment_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+      "key_counts": {
+        "edge_role": 24,
+        "from_A": 24,
+        "from_B": 24,
+        "from_C": 24,
+        "from_fiber": 24,
+        "from_slot": 24,
+        "reverse_partner": 18,
+        "shared_B": 18,
+        "to_A": 24,
+        "to_B": 24,
+        "to_C": 24,
+        "to_fiber": 24,
+        "to_slot": 24
+      },
+      "role_token_counts": {
+        "IW": 5,
+        "TI": 6,
+        "WX": 6,
+        "XY": 6,
+        "YZ": 6,
+        "ZT": 6,
+        "reverse_partner": 42,
+        "shared_B": 42
+      },
+      "score": 131,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "candidate_results",
+          "checks",
+          "edge_records",
+          "missing_endpoint",
+          "purpose",
+          "schema",
+          "status",
+          "summary",
+          "timestamp_utc",
+          "two_map_exact_hits"
+        ],
+        "row_count": null,
+        "status": "g60_native_overlay_generator_not_found_in_tested_family"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_rule_member_alignment_012.v1.json",
+      "key_counts": {
+        "edge_role": 72,
+        "from_A": 48,
+        "from_B": 48,
+        "from_C": 48,
+        "from_fiber": 24,
+        "from_slot": 48,
+        "reverse_partner": 14,
+        "role_pair": 24,
+        "shared_B": 14,
+        "to_A": 48,
+        "to_B": 48,
+        "to_C": 48,
+        "to_fiber": 24,
+        "to_slot": 48
+      },
+      "role_token_counts": {
+        "IW": 22,
+        "TI": 22,
+        "WX": 22,
+        "XY": 22,
+        "YZ": 22,
+        "ZT": 22,
+        "reverse_partner": 63,
+        "shared_B": 63
+      },
+      "score": 121,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/artifacts/json/native_rule_member_alignment_012.v1.json",
+      "source_summary": {
+        "audit_id": "012",
+        "keys_top_level": [
+          "alignments",
+          "ambiguous_member_count",
+          "audit_id",
+          "boundary",
+          "flat_member_class_counts",
+          "flat_member_edge_role_counts",
+          "flat_member_label_counts",
+          "free_variable_match_count",
+          "input_free_variable_table_004",
+          "input_native_rule_members",
+          "input_selector_002",
+          "interpretation",
+          "missing_transition_keys",
+          "native_flat_member_count",
+          "native_transition_count",
+          "native_transition_keys",
+          "selected_transition_count",
+          "selected_transition_keys",
+          "selected_transitions_with_two_members",
+          "status"
+        ],
+        "row_count": null,
+        "status": "native_rule_member_alignment_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_chain_schema_inspection_011.v1.json",
+      "key_counts": {
+        "fiber": 18,
+        "from_A": 5,
+        "from_B": 7,
+        "from_C": 17,
+        "lift_q": 11,
+        "role_pair": 6,
+        "slot": 5,
+        "source": 9,
+        "station_role": 3,
+        "to_A": 5,
+        "to_B": 7,
+        "to_C": 18
+      },
+      "role_token_counts": {
+        "IW": 15,
+        "TI": 13,
+        "WX": 26,
+        "XY": 19,
+        "YZ": 23,
+        "ZT": 16,
+        "reverse_partner": 92,
+        "shared_B": 68
+      },
+      "score": 112,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/artifacts/json/native_chain_schema_inspection_011.v1.json",
+      "source_summary": {
+        "audit_id": "011",
+        "keys_top_level": [
+          "audit_id",
+          "boundary",
+          "file_count",
+          "global_needle_counts",
+          "interpretation",
+          "ranked_files",
+          "source_dir",
+          "status",
+          "top_files"
+        ],
+        "row_count": null,
+        "status": "native_chain_schema_inspection_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json",
+      "key_counts": {
+        "edge_role": 48,
+        "from_C": 48,
+        "from_fiber": 48,
+        "to_C": 48,
+        "to_fiber": 24
+      },
+      "role_token_counts": {
+        "IW": 9,
+        "TI": 11,
+        "WX": 11,
+        "XY": 11,
+        "YZ": 11,
+        "ZT": 11,
+        "reverse_partner": 25,
+        "shared_B": 25
+      },
+      "score": 101,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "checks",
+          "members_by_from_c",
+          "predictions",
+          "purpose",
+          "schema",
+          "status",
+          "summary",
+          "timestamp_utc"
+        ],
+        "row_count": null,
+        "status": "from_c_lift_q_overlay_delta_formula_found"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_members_vs_g60_overlay_edges_014.v1.json",
+      "key_counts": {
+        "edge_role": 24,
+        "from_C": 24,
+        "from_fiber": 24,
+        "reverse_partner": 2,
+        "shared_B": 2,
+        "to_C": 24,
+        "to_fiber": 24
+      },
+      "role_token_counts": {
+        "IW": 6,
+        "TI": 6,
+        "WX": 6,
+        "XY": 6,
+        "YZ": 6,
+        "ZT": 6,
+        "reverse_partner": 14,
+        "shared_B": 14
+      },
+      "score": 101,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/artifacts/json/native_members_vs_g60_overlay_edges_014.v1.json",
+      "source_summary": {
+        "audit_id": "014",
+        "keys_top_level": [
+          "audit_id",
+          "boundary",
+          "exact_signature_match",
+          "g60_edge_record_count",
+          "g60_edge_role_counts",
+          "g60_edge_signature_count",
+          "g60_label_counts",
+          "g60_only_count",
+          "g60_only_first_20",
+          "input_g60_overlay",
+          "input_target_members",
+          "interpretation",
+          "intersection_count",
+          "matched_rows_first_40",
+          "signature_fields",
+          "status",
+          "target_edge_role_counts",
+          "target_label_counts",
+          "target_member_count",
+          "target_only_count",
+          "target_only_first_20",
+          "target_signature_count"
+        ],
+        "row_count": null,
+        "status": "native_members_vs_g60_overlay_edges_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/sharedB_residual_selector_profile_017.v1.json",
+      "key_counts": {
+        "edge_role": 15,
+        "from_fiber": 12,
+        "from_slot": 12,
+        "role_pair": 15,
+        "target": 376,
+        "to_A": 1,
+        "to_C": 1,
+        "to_fiber": 13,
+        "to_slot": 12
+      },
+      "role_token_counts": {
+        "IW": 8,
+        "TI": 6,
+        "WX": 6,
+        "XY": 6,
+        "YZ": 6,
+        "ZT": 10,
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "score": 90,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/artifacts/json/sharedB_residual_selector_profile_017.v1.json",
+      "source_summary": {
+        "audit_id": "017",
+        "keys_top_level": [
+          "audit_id",
+          "boundary",
+          "compact_extended_exact_first_80",
+          "compact_source_exact_first_80",
+          "exact_by_target",
+          "extended_exact_count",
+          "extended_features",
+          "extended_test_count",
+          "global_laws",
+          "input_g60_overlay",
+          "interpretation",
+          "named_tests",
+          "role_rows",
+          "row_count",
+          "sharedB_rows",
+          "source_exact_count",
+          "source_features",
+          "source_test_count",
+          "status",
+          "strength_counts_extended",
+          "strength_counts_source",
+          "targets"
+        ],
+        "row_count": 12,
+        "status": "sharedB_residual_selector_profile_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/source_artifact_schema_inventory_009.v1.json",
+      "key_counts": {
+        "A": 1,
+        "B": 1,
+        "C": 1,
+        "fiber": 1,
+        "role": 1,
+        "slot": 1
+      },
+      "role_token_counts": {
+        "IW": 121,
+        "TI": 28,
+        "WX": 30,
+        "XY": 86,
+        "YZ": 50,
+        "ZT": 57,
+        "reverse_partner": 267,
+        "shared_B": 205
+      },
+      "score": 82,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/artifacts/json/source_artifact_schema_inventory_009.v1.json",
+      "source_summary": {
+        "audit_id": "009",
+        "keys_top_level": [
+          "audit_id",
+          "boundary",
+          "file_count",
+          "global_needle_counts",
+          "interpretation",
+          "inventory",
+          "promising_files",
+          "record_list_count",
+          "record_lists",
+          "source_dir",
+          "status"
+        ],
+        "row_count": null,
+        "status": "source_artifact_schema_inventory_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+      "key_counts": {
+        "from_C": 32,
+        "lift_q": 12,
+        "role_pair": 26,
+        "to_C": 12
+      },
+      "role_token_counts": {
+        "IW": 12,
+        "TI": 14,
+        "WX": 14,
+        "XY": 14,
+        "YZ": 12,
+        "ZT": 14
+      },
+      "score": 76,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "complement",
+          "complement_equals_unobserved",
+          "from_deterministic_q",
+          "from_rows",
+          "input",
+          "interpretation",
+          "role_pair_count",
+          "role_pair_from_rows",
+          "role_pair_plus_from_determines_delta",
+          "role_pair_plus_from_determines_to",
+          "role_pair_rows",
+          "status",
+          "support",
+          "support_equals_observed",
+          "transition_count"
+        ],
+        "row_count": null,
+        "status": "c_transition_role_channel_grammar_audit_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_rule_member_target_table_013.v1.json",
+      "key_counts": {
+        "from_C": 12,
+        "reverse_partner": 1,
+        "role_pair": 12,
+        "shared_B": 1,
+        "to_C": 12
+      },
+      "role_token_counts": {
+        "IW": 7,
+        "TI": 7,
+        "WX": 7,
+        "XY": 7,
+        "YZ": 7,
+        "ZT": 7,
+        "reverse_partner": 2,
+        "shared_B": 2
+      },
+      "score": 71,
+      "source_rel_to_theory_root": "21-gap-a-answer-pair-generator/artifacts/json/native_rule_member_target_table_013.v1.json",
+      "source_summary": {
+        "audit_id": "013",
+        "keys_top_level": [
+          "all_native_transitions_selected_in_002",
+          "all_pair_roles_match_002",
+          "all_pairs_have_two_members",
+          "audit_id",
+          "boundary",
+          "errors",
+          "input_native_rule_members",
+          "input_selector_002",
+          "interpretation",
+          "member_class_counts",
+          "member_csv",
+          "member_edge_role_counts",
+          "native_answer_pairs",
+          "native_member_count",
+          "native_pair_count",
+          "native_pair_target_count",
+          "native_transition_count",
+          "pair_csv",
+          "pair_role_pair_counts",
+          "reduction_factor_synthetic_to_native_pairs",
+          "selected_transition_count",
+          "status",
+          "synthetic_candidate_count_per_key",
+          "total_synthetic_candidate_count"
+        ],
+        "row_count": null,
+        "status": "native_rule_member_target_table_recorded"
+      },
+      "state_token_counts": {}
+    },
+    {
+      "imported_rel_to_project_root": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_delta_lift_decomposition_001.v1.json",
+      "key_counts": {
+        "edge_role": 24,
+        "from_fiber": 24,
+        "reverse_partner": 1,
+        "shared_B": 1
+      },
+      "role_token_counts": {
+        "IW": 5,
+        "TI": 6,
+        "WX": 6,
+        "XY": 6,
+        "YZ": 6,
+        "ZT": 6,
+        "reverse_partner": 13,
+        "shared_B": 13
+      },
+      "score": 70,
+      "source_rel_to_theory_root": "18-g900-kernel-admission/artifacts/json/c_transition_delta_lift_decomposition_001.v1.json",
+      "source_summary": {
+        "audit_id": null,
+        "keys_top_level": [
+          "boundary",
+          "checks",
+          "purpose",
+          "rows",
+          "schema",
+          "status",
+          "summary",
+          "timestamp_utc"
+        ],
+        "row_count": 24,
+        "status": "c_transition_delta_lift_decomposition_found"
+      },
+      "state_token_counts": {}
+    }
+  ],
+  "input_locator": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/upstream_station_provenance_locator_039.v1.json",
+  "interpretation": "This imports the upstream WXYZTI station/register layer found by 039 into a stable local Project24 source folder. The imported layer contains slot/fiber/A/B/C/role-pair/station-role/lift-q fields needed after 037.",
+  "manifest": "source/upstream_station_provenance/manifest_040.v1.json",
+  "missing": [],
+  "status": "upstream_station_provenance_import_recorded",
+  "suggested_next": [
+    "Build 041 to inspect imported row schemas and extract station rows.",
+    "Build 042 to join station rows against scalar targets from 032 and 035."
+  ]
+}

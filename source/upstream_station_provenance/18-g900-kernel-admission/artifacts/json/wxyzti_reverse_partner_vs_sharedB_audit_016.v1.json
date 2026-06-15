@@ -1,0 +1,6219 @@
+{
+  "boundary": "This audits realized rows only. It does not prove selection from non-realized candidates and does not close Gap A.",
+  "input": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+  "interpretation": "This isolates the clean reverse_partner law from the shared_B residual. It tests simple source-field laws for to_C across role classes and station roles.",
+  "reverse_partner_summary": {
+    "from_B_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "from_C_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "from_slot_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "law_scores": [
+      {
+        "exact": true,
+        "law": "from_B",
+        "match_count": 12,
+        "matches_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 10,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 14,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 0,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 5,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 5,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 1,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 4,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 13,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 11,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "miss_count": 0,
+        "misses_first_20": [],
+        "row_count": 12
+      },
+      {
+        "exact": true,
+        "law": "from_slot",
+        "match_count": 12,
+        "matches_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 10,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 14,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 0,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 5,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 5,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 1,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 4,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 13,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 11,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "miss_count": 0,
+        "misses_first_20": [],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_A",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 0,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 3,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 10,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 12,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 12,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 10,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 1,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 2,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 1,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 3,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 9,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 7,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_A_minus_9",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 6,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 9,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 1,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 3,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 1,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 7,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 8,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 7,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 9,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 0,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 13,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_A_plus_3",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 3,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 6,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 13,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 0,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 13,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 5,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 6,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 12,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 10,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_B_minus_2",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 8,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 12,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 13,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 14,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 2,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 11,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 9,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_B_plus_2",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 12,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 1,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 2,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 7,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 7,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 3,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 6,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 0,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 13,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_C",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 1,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 2,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 5,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 5,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 2,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 4,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 11,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 13,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 2,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 10,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 14,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_slot_minus_2",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 8,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 12,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 13,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 14,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 2,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 11,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 9,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_slot_plus_2",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 0,
+            "from_B": 10,
+            "from_C": 1,
+            "from_slot": 10,
+            "pred": 12,
+            "station_role": "YZ",
+            "to_C": 10
+          },
+          {
+            "from_A": 3,
+            "from_B": 14,
+            "from_C": 2,
+            "from_slot": 14,
+            "pred": 1,
+            "station_role": "YZ",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 0,
+            "from_C": 5,
+            "from_slot": 0,
+            "pred": 2,
+            "station_role": "YZ",
+            "to_C": 0
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "YZ",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 7,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 4,
+            "from_slot": 5,
+            "pred": 7,
+            "station_role": "TI",
+            "to_C": 5
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 11,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "TI",
+            "to_C": 2
+          },
+          {
+            "from_A": 2,
+            "from_B": 1,
+            "from_C": 13,
+            "from_slot": 1,
+            "pred": 3,
+            "station_role": "TI",
+            "to_C": 1
+          },
+          {
+            "from_A": 1,
+            "from_B": 2,
+            "from_C": 0,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "WX",
+            "to_C": 2
+          },
+          {
+            "from_A": 3,
+            "from_B": 4,
+            "from_C": 2,
+            "from_slot": 4,
+            "pred": 6,
+            "station_role": "WX",
+            "to_C": 4
+          },
+          {
+            "from_A": 9,
+            "from_B": 13,
+            "from_C": 10,
+            "from_slot": 13,
+            "pred": 0,
+            "station_role": "WX",
+            "to_C": 13
+          },
+          {
+            "from_A": 7,
+            "from_B": 11,
+            "from_C": 14,
+            "from_slot": 11,
+            "pred": 13,
+            "station_role": "WX",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      }
+    ],
+    "name": "reverse_partner",
+    "row_count": 12,
+    "rows": [
+      {
+        "C_delta": 9,
+        "from_A": 0,
+        "from_B": 10,
+        "from_C": 1,
+        "from_slot": 10,
+        "integer_C_delta": 9,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "IW/YZ",
+        "station_role": "YZ",
+        "to_A": 0,
+        "to_B": 1,
+        "to_C": 10,
+        "to_slot": 1
+      },
+      {
+        "C_delta": 12,
+        "from_A": 3,
+        "from_B": 14,
+        "from_C": 2,
+        "from_slot": 14,
+        "integer_C_delta": 12,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "IW/YZ",
+        "station_role": "YZ",
+        "to_A": 3,
+        "to_B": 2,
+        "to_C": 14,
+        "to_slot": 2
+      },
+      {
+        "C_delta": 10,
+        "from_A": 10,
+        "from_B": 0,
+        "from_C": 5,
+        "from_slot": 0,
+        "integer_C_delta": -5,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "IW/YZ",
+        "station_role": "YZ",
+        "to_A": 10,
+        "to_B": 5,
+        "to_C": 0,
+        "to_slot": 5
+      },
+      {
+        "C_delta": 12,
+        "from_A": 12,
+        "from_B": 2,
+        "from_C": 5,
+        "from_slot": 2,
+        "integer_C_delta": -3,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "IW/YZ",
+        "station_role": "YZ",
+        "to_A": 12,
+        "to_B": 5,
+        "to_C": 2,
+        "to_slot": 5
+      },
+      {
+        "C_delta": 3,
+        "from_A": 12,
+        "from_B": 5,
+        "from_C": 2,
+        "from_slot": 5,
+        "integer_C_delta": 3,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "TI/XY",
+        "station_role": "TI",
+        "to_A": 12,
+        "to_B": 2,
+        "to_C": 5,
+        "to_slot": 2
+      },
+      {
+        "C_delta": 1,
+        "from_A": 10,
+        "from_B": 5,
+        "from_C": 4,
+        "from_slot": 5,
+        "integer_C_delta": 1,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "TI/XY",
+        "station_role": "TI",
+        "to_A": 10,
+        "to_B": 4,
+        "to_C": 5,
+        "to_slot": 4
+      },
+      {
+        "C_delta": 6,
+        "from_A": 1,
+        "from_B": 2,
+        "from_C": 11,
+        "from_slot": 2,
+        "integer_C_delta": -9,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "TI/XY",
+        "station_role": "TI",
+        "to_A": 1,
+        "to_B": 11,
+        "to_C": 2,
+        "to_slot": 11
+      },
+      {
+        "C_delta": 3,
+        "from_A": 2,
+        "from_B": 1,
+        "from_C": 13,
+        "from_slot": 1,
+        "integer_C_delta": -12,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "TI/XY",
+        "station_role": "TI",
+        "to_A": 2,
+        "to_B": 13,
+        "to_C": 1,
+        "to_slot": 13
+      },
+      {
+        "C_delta": 2,
+        "from_A": 1,
+        "from_B": 2,
+        "from_C": 0,
+        "from_slot": 2,
+        "integer_C_delta": 2,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "WX/ZT",
+        "station_role": "WX",
+        "to_A": 1,
+        "to_B": 0,
+        "to_C": 2,
+        "to_slot": 0
+      },
+      {
+        "C_delta": 2,
+        "from_A": 3,
+        "from_B": 4,
+        "from_C": 2,
+        "from_slot": 4,
+        "integer_C_delta": 2,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "WX/ZT",
+        "station_role": "WX",
+        "to_A": 3,
+        "to_B": 2,
+        "to_C": 4,
+        "to_slot": 2
+      },
+      {
+        "C_delta": 3,
+        "from_A": 9,
+        "from_B": 13,
+        "from_C": 10,
+        "from_slot": 13,
+        "integer_C_delta": 3,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "WX/ZT",
+        "station_role": "WX",
+        "to_A": 9,
+        "to_B": 10,
+        "to_C": 13,
+        "to_slot": 10
+      },
+      {
+        "C_delta": 12,
+        "from_A": 7,
+        "from_B": 11,
+        "from_C": 14,
+        "from_slot": 11,
+        "integer_C_delta": -3,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "WX/ZT",
+        "station_role": "WX",
+        "to_A": 7,
+        "to_B": 14,
+        "to_C": 11,
+        "to_slot": 14
+      }
+    ],
+    "station_role_counts": {
+      "TI": 4,
+      "WX": 4,
+      "YZ": 4
+    },
+    "to_C_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ]
+  },
+  "row_count": 24,
+  "shared_B_summary": {
+    "from_B_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "from_C_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "from_slot_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "law_scores": [
+      {
+        "exact": false,
+        "law": "from_B_minus_2",
+        "match_count": 2,
+        "matches_first_20": [
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 2,
+            "station_role": "IW",
+            "to_C": 2
+          }
+        ],
+        "miss_count": 10,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 11,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 9,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 13,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 12,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 8,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 14,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_slot_minus_2",
+        "match_count": 2,
+        "matches_first_20": [
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 2,
+            "station_role": "IW",
+            "to_C": 2
+          }
+        ],
+        "miss_count": 10,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 11,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 9,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 13,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 12,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 8,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 14,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_A_plus_3",
+        "match_count": 1,
+        "matches_first_20": [
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 0,
+            "station_role": "IW",
+            "to_C": 0
+          }
+        ],
+        "miss_count": 11,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 5,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 4,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 13,
+            "station_role": "IW",
+            "to_C": 2
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 4,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 6,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 10,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 12,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 13,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 0,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 6,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_A",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 2,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 1,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 12,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 10,
+            "station_role": "IW",
+            "to_C": 2
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 1,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 3,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 7,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 9,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 10,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 12,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 0,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_A_minus_9",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 8,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 7,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 3,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 1,
+            "station_role": "IW",
+            "to_C": 2
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 7,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 9,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 13,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 0,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 1,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 6,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 9,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_B",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 13,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 11,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 4,
+            "station_role": "IW",
+            "to_C": 2
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 0,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 14,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 10,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 5,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 5,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 1,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_B_plus_2",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 0,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 13,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 6,
+            "station_role": "IW",
+            "to_C": 2
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 2,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 1,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 12,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 7,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 7,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_C",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 1,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 2,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 5,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 5,
+            "station_role": "IW",
+            "to_C": 2
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 2,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 11,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 13,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 0,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 2,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 10,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 14,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_slot",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 13,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 11,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 4,
+            "station_role": "IW",
+            "to_C": 2
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 0,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 14,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 10,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 5,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 5,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 1,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 2,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      },
+      {
+        "exact": false,
+        "law": "from_slot_plus_2",
+        "match_count": 0,
+        "matches_first_20": [],
+        "miss_count": 12,
+        "misses_first_20": [
+          {
+            "from_A": 2,
+            "from_B": 13,
+            "from_C": 1,
+            "from_slot": 13,
+            "pred": 0,
+            "station_role": "IW",
+            "to_C": 10
+          },
+          {
+            "from_A": 1,
+            "from_B": 11,
+            "from_C": 2,
+            "from_slot": 11,
+            "pred": 13,
+            "station_role": "IW",
+            "to_C": 14
+          },
+          {
+            "from_A": 12,
+            "from_B": 2,
+            "from_C": 5,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "IW",
+            "to_C": 0
+          },
+          {
+            "from_A": 10,
+            "from_B": 4,
+            "from_C": 5,
+            "from_slot": 4,
+            "pred": 6,
+            "station_role": "IW",
+            "to_C": 2
+          },
+          {
+            "from_A": 1,
+            "from_B": 0,
+            "from_C": 2,
+            "from_slot": 0,
+            "pred": 2,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 4,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "XY",
+            "to_C": 5
+          },
+          {
+            "from_A": 7,
+            "from_B": 14,
+            "from_C": 11,
+            "from_slot": 14,
+            "pred": 1,
+            "station_role": "XY",
+            "to_C": 2
+          },
+          {
+            "from_A": 9,
+            "from_B": 10,
+            "from_C": 13,
+            "from_slot": 10,
+            "pred": 12,
+            "station_role": "XY",
+            "to_C": 1
+          },
+          {
+            "from_A": 10,
+            "from_B": 5,
+            "from_C": 0,
+            "from_slot": 5,
+            "pred": 7,
+            "station_role": "ZT",
+            "to_C": 2
+          },
+          {
+            "from_A": 12,
+            "from_B": 5,
+            "from_C": 2,
+            "from_slot": 5,
+            "pred": 7,
+            "station_role": "ZT",
+            "to_C": 4
+          },
+          {
+            "from_A": 0,
+            "from_B": 1,
+            "from_C": 10,
+            "from_slot": 1,
+            "pred": 3,
+            "station_role": "ZT",
+            "to_C": 13
+          },
+          {
+            "from_A": 3,
+            "from_B": 2,
+            "from_C": 14,
+            "from_slot": 2,
+            "pred": 4,
+            "station_role": "ZT",
+            "to_C": 11
+          }
+        ],
+        "row_count": 12
+      }
+    ],
+    "name": "shared_B",
+    "row_count": 12,
+    "rows": [
+      {
+        "C_delta": 9,
+        "from_A": 2,
+        "from_B": 13,
+        "from_C": 1,
+        "from_slot": 13,
+        "integer_C_delta": 9,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "IW/YZ",
+        "station_role": "IW",
+        "to_A": 9,
+        "to_B": 13,
+        "to_C": 10,
+        "to_slot": 13
+      },
+      {
+        "C_delta": 12,
+        "from_A": 1,
+        "from_B": 11,
+        "from_C": 2,
+        "from_slot": 11,
+        "integer_C_delta": 12,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "IW/YZ",
+        "station_role": "IW",
+        "to_A": 7,
+        "to_B": 11,
+        "to_C": 14,
+        "to_slot": 11
+      },
+      {
+        "C_delta": 10,
+        "from_A": 12,
+        "from_B": 2,
+        "from_C": 5,
+        "from_slot": 2,
+        "integer_C_delta": -5,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "IW/YZ",
+        "station_role": "IW",
+        "to_A": 1,
+        "to_B": 2,
+        "to_C": 0,
+        "to_slot": 2
+      },
+      {
+        "C_delta": 12,
+        "from_A": 10,
+        "from_B": 4,
+        "from_C": 5,
+        "from_slot": 4,
+        "integer_C_delta": -3,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "IW/YZ",
+        "station_role": "IW",
+        "to_A": 3,
+        "to_B": 4,
+        "to_C": 2,
+        "to_slot": 4
+      },
+      {
+        "C_delta": 3,
+        "from_A": 1,
+        "from_B": 0,
+        "from_C": 2,
+        "from_slot": 0,
+        "integer_C_delta": 3,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "TI/XY",
+        "station_role": "XY",
+        "to_A": 10,
+        "to_B": 0,
+        "to_C": 5,
+        "to_slot": 0
+      },
+      {
+        "C_delta": 1,
+        "from_A": 3,
+        "from_B": 2,
+        "from_C": 4,
+        "from_slot": 2,
+        "integer_C_delta": 1,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "TI/XY",
+        "station_role": "XY",
+        "to_A": 12,
+        "to_B": 2,
+        "to_C": 5,
+        "to_slot": 2
+      },
+      {
+        "C_delta": 6,
+        "from_A": 7,
+        "from_B": 14,
+        "from_C": 11,
+        "from_slot": 14,
+        "integer_C_delta": -9,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "TI/XY",
+        "station_role": "XY",
+        "to_A": 3,
+        "to_B": 14,
+        "to_C": 2,
+        "to_slot": 14
+      },
+      {
+        "C_delta": 3,
+        "from_A": 9,
+        "from_B": 10,
+        "from_C": 13,
+        "from_slot": 10,
+        "integer_C_delta": -12,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "TI/XY",
+        "station_role": "XY",
+        "to_A": 0,
+        "to_B": 10,
+        "to_C": 1,
+        "to_slot": 10
+      },
+      {
+        "C_delta": 2,
+        "from_A": 10,
+        "from_B": 5,
+        "from_C": 0,
+        "from_slot": 5,
+        "integer_C_delta": 2,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "WX/ZT",
+        "station_role": "ZT",
+        "to_A": 12,
+        "to_B": 5,
+        "to_C": 2,
+        "to_slot": 5
+      },
+      {
+        "C_delta": 2,
+        "from_A": 12,
+        "from_B": 5,
+        "from_C": 2,
+        "from_slot": 5,
+        "integer_C_delta": 2,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "WX/ZT",
+        "station_role": "ZT",
+        "to_A": 10,
+        "to_B": 5,
+        "to_C": 4,
+        "to_slot": 5
+      },
+      {
+        "C_delta": 3,
+        "from_A": 0,
+        "from_B": 1,
+        "from_C": 10,
+        "from_slot": 1,
+        "integer_C_delta": 3,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "WX/ZT",
+        "station_role": "ZT",
+        "to_A": 2,
+        "to_B": 1,
+        "to_C": 13,
+        "to_slot": 1
+      },
+      {
+        "C_delta": 12,
+        "from_A": 3,
+        "from_B": 2,
+        "from_C": 14,
+        "from_slot": 2,
+        "integer_C_delta": -3,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "WX/ZT",
+        "station_role": "ZT",
+        "to_A": 1,
+        "to_B": 2,
+        "to_C": 11,
+        "to_slot": 2
+      }
+    ],
+    "station_role_counts": {
+      "IW": 4,
+      "XY": 4,
+      "ZT": 4
+    },
+    "to_C_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ]
+  },
+  "station_summaries": [
+    {
+      "from_B_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "from_C_values": [
+        1,
+        2,
+        5
+      ],
+      "from_slot_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "law_scores": [
+        {
+          "exact": false,
+          "law": "from_B_minus_2",
+          "match_count": 2,
+          "matches_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 2,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "miss_count": 2,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 11,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 9,
+              "station_role": "IW",
+              "to_C": 14
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_minus_2",
+          "match_count": 2,
+          "matches_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 2,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "miss_count": 2,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 11,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 9,
+              "station_role": "IW",
+              "to_C": 14
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_plus_3",
+          "match_count": 1,
+          "matches_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "IW",
+              "to_C": 0
+            }
+          ],
+          "miss_count": 3,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 5,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 4,
+              "station_role": "IW",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 13,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 2,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 1,
+              "station_role": "IW",
+              "to_C": 14
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 12,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 10,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_minus_9",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 8,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 7,
+              "station_role": "IW",
+              "to_C": 14
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 3,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 1,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 13,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 11,
+              "station_role": "IW",
+              "to_C": 14
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 4,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 0,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 13,
+              "station_role": "IW",
+              "to_C": 14
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 6,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_C",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 1,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 2,
+              "station_role": "IW",
+              "to_C": 14
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 5,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 5,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 13,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 11,
+              "station_role": "IW",
+              "to_C": 14
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 4,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 2,
+              "from_B": 13,
+              "from_C": 1,
+              "from_slot": 13,
+              "pred": 0,
+              "station_role": "IW",
+              "to_C": 10
+            },
+            {
+              "from_A": 1,
+              "from_B": 11,
+              "from_C": 2,
+              "from_slot": 11,
+              "pred": 13,
+              "station_role": "IW",
+              "to_C": 14
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "IW",
+              "to_C": 0
+            },
+            {
+              "from_A": 10,
+              "from_B": 4,
+              "from_C": 5,
+              "from_slot": 4,
+              "pred": 6,
+              "station_role": "IW",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        }
+      ],
+      "name": "IW",
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 9,
+          "from_A": 2,
+          "from_B": 13,
+          "from_C": 1,
+          "from_slot": 13,
+          "integer_C_delta": 9,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 9,
+          "to_B": 13,
+          "to_C": 10,
+          "to_slot": 13
+        },
+        {
+          "C_delta": 12,
+          "from_A": 1,
+          "from_B": 11,
+          "from_C": 2,
+          "from_slot": 11,
+          "integer_C_delta": 12,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 7,
+          "to_B": 11,
+          "to_C": 14,
+          "to_slot": 11
+        },
+        {
+          "C_delta": 10,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_slot": 2,
+          "integer_C_delta": -5,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 0,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 12,
+          "from_A": 10,
+          "from_B": 4,
+          "from_C": 5,
+          "from_slot": 4,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "IW/YZ",
+          "station_role": "IW",
+          "to_A": 3,
+          "to_B": 4,
+          "to_C": 2,
+          "to_slot": 4
+        }
+      ],
+      "station_role_counts": {
+        "IW": 4
+      },
+      "to_C_values": [
+        0,
+        2,
+        10,
+        14
+      ]
+    },
+    {
+      "from_B_values": [
+        1,
+        2,
+        5
+      ],
+      "from_C_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "from_slot_values": [
+        1,
+        2,
+        5
+      ],
+      "law_scores": [
+        {
+          "exact": true,
+          "law": "from_B",
+          "match_count": 4,
+          "matches_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 5,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 5,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 1,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "miss_count": 0,
+          "misses_first_20": [],
+          "row_count": 4
+        },
+        {
+          "exact": true,
+          "law": "from_slot",
+          "match_count": 4,
+          "matches_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 5,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 5,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 1,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "miss_count": 0,
+          "misses_first_20": [],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 12,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 10,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 1,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 2,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_minus_9",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 1,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 7,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 8,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_plus_3",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 0,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 13,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 5,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 14,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 7,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 7,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 3,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_C",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 2,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 4,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 11,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 13,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 14,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 7,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 4,
+              "from_slot": 5,
+              "pred": 7,
+              "station_role": "TI",
+              "to_C": 5
+            },
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 11,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "TI",
+              "to_C": 2
+            },
+            {
+              "from_A": 2,
+              "from_B": 1,
+              "from_C": 13,
+              "from_slot": 1,
+              "pred": 3,
+              "station_role": "TI",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        }
+      ],
+      "name": "TI",
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 3,
+          "from_A": 12,
+          "from_B": 5,
+          "from_C": 2,
+          "from_slot": 5,
+          "integer_C_delta": 3,
+          "lift_q": 0,
+          "role_class": "reverse_partner",
+          "role_pair": "TI/XY",
+          "station_role": "TI",
+          "to_A": 12,
+          "to_B": 2,
+          "to_C": 5,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 1,
+          "from_A": 10,
+          "from_B": 5,
+          "from_C": 4,
+          "from_slot": 5,
+          "integer_C_delta": 1,
+          "lift_q": 0,
+          "role_class": "reverse_partner",
+          "role_pair": "TI/XY",
+          "station_role": "TI",
+          "to_A": 10,
+          "to_B": 4,
+          "to_C": 5,
+          "to_slot": 4
+        },
+        {
+          "C_delta": 6,
+          "from_A": 1,
+          "from_B": 2,
+          "from_C": 11,
+          "from_slot": 2,
+          "integer_C_delta": -9,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "TI/XY",
+          "station_role": "TI",
+          "to_A": 1,
+          "to_B": 11,
+          "to_C": 2,
+          "to_slot": 11
+        },
+        {
+          "C_delta": 3,
+          "from_A": 2,
+          "from_B": 1,
+          "from_C": 13,
+          "from_slot": 1,
+          "integer_C_delta": -12,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "TI/XY",
+          "station_role": "TI",
+          "to_A": 2,
+          "to_B": 13,
+          "to_C": 1,
+          "to_slot": 13
+        }
+      ],
+      "station_role_counts": {
+        "TI": 4
+      },
+      "to_C_values": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "from_B_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "from_C_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "from_slot_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "law_scores": [
+        {
+          "exact": true,
+          "law": "from_B",
+          "match_count": 4,
+          "matches_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 4,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 13,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 11,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "miss_count": 0,
+          "misses_first_20": [],
+          "row_count": 4
+        },
+        {
+          "exact": true,
+          "law": "from_slot",
+          "match_count": 4,
+          "matches_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 4,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 13,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 11,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "miss_count": 0,
+          "misses_first_20": [],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 1,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 3,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 9,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 7,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_minus_9",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 7,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 9,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 0,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 13,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_plus_3",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 6,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 12,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 10,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 2,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 11,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 9,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 6,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 0,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 13,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_C",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 2,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 10,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 14,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 2,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 11,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 9,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 2,
+              "from_C": 0,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "WX",
+              "to_C": 2
+            },
+            {
+              "from_A": 3,
+              "from_B": 4,
+              "from_C": 2,
+              "from_slot": 4,
+              "pred": 6,
+              "station_role": "WX",
+              "to_C": 4
+            },
+            {
+              "from_A": 9,
+              "from_B": 13,
+              "from_C": 10,
+              "from_slot": 13,
+              "pred": 0,
+              "station_role": "WX",
+              "to_C": 13
+            },
+            {
+              "from_A": 7,
+              "from_B": 11,
+              "from_C": 14,
+              "from_slot": 11,
+              "pred": 13,
+              "station_role": "WX",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        }
+      ],
+      "name": "WX",
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 2,
+          "from_A": 1,
+          "from_B": 2,
+          "from_C": 0,
+          "from_slot": 2,
+          "integer_C_delta": 2,
+          "lift_q": 0,
+          "role_class": "reverse_partner",
+          "role_pair": "WX/ZT",
+          "station_role": "WX",
+          "to_A": 1,
+          "to_B": 0,
+          "to_C": 2,
+          "to_slot": 0
+        },
+        {
+          "C_delta": 2,
+          "from_A": 3,
+          "from_B": 4,
+          "from_C": 2,
+          "from_slot": 4,
+          "integer_C_delta": 2,
+          "lift_q": 0,
+          "role_class": "reverse_partner",
+          "role_pair": "WX/ZT",
+          "station_role": "WX",
+          "to_A": 3,
+          "to_B": 2,
+          "to_C": 4,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 3,
+          "from_A": 9,
+          "from_B": 13,
+          "from_C": 10,
+          "from_slot": 13,
+          "integer_C_delta": 3,
+          "lift_q": 0,
+          "role_class": "reverse_partner",
+          "role_pair": "WX/ZT",
+          "station_role": "WX",
+          "to_A": 9,
+          "to_B": 10,
+          "to_C": 13,
+          "to_slot": 10
+        },
+        {
+          "C_delta": 12,
+          "from_A": 7,
+          "from_B": 11,
+          "from_C": 14,
+          "from_slot": 11,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "WX/ZT",
+          "station_role": "WX",
+          "to_A": 7,
+          "to_B": 14,
+          "to_C": 11,
+          "to_slot": 14
+        }
+      ],
+      "station_role_counts": {
+        "WX": 4
+      },
+      "to_C_values": [
+        2,
+        4,
+        11,
+        13
+      ]
+    },
+    {
+      "from_B_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "from_C_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "from_slot_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "law_scores": [
+        {
+          "exact": false,
+          "law": "from_A",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 1,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 3,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 7,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 9,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_minus_9",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 7,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 9,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 13,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 0,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_plus_3",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 4,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 6,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 10,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 12,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 0,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 14,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 10,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 13,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 12,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 8,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 2,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 1,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 12,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_C",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 2,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 11,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 13,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 0,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 14,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 10,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 13,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 12,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 8,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 1,
+              "from_B": 0,
+              "from_C": 2,
+              "from_slot": 0,
+              "pred": 2,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 4,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "XY",
+              "to_C": 5
+            },
+            {
+              "from_A": 7,
+              "from_B": 14,
+              "from_C": 11,
+              "from_slot": 14,
+              "pred": 1,
+              "station_role": "XY",
+              "to_C": 2
+            },
+            {
+              "from_A": 9,
+              "from_B": 10,
+              "from_C": 13,
+              "from_slot": 10,
+              "pred": 12,
+              "station_role": "XY",
+              "to_C": 1
+            }
+          ],
+          "row_count": 4
+        }
+      ],
+      "name": "XY",
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 3,
+          "from_A": 1,
+          "from_B": 0,
+          "from_C": 2,
+          "from_slot": 0,
+          "integer_C_delta": 3,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_A": 10,
+          "to_B": 0,
+          "to_C": 5,
+          "to_slot": 0
+        },
+        {
+          "C_delta": 1,
+          "from_A": 3,
+          "from_B": 2,
+          "from_C": 4,
+          "from_slot": 2,
+          "integer_C_delta": 1,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_A": 12,
+          "to_B": 2,
+          "to_C": 5,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 6,
+          "from_A": 7,
+          "from_B": 14,
+          "from_C": 11,
+          "from_slot": 14,
+          "integer_C_delta": -9,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_A": 3,
+          "to_B": 14,
+          "to_C": 2,
+          "to_slot": 14
+        },
+        {
+          "C_delta": 3,
+          "from_A": 9,
+          "from_B": 10,
+          "from_C": 13,
+          "from_slot": 10,
+          "integer_C_delta": -12,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_A": 0,
+          "to_B": 10,
+          "to_C": 1,
+          "to_slot": 10
+        }
+      ],
+      "station_role_counts": {
+        "XY": 4
+      },
+      "to_C_values": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "from_B_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "from_C_values": [
+        1,
+        2,
+        5
+      ],
+      "from_slot_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "law_scores": [
+        {
+          "exact": true,
+          "law": "from_B",
+          "match_count": 4,
+          "matches_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 10,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 14,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 0,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "miss_count": 0,
+          "misses_first_20": [],
+          "row_count": 4
+        },
+        {
+          "exact": true,
+          "law": "from_slot",
+          "match_count": 4,
+          "matches_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 10,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 14,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 0,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "miss_count": 0,
+          "misses_first_20": [],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 0,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 3,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 10,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 12,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_minus_9",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 6,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 9,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 1,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 3,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_plus_3",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 3,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 6,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 13,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 8,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 12,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 13,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 12,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 1,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 2,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_C",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 1,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 2,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 5,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 5,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 8,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 12,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 13,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 0,
+              "from_B": 10,
+              "from_C": 1,
+              "from_slot": 10,
+              "pred": 12,
+              "station_role": "YZ",
+              "to_C": 10
+            },
+            {
+              "from_A": 3,
+              "from_B": 14,
+              "from_C": 2,
+              "from_slot": 14,
+              "pred": 1,
+              "station_role": "YZ",
+              "to_C": 14
+            },
+            {
+              "from_A": 10,
+              "from_B": 0,
+              "from_C": 5,
+              "from_slot": 0,
+              "pred": 2,
+              "station_role": "YZ",
+              "to_C": 0
+            },
+            {
+              "from_A": 12,
+              "from_B": 2,
+              "from_C": 5,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "YZ",
+              "to_C": 2
+            }
+          ],
+          "row_count": 4
+        }
+      ],
+      "name": "YZ",
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 9,
+          "from_A": 0,
+          "from_B": 10,
+          "from_C": 1,
+          "from_slot": 10,
+          "integer_C_delta": 9,
+          "lift_q": 0,
+          "role_class": "reverse_partner",
+          "role_pair": "IW/YZ",
+          "station_role": "YZ",
+          "to_A": 0,
+          "to_B": 1,
+          "to_C": 10,
+          "to_slot": 1
+        },
+        {
+          "C_delta": 12,
+          "from_A": 3,
+          "from_B": 14,
+          "from_C": 2,
+          "from_slot": 14,
+          "integer_C_delta": 12,
+          "lift_q": 0,
+          "role_class": "reverse_partner",
+          "role_pair": "IW/YZ",
+          "station_role": "YZ",
+          "to_A": 3,
+          "to_B": 2,
+          "to_C": 14,
+          "to_slot": 2
+        },
+        {
+          "C_delta": 10,
+          "from_A": 10,
+          "from_B": 0,
+          "from_C": 5,
+          "from_slot": 0,
+          "integer_C_delta": -5,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "IW/YZ",
+          "station_role": "YZ",
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 0,
+          "to_slot": 5
+        },
+        {
+          "C_delta": 12,
+          "from_A": 12,
+          "from_B": 2,
+          "from_C": 5,
+          "from_slot": 2,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "reverse_partner",
+          "role_pair": "IW/YZ",
+          "station_role": "YZ",
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_slot": 5
+        }
+      ],
+      "station_role_counts": {
+        "YZ": 4
+      },
+      "to_C_values": [
+        0,
+        2,
+        10,
+        14
+      ]
+    },
+    {
+      "from_B_values": [
+        1,
+        2,
+        5
+      ],
+      "from_C_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "from_slot_values": [
+        1,
+        2,
+        5
+      ],
+      "law_scores": [
+        {
+          "exact": false,
+          "law": "from_A",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 10,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 12,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 0,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_minus_9",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 1,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 6,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 9,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_A_plus_3",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 13,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 0,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 6,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 5,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 5,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 1,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 14,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_B_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 7,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 7,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_C",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 0,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 2,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 10,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 14,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 5,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 5,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 1,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 2,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_minus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 14,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 0,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        },
+        {
+          "exact": false,
+          "law": "from_slot_plus_2",
+          "match_count": 0,
+          "matches_first_20": [],
+          "miss_count": 4,
+          "misses_first_20": [
+            {
+              "from_A": 10,
+              "from_B": 5,
+              "from_C": 0,
+              "from_slot": 5,
+              "pred": 7,
+              "station_role": "ZT",
+              "to_C": 2
+            },
+            {
+              "from_A": 12,
+              "from_B": 5,
+              "from_C": 2,
+              "from_slot": 5,
+              "pred": 7,
+              "station_role": "ZT",
+              "to_C": 4
+            },
+            {
+              "from_A": 0,
+              "from_B": 1,
+              "from_C": 10,
+              "from_slot": 1,
+              "pred": 3,
+              "station_role": "ZT",
+              "to_C": 13
+            },
+            {
+              "from_A": 3,
+              "from_B": 2,
+              "from_C": 14,
+              "from_slot": 2,
+              "pred": 4,
+              "station_role": "ZT",
+              "to_C": 11
+            }
+          ],
+          "row_count": 4
+        }
+      ],
+      "name": "ZT",
+      "row_count": 4,
+      "rows": [
+        {
+          "C_delta": 2,
+          "from_A": 10,
+          "from_B": 5,
+          "from_C": 0,
+          "from_slot": 5,
+          "integer_C_delta": 2,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "WX/ZT",
+          "station_role": "ZT",
+          "to_A": 12,
+          "to_B": 5,
+          "to_C": 2,
+          "to_slot": 5
+        },
+        {
+          "C_delta": 2,
+          "from_A": 12,
+          "from_B": 5,
+          "from_C": 2,
+          "from_slot": 5,
+          "integer_C_delta": 2,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "WX/ZT",
+          "station_role": "ZT",
+          "to_A": 10,
+          "to_B": 5,
+          "to_C": 4,
+          "to_slot": 5
+        },
+        {
+          "C_delta": 3,
+          "from_A": 0,
+          "from_B": 1,
+          "from_C": 10,
+          "from_slot": 1,
+          "integer_C_delta": 3,
+          "lift_q": 0,
+          "role_class": "shared_B",
+          "role_pair": "WX/ZT",
+          "station_role": "ZT",
+          "to_A": 2,
+          "to_B": 1,
+          "to_C": 13,
+          "to_slot": 1
+        },
+        {
+          "C_delta": 12,
+          "from_A": 3,
+          "from_B": 2,
+          "from_C": 14,
+          "from_slot": 2,
+          "integer_C_delta": -3,
+          "lift_q": 3,
+          "role_class": "shared_B",
+          "role_pair": "WX/ZT",
+          "station_role": "ZT",
+          "to_A": 1,
+          "to_B": 2,
+          "to_C": 11,
+          "to_slot": 2
+        }
+      ],
+      "station_role_counts": {
+        "ZT": 4
+      },
+      "to_C_values": [
+        2,
+        4,
+        11,
+        13
+      ]
+    }
+  ],
+  "status": "wxyzti_reverse_partner_vs_sharedB_audit_recorded"
+}

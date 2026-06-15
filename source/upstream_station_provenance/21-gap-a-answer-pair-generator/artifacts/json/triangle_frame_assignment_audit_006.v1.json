@@ -1,0 +1,1172 @@
+{
+  "audit_id": "006",
+  "boundary": "This is an exploratory frame audit over realized WXYZTI rows. It does not generate the C-transition support or the A/B assignments natively. It is not Gap A closure.",
+  "candidate_count": 48,
+  "candidate_universe": "All shared_B rows crossed with all reverse_partner rows having the same role_pair.",
+  "input_rows": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+  "interpretation": "The triangle-frame predicate selects the same 12-style structure from the 48 row-pair candidate universe, but phrases the selector geometrically: fixed B face plus fixed A answer face, joined by forward and return C seams.",
+  "selected_C_tracks": [
+    {
+      "C_track": [
+        1,
+        10
+      ],
+      "reverse_role": "YZ",
+      "role_pair": "IW/YZ",
+      "shared_role": "IW"
+    },
+    {
+      "C_track": [
+        2,
+        14
+      ],
+      "reverse_role": "YZ",
+      "role_pair": "IW/YZ",
+      "shared_role": "IW"
+    },
+    {
+      "C_track": [
+        5,
+        0
+      ],
+      "reverse_role": "YZ",
+      "role_pair": "IW/YZ",
+      "shared_role": "IW"
+    },
+    {
+      "C_track": [
+        5,
+        2
+      ],
+      "reverse_role": "YZ",
+      "role_pair": "IW/YZ",
+      "shared_role": "IW"
+    },
+    {
+      "C_track": [
+        2,
+        5
+      ],
+      "reverse_role": "TI",
+      "role_pair": "TI/XY",
+      "shared_role": "XY"
+    },
+    {
+      "C_track": [
+        4,
+        5
+      ],
+      "reverse_role": "TI",
+      "role_pair": "TI/XY",
+      "shared_role": "XY"
+    },
+    {
+      "C_track": [
+        11,
+        2
+      ],
+      "reverse_role": "TI",
+      "role_pair": "TI/XY",
+      "shared_role": "XY"
+    },
+    {
+      "C_track": [
+        13,
+        1
+      ],
+      "reverse_role": "TI",
+      "role_pair": "TI/XY",
+      "shared_role": "XY"
+    },
+    {
+      "C_track": [
+        0,
+        2
+      ],
+      "reverse_role": "WX",
+      "role_pair": "WX/ZT",
+      "shared_role": "ZT"
+    },
+    {
+      "C_track": [
+        2,
+        4
+      ],
+      "reverse_role": "WX",
+      "role_pair": "WX/ZT",
+      "shared_role": "ZT"
+    },
+    {
+      "C_track": [
+        10,
+        13
+      ],
+      "reverse_role": "WX",
+      "role_pair": "WX/ZT",
+      "shared_role": "ZT"
+    },
+    {
+      "C_track": [
+        14,
+        11
+      ],
+      "reverse_role": "WX",
+      "role_pair": "WX/ZT",
+      "shared_role": "ZT"
+    }
+  ],
+  "selected_count": 12,
+  "selected_frames": [
+    {
+      "C_track": [
+        1,
+        10
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          0,
+          10,
+          1
+        ],
+        "target_triangle": [
+          0,
+          1,
+          10
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 9,
+        "fiber_delta": 9,
+        "from_A": 0,
+        "from_B": 10,
+        "from_C": 1,
+        "from_slot": 10,
+        "integer_C_delta": 9,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "IW/YZ",
+        "station_role": "YZ",
+        "to_A": 0,
+        "to_B": 1,
+        "to_C": 10,
+        "to_slot": 1
+      },
+      "reverse_role": "YZ",
+      "role_pair": "IW/YZ",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          2,
+          13,
+          1
+        ],
+        "target_triangle": [
+          9,
+          13,
+          10
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 9,
+        "fiber_delta": 9,
+        "from_A": 2,
+        "from_B": 13,
+        "from_C": 1,
+        "from_slot": 13,
+        "integer_C_delta": 9,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "IW/YZ",
+        "station_role": "IW",
+        "to_A": 9,
+        "to_B": 13,
+        "to_C": 10,
+        "to_slot": 13
+      },
+      "shared_role": "IW"
+    },
+    {
+      "C_track": [
+        2,
+        14
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          3,
+          14,
+          2
+        ],
+        "target_triangle": [
+          3,
+          2,
+          14
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 12,
+        "fiber_delta": 12,
+        "from_A": 3,
+        "from_B": 14,
+        "from_C": 2,
+        "from_slot": 14,
+        "integer_C_delta": 12,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "IW/YZ",
+        "station_role": "YZ",
+        "to_A": 3,
+        "to_B": 2,
+        "to_C": 14,
+        "to_slot": 2
+      },
+      "reverse_role": "YZ",
+      "role_pair": "IW/YZ",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          1,
+          11,
+          2
+        ],
+        "target_triangle": [
+          7,
+          11,
+          14
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 12,
+        "fiber_delta": 12,
+        "from_A": 1,
+        "from_B": 11,
+        "from_C": 2,
+        "from_slot": 11,
+        "integer_C_delta": 12,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "IW/YZ",
+        "station_role": "IW",
+        "to_A": 7,
+        "to_B": 11,
+        "to_C": 14,
+        "to_slot": 11
+      },
+      "shared_role": "IW"
+    },
+    {
+      "C_track": [
+        5,
+        0
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          10,
+          0,
+          5
+        ],
+        "target_triangle": [
+          10,
+          5,
+          0
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 10,
+        "fiber_delta": 55,
+        "from_A": 10,
+        "from_B": 0,
+        "from_C": 5,
+        "from_slot": 0,
+        "integer_C_delta": -5,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "IW/YZ",
+        "station_role": "YZ",
+        "to_A": 10,
+        "to_B": 5,
+        "to_C": 0,
+        "to_slot": 5
+      },
+      "reverse_role": "YZ",
+      "role_pair": "IW/YZ",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          12,
+          2,
+          5
+        ],
+        "target_triangle": [
+          1,
+          2,
+          0
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 10,
+        "fiber_delta": 55,
+        "from_A": 12,
+        "from_B": 2,
+        "from_C": 5,
+        "from_slot": 2,
+        "integer_C_delta": -5,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "IW/YZ",
+        "station_role": "IW",
+        "to_A": 1,
+        "to_B": 2,
+        "to_C": 0,
+        "to_slot": 2
+      },
+      "shared_role": "IW"
+    },
+    {
+      "C_track": [
+        5,
+        2
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          12,
+          2,
+          5
+        ],
+        "target_triangle": [
+          12,
+          5,
+          2
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 12,
+        "fiber_delta": 57,
+        "from_A": 12,
+        "from_B": 2,
+        "from_C": 5,
+        "from_slot": 2,
+        "integer_C_delta": -3,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "IW/YZ",
+        "station_role": "YZ",
+        "to_A": 12,
+        "to_B": 5,
+        "to_C": 2,
+        "to_slot": 5
+      },
+      "reverse_role": "YZ",
+      "role_pair": "IW/YZ",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          10,
+          4,
+          5
+        ],
+        "target_triangle": [
+          3,
+          4,
+          2
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 12,
+        "fiber_delta": 57,
+        "from_A": 10,
+        "from_B": 4,
+        "from_C": 5,
+        "from_slot": 4,
+        "integer_C_delta": -3,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "IW/YZ",
+        "station_role": "IW",
+        "to_A": 3,
+        "to_B": 4,
+        "to_C": 2,
+        "to_slot": 4
+      },
+      "shared_role": "IW"
+    },
+    {
+      "C_track": [
+        2,
+        5
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          12,
+          5,
+          2
+        ],
+        "target_triangle": [
+          12,
+          2,
+          5
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 3,
+        "fiber_delta": 3,
+        "from_A": 12,
+        "from_B": 5,
+        "from_C": 2,
+        "from_slot": 5,
+        "integer_C_delta": 3,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "TI/XY",
+        "station_role": "TI",
+        "to_A": 12,
+        "to_B": 2,
+        "to_C": 5,
+        "to_slot": 2
+      },
+      "reverse_role": "TI",
+      "role_pair": "TI/XY",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          1,
+          0,
+          2
+        ],
+        "target_triangle": [
+          10,
+          0,
+          5
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 3,
+        "fiber_delta": 3,
+        "from_A": 1,
+        "from_B": 0,
+        "from_C": 2,
+        "from_slot": 0,
+        "integer_C_delta": 3,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "TI/XY",
+        "station_role": "XY",
+        "to_A": 10,
+        "to_B": 0,
+        "to_C": 5,
+        "to_slot": 0
+      },
+      "shared_role": "XY"
+    },
+    {
+      "C_track": [
+        4,
+        5
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          10,
+          5,
+          4
+        ],
+        "target_triangle": [
+          10,
+          4,
+          5
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 1,
+        "fiber_delta": 1,
+        "from_A": 10,
+        "from_B": 5,
+        "from_C": 4,
+        "from_slot": 5,
+        "integer_C_delta": 1,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "TI/XY",
+        "station_role": "TI",
+        "to_A": 10,
+        "to_B": 4,
+        "to_C": 5,
+        "to_slot": 4
+      },
+      "reverse_role": "TI",
+      "role_pair": "TI/XY",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          3,
+          2,
+          4
+        ],
+        "target_triangle": [
+          12,
+          2,
+          5
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 1,
+        "fiber_delta": 1,
+        "from_A": 3,
+        "from_B": 2,
+        "from_C": 4,
+        "from_slot": 2,
+        "integer_C_delta": 1,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "TI/XY",
+        "station_role": "XY",
+        "to_A": 12,
+        "to_B": 2,
+        "to_C": 5,
+        "to_slot": 2
+      },
+      "shared_role": "XY"
+    },
+    {
+      "C_track": [
+        11,
+        2
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          1,
+          2,
+          11
+        ],
+        "target_triangle": [
+          1,
+          11,
+          2
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 6,
+        "fiber_delta": 51,
+        "from_A": 1,
+        "from_B": 2,
+        "from_C": 11,
+        "from_slot": 2,
+        "integer_C_delta": -9,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "TI/XY",
+        "station_role": "TI",
+        "to_A": 1,
+        "to_B": 11,
+        "to_C": 2,
+        "to_slot": 11
+      },
+      "reverse_role": "TI",
+      "role_pair": "TI/XY",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          7,
+          14,
+          11
+        ],
+        "target_triangle": [
+          3,
+          14,
+          2
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 6,
+        "fiber_delta": 51,
+        "from_A": 7,
+        "from_B": 14,
+        "from_C": 11,
+        "from_slot": 14,
+        "integer_C_delta": -9,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "TI/XY",
+        "station_role": "XY",
+        "to_A": 3,
+        "to_B": 14,
+        "to_C": 2,
+        "to_slot": 14
+      },
+      "shared_role": "XY"
+    },
+    {
+      "C_track": [
+        13,
+        1
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          2,
+          1,
+          13
+        ],
+        "target_triangle": [
+          2,
+          13,
+          1
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 3,
+        "fiber_delta": 48,
+        "from_A": 2,
+        "from_B": 1,
+        "from_C": 13,
+        "from_slot": 1,
+        "integer_C_delta": -12,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "TI/XY",
+        "station_role": "TI",
+        "to_A": 2,
+        "to_B": 13,
+        "to_C": 1,
+        "to_slot": 13
+      },
+      "reverse_role": "TI",
+      "role_pair": "TI/XY",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          9,
+          10,
+          13
+        ],
+        "target_triangle": [
+          0,
+          10,
+          1
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 3,
+        "fiber_delta": 48,
+        "from_A": 9,
+        "from_B": 10,
+        "from_C": 13,
+        "from_slot": 10,
+        "integer_C_delta": -12,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "TI/XY",
+        "station_role": "XY",
+        "to_A": 0,
+        "to_B": 10,
+        "to_C": 1,
+        "to_slot": 10
+      },
+      "shared_role": "XY"
+    },
+    {
+      "C_track": [
+        0,
+        2
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          1,
+          2,
+          0
+        ],
+        "target_triangle": [
+          1,
+          0,
+          2
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 2,
+        "fiber_delta": 2,
+        "from_A": 1,
+        "from_B": 2,
+        "from_C": 0,
+        "from_slot": 2,
+        "integer_C_delta": 2,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "WX/ZT",
+        "station_role": "WX",
+        "to_A": 1,
+        "to_B": 0,
+        "to_C": 2,
+        "to_slot": 0
+      },
+      "reverse_role": "WX",
+      "role_pair": "WX/ZT",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          10,
+          5,
+          0
+        ],
+        "target_triangle": [
+          12,
+          5,
+          2
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 2,
+        "fiber_delta": 2,
+        "from_A": 10,
+        "from_B": 5,
+        "from_C": 0,
+        "from_slot": 5,
+        "integer_C_delta": 2,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "WX/ZT",
+        "station_role": "ZT",
+        "to_A": 12,
+        "to_B": 5,
+        "to_C": 2,
+        "to_slot": 5
+      },
+      "shared_role": "ZT"
+    },
+    {
+      "C_track": [
+        2,
+        4
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          3,
+          4,
+          2
+        ],
+        "target_triangle": [
+          3,
+          2,
+          4
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 2,
+        "fiber_delta": 2,
+        "from_A": 3,
+        "from_B": 4,
+        "from_C": 2,
+        "from_slot": 4,
+        "integer_C_delta": 2,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "WX/ZT",
+        "station_role": "WX",
+        "to_A": 3,
+        "to_B": 2,
+        "to_C": 4,
+        "to_slot": 2
+      },
+      "reverse_role": "WX",
+      "role_pair": "WX/ZT",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          12,
+          5,
+          2
+        ],
+        "target_triangle": [
+          10,
+          5,
+          4
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 2,
+        "fiber_delta": 2,
+        "from_A": 12,
+        "from_B": 5,
+        "from_C": 2,
+        "from_slot": 5,
+        "integer_C_delta": 2,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "WX/ZT",
+        "station_role": "ZT",
+        "to_A": 10,
+        "to_B": 5,
+        "to_C": 4,
+        "to_slot": 5
+      },
+      "shared_role": "ZT"
+    },
+    {
+      "C_track": [
+        10,
+        13
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          9,
+          13,
+          10
+        ],
+        "target_triangle": [
+          9,
+          10,
+          13
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 3,
+        "fiber_delta": 3,
+        "from_A": 9,
+        "from_B": 13,
+        "from_C": 10,
+        "from_slot": 13,
+        "integer_C_delta": 3,
+        "lift_q": 0,
+        "role_class": "reverse_partner",
+        "role_pair": "WX/ZT",
+        "station_role": "WX",
+        "to_A": 9,
+        "to_B": 10,
+        "to_C": 13,
+        "to_slot": 10
+      },
+      "reverse_role": "WX",
+      "role_pair": "WX/ZT",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          0,
+          1,
+          10
+        ],
+        "target_triangle": [
+          2,
+          1,
+          13
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 3,
+        "fiber_delta": 3,
+        "from_A": 0,
+        "from_B": 1,
+        "from_C": 10,
+        "from_slot": 1,
+        "integer_C_delta": 3,
+        "lift_q": 0,
+        "role_class": "shared_B",
+        "role_pair": "WX/ZT",
+        "station_role": "ZT",
+        "to_A": 2,
+        "to_B": 1,
+        "to_C": 13,
+        "to_slot": 1
+      },
+      "shared_role": "ZT"
+    },
+    {
+      "C_track": [
+        14,
+        11
+      ],
+      "flags": {
+        "forward_answer_seam_S_to_C_equals_R_from_B": true,
+        "return_seam_S_from_C_equals_R_to_B": true,
+        "reverse_partner_fixed_corner": "A",
+        "reverse_partner_swaps": "B/C",
+        "same_C_track": true,
+        "same_delta_register": true,
+        "same_role_pair": true,
+        "shared_B_fixed_corner": "B",
+        "strict_pair_grammar": true,
+        "triangle_frame_closure": true
+      },
+      "reverse_partner_face": {
+        "fixed_corner": "A",
+        "reading": "A fixed; B/C swap",
+        "source_triangle": [
+          7,
+          11,
+          14
+        ],
+        "target_triangle": [
+          7,
+          14,
+          11
+        ]
+      },
+      "reverse_partner_row": {
+        "C_delta": 12,
+        "fiber_delta": 57,
+        "from_A": 7,
+        "from_B": 11,
+        "from_C": 14,
+        "from_slot": 11,
+        "integer_C_delta": -3,
+        "lift_q": 3,
+        "role_class": "reverse_partner",
+        "role_pair": "WX/ZT",
+        "station_role": "WX",
+        "to_A": 7,
+        "to_B": 14,
+        "to_C": 11,
+        "to_slot": 14
+      },
+      "reverse_role": "WX",
+      "role_pair": "WX/ZT",
+      "seams": {
+        "forward": "S.to_C = R.from_B",
+        "return": "S.from_C = R.to_B"
+      },
+      "shared_B_face": {
+        "fixed_corner": "B",
+        "reading": "B fixed; A/C move",
+        "source_triangle": [
+          3,
+          2,
+          14
+        ],
+        "target_triangle": [
+          1,
+          2,
+          11
+        ]
+      },
+      "shared_B_row": {
+        "C_delta": 12,
+        "fiber_delta": 57,
+        "from_A": 3,
+        "from_B": 2,
+        "from_C": 14,
+        "from_slot": 2,
+        "integer_C_delta": -3,
+        "lift_q": 3,
+        "role_class": "shared_B",
+        "role_pair": "WX/ZT",
+        "station_role": "ZT",
+        "to_A": 1,
+        "to_B": 2,
+        "to_C": 11,
+        "to_slot": 2
+      },
+      "shared_role": "ZT"
+    }
+  ],
+  "selected_role_pair_counts": {
+    "IW/YZ": 4,
+    "TI/XY": 4,
+    "WX/ZT": 4
+  },
+  "sketch_reading": "The hand sketch is interpreted as one ABC triangle with two complementary readings. The shared_B reading fixes B and lets A/C move. The reverse_partner reading fixes A and swaps B/C. A selected answer-pair is where both readings close on the same C-track.",
+  "status": "triangle_frame_assignment_audit_recorded"
+}

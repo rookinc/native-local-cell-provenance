@@ -1,0 +1,686 @@
+{
+  "schema": "from_c_lift_q_overlay_delta_formula_001.v1",
+  "status": "from_c_lift_q_overlay_delta_formula_found",
+  "timestamp_utc": "2026-06-15T14:10:38.280536+00:00",
+  "purpose": "Record the simplified WXYZTI overlay delta formula using base C motion plus q(from_C).",
+  "summary": {
+    "row_count": 24,
+    "from_c_group_count": 9,
+    "from_c_counts": {
+      "0": 2,
+      "1": 2,
+      "10": 2,
+      "11": 2,
+      "13": 2,
+      "14": 2,
+      "2": 6,
+      "4": 2,
+      "5": 4
+    },
+    "from_c_to_q_rule": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "4": 0,
+      "5": 3,
+      "10": 0,
+      "11": 3,
+      "13": 3,
+      "14": 3
+    },
+    "rule_q_counts": {
+      "0": 5,
+      "3": 4
+    },
+    "row_q_counts": {
+      "0": 14,
+      "3": 10
+    },
+    "ambiguous_from_c_count": 0,
+    "prediction_match_count": 24,
+    "prediction_exact": true,
+    "formula": "fiber_delta = (to_C - from_C) mod 15 + 15*q(from_C) mod 60",
+    "interpretation": "In the observed WXYZTI overlay rows, the Z4 lift choice q is determined by from_C alone.",
+    "gap_a_closed": false,
+    "full_g900_admission_found": false,
+    "next_step": "derive_from_c_lift_partition_from_native_g60_structure"
+  },
+  "members_by_from_c": {
+    "0": [
+      {
+        "edge_role": "WX",
+        "label": "reverse_partner",
+        "from_C": 0,
+        "to_C": 2,
+        "c_delta_mod15": 2,
+        "lift_q_mod4": 0,
+        "predicted_delta": 2,
+        "from_fiber": 0,
+        "to_fiber": 2
+      },
+      {
+        "edge_role": "ZT",
+        "label": "shared_B",
+        "from_C": 0,
+        "to_C": 2,
+        "c_delta_mod15": 2,
+        "lift_q_mod4": 0,
+        "predicted_delta": 2,
+        "from_fiber": 0,
+        "to_fiber": 2
+      }
+    ],
+    "1": [
+      {
+        "edge_role": "YZ",
+        "label": "reverse_partner",
+        "from_C": 1,
+        "to_C": 10,
+        "c_delta_mod15": 9,
+        "lift_q_mod4": 0,
+        "predicted_delta": 9,
+        "from_fiber": 1,
+        "to_fiber": 10
+      },
+      {
+        "edge_role": "IW",
+        "label": "shared_B",
+        "from_C": 1,
+        "to_C": 10,
+        "c_delta_mod15": 9,
+        "lift_q_mod4": 0,
+        "predicted_delta": 9,
+        "from_fiber": 1,
+        "to_fiber": 10
+      }
+    ],
+    "2": [
+      {
+        "edge_role": "YZ",
+        "label": "reverse_partner",
+        "from_C": 2,
+        "to_C": 14,
+        "c_delta_mod15": 12,
+        "lift_q_mod4": 0,
+        "predicted_delta": 12,
+        "from_fiber": 2,
+        "to_fiber": 14
+      },
+      {
+        "edge_role": "IW",
+        "label": "shared_B",
+        "from_C": 2,
+        "to_C": 14,
+        "c_delta_mod15": 12,
+        "lift_q_mod4": 0,
+        "predicted_delta": 12,
+        "from_fiber": 2,
+        "to_fiber": 14
+      },
+      {
+        "edge_role": "XY",
+        "label": "shared_B",
+        "from_C": 2,
+        "to_C": 5,
+        "c_delta_mod15": 3,
+        "lift_q_mod4": 0,
+        "predicted_delta": 3,
+        "from_fiber": 2,
+        "to_fiber": 5
+      },
+      {
+        "edge_role": "TI",
+        "label": "reverse_partner",
+        "from_C": 2,
+        "to_C": 5,
+        "c_delta_mod15": 3,
+        "lift_q_mod4": 0,
+        "predicted_delta": 3,
+        "from_fiber": 2,
+        "to_fiber": 5
+      },
+      {
+        "edge_role": "WX",
+        "label": "reverse_partner",
+        "from_C": 2,
+        "to_C": 4,
+        "c_delta_mod15": 2,
+        "lift_q_mod4": 0,
+        "predicted_delta": 2,
+        "from_fiber": 2,
+        "to_fiber": 4
+      },
+      {
+        "edge_role": "ZT",
+        "label": "shared_B",
+        "from_C": 2,
+        "to_C": 4,
+        "c_delta_mod15": 2,
+        "lift_q_mod4": 0,
+        "predicted_delta": 2,
+        "from_fiber": 2,
+        "to_fiber": 4
+      }
+    ],
+    "4": [
+      {
+        "edge_role": "XY",
+        "label": "shared_B",
+        "from_C": 4,
+        "to_C": 5,
+        "c_delta_mod15": 1,
+        "lift_q_mod4": 0,
+        "predicted_delta": 1,
+        "from_fiber": 4,
+        "to_fiber": 5
+      },
+      {
+        "edge_role": "TI",
+        "label": "reverse_partner",
+        "from_C": 4,
+        "to_C": 5,
+        "c_delta_mod15": 1,
+        "lift_q_mod4": 0,
+        "predicted_delta": 1,
+        "from_fiber": 4,
+        "to_fiber": 5
+      }
+    ],
+    "5": [
+      {
+        "edge_role": "YZ",
+        "label": "reverse_partner",
+        "from_C": 5,
+        "to_C": 0,
+        "c_delta_mod15": 10,
+        "lift_q_mod4": 3,
+        "predicted_delta": 55,
+        "from_fiber": 5,
+        "to_fiber": 0
+      },
+      {
+        "edge_role": "IW",
+        "label": "shared_B",
+        "from_C": 5,
+        "to_C": 0,
+        "c_delta_mod15": 10,
+        "lift_q_mod4": 3,
+        "predicted_delta": 55,
+        "from_fiber": 5,
+        "to_fiber": 0
+      },
+      {
+        "edge_role": "YZ",
+        "label": "reverse_partner",
+        "from_C": 5,
+        "to_C": 2,
+        "c_delta_mod15": 12,
+        "lift_q_mod4": 3,
+        "predicted_delta": 57,
+        "from_fiber": 5,
+        "to_fiber": 2
+      },
+      {
+        "edge_role": "IW",
+        "label": "shared_B",
+        "from_C": 5,
+        "to_C": 2,
+        "c_delta_mod15": 12,
+        "lift_q_mod4": 3,
+        "predicted_delta": 57,
+        "from_fiber": 5,
+        "to_fiber": 2
+      }
+    ],
+    "10": [
+      {
+        "edge_role": "WX",
+        "label": "reverse_partner",
+        "from_C": 10,
+        "to_C": 13,
+        "c_delta_mod15": 3,
+        "lift_q_mod4": 0,
+        "predicted_delta": 3,
+        "from_fiber": 10,
+        "to_fiber": 13
+      },
+      {
+        "edge_role": "ZT",
+        "label": "shared_B",
+        "from_C": 10,
+        "to_C": 13,
+        "c_delta_mod15": 3,
+        "lift_q_mod4": 0,
+        "predicted_delta": 3,
+        "from_fiber": 10,
+        "to_fiber": 13
+      }
+    ],
+    "11": [
+      {
+        "edge_role": "XY",
+        "label": "shared_B",
+        "from_C": 11,
+        "to_C": 2,
+        "c_delta_mod15": 6,
+        "lift_q_mod4": 3,
+        "predicted_delta": 51,
+        "from_fiber": 11,
+        "to_fiber": 2
+      },
+      {
+        "edge_role": "TI",
+        "label": "reverse_partner",
+        "from_C": 11,
+        "to_C": 2,
+        "c_delta_mod15": 6,
+        "lift_q_mod4": 3,
+        "predicted_delta": 51,
+        "from_fiber": 11,
+        "to_fiber": 2
+      }
+    ],
+    "13": [
+      {
+        "edge_role": "XY",
+        "label": "shared_B",
+        "from_C": 13,
+        "to_C": 1,
+        "c_delta_mod15": 3,
+        "lift_q_mod4": 3,
+        "predicted_delta": 48,
+        "from_fiber": 13,
+        "to_fiber": 1
+      },
+      {
+        "edge_role": "TI",
+        "label": "reverse_partner",
+        "from_C": 13,
+        "to_C": 1,
+        "c_delta_mod15": 3,
+        "lift_q_mod4": 3,
+        "predicted_delta": 48,
+        "from_fiber": 13,
+        "to_fiber": 1
+      }
+    ],
+    "14": [
+      {
+        "edge_role": "WX",
+        "label": "reverse_partner",
+        "from_C": 14,
+        "to_C": 11,
+        "c_delta_mod15": 12,
+        "lift_q_mod4": 3,
+        "predicted_delta": 57,
+        "from_fiber": 14,
+        "to_fiber": 11
+      },
+      {
+        "edge_role": "ZT",
+        "label": "shared_B",
+        "from_C": 14,
+        "to_C": 11,
+        "c_delta_mod15": 12,
+        "lift_q_mod4": 3,
+        "predicted_delta": 57,
+        "from_fiber": 14,
+        "to_fiber": 11
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "from_C": 14,
+      "to_C": 11,
+      "from_fiber": 14,
+      "actual_to_fiber": 11,
+      "predicted_q": 3,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 11,
+      "match": true
+    },
+    {
+      "edge_role": "XY",
+      "label": "shared_B",
+      "from_C": 11,
+      "to_C": 2,
+      "from_fiber": 11,
+      "actual_to_fiber": 2,
+      "predicted_q": 3,
+      "predicted_delta": 51,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "from_C": 2,
+      "to_C": 14,
+      "from_fiber": 2,
+      "actual_to_fiber": 14,
+      "predicted_q": 0,
+      "predicted_delta": 12,
+      "predicted_to_fiber": 14,
+      "match": true
+    },
+    {
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "from_C": 14,
+      "to_C": 11,
+      "from_fiber": 14,
+      "actual_to_fiber": 11,
+      "predicted_q": 3,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 11,
+      "match": true
+    },
+    {
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "from_C": 11,
+      "to_C": 2,
+      "from_fiber": 11,
+      "actual_to_fiber": 2,
+      "predicted_q": 3,
+      "predicted_delta": 51,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "edge_role": "IW",
+      "label": "shared_B",
+      "from_C": 2,
+      "to_C": 14,
+      "from_fiber": 2,
+      "actual_to_fiber": 14,
+      "predicted_q": 0,
+      "predicted_delta": 12,
+      "predicted_to_fiber": 14,
+      "match": true
+    },
+    {
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "from_C": 10,
+      "to_C": 13,
+      "from_fiber": 10,
+      "actual_to_fiber": 13,
+      "predicted_q": 0,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 13,
+      "match": true
+    },
+    {
+      "edge_role": "XY",
+      "label": "shared_B",
+      "from_C": 13,
+      "to_C": 1,
+      "from_fiber": 13,
+      "actual_to_fiber": 1,
+      "predicted_q": 3,
+      "predicted_delta": 48,
+      "predicted_to_fiber": 1,
+      "match": true
+    },
+    {
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "from_C": 1,
+      "to_C": 10,
+      "from_fiber": 1,
+      "actual_to_fiber": 10,
+      "predicted_q": 0,
+      "predicted_delta": 9,
+      "predicted_to_fiber": 10,
+      "match": true
+    },
+    {
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "from_C": 10,
+      "to_C": 13,
+      "from_fiber": 10,
+      "actual_to_fiber": 13,
+      "predicted_q": 0,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 13,
+      "match": true
+    },
+    {
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "from_C": 13,
+      "to_C": 1,
+      "from_fiber": 13,
+      "actual_to_fiber": 1,
+      "predicted_q": 3,
+      "predicted_delta": 48,
+      "predicted_to_fiber": 1,
+      "match": true
+    },
+    {
+      "edge_role": "IW",
+      "label": "shared_B",
+      "from_C": 1,
+      "to_C": 10,
+      "from_fiber": 1,
+      "actual_to_fiber": 10,
+      "predicted_q": 0,
+      "predicted_delta": 9,
+      "predicted_to_fiber": 10,
+      "match": true
+    },
+    {
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "from_C": 0,
+      "to_C": 2,
+      "from_fiber": 0,
+      "actual_to_fiber": 2,
+      "predicted_q": 0,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "edge_role": "XY",
+      "label": "shared_B",
+      "from_C": 2,
+      "to_C": 5,
+      "from_fiber": 2,
+      "actual_to_fiber": 5,
+      "predicted_q": 0,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 5,
+      "match": true
+    },
+    {
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "from_C": 5,
+      "to_C": 0,
+      "from_fiber": 5,
+      "actual_to_fiber": 0,
+      "predicted_q": 3,
+      "predicted_delta": 55,
+      "predicted_to_fiber": 0,
+      "match": true
+    },
+    {
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "from_C": 0,
+      "to_C": 2,
+      "from_fiber": 0,
+      "actual_to_fiber": 2,
+      "predicted_q": 0,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "from_C": 2,
+      "to_C": 5,
+      "from_fiber": 2,
+      "actual_to_fiber": 5,
+      "predicted_q": 0,
+      "predicted_delta": 3,
+      "predicted_to_fiber": 5,
+      "match": true
+    },
+    {
+      "edge_role": "IW",
+      "label": "shared_B",
+      "from_C": 5,
+      "to_C": 0,
+      "from_fiber": 5,
+      "actual_to_fiber": 0,
+      "predicted_q": 3,
+      "predicted_delta": 55,
+      "predicted_to_fiber": 0,
+      "match": true
+    },
+    {
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "from_C": 2,
+      "to_C": 4,
+      "from_fiber": 2,
+      "actual_to_fiber": 4,
+      "predicted_q": 0,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 4,
+      "match": true
+    },
+    {
+      "edge_role": "XY",
+      "label": "shared_B",
+      "from_C": 4,
+      "to_C": 5,
+      "from_fiber": 4,
+      "actual_to_fiber": 5,
+      "predicted_q": 0,
+      "predicted_delta": 1,
+      "predicted_to_fiber": 5,
+      "match": true
+    },
+    {
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "from_C": 5,
+      "to_C": 2,
+      "from_fiber": 5,
+      "actual_to_fiber": 2,
+      "predicted_q": 3,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 2,
+      "match": true
+    },
+    {
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "from_C": 2,
+      "to_C": 4,
+      "from_fiber": 2,
+      "actual_to_fiber": 4,
+      "predicted_q": 0,
+      "predicted_delta": 2,
+      "predicted_to_fiber": 4,
+      "match": true
+    },
+    {
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "from_C": 4,
+      "to_C": 5,
+      "from_fiber": 4,
+      "actual_to_fiber": 5,
+      "predicted_q": 0,
+      "predicted_delta": 1,
+      "predicted_to_fiber": 5,
+      "match": true
+    },
+    {
+      "edge_role": "IW",
+      "label": "shared_B",
+      "from_C": 5,
+      "to_C": 2,
+      "from_fiber": 5,
+      "actual_to_fiber": 2,
+      "predicted_q": 3,
+      "predicted_delta": 57,
+      "predicted_to_fiber": 2,
+      "match": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "decomposition_loaded",
+      "status": true,
+      "detail": "c_transition_delta_lift_decomposition_found"
+    },
+    {
+      "id": "context_loaded",
+      "status": true,
+      "detail": "lift_q_context_rule_found"
+    },
+    {
+      "id": "row_count_24",
+      "status": true,
+      "detail": 24
+    },
+    {
+      "id": "from_c_rule_unambiguous",
+      "status": true,
+      "detail": {}
+    },
+    {
+      "id": "from_c_rule_nonempty",
+      "status": true,
+      "detail": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "5": 3,
+        "10": 0,
+        "11": 3,
+        "13": 3,
+        "14": 3
+      }
+    },
+    {
+      "id": "formula_predicts_all_rows",
+      "status": true,
+      "detail": {
+        "match_count": 24,
+        "row_count": 24
+      }
+    },
+    {
+      "id": "q_values_only_0_3",
+      "status": true,
+      "detail": {
+        "3": 10,
+        "0": 14
+      }
+    },
+    {
+      "id": "no_gap_a_claim_made",
+      "status": true,
+      "detail": "formula rule only"
+    }
+  ],
+  "boundary": [
+    "This records an exact formula over station C coordinates.",
+    "It does not yet derive the from_C partition from native G60 structure.",
+    "It does not close Gap A.",
+    "It does not prove full G900."
+  ]
+}
