@@ -1,0 +1,14 @@
+{
+  "audit_id": "013",
+  "boundary": "The theorem covers C paths but does not derive anchor paths or lift masks from native G60 provenance and does not close Gap A.",
+  "claim": "Wrote the C-path quotient-anchor cover theorem into the paper.",
+  "direct_residue_count": 6,
+  "input": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_quotient_anchor_cover_012.v1.json",
+  "main": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/main.tex",
+  "section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/08_c_path_quotient_anchor_cover.tex",
+  "status": "c_path_cover_theorem_section_recorded",
+  "theorem_012_pass": true,
+  "total_c_path_step_count": 12,
+  "uncovered_count": 0,
+  "unlifted_anchor_relay_count": 6
+}

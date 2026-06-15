@@ -1,0 +1,53 @@
+\section{C-Path Quotient-Anchor Cover}
+
+The first native-provenance tests show that the Project 22 C paths are not literal paths in the canonical G60 local edge payload.  Artifact 003 found zero literal G60 adjacency support for the twelve C-path steps.
+
+The next audits show that this is not a failure of structure.  Artifact 004 found partial support after projecting native G60 vertices to residues modulo 15.  Artifact 006 proved that the direct residue-support pattern is exactly controlled by the local shell/rank bits.  Artifacts 007--011 then showed that every unsupported direct residue transition is repaired by a same-state unlifted anchor-path relay.
+
+\begin{theorem}[C-path quotient-anchor cover]
+Every Project 22 C-path step is covered by one of two mechanisms:
+\[
+    \text{direct mod15 G60 residue support}
+\]
+or
+\[
+    \text{same-state unlifted anchor-path relay support}.
+\]
+The direct half is selected by the bit/step law from artifact 006.  The complementary relay half is covered by artifact 011.  Therefore all twelve C-path steps are covered.
+\end{theorem}
+
+\paragraph{Coverage table.}
+\[
+\begin{array}{c|c|c|c}
+\mathrm{state} & \mathrm{step} & C\ \mathrm{transition} & \mathrm{support}\\
+\hline
+O0 & 0 & 11\to 2 & \texttt{direct_residue} \\
+O0 & 1 & 2\to 14 & \texttt{direct_residue} \\
+O0 & 2 & 14\to 11 & \texttt{unlifted_anchor_relay} \\
+O1 & 0 & 13\to 1 & \texttt{direct_residue} \\
+O1 & 1 & 1\to 10 & \texttt{direct_residue} \\
+O1 & 2 & 10\to 13 & \texttt{unlifted_anchor_relay} \\
+B0 & 0 & 2\to 5 & \texttt{unlifted_anchor_relay} \\
+B0 & 1 & 5\to 0 & \texttt{unlifted_anchor_relay} \\
+B0 & 2 & 0\to 2 & \texttt{direct_residue} \\
+B1 & 0 & 4\to 5 & \texttt{direct_residue} \\
+B1 & 1 & 5\to 2 & \texttt{unlifted_anchor_relay} \\
+B1 & 2 & 2\to 4 & \texttt{unlifted_anchor_relay} \\
+\end{array}
+\]
+
+Artifact 012 verifies the combined theorem:
+\[
+    12/12\ \text{C-path steps covered}.
+\]
+The split is exact:
+\[
+    6\ \text{direct residue steps}
+    \quad+\quad
+    6\ \text{unlifted anchor-relay steps}
+    \quad+\quad
+    0\ \text{uncovered steps}.
+\]
+
+\paragraph{Boundary.}
+This is a C-path cover theorem over the mod15 residue quotient plus inherited Project 22 anchor paths and lift masks.  It does not derive the anchor paths or lift masks from native G60 provenance.  It does not select unique mediators for every relay.  It does not derive the full role-labeled shared\_B edge universe, and it does not close Gap A.
