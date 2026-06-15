@@ -1,0 +1,10 @@
+group,item,status,evidence
+closed_or_stabilized,same_layer_and_imported_upstream_header_source_absence,bounded_negative_stabilized,050 records that the bounded header was not sourced by same-layer station search or imported-upstream scan.
+closed_or_stabilized,bounded_header_coordinate_expression,closed_at_reduced_coordinate_layer,"051 exactly recovers free_sum, relay_max, and relay_sum from b, r, and c_row."
+closed_or_stabilized,completion_window,stabilized,"052 identifies the local completion window as levels 2,3,4,5: edge, hinge, closed_face, filled_cell."
+closed_or_stabilized,null_completion_header_reading,stabilized_as_interpretation,052 interprets the 051 coordinate header as a null-completion header.
+open,completion_ladder_native_provenance,open,052 explicitly does not derive the completion ladder from the full native G60/shared_B universe.
+open,why_c_row_lifts_to_completion_level_plus_two,open,"052 uses completion_level=c_row+2 as an exact interpretation, but does not derive the +2 lift natively."
+open,native_two_bit_coordinate_source,open,051 derives the header from reduced coordinates but does not derive those coordinates from full native G60/shared_B structure.
+open,full_role_labeled_shared_B_universe,open,"050, 051, and 052 explicitly do not derive the full role-labeled shared_B universe."
+open,Gap_A_closure,open,"050, 051, and 052 explicitly state this is not Gap A closure."
