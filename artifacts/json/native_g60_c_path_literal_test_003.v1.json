@@ -1,0 +1,181 @@
+{
+  "all_checks_pass": true,
+  "audit_id": "003",
+  "boundary": "This is only a literal-edge test against the copied G60 local edge payload. It does not test quotient paths, station provenance paths, lifted masks, or the full role-labeled shared_B universe, and it does not close Gap A.",
+  "checks": {
+    "g60_edge_count_is_120": true,
+    "g60_payload_exists": true,
+    "g60_vertex_count_is_60": true,
+    "source_ledger_ready": true,
+    "tested_c_path_edge_count_is_12": true
+  },
+  "g60_edge_count": 120,
+  "g60_vertex_count": 60,
+  "inputs": {
+    "g60_edges": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv",
+    "source_ledger_002": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/source_ledger_and_target_alignment_002.v1.json"
+  },
+  "interpretation": "This tests whether the Project 22 C paths are literal paths in the copied canonical G60 local edge payload. A failure here does not refute the local cell; it means the C paths are likely quotient-visible, transition-overlay, or provenance-field paths rather than literal G60 adjacency paths.",
+  "literal_c_paths_all_pass": false,
+  "literal_c_paths_any_support": false,
+  "literal_fraction": 0.0,
+  "per_state": {
+    "B0": {
+      "all_edges_literal": false,
+      "any_edge_literal": false,
+      "edge_count": 3,
+      "literal_edge_count": 0,
+      "literal_flags": [
+        false,
+        false,
+        false
+      ],
+      "path": [
+        2,
+        5,
+        0,
+        2
+      ]
+    },
+    "B1": {
+      "all_edges_literal": false,
+      "any_edge_literal": false,
+      "edge_count": 3,
+      "literal_edge_count": 0,
+      "literal_flags": [
+        false,
+        false,
+        false
+      ],
+      "path": [
+        4,
+        5,
+        2,
+        4
+      ]
+    },
+    "O0": {
+      "all_edges_literal": false,
+      "any_edge_literal": false,
+      "edge_count": 3,
+      "literal_edge_count": 0,
+      "literal_flags": [
+        false,
+        false,
+        false
+      ],
+      "path": [
+        11,
+        2,
+        14,
+        11
+      ]
+    },
+    "O1": {
+      "all_edges_literal": false,
+      "any_edge_literal": false,
+      "edge_count": 3,
+      "literal_edge_count": 0,
+      "literal_flags": [
+        false,
+        false,
+        false
+      ],
+      "path": [
+        13,
+        1,
+        10,
+        13
+      ]
+    }
+  },
+  "rows": [
+    {
+      "literal_g60_edge": false,
+      "state": "B0",
+      "step": 0,
+      "u": 2,
+      "v": 5
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "B0",
+      "step": 1,
+      "u": 5,
+      "v": 0
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "B0",
+      "step": 2,
+      "u": 0,
+      "v": 2
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "B1",
+      "step": 0,
+      "u": 4,
+      "v": 5
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "B1",
+      "step": 1,
+      "u": 5,
+      "v": 2
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "B1",
+      "step": 2,
+      "u": 2,
+      "v": 4
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "O0",
+      "step": 0,
+      "u": 11,
+      "v": 2
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "O0",
+      "step": 1,
+      "u": 2,
+      "v": 14
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "O0",
+      "step": 2,
+      "u": 14,
+      "v": 11
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "O1",
+      "step": 0,
+      "u": 13,
+      "v": 1
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "O1",
+      "step": 1,
+      "u": 1,
+      "v": 10
+    },
+    {
+      "literal_g60_edge": false,
+      "state": "O1",
+      "step": 2,
+      "u": 10,
+      "v": 13
+    }
+  ],
+  "status": "native_g60_c_path_literal_test_recorded",
+  "total_literal_g60_edges": 0,
+  "total_tested_c_path_edges": 12
+}
