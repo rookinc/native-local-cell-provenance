@@ -1,0 +1,7 @@
+kind,feature,direction,ordered_forms,ordered_names,values,uses_form_index_as_input,uses_record_order_as_input,uses_answer_label_as_input
+order_hit,fiber_delta_mod60__min,descending,"[0, 1, 2, 3]","[""edge"", ""hinge"", ""closed_face"", ""filled_cell""]","{""0"": 12, ""1"": 3, ""2"": 2, ""3"": 1}",False,False,False
+order_hit,fiber_delta_mod60__unique_min,descending,"[0, 1, 2, 3]","[""edge"", ""hinge"", ""closed_face"", ""filled_cell""]","{""0"": 12, ""1"": 3, ""2"": 2, ""3"": 1}",False,False,False
+order_hit,slot_delta_mod15__max,ascending,"[0, 1, 2, 3]","[""edge"", ""hinge"", ""closed_face"", ""filled_cell""]","{""0"": 9, ""1"": 12, ""2"": 13, ""3"": 14}",False,False,False
+order_hit,slot_delta_mod15__range,ascending,"[0, 1, 2, 3]","[""edge"", ""hinge"", ""closed_face"", ""filled_cell""]","{""0"": 9, ""1"": 12, ""2"": 13, ""3"": 14}",False,False,False
+order_hit,slot_delta_mod15__unique_max,ascending,"[0, 1, 2, 3]","[""edge"", ""hinge"", ""closed_face"", ""filled_cell""]","{""0"": 9, ""1"": 12, ""2"": 13, ""3"": 14}",False,False,False
+order_hit,slot_delta_mod15__unique_range,ascending,"[0, 1, 2, 3]","[""edge"", ""hinge"", ""closed_face"", ""filled_cell""]","{""0"": 9, ""1"": 12, ""2"": 13, ""3"": 14}",False,False,False
