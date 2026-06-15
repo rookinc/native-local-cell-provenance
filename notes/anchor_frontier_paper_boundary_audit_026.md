@@ -24,13 +24,13 @@ The paper continues to state that Gap A is not closed and that native provenance
 - c_cover_section_present: `True`
 - anchor_after_c_cover: `True`
 - anchor_before_boundary_or_conclusion: `False`
-- all_required_closed_phrases_present: `False`
+- all_required_closed_phrases_present: `True`
 - all_required_boundary_phrases_present: `True`
 - no_forbidden_unqualified_claims_present: `True`
 
 ## Missing required closed phrases
 
-- `node-sheet`
+- none
 
 ## Missing required boundary phrases
 

@@ -3,7 +3,7 @@
   "boundary_pass": false,
   "checks": {
     "all_required_boundary_phrases_present": true,
-    "all_required_closed_phrases_present": false,
+    "all_required_closed_phrases_present": true,
     "anchor_after_c_cover": true,
     "anchor_before_boundary_or_conclusion": false,
     "c_cover_section_present": true,
@@ -23,12 +23,10 @@
     "section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/09_anchor_quotient_rank_frontier.tex"
   },
   "missing_required_boundary_phrases": [],
-  "missing_required_closed_phrases": [
-    "node-sheet"
-  ],
+  "missing_required_closed_phrases": [],
   "open_boundary": "The paper continues to state that Gap A is not closed and that native provenance must still derive the anchor residue sets, pair-size profiles, and rank law.",
   "positions": {
-    "anchor_include": 792,
+    "anchor_include": 684,
     "boundary_or_none": null,
     "c_cover_include": 635,
     "conclusion_or_none": null
