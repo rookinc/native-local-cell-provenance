@@ -1,0 +1,5 @@
+form_index,euclidean_name,row_count,outside_boundary_span,inside_fiber_residual,boundary_gap,inside_captured,inside_outside_phase,slot_values,fiber_values
+0,edge,6,9,12,-3,False,outside_relation_without_inside_capture,"[0, 0, 0, 3, 3, 9]","[12, 12, 51, 51, 57, 57]"
+1,hinge,6,12,3,9,True,inside_capture_begins_at_open_turn,"[0, 0, 0, 6, 12, 12]","[3, 3, 9, 9, 48, 48]"
+2,closed_face,6,13,2,11,True,inside_separated_by_closed_boundary,"[0, 0, 0, 5, 12, 13]","[2, 2, 3, 3, 55, 55]"
+3,filled_cell,6,14,1,13,True,inside_admitted_as_carried_content,"[0, 0, 0, 3, 13, 14]","[1, 1, 2, 2, 57, 57]"
