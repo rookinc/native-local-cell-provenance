@@ -1,0 +1,3192 @@
+{
+  "audit_id": "027",
+  "boundary": "Even if this passes, it is not full Gap A closure by itself. The rank law and size-profile law still require independent native/provenance justification, relay mediators are not uniquely selected, station fields are not tested, and the full role-labeled shared_B universe is not yet derived.",
+  "checks": {
+    "all_observed_cycles_found_in_direct_universe": true,
+    "all_selected_candidates_match_observed": false,
+    "all_states_select_one_candidate_by_rank_law": true,
+    "frontier_checkpoint_024_pass": true,
+    "g60_edge_count_is_120": true,
+    "prior_census_020_theorem_pass": true,
+    "rank_law_022_theorem_pass": true,
+    "unlifted_relay_cover_011_theorem_pass": true
+  },
+  "closure_candidate_pass": false,
+  "generation_rules": {
+    "quotient_support_rule": "every cycle step must have native G60 mod15 residue-pair support",
+    "rank_selector_law": "rank = 2 + 7*b + 2*r - b*r",
+    "relay_obligation_rule": "candidate residue set must intersect every same-state unlifted relay-hit set from artifact 011",
+    "residue_count_law": "6 - b*(1-r)",
+    "size_profile_law": "[2, 2 - b*(1-r), 2]"
+  },
+  "inputs": {
+    "frontier_checkpoint_024": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/local_cell_provenance_frontier_checkpoint_024.v1.json",
+    "g60_edges": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv",
+    "prior_corrected_census_020_validation_only": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_path_candidate_census_fixed_020.v1.json",
+    "rank_law_022": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_rank_fingerprint_law_022.v1.json",
+    "unlifted_relay_cover_011": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_unlifted_anchor_relay_cover_011.v1.json"
+  },
+  "interpretation": "This is a direct Gap A assault on the anchor selector. It stops assuming the observed anchor residue sets and instead generates candidates from state bits, C-relay obligations, native mod15 G60 quotient support, and the rank law. If the selected candidates match the observed anchor paths in all four states, the anchor-selector subproblem moves from observed residue-set assumption to a native/provenance candidate law.",
+  "per_state": {
+    "B0": {
+      "canonical_candidate_count": 10232,
+      "labeled_candidate_count": 30030,
+      "observed_candidate_index": 7067,
+      "observed_cycle": [
+        [
+          0,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "observed_found": true,
+      "observed_rank": 7068,
+      "observed_support_sum_best_orientation": 8,
+      "rank_bit": 0,
+      "relay_obligations": [
+        {
+          "allowed_hits": [
+            8
+          ],
+          "c_step": 0,
+          "from_C": null,
+          "to_C": null
+        },
+        {
+          "allowed_hits": [
+            4,
+            8
+          ],
+          "c_step": 1,
+          "from_C": null,
+          "to_C": null
+        }
+      ],
+      "residue_count_law": 5,
+      "residue_set_after_relay_count": 1001,
+      "residue_set_count": 3003,
+      "selected_candidate_index": 8,
+      "selected_count": 1,
+      "selected_cycle": [
+        [
+          2,
+          5
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          11
+        ]
+      ],
+      "selected_matches_observed": false,
+      "selected_rank": 9,
+      "selected_residue_set": [
+        2,
+        5,
+        8,
+        11,
+        14
+      ],
+      "selected_support_sum_best_orientation": 17,
+      "shell_bit": 1,
+      "size_profile_law": [
+        2,
+        1,
+        2
+      ],
+      "state": "B0",
+      "supported_labeled_candidate_count": 20464,
+      "target_rank": 9,
+      "top_20_candidates": [
+        {
+          "candidate_index": 0,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 1,
+          "residue_set": [
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 19,
+          "support_sum_values": [
+            19,
+            19
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "cycle": [
+            [
+              2
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 2,
+          "residue_set": [
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 18,
+          "support_sum_values": [
+            18,
+            18
+          ]
+        },
+        {
+          "candidate_index": 2,
+          "cycle": [
+            [
+              0,
+              2
+            ],
+            [
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 3,
+          "residue_set": [
+            0,
+            2,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 3,
+          "cycle": [
+            [
+              0,
+              5
+            ],
+            [
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 4,
+          "residue_set": [
+            0,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 4,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 5,
+          "residue_set": [
+            0,
+            2,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 5,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              11
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 6,
+          "residue_set": [
+            0,
+            2,
+            4,
+            8,
+            11
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 6,
+          "cycle": [
+            [
+              2
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 7,
+          "residue_set": [
+            2,
+            8,
+            11,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 7,
+          "cycle": [
+            [
+              2
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              12,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 8,
+          "residue_set": [
+            2,
+            8,
+            12,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 8,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              8,
+              14
+            ],
+            [
+              11
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 9,
+          "residue_set": [
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 9,
+          "cycle": [
+            [
+              2,
+              7
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 10,
+          "residue_set": [
+            2,
+            7,
+            8,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 10,
+          "cycle": [
+            [
+              2,
+              12
+            ],
+            [
+              6
+            ],
+            [
+              8,
+              13
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 11,
+          "residue_set": [
+            2,
+            6,
+            8,
+            12,
+            13
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 11,
+          "cycle": [
+            [
+              2,
+              12
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              13
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 12,
+          "residue_set": [
+            2,
+            6,
+            8,
+            12,
+            13
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 12,
+          "cycle": [
+            [
+              2,
+              12
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 13,
+          "residue_set": [
+            2,
+            8,
+            12,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 13,
+          "cycle": [
+            [
+              3,
+              8
+            ],
+            [
+              4
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 14,
+          "residue_set": [
+            3,
+            4,
+            8,
+            11,
+            12
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 14,
+          "cycle": [
+            [
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 15,
+          "residue_set": [
+            5,
+            7,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 17,
+          "support_sum_values": [
+            17,
+            17
+          ]
+        },
+        {
+          "candidate_index": 15,
+          "cycle": [
+            [
+              0
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 16,
+          "residue_set": [
+            0,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 16,
+          "support_sum_values": [
+            16,
+            16
+          ]
+        },
+        {
+          "candidate_index": 16,
+          "cycle": [
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              8
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 17,
+          "residue_set": [
+            0,
+            2,
+            4,
+            8,
+            11
+          ],
+          "support_sum_best_orientation": 16,
+          "support_sum_values": [
+            16,
+            16
+          ]
+        },
+        {
+          "candidate_index": 17,
+          "cycle": [
+            [
+              0,
+              5
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              8
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 18,
+          "residue_set": [
+            0,
+            4,
+            5,
+            8,
+            11
+          ],
+          "support_sum_best_orientation": 16,
+          "support_sum_values": [
+            16,
+            16
+          ]
+        },
+        {
+          "candidate_index": 18,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2
+            ],
+            [
+              4,
+              11
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 19,
+          "residue_set": [
+            0,
+            2,
+            4,
+            8,
+            11
+          ],
+          "support_sum_best_orientation": 16,
+          "support_sum_values": [
+            16,
+            16
+          ]
+        },
+        {
+          "candidate_index": 19,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 2,
+          "rank_by_best_support_sum_desc": 20,
+          "residue_set": [
+            0,
+            2,
+            4,
+            8,
+            14
+          ],
+          "support_sum_best_orientation": 16,
+          "support_sum_values": [
+            16,
+            16
+          ]
+        }
+      ]
+    },
+    "B1": {
+      "canonical_candidate_count": 28032,
+      "labeled_candidate_count": 180180,
+      "observed_candidate_index": 23158,
+      "observed_cycle": [
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      "observed_found": true,
+      "observed_rank": 23159,
+      "observed_support_sum_best_orientation": 11,
+      "rank_bit": 1,
+      "relay_obligations": [
+        {
+          "allowed_hits": [
+            8
+          ],
+          "c_step": 1,
+          "from_C": null,
+          "to_C": null
+        },
+        {
+          "allowed_hits": [
+            8,
+            10,
+            13
+          ],
+          "c_step": 2,
+          "from_C": null,
+          "to_C": null
+        }
+      ],
+      "residue_count_law": 6,
+      "residue_set_after_relay_count": 2002,
+      "residue_set_count": 5005,
+      "selected_candidate_index": 9,
+      "selected_count": 1,
+      "selected_cycle": [
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          11,
+          14
+        ]
+      ],
+      "selected_matches_observed": false,
+      "selected_rank": 10,
+      "selected_residue_set": [
+        1,
+        2,
+        5,
+        8,
+        11,
+        14
+      ],
+      "selected_support_sum_best_orientation": 23,
+      "shell_bit": 1,
+      "size_profile_law": [
+        2,
+        2,
+        2
+      ],
+      "state": "B1",
+      "supported_labeled_candidate_count": 168192,
+      "target_rank": 10,
+      "top_20_candidates": [
+        {
+          "candidate_index": 0,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 1,
+          "residue_set": [
+            0,
+            2,
+            4,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 2,
+          "residue_set": [
+            0,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 2,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 3,
+          "residue_set": [
+            2,
+            5,
+            7,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 3,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 4,
+          "residue_set": [
+            2,
+            5,
+            8,
+            11,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 4,
+          "cycle": [
+            [
+              2,
+              7
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 5,
+          "residue_set": [
+            2,
+            7,
+            8,
+            11,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 5,
+          "cycle": [
+            [
+              0,
+              2
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 6,
+          "residue_set": [
+            0,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 6,
+          "cycle": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 7,
+          "residue_set": [
+            0,
+            1,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 7,
+          "cycle": [
+            [
+              0,
+              5
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 8,
+          "residue_set": [
+            0,
+            4,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 8,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 9,
+          "residue_set": [
+            0,
+            4,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 9,
+          "cycle": [
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 10,
+          "residue_set": [
+            1,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 10,
+          "cycle": [
+            [
+              1,
+              2
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              12,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 11,
+          "residue_set": [
+            1,
+            2,
+            8,
+            12,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 11,
+          "cycle": [
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 12,
+          "residue_set": [
+            1,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 12,
+          "cycle": [
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 13,
+          "residue_set": [
+            2,
+            4,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 13,
+          "cycle": [
+            [
+              2,
+              4
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              12,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 14,
+          "residue_set": [
+            2,
+            4,
+            8,
+            12,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 14,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 15,
+          "residue_set": [
+            2,
+            3,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 15,
+          "cycle": [
+            [
+              2,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 16,
+          "residue_set": [
+            2,
+            5,
+            7,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 16,
+          "cycle": [
+            [
+              2,
+              12
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              9,
+              13
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 17,
+          "residue_set": [
+            2,
+            6,
+            8,
+            9,
+            12,
+            13
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 17,
+          "cycle": [
+            [
+              2,
+              12
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              8,
+              13
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 18,
+          "residue_set": [
+            2,
+            6,
+            8,
+            12,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 18,
+          "cycle": [
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 19,
+          "residue_set": [
+            3,
+            4,
+            7,
+            8,
+            11,
+            12
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 19,
+          "cycle": [
+            [
+              3,
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 20,
+          "residue_set": [
+            3,
+            5,
+            7,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        }
+      ]
+    },
+    "O0": {
+      "canonical_candidate_count": 56688,
+      "labeled_candidate_count": 367290,
+      "observed_candidate_index": 34231,
+      "observed_cycle": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "observed_found": true,
+      "observed_rank": 34232,
+      "observed_support_sum_best_orientation": 13,
+      "rank_bit": 0,
+      "relay_obligations": [
+        {
+          "allowed_hits": [
+            4,
+            5,
+            7
+          ],
+          "c_step": 2,
+          "from_C": null,
+          "to_C": null
+        }
+      ],
+      "residue_count_law": 6,
+      "residue_set_after_relay_count": 4081,
+      "residue_set_count": 5005,
+      "selected_candidate_index": 1,
+      "selected_count": 1,
+      "selected_cycle": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          11,
+          14
+        ]
+      ],
+      "selected_matches_observed": false,
+      "selected_rank": 2,
+      "selected_residue_set": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        14
+      ],
+      "selected_support_sum_best_orientation": 24,
+      "shell_bit": 0,
+      "size_profile_law": [
+        2,
+        2,
+        2
+      ],
+      "state": "O0",
+      "supported_labeled_candidate_count": 340128,
+      "target_rank": 2,
+      "top_20_candidates": [
+        {
+          "candidate_index": 0,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 1,
+          "residue_set": [
+            0,
+            2,
+            4,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 2,
+          "residue_set": [
+            0,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 2,
+          "cycle": [
+            [
+              0,
+              9
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 3,
+          "residue_set": [
+            0,
+            4,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 3,
+          "cycle": [
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              13
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 4,
+          "residue_set": [
+            1,
+            3,
+            4,
+            7,
+            12,
+            13
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 4,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 5,
+          "residue_set": [
+            2,
+            5,
+            7,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 5,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 6,
+          "residue_set": [
+            2,
+            5,
+            8,
+            11,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 6,
+          "cycle": [
+            [
+              2,
+              7
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 7,
+          "residue_set": [
+            2,
+            7,
+            8,
+            11,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 7,
+          "cycle": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 8,
+          "residue_set": [
+            3,
+            4,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 8,
+          "cycle": [
+            [
+              0,
+              2
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 9,
+          "residue_set": [
+            0,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 9,
+          "cycle": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 10,
+          "residue_set": [
+            0,
+            3,
+            4,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 10,
+          "cycle": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 11,
+          "residue_set": [
+            0,
+            1,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 11,
+          "cycle": [
+            [
+              0,
+              5
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 12,
+          "residue_set": [
+            0,
+            4,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 12,
+          "cycle": [
+            [
+              0,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 13,
+          "residue_set": [
+            0,
+            4,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 13,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 14,
+          "residue_set": [
+            0,
+            4,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 14,
+          "cycle": [
+            [
+              0,
+              9
+            ],
+            [
+              2,
+              10
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 15,
+          "residue_set": [
+            0,
+            2,
+            4,
+            6,
+            9,
+            10
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 15,
+          "cycle": [
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 16,
+          "residue_set": [
+            1,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 16,
+          "cycle": [
+            [
+              1,
+              3
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 17,
+          "residue_set": [
+            1,
+            3,
+            5,
+            7,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 17,
+          "cycle": [
+            [
+              1,
+              6
+            ],
+            [
+              3,
+              13
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 18,
+          "residue_set": [
+            1,
+            3,
+            6,
+            7,
+            12,
+            13
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 18,
+          "cycle": [
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 19,
+          "residue_set": [
+            1,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 19,
+          "cycle": [
+            [
+              1,
+              9
+            ],
+            [
+              3,
+              13
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 20,
+          "residue_set": [
+            1,
+            3,
+            7,
+            9,
+            12,
+            13
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        }
+      ]
+    },
+    "O1": {
+      "canonical_candidate_count": 57049,
+      "labeled_candidate_count": 367290,
+      "observed_candidate_index": 8981,
+      "observed_cycle": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      "observed_found": true,
+      "observed_rank": 8982,
+      "observed_support_sum_best_orientation": 16,
+      "rank_bit": 1,
+      "relay_obligations": [
+        {
+          "allowed_hits": [
+            2,
+            4,
+            9
+          ],
+          "c_step": 2,
+          "from_C": null,
+          "to_C": null
+        }
+      ],
+      "residue_count_law": 6,
+      "residue_set_after_relay_count": 4081,
+      "residue_set_count": 5005,
+      "selected_candidate_index": 3,
+      "selected_count": 1,
+      "selected_cycle": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      "selected_matches_observed": false,
+      "selected_rank": 4,
+      "selected_residue_set": [
+        1,
+        3,
+        4,
+        7,
+        12,
+        13
+      ],
+      "selected_support_sum_best_orientation": 24,
+      "shell_bit": 0,
+      "size_profile_law": [
+        2,
+        2,
+        2
+      ],
+      "state": "O1",
+      "supported_labeled_candidate_count": 342294,
+      "target_rank": 4,
+      "top_20_candidates": [
+        {
+          "candidate_index": 0,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 1,
+          "residue_set": [
+            0,
+            2,
+            4,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 2,
+          "residue_set": [
+            0,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 2,
+          "cycle": [
+            [
+              0,
+              9
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 3,
+          "residue_set": [
+            0,
+            4,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 3,
+          "cycle": [
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              13
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 4,
+          "residue_set": [
+            1,
+            3,
+            4,
+            7,
+            12,
+            13
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 4,
+          "cycle": [
+            [
+              1,
+              9
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 5,
+          "residue_set": [
+            1,
+            3,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 5,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 6,
+          "residue_set": [
+            2,
+            5,
+            7,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 6,
+          "cycle": [
+            [
+              2,
+              5
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 7,
+          "residue_set": [
+            2,
+            5,
+            8,
+            11,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 7,
+          "cycle": [
+            [
+              2,
+              7
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 8,
+          "residue_set": [
+            2,
+            7,
+            8,
+            11,
+            13,
+            14
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 8,
+          "cycle": [
+            [
+              2,
+              12
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              10,
+              13
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 9,
+          "residue_set": [
+            2,
+            6,
+            9,
+            10,
+            12,
+            13
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 9,
+          "cycle": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 10,
+          "residue_set": [
+            3,
+            4,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 24,
+          "support_sum_values": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ]
+        },
+        {
+          "candidate_index": 10,
+          "cycle": [
+            [
+              0,
+              2
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 11,
+          "residue_set": [
+            0,
+            2,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 11,
+          "cycle": [
+            [
+              0,
+              2
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              10,
+              13
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 12,
+          "residue_set": [
+            0,
+            2,
+            6,
+            9,
+            10,
+            13
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 12,
+          "cycle": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 13,
+          "residue_set": [
+            0,
+            3,
+            4,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 13,
+          "cycle": [
+            [
+              0,
+              3
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 14,
+          "residue_set": [
+            0,
+            3,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 14,
+          "cycle": [
+            [
+              0,
+              5
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 15,
+          "residue_set": [
+            0,
+            4,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 15,
+          "cycle": [
+            [
+              0,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 16,
+          "residue_set": [
+            0,
+            4,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 16,
+          "cycle": [
+            [
+              0,
+              8
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              14
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 17,
+          "residue_set": [
+            0,
+            4,
+            5,
+            8,
+            11,
+            14
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 17,
+          "cycle": [
+            [
+              0,
+              9
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 18,
+          "residue_set": [
+            0,
+            1,
+            6,
+            9,
+            10,
+            12
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 18,
+          "cycle": [
+            [
+              0,
+              9
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              10,
+              13
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 19,
+          "residue_set": [
+            0,
+            2,
+            6,
+            9,
+            10,
+            13
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        },
+        {
+          "candidate_index": 19,
+          "cycle": [
+            [
+              0,
+              9
+            ],
+            [
+              2,
+              10
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "matches_observed_cycle": false,
+          "orientation_count": 6,
+          "rank_by_best_support_sum_desc": 20,
+          "residue_set": [
+            0,
+            2,
+            4,
+            6,
+            9,
+            10
+          ],
+          "support_sum_best_orientation": 23,
+          "support_sum_values": [
+            23,
+            23,
+            23,
+            23,
+            23,
+            23
+          ]
+        }
+      ]
+    }
+  },
+  "status": "gap_a_direct_anchor_selector_assault_recorded",
+  "uses_observed_anchor_paths_for_generation": false,
+  "uses_observed_anchor_paths_for_validation": true,
+  "uses_observed_anchor_residue_sets_for_generation": false
+}
