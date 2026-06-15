@@ -1,0 +1,64 @@
+{
+  "audit_id": "024",
+  "boundary": "This checkpoint does not close Gap A. It records the current frontier and explicitly preserves the remaining native-provenance obligations.",
+  "checkpoint_pass": true,
+  "checks": {
+    "anchor_literal_015_checks_pass": true,
+    "anchor_literal_015_not_full_support": true,
+    "anchor_quotient_017_theorem_pass": true,
+    "anchor_residue_016_full_support": true,
+    "c_path_cover_012_theorem_pass": true,
+    "candidate_census_020_not_unique": true,
+    "candidate_census_020_theorem_pass": true,
+    "feature_audit_021_checks_pass": true,
+    "lift_mask_sheet_018_theorem_pass": true,
+    "paper_boundary_014_pass": true,
+    "rank_law_022_theorem_pass": true,
+    "rank_selector_023_theorem_pass": true
+  },
+  "closed_results": [
+    {
+      "claim": "Every Project22 C-path step is covered by direct mod15 G60 residue support or same-state unlifted anchor-path relay support.",
+      "id": "012",
+      "status": "closed intermediate theorem"
+    },
+    {
+      "claim": "Every Project22 closed anchor node-path step is supported after projection to mod15 residue pairs.",
+      "id": "017",
+      "status": "closed intermediate theorem"
+    },
+    {
+      "claim": "Project22 anchor lift masks are exactly recovered by node-sheet selector node >= 15 on the inherited anchor paths.",
+      "id": "018",
+      "status": "closed intermediate theorem"
+    },
+    {
+      "claim": "Given observed anchor residue sets, observed pair-size profiles, corrected quotient candidate census, and the rank law, the observed anchor paths are selected exactly.",
+      "id": "023",
+      "status": "conditional selector theorem"
+    }
+  ],
+  "inputs": {
+    "anchor_literal_015": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_node_path_edge_support_015.v1.json",
+    "anchor_quotient_theorem_017": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_path_quotient_pair_theorem_017.v1.json",
+    "anchor_residue_016": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_node_path_residue_pair_support_016.v1.json",
+    "c_path_cover_012": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_quotient_anchor_cover_012.v1.json",
+    "candidate_census_020": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_path_candidate_census_fixed_020.v1.json",
+    "feature_audit_021": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_candidate_feature_audit_021.v1.json",
+    "lift_mask_sheet_018": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_lift_mask_sheet_selector_018.v1.json",
+    "paper_boundary_014": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/c_path_cover_paper_boundary_audit_014.v1.json",
+    "rank_law_022": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_rank_fingerprint_law_022.v1.json",
+    "rank_selector_023": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_rank_selector_theorem_023.v1.json"
+  },
+  "open_frontier": [
+    "Derive the anchor residue sets natively rather than inheriting them from Project22.",
+    "Derive the pair-size profiles natively rather than inheriting them from observed anchor paths.",
+    "Validate or derive the rank law rank = 2 + 7*b + 2*r - b*r from native/provenance fields rather than fitting it to four observed states.",
+    "Test station/provenance fields if available.",
+    "Select unique relay mediators rather than only covering relay transitions.",
+    "Derive the full role-labeled shared_B edge universe.",
+    "Only then reconsider Gap A closure."
+  ],
+  "status": "local_cell_provenance_frontier_checkpoint_recorded",
+  "summary": "Project24 has moved the local-cell provenance frontier. The C-path side is covered by quotient-anchor support; the anchor side is quotient-pair supported; lift masks are native sheet labels; and the observed anchor paths are conditionally selected by a compact bit-rank law inside the candidate universe. The remaining upstream problem is no longer generic support. It is provenance selection: native derivation of anchor residue sets, pair-size profiles, and the rank law."
+}
