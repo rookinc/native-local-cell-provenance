@@ -1,0 +1,5 @@
+state,shell_bit,rank_bit,target_rank,candidate_count,selected_count,selected_candidate_index,observed_candidate_index,selected_matches_observed,selected_cycle
+O0,0,0,2,14,1,1,1,1,"[[4, 5], [7, 12], [8, 9]]"
+O1,0,1,4,15,1,3,3,1,"[[0, 2], [4, 9], [13, 14]]"
+B0,1,0,9,11,1,8,8,1,"[[0, 4], [2], [3, 8]]"
+B1,1,1,10,13,1,9,9,1,"[[2, 13], [3, 8], [7, 10]]"
