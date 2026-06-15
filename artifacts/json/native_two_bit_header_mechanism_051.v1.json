@@ -1,0 +1,292 @@
+{
+  "audit_id": "051",
+  "boundary": "This is a coordinate-mechanism derivation candidate, not native closure. It derives the remaining header from the reduced two-bit local-cell coordinates, but it does not derive those coordinates from the full native G60/shared_B universe and is not Gap A closure.",
+  "checks": {
+    "all_state_rows_match": true,
+    "all_target_formulas_match": true,
+    "forbidden_phrases_absent": true,
+    "free_sum_is_c_row_phase_shift": true,
+    "frontier_050_pass": true,
+    "relay_max_is_branch_only_hinge": true,
+    "relay_sum_is_rank_release_plus_branch_relief": true,
+    "required_phrases_present": true,
+    "shared_header_045_pass": true,
+    "target_set_is_free_sum_relay_max_relay_sum": true
+  },
+  "closed_statement": "Within the reduced four-state Lift/Twist local-cell coordinate system, the remaining bounded header is exactly recovered by a two-bit coordinate mechanism: free_sum is a C-row phase shift, relay_max is a branch-only hinge, and relay_sum is rank release plus branch relief.",
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "header_frontier_after_upstream_locator_050": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/header_frontier_after_upstream_locator_050.v1.json",
+    "shared_header_grammar_045": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/shared_residual_correction_grammar_045.v1.json"
+  },
+  "interpretation": "Artifacts 047 and 049 failed to source the bounded header as a station or imported-upstream feature. Artifact 051 turns the direction around: it treats the header as a reduced local-cell coordinate mechanism and verifies exact recovery from b, r, and c_row.",
+  "mechanism_claims": [
+    {
+      "claim": "free_sum header is the C-row phase shifted by two",
+      "formula": "H_free_sum = (c_row + 2) mod 4",
+      "interpretation": "The free-sum residual is not an arbitrary four-state table; it is the four-step C-row clock read from the opposite half-cycle.",
+      "target": "free_sum"
+    },
+    {
+      "claim": "relay_max header is a branch-only hinge",
+      "formula": "H_relay_max = b * (3*r - 2)",
+      "interpretation": "The relay-max residual vanishes in the ordinary shell and appears only when the branch shell is active.",
+      "target": "relay_max"
+    },
+    {
+      "claim": "relay_sum header is rank release plus branch relief",
+      "formula": "H_relay_sum = -3 + 3*r + b*(2-r)",
+      "interpretation": "The relay-sum residual has an ordinary rank release from -3 to 0, then branch relief shifts B0 and B1 differently.",
+      "target": "relay_sum"
+    }
+  ],
+  "missing_required_phrases": [],
+  "state_rows": [
+    {
+      "all_match": true,
+      "anchor_col": 1,
+      "anchor_key": 0,
+      "b": 0,
+      "c_key": 11,
+      "c_row": 0,
+      "observed_free_sum": 2,
+      "observed_relay_max": 0,
+      "observed_relay_sum": -3,
+      "predicted_free_sum": 2,
+      "predicted_relay_max": 0,
+      "predicted_relay_sum": -3,
+      "r": 0,
+      "selected_candidate_index": 1,
+      "state": "O0"
+    },
+    {
+      "all_match": true,
+      "anchor_col": 2,
+      "anchor_key": 12,
+      "b": 0,
+      "c_key": 13,
+      "c_row": 1,
+      "observed_free_sum": 3,
+      "observed_relay_max": 0,
+      "observed_relay_sum": 0,
+      "predicted_free_sum": 3,
+      "predicted_relay_max": 0,
+      "predicted_relay_sum": 0,
+      "r": 1,
+      "selected_candidate_index": 6,
+      "state": "O1"
+    },
+    {
+      "all_match": true,
+      "anchor_col": 0,
+      "anchor_key": 4,
+      "b": 1,
+      "c_key": 2,
+      "c_row": 2,
+      "observed_free_sum": 0,
+      "observed_relay_max": -2,
+      "observed_relay_sum": -1,
+      "predicted_free_sum": 0,
+      "predicted_relay_max": -2,
+      "predicted_relay_sum": -1,
+      "r": 0,
+      "selected_candidate_index": 8,
+      "state": "B0"
+    },
+    {
+      "all_match": true,
+      "anchor_col": 3,
+      "anchor_key": 13,
+      "b": 1,
+      "c_key": 4,
+      "c_row": 3,
+      "observed_free_sum": 1,
+      "observed_relay_max": 1,
+      "observed_relay_sum": 1,
+      "predicted_free_sum": 1,
+      "predicted_relay_max": 1,
+      "predicted_relay_sum": 1,
+      "r": 1,
+      "selected_candidate_index": 15,
+      "state": "B1"
+    }
+  ],
+  "status": "native_two_bit_header_mechanism_recorded",
+  "target_results": {
+    "free_sum": {
+      "base_feature": "op__q0__A_delta__cpath_minus__sum",
+      "exact_match": true,
+      "observed_bit_coefficients": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 2,
+          "pb": -2,
+          "pbr": 0,
+          "pr": 1
+        },
+        "max_abs_coeff": 2,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 1,
+          "O0": 2,
+          "O1": 3
+        }
+      },
+      "observed_residual": {
+        "B0": 0,
+        "B1": 1,
+        "O0": 2,
+        "O1": 3
+      },
+      "predicted_bit_coefficients": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 2,
+          "pb": -2,
+          "pbr": 0,
+          "pr": 1
+        },
+        "max_abs_coeff": 2,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 1,
+          "O0": 2,
+          "O1": 3
+        }
+      },
+      "predicted_residual": {
+        "B0": 0,
+        "B1": 1,
+        "O0": 2,
+        "O1": 3
+      }
+    },
+    "relay_max": {
+      "base_feature": "set__rolepair_IW_YZ__to_A__max",
+      "exact_match": true,
+      "observed_bit_coefficients": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 0,
+          "pb": -2,
+          "pbr": 3,
+          "pr": 0
+        },
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "pb",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -2,
+          "B1": 1,
+          "O0": 0,
+          "O1": 0
+        }
+      },
+      "observed_residual": {
+        "B0": -2,
+        "B1": 1,
+        "O0": 0,
+        "O1": 0
+      },
+      "predicted_bit_coefficients": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 0,
+          "pb": -2,
+          "pbr": 3,
+          "pr": 0
+        },
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "pb",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -2,
+          "B1": 1,
+          "O0": 0,
+          "O1": 0
+        }
+      },
+      "predicted_residual": {
+        "B0": -2,
+        "B1": 1,
+        "O0": 0,
+        "O1": 0
+      }
+    },
+    "relay_sum": {
+      "base_feature": "op__all__A_delta__minus_cpath__sum",
+      "exact_match": true,
+      "observed_bit_coefficients": {
+        "coefficient_l1": 9,
+        "coefficients": {
+          "p0": -3,
+          "pb": 2,
+          "pbr": -1,
+          "pr": 3
+        },
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -1,
+          "B1": 1,
+          "O0": -3,
+          "O1": 0
+        }
+      },
+      "observed_residual": {
+        "B0": -1,
+        "B1": 1,
+        "O0": -3,
+        "O1": 0
+      },
+      "predicted_bit_coefficients": {
+        "coefficient_l1": 9,
+        "coefficients": {
+          "p0": -3,
+          "pb": 2,
+          "pbr": -1,
+          "pr": 3
+        },
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -1,
+          "B1": 1,
+          "O0": -3,
+          "O1": 0
+        }
+      },
+      "predicted_residual": {
+        "B0": -1,
+        "B1": 1,
+        "O0": -3,
+        "O1": 0
+      }
+    }
+  },
+  "theorem_candidate_pass": true
+}
