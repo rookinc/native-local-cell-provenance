@@ -1,0 +1,24 @@
+\section{Anchor quotient support and rank selector frontier}
+
+The previous section establishes a quotient-anchor cover for the C-side of the inherited Project 22 local cell. We now record the corresponding anchor-side frontier.
+
+First, the anchor paths are not literal walks in the copied canonical G60 edge list. Artifact \texttt{native\_g60\_anchor\_node\_path\_edge\_support\_015} found only 1 supported literal pair-step out of 12. This is a negative result: the anchor paths should not be interpreted as raw G60 pair-walks.
+
+Second, after projection to mod15 residue pairs, the anchor paths become fully supported. Artifact \texttt{native\_g60\_anchor\_path\_quotient\_pair\_theorem\_017} proves that all 12 inherited anchor path steps are supported as quotient-pair steps. Thus the anchor paths are not arbitrary payloads, but quotient-visible structures.
+
+Third, the inherited lift masks have a simple native sheet reading. Artifact \texttt{native\_g60\_anchor\_lift\_mask\_sheet\_selector\_018} proves that the lift mask is exactly recovered by the selector
+\[
+  \mathrm{lift}(v)=1 \quad\Longleftrightarrow\quad v \ge 15,
+\]
+equivalently \(\lfloor v/15 \rfloor = 1\). In words, lifted anchor positions are precisely the upper-sheet node labels on the inherited closed anchor paths.
+
+Fourth, artifact \texttt{native\_g60\_anchor\_rank\_selector\_theorem\_023} gives a bounded conditional selector theorem for the observed anchor paths. Given the corrected quotient-pair candidate census, the observed anchor residue sets, the observed pair-size profiles, and the rank law
+\[
+  \mathrm{rank}=2+7b+2r-br,
+\]
+the selected support-rank candidate in each state exactly recovers the Project 22 anchor path. The four selected ranks are
+\[
+  O0\mapsto 2,\quad O1\mapsto 4,\quad B0\mapsto 9,\quad B1\mapsto 10.
+\]
+
+This moves the frontier. The remaining problem is no longer generic support. The remaining problem is provenance selection. The anchor residue sets, pair-size profiles, and rank law still need native or station-field derivation. The result above is therefore not a Gap A closure. It is a sharpened upstream target: native provenance must now explain why these quotient-supported anchor paths and this rank law are selected.

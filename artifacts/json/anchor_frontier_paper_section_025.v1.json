@@ -1,0 +1,19 @@
+{
+  "audit_id": "025",
+  "boundary": "This records the current frontier in the manuscript and preserves the statement that Gap A is not closed.",
+  "checks": {
+    "artifact_017_theorem_pass": true,
+    "artifact_018_theorem_pass": true,
+    "artifact_023_theorem_pass": true,
+    "artifact_024_checkpoint_pass": true,
+    "main_includes_anchor_frontier_section": true,
+    "section_file_written": true,
+    "section_mentions_not_gap_a_closure": true,
+    "section_mentions_provenance_selection": true
+  },
+  "main": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/main.tex",
+  "section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/09_anchor_quotient_rank_frontier.tex",
+  "section_recorded": true,
+  "status": "anchor_frontier_paper_section_recorded",
+  "summary": "Wrote the anchor quotient support and rank selector frontier into the paper."
+}
