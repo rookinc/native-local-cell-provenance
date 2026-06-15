@@ -1,0 +1,37 @@
+{
+  "audit_id": "026",
+  "boundary_pass": false,
+  "checks": {
+    "all_required_boundary_phrases_present": true,
+    "all_required_closed_phrases_present": false,
+    "anchor_after_c_cover": true,
+    "anchor_before_boundary_or_conclusion": false,
+    "c_cover_section_present": true,
+    "frontier_checkpoint_024_pass": true,
+    "main_file_exists": true,
+    "main_includes_anchor_frontier_section": true,
+    "no_forbidden_unqualified_claims_present": true,
+    "section_025_recorded": true,
+    "section_file_exists": true
+  },
+  "closed_statement": "The paper now records anchor quotient-pair support, node-sheet lift-mask recovery, and the bounded rank selector theorem.",
+  "forbidden_hits": [],
+  "inputs": {
+    "anchor_frontier_section_025": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/anchor_frontier_paper_section_025.v1.json",
+    "frontier_checkpoint_024": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/local_cell_provenance_frontier_checkpoint_024.v1.json",
+    "main": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/main.tex",
+    "section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/09_anchor_quotient_rank_frontier.tex"
+  },
+  "missing_required_boundary_phrases": [],
+  "missing_required_closed_phrases": [
+    "node-sheet"
+  ],
+  "open_boundary": "The paper continues to state that Gap A is not closed and that native provenance must still derive the anchor residue sets, pair-size profiles, and rank law.",
+  "positions": {
+    "anchor_include": 792,
+    "boundary_or_none": null,
+    "c_cover_include": 635,
+    "conclusion_or_none": null
+  },
+  "status": "anchor_frontier_paper_boundary_audit_recorded"
+}
