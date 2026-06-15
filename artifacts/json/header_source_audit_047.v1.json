@@ -1,0 +1,2117 @@
+{
+  "audit_id": "047",
+  "audit_pass": true,
+  "boundary": "This is a header-source audit over the reduced four-state local normal form. Failure to find an exact station source does not refute the normal form; it leaves the bounded header as an open provenance target. This does not derive the full role-labeled shared_B universe and is not Gap A closure.",
+  "checks": {
+    "all_headers_small": true,
+    "all_join_checks": true,
+    "checkpoint_046_pass": true,
+    "remaining_header_target_count": 3,
+    "remaining_headers_are_free_sum_relay_max_relay_sum": true,
+    "shared_header_045_pass": true,
+    "shared_near_station_family_exists": false,
+    "small_integer_relation_found": false,
+    "station_extract_041_pass": true,
+    "station_header_source_found_for_all": false
+  },
+  "feature_counts_by_state": {
+    "B0": 9274,
+    "B1": 9226,
+    "O0": 9226,
+    "O1": 9214
+  },
+  "inputs": {
+    "local_scalar_checkpoint_046": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/local_scalar_provenance_checkpoint_046.v1.json",
+    "shared_header_grammar_045": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/shared_residual_correction_grammar_045.v1.json",
+    "station_extract_041": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/imported_station_row_extract_041.v1.json"
+  },
+  "interpretation": "Artifact 046 records a station-register normal form with three remaining small two-bit header residuals. This audit tests whether those residuals have exact station-feature sources or a shared near station family.",
+  "per_header": {
+    "free_sum": {
+      "base_feature": "op__q0__A_delta__cpath_minus__sum",
+      "exact_station_source_count": 0,
+      "exact_station_sources_first": [],
+      "nearest_family_counts_top20": {
+        "op__all__A_delta__union_cpath": 1,
+        "op__all__C_delta__union_cpath": 2,
+        "op__q0__A_delta__union_cpath": 2,
+        "op__q0__C_delta__union_cpath": 1,
+        "op__reverse__C_delta__union_cpath": 2,
+        "op__rolepair_IW_YZ__B_delta__minus_cpath": 1,
+        "op__rolepair_IW_YZ__to_A__union_cpath": 1,
+        "op__rolepair_TI_XY__C_delta__union_cpath": 1,
+        "op__rolepair_WX_ZT__from_A__union_cpath": 1,
+        "op__shared__C_delta__union_cpath": 2,
+        "op__station_TI__C_delta__union_cpath": 1,
+        "op__station_XY__C_delta__union_cpath": 1,
+        "op__station_XY__to_A__union_cpath": 1,
+        "op__station_YZ__from_A__union_cpath": 1,
+        "op__station_YZ__to_A__union_cpath": 1,
+        "op__station_ZT__from_A__union_cpath": 1
+      },
+      "nearest_source_class_counts_top20": {
+        "other_station_feature": 3,
+        "q0_station_feature": 3,
+        "reverse_partner_feature": 2,
+        "role_pair_feature": 4,
+        "shared_B_feature": 2,
+        "station_role_feature": 6
+      },
+      "nearest_station_sources_first": [
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.036,
+          "family": "op__all__C_delta__union_cpath",
+          "feature": "op__all__C_delta__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 11,
+            "O0": 12,
+            "O1": 12
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.039,
+          "family": "op__shared__C_delta__union_cpath",
+          "feature": "op__shared__C_delta__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 11,
+            "O0": 12,
+            "O1": 12
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "shared_B_feature"
+        },
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.04,
+          "family": "op__reverse__C_delta__union_cpath",
+          "feature": "op__reverse__C_delta__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 11,
+            "O0": 12,
+            "O1": 12
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "reverse_partner_feature"
+        },
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.04,
+          "family": "op__station_XY__to_A__union_cpath",
+          "feature": "op__station_XY__to_A__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 10,
+            "O0": 12,
+            "O1": 13
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.04,
+          "family": "op__station_YZ__to_A__union_cpath",
+          "feature": "op__station_YZ__to_A__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 10,
+            "O0": 12,
+            "O1": 13
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.042,
+          "family": "op__station_YZ__from_A__union_cpath",
+          "feature": "op__station_YZ__from_A__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 10,
+            "O0": 12,
+            "O1": 13
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.042,
+          "family": "op__station_ZT__from_A__union_cpath",
+          "feature": "op__station_ZT__from_A__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 10,
+            "O0": 12,
+            "O1": 13
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.044,
+          "family": "op__rolepair_IW_YZ__to_A__union_cpath",
+          "feature": "op__rolepair_IW_YZ__to_A__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 10,
+            "O0": 12,
+            "O1": 13
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": 1,
+          "c": -10,
+          "complexity": 1011.046,
+          "family": "op__rolepair_WX_ZT__from_A__union_cpath",
+          "feature": "op__rolepair_WX_ZT__from_A__union_cpath__range",
+          "feature_values": {
+            "B0": 10,
+            "B1": 10,
+            "O0": 12,
+            "O1": 13
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -1,
+          "c": 14,
+          "complexity": 1015.041,
+          "family": "op__q0__A_delta__union_cpath",
+          "feature": "op__q0__A_delta__union_cpath__compl_range",
+          "feature_values": {
+            "B0": 13,
+            "B1": 13,
+            "O0": 12,
+            "O1": 11
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 2,
+            "O1": 3
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.033,
+          "family": "op__q0__C_delta__union_cpath",
+          "feature": "op__q0__C_delta__union_cpath__min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.034,
+          "family": "op__all__C_delta__union_cpath",
+          "feature": "op__all__C_delta__union_cpath__min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.037,
+          "family": "op__shared__C_delta__union_cpath",
+          "feature": "op__shared__C_delta__union_cpath__min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "source_class": "shared_B_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.038,
+          "family": "op__reverse__C_delta__union_cpath",
+          "feature": "op__reverse__C_delta__union_cpath__min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "source_class": "reverse_partner_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.039,
+          "family": "op__q0__A_delta__union_cpath",
+          "feature": "op__q0__A_delta__union_cpath__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 1,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 1,
+            "O1": 3
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.04,
+          "family": "op__all__A_delta__union_cpath",
+          "feature": "op__all__A_delta__union_cpath__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 1,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 1,
+            "O1": 3
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.041,
+          "family": "op__station_TI__C_delta__union_cpath",
+          "feature": "op__station_TI__C_delta__union_cpath__min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.041,
+          "family": "op__station_XY__C_delta__union_cpath",
+          "feature": "op__station_XY__C_delta__union_cpath__min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.045,
+          "family": "op__rolepair_TI_XY__C_delta__union_cpath",
+          "feature": "op__rolepair_TI_XY__C_delta__union_cpath__min",
+          "feature_values": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 1,
+            "O0": 2,
+            "O1": 1
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.046,
+          "family": "op__rolepair_IW_YZ__B_delta__minus_cpath",
+          "feature": "op__rolepair_IW_YZ__B_delta__minus_cpath__size",
+          "feature_values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.046,
+          "family": "op__rolepair_WX_ZT__A_delta__minus_cpath",
+          "feature": "op__rolepair_WX_ZT__A_delta__minus_cpath__size",
+          "feature_values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.049,
+          "family": "op__rolepair_IW_YZ__slot_delta__minus_cpath",
+          "feature": "op__rolepair_IW_YZ__slot_delta__minus_cpath__size",
+          "feature_values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2001.051,
+          "family": "op__rolepair_WX_ZT__A_delta__union_cpath",
+          "feature": "op__rolepair_WX_ZT__A_delta__union_cpath__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 1,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 1,
+            "O1": 3
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.032,
+          "family": "set__rolepair_TI_XY__to_B",
+          "feature": "set__rolepair_TI_XY__to_B__range",
+          "feature_values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 3,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.034,
+          "family": "op__q0__A_delta__cpath_minus",
+          "feature": "op__q0__A_delta__cpath_minus__size",
+          "feature_values": {
+            "B0": 1,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.034,
+          "family": "op__q0__C_delta__cpath_minus",
+          "feature": "op__q0__C_delta__cpath_minus__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 3,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.034,
+          "family": "op__q3__B_delta__cpath_minus",
+          "feature": "op__q3__B_delta__cpath_minus__size",
+          "feature_values": {
+            "B0": 1,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.034,
+          "family": "set__rolepair_IW_YZ__from_B",
+          "feature": "set__rolepair_IW_YZ__from_B__range",
+          "feature_values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 3,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.035,
+          "family": "op__all__B_delta__cpath_minus",
+          "feature": "op__all__B_delta__cpath_minus__size",
+          "feature_values": {
+            "B0": 1,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.035,
+          "family": "op__all__C_delta__cpath_minus",
+          "feature": "op__all__C_delta__cpath_minus__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 2,
+            "O0": 3,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 1,
+            "B1": 1,
+            "O0": 2,
+            "O1": 2
+          },
+          "source_class": "other_station_feature"
+        }
+      ],
+      "residual": {
+        "B0": 0,
+        "B1": 1,
+        "O0": 2,
+        "O1": 3
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 2,
+          "pb": -2,
+          "pbr": 0,
+          "pr": 1
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 2,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 1,
+          "O0": 2,
+          "O1": 3
+        }
+      },
+      "station_source_found": false
+    },
+    "relay_max": {
+      "base_feature": "set__rolepair_IW_YZ__to_A__max",
+      "exact_station_source_count": 0,
+      "exact_station_sources_first": [],
+      "nearest_family_counts_top20": {
+        "op__all__B_delta__inter_cpath": 1,
+        "op__all__slot_delta__inter_cpath": 1,
+        "op__q0__A_delta__inter_cpath": 2,
+        "op__q3__B_delta__inter_cpath": 1,
+        "op__q3__slot_delta__inter_cpath": 1,
+        "op__rolepair_IW_YZ__B_delta__inter_cpath": 1,
+        "op__rolepair_IW_YZ__slot_delta__inter_cpath": 1,
+        "op__rolepair_WX_ZT__A_delta__inter_cpath": 2,
+        "op__station_ZT__A_delta__inter_cpath": 1,
+        "set__all__from_B": 1,
+        "set__all__from_C": 1,
+        "set__all__to_B": 1,
+        "set__all__to_C": 1,
+        "set__q0__from_B": 1,
+        "set__q0__from_C": 1,
+        "set__q0__to_B": 1,
+        "set__q3__from_B": 1,
+        "set__q3__to_C": 1
+      },
+      "nearest_source_class_counts_top20": {
+        "other_station_feature": 6,
+        "q0_station_feature": 5,
+        "q3_station_feature": 4,
+        "role_pair_feature": 4,
+        "station_role_feature": 1
+      },
+      "nearest_station_sources_first": [
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.033,
+          "family": "op__q0__A_delta__inter_cpath",
+          "feature": "op__q0__A_delta__inter_cpath__sum",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.034,
+          "family": "op__q0__A_delta__inter_cpath",
+          "feature": "op__q0__A_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.034,
+          "family": "op__q3__B_delta__inter_cpath",
+          "feature": "op__q3__B_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.035,
+          "family": "op__all__B_delta__inter_cpath",
+          "feature": "op__all__B_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.037,
+          "family": "op__q3__slot_delta__inter_cpath",
+          "feature": "op__q3__slot_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.038,
+          "family": "op__all__slot_delta__inter_cpath",
+          "feature": "op__all__slot_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.041,
+          "family": "op__station_ZT__A_delta__inter_cpath",
+          "feature": "op__station_ZT__A_delta__inter_cpath__sum",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.045,
+          "family": "op__rolepair_WX_ZT__A_delta__inter_cpath",
+          "feature": "op__rolepair_WX_ZT__A_delta__inter_cpath__sum",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.046,
+          "family": "op__rolepair_IW_YZ__B_delta__inter_cpath",
+          "feature": "op__rolepair_IW_YZ__B_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.046,
+          "family": "op__rolepair_WX_ZT__A_delta__inter_cpath",
+          "feature": "op__rolepair_WX_ZT__A_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 1001.049,
+          "family": "op__rolepair_IW_YZ__slot_delta__inter_cpath",
+          "feature": "op__rolepair_IW_YZ__slot_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.024,
+          "family": "set__q0__to_B",
+          "feature": "set__q0__to_B__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.024,
+          "family": "set__q3__to_C",
+          "feature": "set__q3__to_C__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.025,
+          "family": "set__all__to_B",
+          "feature": "set__all__to_B__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.025,
+          "family": "set__all__to_C",
+          "feature": "set__all__to_C__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.026,
+          "family": "set__q0__from_B",
+          "feature": "set__q0__from_B__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.026,
+          "family": "set__q0__from_C",
+          "feature": "set__q0__from_C__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.026,
+          "family": "set__q3__from_B",
+          "feature": "set__q3__from_B__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.027,
+          "family": "set__all__from_B",
+          "feature": "set__all__from_B__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.027,
+          "family": "set__all__from_C",
+          "feature": "set__all__from_C__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.027,
+          "family": "set__q0__to_slot",
+          "feature": "set__q0__to_slot__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.028,
+          "family": "set__all__to_slot",
+          "feature": "set__all__to_slot__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.028,
+          "family": "set__shared__to_B",
+          "feature": "set__shared__to_B__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "shared_B_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.028,
+          "family": "set__shared__to_C",
+          "feature": "set__shared__to_C__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "shared_B_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.029,
+          "family": "set__q0__from_slot",
+          "feature": "set__q0__from_slot__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.029,
+          "family": "set__q3__from_slot",
+          "feature": "set__q3__from_slot__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.029,
+          "family": "set__reverse__to_B",
+          "feature": "set__reverse__to_B__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "reverse_partner_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.029,
+          "family": "set__reverse__to_C",
+          "feature": "set__reverse__to_C__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "reverse_partner_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.03,
+          "family": "set__all__from_slot",
+          "feature": "set__all__from_slot__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -2,
+          "c": 0,
+          "complexity": 1002.03,
+          "family": "set__shared__from_B",
+          "feature": "set__shared__from_B__compl_min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "l1_error": 1,
+          "predicted_residual": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_class": "shared_B_feature"
+        }
+      ],
+      "residual": {
+        "B0": -2,
+        "B1": 1,
+        "O0": 0,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 0,
+          "pb": -2,
+          "pbr": 3,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "pb",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -2,
+          "B1": 1,
+          "O0": 0,
+          "O1": 0
+        }
+      },
+      "station_source_found": false
+    },
+    "relay_sum": {
+      "base_feature": "op__all__A_delta__minus_cpath__sum",
+      "exact_station_source_count": 0,
+      "exact_station_sources_first": [],
+      "nearest_family_counts_top20": {
+        "op__q0__from_B__cpath_minus": 1,
+        "op__q0__from_C__cpath_minus": 1,
+        "op__q0__from_fiber_mod15__cpath_minus": 1,
+        "op__q0__from_slot__cpath_minus": 1,
+        "op__q0__to_B__cpath_minus": 1,
+        "op__q0__to_slot__cpath_minus": 1,
+        "op__q3__from_C__inter_cpath": 1,
+        "op__q3__from_fiber_mod15__inter_cpath": 1,
+        "op__q3__to_B__cpath_minus": 1,
+        "op__q3__to_slot__cpath_minus": 1,
+        "op__rolepair_TI_XY__from_A__minus_cpath": 1,
+        "op__rolepair_WX_ZT__to_A__minus_cpath": 1,
+        "op__station_XY__A_delta__inter_cpath": 1,
+        "set__q3__from_C": 1,
+        "set__q3__from_fiber_mod15": 1,
+        "set__rolepair_TI_XY__from_A": 1,
+        "set__rolepair_WX_ZT__to_A": 1,
+        "set__station_TI__C_delta": 3
+      },
+      "nearest_source_class_counts_top20": {
+        "q0_station_feature": 6,
+        "q3_station_feature": 6,
+        "role_pair_feature": 4,
+        "station_role_feature": 4
+      },
+      "nearest_station_sources_first": [
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.022,
+          "family": "set__q3__from_C",
+          "feature": "set__q3__from_C__range",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.032,
+          "family": "set__q3__from_fiber_mod15",
+          "feature": "set__q3__from_fiber_mod15__range",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.034,
+          "family": "op__q0__from_C__cpath_minus",
+          "feature": "op__q0__from_C__cpath_minus__range",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.034,
+          "family": "op__q3__from_C__inter_cpath",
+          "feature": "op__q3__from_C__inter_cpath__range",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.044,
+          "family": "op__q0__from_fiber_mod15__cpath_minus",
+          "feature": "op__q0__from_fiber_mod15__cpath_minus__range",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.044,
+          "family": "op__q3__from_fiber_mod15__inter_cpath",
+          "feature": "op__q3__from_fiber_mod15__inter_cpath__range",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.03,
+          "family": "op__q3__to_B__cpath_minus",
+          "feature": "op__q3__to_B__cpath_minus__sum",
+          "feature_values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 0,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": -1,
+            "B1": 1,
+            "O0": -1,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -1,
+          "complexity": 2002.033,
+          "family": "op__q3__to_slot__cpath_minus",
+          "feature": "op__q3__to_slot__cpath_minus__sum",
+          "feature_values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 0,
+            "O1": 1
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": -1,
+            "B1": 1,
+            "O0": -1,
+            "O1": 0
+          },
+          "source_class": "q3_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.03,
+          "family": "set__rolepair_WX_ZT__to_A",
+          "feature": "set__rolepair_WX_ZT__to_A__min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 3,
+            "O0": 1,
+            "O1": 2
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": -1,
+            "B1": 1,
+            "O0": -1,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -3,
+          "c": 0,
+          "complexity": 2003.031,
+          "family": "op__q0__to_B__cpath_minus",
+          "feature": "op__q0__to_B__cpath_minus__size",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.032,
+          "family": "set__rolepair_TI_XY__from_A",
+          "feature": "set__rolepair_TI_XY__from_A__min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 3,
+            "O0": 1,
+            "O1": 2
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": -1,
+            "B1": 1,
+            "O0": -1,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -3,
+          "c": 0,
+          "complexity": 2003.033,
+          "family": "op__q0__from_B__cpath_minus",
+          "feature": "op__q0__from_B__cpath_minus__size",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -3,
+          "c": 0,
+          "complexity": 2003.034,
+          "family": "op__q0__to_slot__cpath_minus",
+          "feature": "op__q0__to_slot__cpath_minus__size",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": -3,
+          "c": 0,
+          "complexity": 2003.036,
+          "family": "op__q0__from_slot__cpath_minus",
+          "feature": "op__q0__from_slot__cpath_minus__size",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "q0_station_feature"
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.042,
+          "family": "op__rolepair_WX_ZT__to_A__minus_cpath",
+          "feature": "op__rolepair_WX_ZT__to_A__minus_cpath__min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 3,
+            "O0": 1,
+            "O1": 2
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": -1,
+            "B1": 1,
+            "O0": -1,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -3,
+          "c": 0,
+          "complexity": 2003.042,
+          "family": "op__station_XY__A_delta__inter_cpath",
+          "feature": "op__station_XY__A_delta__inter_cpath__size",
+          "feature_values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 1,
+            "O1": 0
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.044,
+          "family": "op__rolepair_TI_XY__from_A__minus_cpath",
+          "feature": "op__rolepair_TI_XY__from_A__minus_cpath__min",
+          "feature_values": {
+            "B0": 1,
+            "B1": 3,
+            "O0": 1,
+            "O1": 2
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": -1,
+            "B1": 1,
+            "O0": -1,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.029,
+          "family": "set__station_TI__C_delta",
+          "feature": "set__station_TI__C_delta__max",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.029,
+          "family": "set__station_TI__C_delta",
+          "feature": "set__station_TI__C_delta__min",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.029,
+          "family": "set__station_TI__C_delta",
+          "feature": "set__station_TI__C_delta__sum",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.029,
+          "family": "set__station_XY__C_delta",
+          "feature": "set__station_XY__C_delta__max",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.029,
+          "family": "set__station_XY__C_delta",
+          "feature": "set__station_XY__C_delta__min",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.029,
+          "family": "set__station_XY__C_delta",
+          "feature": "set__station_XY__C_delta__sum",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.033,
+          "family": "set__rolepair_TI_XY__C_delta",
+          "feature": "set__rolepair_TI_XY__C_delta__max",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.033,
+          "family": "set__rolepair_TI_XY__C_delta",
+          "feature": "set__rolepair_TI_XY__C_delta__min",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.033,
+          "family": "set__rolepair_TI_XY__C_delta",
+          "feature": "set__rolepair_TI_XY__C_delta__sum",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "role_pair_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.034,
+          "family": "op__all__C_delta__minus_cpath",
+          "feature": "op__all__C_delta__minus_cpath__min",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "other_station_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.037,
+          "family": "op__shared__C_delta__minus_cpath",
+          "feature": "op__shared__C_delta__minus_cpath__min",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "shared_B_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.038,
+          "family": "op__reverse__C_delta__minus_cpath",
+          "feature": "op__reverse__C_delta__minus_cpath__min",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "reverse_partner_feature"
+        },
+        {
+          "a": -1,
+          "c": 3,
+          "complexity": 2004.041,
+          "family": "op__station_TI__C_delta__minus_cpath",
+          "feature": "op__station_TI__C_delta__minus_cpath__max",
+          "feature_values": {
+            "B0": 3,
+            "B1": 1,
+            "O0": 6,
+            "O1": 3
+          },
+          "l1_error": 2,
+          "predicted_residual": {
+            "B0": 0,
+            "B1": 2,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_class": "station_role_feature"
+        }
+      ],
+      "residual": {
+        "B0": -1,
+        "B1": 1,
+        "O0": -3,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 9,
+        "coefficients": {
+          "p0": -3,
+          "pb": 2,
+          "pbr": -1,
+          "pr": 3
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -1,
+          "B1": 1,
+          "O0": -3,
+          "O1": 0
+        }
+      },
+      "station_source_found": false
+    }
+  },
+  "shared_near_families": [],
+  "shared_near_source_classes": [
+    "q0_station_feature",
+    "role_pair_feature",
+    "station_role_feature"
+  ],
+  "small_integer_relation_candidates": [],
+  "status": "header_source_audit_recorded",
+  "verdict": "header_source_remains_open_small_bit_header_only"
+}
