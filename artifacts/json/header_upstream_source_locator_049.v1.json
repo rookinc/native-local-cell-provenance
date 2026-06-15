@@ -1,0 +1,2354 @@
+{
+  "audit_id": "049",
+  "audit_pass": true,
+  "boundary": "This is an upstream source locator, not a derivation. Exact hits would be candidates requiring independent validation. No hit does not refute the local scalar normal form; it means the header source is not present in the imported source family scanned here. This does not derive the full role-labeled shared_B universe and is not Gap A closure.",
+  "checks": {
+    "candidate_count": 10690,
+    "frontier_048_pass": true,
+    "header_source_047_pass": true,
+    "json_file_count": 25,
+    "remaining_header_target_count": 3,
+    "remaining_headers_are_free_sum_relay_max_relay_sum": true,
+    "shared_exact_upstream_family_exists": false,
+    "shared_header_045_pass": true,
+    "shared_near_upstream_family_exists": false,
+    "source_root_exists": true,
+    "upstream_source_found_for_all": false
+  },
+  "inputs": {
+    "header_source_audit_047": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/header_source_audit_047.v1.json",
+    "local_scalar_frontier_048": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/local_scalar_provenance_frontier_048.v1.json",
+    "shared_header_grammar_045": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/shared_residual_correction_grammar_045.v1.json",
+    "source_root": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/upstream_station_provenance"
+  },
+  "interpretation": "Artifact 047 left the bounded two-bit header as an open provenance target within the tested station-feature family. This locator scans the imported upstream provenance files for state-indexed, transition-indexed, or affine readouts matching the remaining header residuals.",
+  "json_files_scanned": [
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_delta_lift_decomposition_001.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_overlay_delta_generator_001.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_ambiguous_source_split_audit_014.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_station_provenance_law_audit_010.v1.json",
+    "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_station_transition_feature_inspection_009.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_chain_schema_inspection_011.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_members_vs_g60_overlay_edges_014.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_rule_member_alignment_012.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_rule_member_target_table_013.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/sharedB_residual_selector_profile_017.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/source_artifact_schema_inventory_009.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/synthetic_pair_skeleton_universe_003.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/triangle_frame_assignment_audit_006.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_shared_reverse_pair_coupling_audit_021.v1.json",
+    "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_station_transform_map_audit_019.v1.json",
+    "source/upstream_station_provenance/manifest_040.v1.json"
+  ],
+  "per_header": {
+    "free_sum": {
+      "base_feature": "op__q0__A_delta__cpath_minus__sum",
+      "exact_family_counts": {},
+      "exact_upstream_source_count": 0,
+      "exact_upstream_sources_first": [],
+      "near_family_counts": {
+        "row_group_field::lift_q__max": 4,
+        "row_group_field::lift_q__min": 3,
+        "row_group_field::lift_q__sum": 3
+      },
+      "nearest_upstream_source_count": 30,
+      "nearest_upstream_sources_first": [
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/1/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/1/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/1/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_max",
+          "feature": "lift_q__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/1/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_min",
+          "feature": "lift_q__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/1/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_sum",
+          "feature": "lift_q__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/1/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_max",
+          "feature": "lift_q__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_min",
+          "feature": "lift_q__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_sum",
+          "feature": "lift_q__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_max",
+          "feature": "lift_q__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_min",
+          "feature": "lift_q__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_sum",
+          "feature": "lift_q__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/3/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": 0,
+          "complexity": 2000.018,
+          "family": "row_group_field::lift_q__unique_max",
+          "feature": "lift_q__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "direct",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/1/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 3
+          }
+        }
+      ],
+      "residual": {
+        "B0": 0,
+        "B1": 1,
+        "O0": 2,
+        "O1": 3
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 2,
+          "pb": -2,
+          "pbr": 0,
+          "pr": 1
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 2,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 1,
+          "O0": 2,
+          "O1": 3
+        }
+      },
+      "upstream_source_found": false
+    },
+    "relay_max": {
+      "base_feature": "set__rolepair_IW_YZ__to_A__max",
+      "exact_family_counts": {},
+      "exact_upstream_source_count": 0,
+      "exact_upstream_sources_first": [],
+      "near_family_counts": {
+        "row_group::row_count": 1,
+        "row_group_field::C_delta__count": 1,
+        "row_group_field::from_A__count": 1,
+        "row_group_field::from_B__count": 1,
+        "row_group_field::from_C__count": 1,
+        "row_group_field::from_slot__count": 1,
+        "row_group_field::pred__count": 1,
+        "row_group_field::pred__unique_count": 1,
+        "row_group_field::to_C__count": 1,
+        "row_group_field::to_C__unique_count": 1
+      },
+      "nearest_upstream_source_count": 30,
+      "nearest_upstream_sources_first": [
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.009,
+          "family": "row_group::row_count",
+          "feature": "row_count",
+          "kind": "row_group",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.011,
+          "family": "row_group_field::pred__count",
+          "feature": "pred__count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.011,
+          "family": "row_group_field::to_C__count",
+          "feature": "to_C__count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.013,
+          "family": "row_group_field::from_A__count",
+          "feature": "from_A__count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.013,
+          "family": "row_group_field::from_B__count",
+          "feature": "from_B__count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.013,
+          "family": "row_group_field::from_C__count",
+          "feature": "from_C__count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.014,
+          "family": "row_group_field::C_delta__count",
+          "feature": "C_delta__count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.016,
+          "family": "row_group_field::from_slot__count",
+          "feature": "from_slot__count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.018,
+          "family": "row_group_field::pred__unique_count",
+          "feature": "pred__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.018,
+          "family": "row_group_field::to_C__unique_count",
+          "feature": "to_C__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.02,
+          "family": "row_group_field::from_A__unique_count",
+          "feature": "from_A__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.02,
+          "family": "row_group_field::from_B__unique_count",
+          "feature": "from_B__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.02,
+          "family": "row_group_field::from_C__unique_count",
+          "feature": "from_C__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 2,
+          "c": -6,
+          "complexity": 1008.023,
+          "family": "row_group_field::from_slot__unique_count",
+          "feature": "from_slot__unique_count",
+          "kind": "row_group_field",
+          "l1_error": 1,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "shared_B_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 2,
+            "B1": 3,
+            "O0": 3,
+            "O1": 3
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.008,
+          "family": "row_group_field::S_B__min",
+          "feature": "S_B__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/native_rule_member_target_table_013.v1.json",
+          "source_path": "native_answer_pairs",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json",
+          "source_path": "predictions",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_B__min",
+          "feature": "to_B__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_B__min",
+          "feature": "to_B__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_g30_shadow_sheet_audit_011.v1.json",
+          "source_path": "rows",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::pred__min",
+          "feature": "pred__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/0/matches_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/0/matches_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::pred__min",
+          "feature": "pred__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/1/matches_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/1/matches_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/2/misses_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/3/misses_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/4/misses_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/5/misses_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::to_C__min",
+          "feature": "to_C__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/6/misses_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        },
+        {
+          "a": 1,
+          "c": -2,
+          "complexity": 2003.009,
+          "family": "row_group_field::pred__min",
+          "feature": "pred__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": -2,
+            "B1": 0,
+            "O0": 0,
+            "O1": -1
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "reverse_partner_summary/law_scores/7/misses_first_20",
+          "values": {
+            "B0": 0,
+            "B1": 2,
+            "O0": 2,
+            "O1": 1
+          }
+        }
+      ],
+      "residual": {
+        "B0": -2,
+        "B1": 1,
+        "O0": 0,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 0,
+          "pb": -2,
+          "pbr": 3,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "pb",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -2,
+          "B1": 1,
+          "O0": 0,
+          "O1": 0
+        }
+      },
+      "upstream_source_found": false
+    },
+    "relay_sum": {
+      "base_feature": "op__all__A_delta__minus_cpath__sum",
+      "exact_family_counts": {},
+      "exact_upstream_source_count": 0,
+      "exact_upstream_sources_first": [],
+      "near_family_counts": {
+        "row_group_field::lift_q__max": 4,
+        "row_group_field::lift_q__min": 3,
+        "row_group_field::lift_q__sum": 3
+      },
+      "nearest_upstream_source_count": 30,
+      "nearest_upstream_sources_first": [
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/2/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/2/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/2/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__max",
+          "feature": "lift_q__max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__min",
+          "feature": "lift_q__min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.011,
+          "family": "row_group_field::lift_q__sum",
+          "feature": "lift_q__sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_sharedB_residual_law_search_017.v1.json",
+          "source_path": "role_results/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_max",
+          "feature": "lift_q__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/2/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_min",
+          "feature": "lift_q__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/2/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_sum",
+          "feature": "lift_q__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+          "source_path": "role_pair_rows/2/transitions",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_max",
+          "feature": "lift_q__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_min",
+          "feature": "lift_q__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_sum",
+          "feature": "lift_q__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_max",
+          "feature": "lift_q__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_min",
+          "feature": "lift_q__unique_min",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_sum",
+          "feature": "lift_q__unique_sum",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+          "source_path": "station_summaries/5/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        },
+        {
+          "a": -1,
+          "c": 0,
+          "complexity": 2001.018,
+          "family": "row_group_field::lift_q__unique_max",
+          "feature": "lift_q__unique_max",
+          "kind": "row_group_field",
+          "l1_error": 2,
+          "match_kind": "affine",
+          "predicted": {
+            "B0": 0,
+            "B1": 0,
+            "O0": -3,
+            "O1": 0
+          },
+          "source_file": "source/upstream_station_provenance/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+          "source_path": "role_pair_summaries/2/rows",
+          "values": {
+            "B0": 0,
+            "B1": 0,
+            "O0": 3,
+            "O1": 0
+          }
+        }
+      ],
+      "residual": {
+        "B0": -1,
+        "B1": 1,
+        "O0": -3,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 9,
+        "coefficients": {
+          "p0": -3,
+          "pb": 2,
+          "pbr": -1,
+          "pr": 3
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -1,
+          "B1": 1,
+          "O0": -3,
+          "O1": 0
+        }
+      },
+      "upstream_source_found": false
+    }
+  },
+  "shared_exact_upstream_families": [],
+  "shared_near_upstream_families": [],
+  "status": "header_upstream_source_locator_recorded",
+  "verdict": "upstream_header_source_not_found_in_imported_sources"
+}
