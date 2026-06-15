@@ -1,0 +1,1446 @@
+{
+  "audit_id": "059",
+  "audit_pass": true,
+  "best_partition": {
+    "block_count": 4,
+    "block_size": 6,
+    "blocks": [
+      {
+        "block_id": 0,
+        "block_name": "edge",
+        "fiber_max": 57,
+        "fiber_min": 55,
+        "fiber_range": 2,
+        "fiber_values": [
+          55,
+          55,
+          57,
+          57,
+          57,
+          57
+        ],
+        "form_counts": {
+          "0": 2,
+          "2": 2,
+          "3": 2
+        },
+        "majority_count": 2,
+        "majority_form": 0,
+        "record_indices": [
+          3,
+          23,
+          0,
+          20,
+          17,
+          14
+        ],
+        "row_count": 6,
+        "slot_max": 5,
+        "slot_min": 0,
+        "slot_range": 5,
+        "slot_values": [
+          0,
+          0,
+          0,
+          3,
+          3,
+          5
+        ]
+      },
+      {
+        "block_id": 1,
+        "block_name": "hinge",
+        "fiber_max": 51,
+        "fiber_min": 12,
+        "fiber_range": 39,
+        "fiber_values": [
+          12,
+          12,
+          48,
+          48,
+          51,
+          51
+        ],
+        "form_counts": {
+          "0": 4,
+          "1": 2
+        },
+        "majority_count": 4,
+        "majority_form": 0,
+        "record_indices": [
+          1,
+          4,
+          7,
+          10,
+          5,
+          2
+        ],
+        "row_count": 6,
+        "slot_max": 12,
+        "slot_min": 0,
+        "slot_range": 12,
+        "slot_values": [
+          0,
+          0,
+          0,
+          3,
+          9,
+          12
+        ]
+      },
+      {
+        "block_id": 2,
+        "block_name": "closed_face",
+        "fiber_max": 9,
+        "fiber_min": 3,
+        "fiber_range": 6,
+        "fiber_values": [
+          3,
+          3,
+          3,
+          3,
+          9,
+          9
+        ],
+        "form_counts": {
+          "1": 4,
+          "2": 2
+        },
+        "majority_count": 4,
+        "majority_form": 1,
+        "record_indices": [
+          11,
+          8,
+          9,
+          13,
+          6,
+          16
+        ],
+        "row_count": 6,
+        "slot_max": 12,
+        "slot_min": 0,
+        "slot_range": 12,
+        "slot_values": [
+          0,
+          0,
+          0,
+          6,
+          12,
+          12
+        ]
+      },
+      {
+        "block_id": 3,
+        "block_name": "filled_cell",
+        "fiber_max": 2,
+        "fiber_min": 1,
+        "fiber_range": 1,
+        "fiber_values": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "form_counts": {
+          "2": 2,
+          "3": 4
+        },
+        "majority_count": 4,
+        "majority_form": 3,
+        "record_indices": [
+          15,
+          21,
+          12,
+          18,
+          19,
+          22
+        ],
+        "row_count": 6,
+        "slot_max": 14,
+        "slot_min": 0,
+        "slot_range": 14,
+        "slot_values": [
+          0,
+          0,
+          0,
+          13,
+          13,
+          14
+        ]
+      }
+    ],
+    "exact_group_reconstruction": false,
+    "fiber_mins_by_block": [
+      55,
+      12,
+      3,
+      1
+    ],
+    "fiber_monotone_by_block": true,
+    "majority_order": [
+      0,
+      0,
+      1,
+      3
+    ],
+    "ordered_exact_group_reconstruction": false,
+    "purity": 0.5833333333333334,
+    "purity_total": 14,
+    "rule_name": "fiber_desc",
+    "slot_maxes_by_block": [
+      5,
+      12,
+      12,
+      14
+    ],
+    "slot_monotone_by_block": false,
+    "uses_answer_label_as_input": false,
+    "uses_form_index_as_input": false,
+    "uses_record_order_as_primary_input": false
+  },
+  "boundary": "This is a partition audit, not native closure. Even if a native delta partition succeeds, answer-label leakage remains open until the source construction itself is audited. It does not prove the completion ladder natively, is not full role-labeled shared_B universe derivation, and is not Gap A closure.",
+  "checks": {
+    "all_partitions_use_native_delta_fields_only": true,
+    "answer_label_leakage_remains_open": true,
+    "best_partition_exists": true,
+    "best_partition_purity": 0.5833333333333334,
+    "best_partition_purity_total": 14,
+    "edge_records_found": true,
+    "exact_partition_found": false,
+    "forbidden_phrases_absent": true,
+    "form_index_used_only_for_evaluation": true,
+    "monotone_selector_independence_058_pass": true,
+    "native_provenance_confirmed": false,
+    "ordered_exact_partition_found": false,
+    "partition_rule_count": 6,
+    "required_phrases_present": true,
+    "row_count_is_24": true,
+    "source_json_exists": true
+  },
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "edge_records_path": [
+      "edge_records"
+    ],
+    "monotone_selector_independence_audit_058": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/monotone_selector_independence_audit_058.v1.json",
+    "source_json": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json"
+  },
+  "interpretation": "Artifact 059 tests whether the Euclidean form groups can be reconstructed from native delta fields before consulting form_index. The result should be read as an independence audit: success strengthens the native selector case; failure preserves 058 as an order signal but not a partition derivation.",
+  "missing_required_phrases": [],
+  "partitions": [
+    {
+      "block_count": 4,
+      "block_size": 6,
+      "blocks": [
+        {
+          "block_id": 0,
+          "block_name": "edge",
+          "fiber_max": 57,
+          "fiber_min": 55,
+          "fiber_range": 2,
+          "fiber_values": [
+            55,
+            55,
+            57,
+            57,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 0,
+          "record_indices": [
+            3,
+            23,
+            0,
+            20,
+            17,
+            14
+          ],
+          "row_count": 6,
+          "slot_max": 5,
+          "slot_min": 0,
+          "slot_range": 5,
+          "slot_values": [
+            0,
+            0,
+            0,
+            3,
+            3,
+            5
+          ]
+        },
+        {
+          "block_id": 1,
+          "block_name": "hinge",
+          "fiber_max": 51,
+          "fiber_min": 12,
+          "fiber_range": 39,
+          "fiber_values": [
+            12,
+            12,
+            48,
+            48,
+            51,
+            51
+          ],
+          "form_counts": {
+            "0": 4,
+            "1": 2
+          },
+          "majority_count": 4,
+          "majority_form": 0,
+          "record_indices": [
+            1,
+            4,
+            7,
+            10,
+            5,
+            2
+          ],
+          "row_count": 6,
+          "slot_max": 12,
+          "slot_min": 0,
+          "slot_range": 12,
+          "slot_values": [
+            0,
+            0,
+            0,
+            3,
+            9,
+            12
+          ]
+        },
+        {
+          "block_id": 2,
+          "block_name": "closed_face",
+          "fiber_max": 9,
+          "fiber_min": 3,
+          "fiber_range": 6,
+          "fiber_values": [
+            3,
+            3,
+            3,
+            3,
+            9,
+            9
+          ],
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "majority_count": 4,
+          "majority_form": 1,
+          "record_indices": [
+            11,
+            8,
+            9,
+            13,
+            6,
+            16
+          ],
+          "row_count": 6,
+          "slot_max": 12,
+          "slot_min": 0,
+          "slot_range": 12,
+          "slot_values": [
+            0,
+            0,
+            0,
+            6,
+            12,
+            12
+          ]
+        },
+        {
+          "block_id": 3,
+          "block_name": "filled_cell",
+          "fiber_max": 2,
+          "fiber_min": 1,
+          "fiber_range": 1,
+          "fiber_values": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "form_counts": {
+            "2": 2,
+            "3": 4
+          },
+          "majority_count": 4,
+          "majority_form": 3,
+          "record_indices": [
+            15,
+            21,
+            12,
+            18,
+            19,
+            22
+          ],
+          "row_count": 6,
+          "slot_max": 14,
+          "slot_min": 0,
+          "slot_range": 14,
+          "slot_values": [
+            0,
+            0,
+            0,
+            13,
+            13,
+            14
+          ]
+        }
+      ],
+      "exact_group_reconstruction": false,
+      "fiber_mins_by_block": [
+        55,
+        12,
+        3,
+        1
+      ],
+      "fiber_monotone_by_block": true,
+      "majority_order": [
+        0,
+        0,
+        1,
+        3
+      ],
+      "ordered_exact_group_reconstruction": false,
+      "purity": 0.5833333333333334,
+      "purity_total": 14,
+      "rule_name": "fiber_desc",
+      "slot_maxes_by_block": [
+        5,
+        12,
+        12,
+        14
+      ],
+      "slot_monotone_by_block": false,
+      "uses_answer_label_as_input": false,
+      "uses_form_index_as_input": false,
+      "uses_record_order_as_primary_input": false
+    },
+    {
+      "block_count": 4,
+      "block_size": 6,
+      "blocks": [
+        {
+          "block_id": 0,
+          "block_name": "edge",
+          "fiber_max": 57,
+          "fiber_min": 55,
+          "fiber_range": 2,
+          "fiber_values": [
+            55,
+            55,
+            57,
+            57,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 0,
+          "record_indices": [
+            3,
+            23,
+            0,
+            20,
+            17,
+            14
+          ],
+          "row_count": 6,
+          "slot_max": 5,
+          "slot_min": 0,
+          "slot_range": 5,
+          "slot_values": [
+            0,
+            0,
+            0,
+            3,
+            3,
+            5
+          ]
+        },
+        {
+          "block_id": 1,
+          "block_name": "hinge",
+          "fiber_max": 51,
+          "fiber_min": 12,
+          "fiber_range": 39,
+          "fiber_values": [
+            12,
+            12,
+            48,
+            48,
+            51,
+            51
+          ],
+          "form_counts": {
+            "0": 4,
+            "1": 2
+          },
+          "majority_count": 4,
+          "majority_form": 0,
+          "record_indices": [
+            1,
+            4,
+            7,
+            10,
+            5,
+            2
+          ],
+          "row_count": 6,
+          "slot_max": 12,
+          "slot_min": 0,
+          "slot_range": 12,
+          "slot_values": [
+            0,
+            0,
+            0,
+            3,
+            9,
+            12
+          ]
+        },
+        {
+          "block_id": 2,
+          "block_name": "closed_face",
+          "fiber_max": 9,
+          "fiber_min": 3,
+          "fiber_range": 6,
+          "fiber_values": [
+            3,
+            3,
+            3,
+            3,
+            9,
+            9
+          ],
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "majority_count": 4,
+          "majority_form": 1,
+          "record_indices": [
+            11,
+            8,
+            9,
+            13,
+            6,
+            16
+          ],
+          "row_count": 6,
+          "slot_max": 12,
+          "slot_min": 0,
+          "slot_range": 12,
+          "slot_values": [
+            0,
+            0,
+            0,
+            6,
+            12,
+            12
+          ]
+        },
+        {
+          "block_id": 3,
+          "block_name": "filled_cell",
+          "fiber_max": 2,
+          "fiber_min": 1,
+          "fiber_range": 1,
+          "fiber_values": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "form_counts": {
+            "2": 2,
+            "3": 4
+          },
+          "majority_count": 4,
+          "majority_form": 3,
+          "record_indices": [
+            15,
+            21,
+            12,
+            18,
+            19,
+            22
+          ],
+          "row_count": 6,
+          "slot_max": 14,
+          "slot_min": 0,
+          "slot_range": 14,
+          "slot_values": [
+            0,
+            0,
+            0,
+            13,
+            13,
+            14
+          ]
+        }
+      ],
+      "exact_group_reconstruction": false,
+      "fiber_mins_by_block": [
+        55,
+        12,
+        3,
+        1
+      ],
+      "fiber_monotone_by_block": true,
+      "majority_order": [
+        0,
+        0,
+        1,
+        3
+      ],
+      "ordered_exact_group_reconstruction": false,
+      "purity": 0.5833333333333334,
+      "purity_total": 14,
+      "rule_name": "fiber_desc_slot_asc",
+      "slot_maxes_by_block": [
+        5,
+        12,
+        12,
+        14
+      ],
+      "slot_monotone_by_block": false,
+      "uses_answer_label_as_input": false,
+      "uses_form_index_as_input": false,
+      "uses_record_order_as_primary_input": false
+    },
+    {
+      "block_count": 4,
+      "block_size": 6,
+      "blocks": [
+        {
+          "block_id": 0,
+          "block_name": "edge",
+          "fiber_max": 57,
+          "fiber_min": 55,
+          "fiber_range": 2,
+          "fiber_values": [
+            55,
+            55,
+            57,
+            57,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 0,
+          "record_indices": [
+            3,
+            23,
+            0,
+            20,
+            17,
+            14
+          ],
+          "row_count": 6,
+          "slot_max": 5,
+          "slot_min": 0,
+          "slot_range": 5,
+          "slot_values": [
+            0,
+            0,
+            0,
+            3,
+            3,
+            5
+          ]
+        },
+        {
+          "block_id": 1,
+          "block_name": "hinge",
+          "fiber_max": 51,
+          "fiber_min": 12,
+          "fiber_range": 39,
+          "fiber_values": [
+            12,
+            12,
+            48,
+            48,
+            51,
+            51
+          ],
+          "form_counts": {
+            "0": 4,
+            "1": 2
+          },
+          "majority_count": 4,
+          "majority_form": 0,
+          "record_indices": [
+            1,
+            4,
+            7,
+            10,
+            5,
+            2
+          ],
+          "row_count": 6,
+          "slot_max": 12,
+          "slot_min": 0,
+          "slot_range": 12,
+          "slot_values": [
+            0,
+            0,
+            0,
+            3,
+            9,
+            12
+          ]
+        },
+        {
+          "block_id": 2,
+          "block_name": "closed_face",
+          "fiber_max": 9,
+          "fiber_min": 3,
+          "fiber_range": 6,
+          "fiber_values": [
+            3,
+            3,
+            3,
+            3,
+            9,
+            9
+          ],
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "majority_count": 4,
+          "majority_form": 1,
+          "record_indices": [
+            11,
+            8,
+            9,
+            13,
+            6,
+            16
+          ],
+          "row_count": 6,
+          "slot_max": 12,
+          "slot_min": 0,
+          "slot_range": 12,
+          "slot_values": [
+            0,
+            0,
+            0,
+            6,
+            12,
+            12
+          ]
+        },
+        {
+          "block_id": 3,
+          "block_name": "filled_cell",
+          "fiber_max": 2,
+          "fiber_min": 1,
+          "fiber_range": 1,
+          "fiber_values": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "form_counts": {
+            "2": 2,
+            "3": 4
+          },
+          "majority_count": 4,
+          "majority_form": 3,
+          "record_indices": [
+            15,
+            21,
+            12,
+            18,
+            19,
+            22
+          ],
+          "row_count": 6,
+          "slot_max": 14,
+          "slot_min": 0,
+          "slot_range": 14,
+          "slot_values": [
+            0,
+            0,
+            0,
+            13,
+            13,
+            14
+          ]
+        }
+      ],
+      "exact_group_reconstruction": false,
+      "fiber_mins_by_block": [
+        55,
+        12,
+        3,
+        1
+      ],
+      "fiber_monotone_by_block": true,
+      "majority_order": [
+        0,
+        0,
+        1,
+        3
+      ],
+      "ordered_exact_group_reconstruction": false,
+      "purity": 0.5833333333333334,
+      "purity_total": 14,
+      "rule_name": "fiber_then_slot_then_lift",
+      "slot_maxes_by_block": [
+        5,
+        12,
+        12,
+        14
+      ],
+      "slot_monotone_by_block": false,
+      "uses_answer_label_as_input": false,
+      "uses_form_index_as_input": false,
+      "uses_record_order_as_primary_input": false
+    },
+    {
+      "block_count": 4,
+      "block_size": 6,
+      "blocks": [
+        {
+          "block_id": 0,
+          "block_name": "edge",
+          "fiber_max": 9,
+          "fiber_min": 1,
+          "fiber_range": 8,
+          "fiber_values": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            9
+          ],
+          "form_counts": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 3,
+          "record_indices": [
+            19,
+            15,
+            21,
+            9,
+            13,
+            11
+          ],
+          "row_count": 6,
+          "slot_max": 0,
+          "slot_min": 0,
+          "slot_range": 0,
+          "slot_values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block_id": 1,
+          "block_name": "hinge",
+          "fiber_max": 57,
+          "fiber_min": 12,
+          "fiber_range": 45,
+          "fiber_values": [
+            12,
+            48,
+            51,
+            55,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "majority_count": 3,
+          "majority_form": 0,
+          "record_indices": [
+            5,
+            7,
+            1,
+            17,
+            3,
+            23
+          ],
+          "row_count": 6,
+          "slot_max": 0,
+          "slot_min": 0,
+          "slot_range": 0,
+          "slot_values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block_id": 2,
+          "block_name": "closed_face",
+          "fiber_max": 57,
+          "fiber_min": 9,
+          "fiber_range": 48,
+          "fiber_values": [
+            9,
+            12,
+            51,
+            55,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "majority_count": 3,
+          "majority_form": 0,
+          "record_indices": [
+            2,
+            0,
+            20,
+            14,
+            8,
+            4
+          ],
+          "row_count": 6,
+          "slot_max": 9,
+          "slot_min": 3,
+          "slot_range": 6,
+          "slot_values": [
+            3,
+            3,
+            3,
+            5,
+            6,
+            9
+          ]
+        },
+        {
+          "block_id": 3,
+          "block_name": "filled_cell",
+          "fiber_max": 48,
+          "fiber_min": 1,
+          "fiber_range": 47,
+          "fiber_values": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            48
+          ],
+          "form_counts": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 1,
+          "record_indices": [
+            6,
+            16,
+            10,
+            12,
+            18,
+            22
+          ],
+          "row_count": 6,
+          "slot_max": 14,
+          "slot_min": 12,
+          "slot_range": 2,
+          "slot_values": [
+            12,
+            12,
+            12,
+            13,
+            13,
+            14
+          ]
+        }
+      ],
+      "exact_group_reconstruction": false,
+      "fiber_mins_by_block": [
+        1,
+        12,
+        9,
+        1
+      ],
+      "fiber_monotone_by_block": false,
+      "majority_order": [
+        3,
+        0,
+        0,
+        1
+      ],
+      "ordered_exact_group_reconstruction": false,
+      "purity": 0.4166666666666667,
+      "purity_total": 10,
+      "rule_name": "slot_asc",
+      "slot_maxes_by_block": [
+        0,
+        0,
+        9,
+        14
+      ],
+      "slot_monotone_by_block": false,
+      "uses_answer_label_as_input": false,
+      "uses_form_index_as_input": false,
+      "uses_record_order_as_primary_input": false
+    },
+    {
+      "block_count": 4,
+      "block_size": 6,
+      "blocks": [
+        {
+          "block_id": 0,
+          "block_name": "edge",
+          "fiber_max": 57,
+          "fiber_min": 12,
+          "fiber_range": 45,
+          "fiber_values": [
+            12,
+            48,
+            51,
+            55,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "majority_count": 3,
+          "majority_form": 0,
+          "record_indices": [
+            3,
+            23,
+            17,
+            1,
+            7,
+            5
+          ],
+          "row_count": 6,
+          "slot_max": 0,
+          "slot_min": 0,
+          "slot_range": 0,
+          "slot_values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block_id": 1,
+          "block_name": "hinge",
+          "fiber_max": 9,
+          "fiber_min": 1,
+          "fiber_range": 8,
+          "fiber_values": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            9
+          ],
+          "form_counts": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 1,
+          "record_indices": [
+            11,
+            9,
+            13,
+            15,
+            21,
+            19
+          ],
+          "row_count": 6,
+          "slot_max": 0,
+          "slot_min": 0,
+          "slot_range": 0,
+          "slot_values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block_id": 2,
+          "block_name": "closed_face",
+          "fiber_max": 57,
+          "fiber_min": 9,
+          "fiber_range": 48,
+          "fiber_values": [
+            9,
+            12,
+            51,
+            55,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "majority_count": 3,
+          "majority_form": 0,
+          "record_indices": [
+            0,
+            20,
+            2,
+            14,
+            8,
+            4
+          ],
+          "row_count": 6,
+          "slot_max": 9,
+          "slot_min": 3,
+          "slot_range": 6,
+          "slot_values": [
+            3,
+            3,
+            3,
+            5,
+            6,
+            9
+          ]
+        },
+        {
+          "block_id": 3,
+          "block_name": "filled_cell",
+          "fiber_max": 48,
+          "fiber_min": 1,
+          "fiber_range": 47,
+          "fiber_values": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            48
+          ],
+          "form_counts": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 1,
+          "record_indices": [
+            10,
+            6,
+            16,
+            12,
+            18,
+            22
+          ],
+          "row_count": 6,
+          "slot_max": 14,
+          "slot_min": 12,
+          "slot_range": 2,
+          "slot_values": [
+            12,
+            12,
+            12,
+            13,
+            13,
+            14
+          ]
+        }
+      ],
+      "exact_group_reconstruction": false,
+      "fiber_mins_by_block": [
+        12,
+        1,
+        9,
+        1
+      ],
+      "fiber_monotone_by_block": false,
+      "majority_order": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "ordered_exact_group_reconstruction": false,
+      "purity": 0.4166666666666667,
+      "purity_total": 10,
+      "rule_name": "slot_asc_fiber_desc",
+      "slot_maxes_by_block": [
+        0,
+        0,
+        9,
+        14
+      ],
+      "slot_monotone_by_block": false,
+      "uses_answer_label_as_input": false,
+      "uses_form_index_as_input": false,
+      "uses_record_order_as_primary_input": false
+    },
+    {
+      "block_count": 4,
+      "block_size": 6,
+      "blocks": [
+        {
+          "block_id": 0,
+          "block_name": "edge",
+          "fiber_max": 57,
+          "fiber_min": 12,
+          "fiber_range": 45,
+          "fiber_values": [
+            12,
+            48,
+            51,
+            55,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "majority_count": 3,
+          "majority_form": 0,
+          "record_indices": [
+            3,
+            23,
+            17,
+            1,
+            7,
+            5
+          ],
+          "row_count": 6,
+          "slot_max": 0,
+          "slot_min": 0,
+          "slot_range": 0,
+          "slot_values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block_id": 1,
+          "block_name": "hinge",
+          "fiber_max": 9,
+          "fiber_min": 1,
+          "fiber_range": 8,
+          "fiber_values": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            9
+          ],
+          "form_counts": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 1,
+          "record_indices": [
+            11,
+            9,
+            13,
+            15,
+            21,
+            19
+          ],
+          "row_count": 6,
+          "slot_max": 0,
+          "slot_min": 0,
+          "slot_range": 0,
+          "slot_values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block_id": 2,
+          "block_name": "closed_face",
+          "fiber_max": 57,
+          "fiber_min": 9,
+          "fiber_range": 48,
+          "fiber_values": [
+            9,
+            12,
+            51,
+            55,
+            57,
+            57
+          ],
+          "form_counts": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "majority_count": 3,
+          "majority_form": 0,
+          "record_indices": [
+            0,
+            20,
+            2,
+            14,
+            8,
+            4
+          ],
+          "row_count": 6,
+          "slot_max": 9,
+          "slot_min": 3,
+          "slot_range": 6,
+          "slot_values": [
+            3,
+            3,
+            3,
+            5,
+            6,
+            9
+          ]
+        },
+        {
+          "block_id": 3,
+          "block_name": "filled_cell",
+          "fiber_max": 48,
+          "fiber_min": 1,
+          "fiber_range": 47,
+          "fiber_values": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            48
+          ],
+          "form_counts": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "majority_count": 2,
+          "majority_form": 1,
+          "record_indices": [
+            10,
+            6,
+            16,
+            12,
+            18,
+            22
+          ],
+          "row_count": 6,
+          "slot_max": 14,
+          "slot_min": 12,
+          "slot_range": 2,
+          "slot_values": [
+            12,
+            12,
+            12,
+            13,
+            13,
+            14
+          ]
+        }
+      ],
+      "exact_group_reconstruction": false,
+      "fiber_mins_by_block": [
+        12,
+        1,
+        9,
+        1
+      ],
+      "fiber_monotone_by_block": false,
+      "majority_order": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "ordered_exact_group_reconstruction": false,
+      "purity": 0.4166666666666667,
+      "purity_total": 10,
+      "rule_name": "slot_range_then_fiber",
+      "slot_maxes_by_block": [
+        0,
+        0,
+        9,
+        14
+      ],
+      "slot_monotone_by_block": false,
+      "uses_answer_label_as_input": false,
+      "uses_form_index_as_input": false,
+      "uses_record_order_as_primary_input": false
+    }
+  ],
+  "statement": "Artifact 059 is a native delta partition reconstruction audit. It attempts to reconstruct the four local Euclidean groups from native delta fields alone. form_index is used only for evaluation after the partition has been generated.",
+  "status": "native_delta_partition_reconstruction_recorded",
+  "verdict": "native_delta_partition_does_not_reconstruct_groups_exactly"
+}
