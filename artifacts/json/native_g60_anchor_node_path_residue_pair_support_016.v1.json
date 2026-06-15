@@ -1,0 +1,1475 @@
+{
+  "all_anchor_residue_pair_steps_supported": true,
+  "all_checks_pass": true,
+  "audit_id": "016",
+  "boundary": "This is only a mod15 residue-pair support audit. It does not derive anchor paths or lift masks from native provenance, does not test station fields, does not select unique relay mediators, does not derive the full role-labeled shared_B universe, and does not close Gap A.",
+  "checks": {
+    "g60_edge_count_is_120": true,
+    "literal_anchor_support_015_checks_pass": true,
+    "project22_012_theorem_pass": true,
+    "state_count_is_4": true,
+    "total_anchor_pair_step_count_is_12": true
+  },
+  "inputs": {
+    "g60_edges": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv",
+    "literal_anchor_support_015": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_node_path_edge_support_015.v1.json",
+    "project22_anchor_path_012": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_anchor_node_path_geometry_012.v1.json"
+  },
+  "interpretation": "This tests whether the Project 22 closed anchor node paths become supported after projecting G60 vertices to mod15 residue pairs. If support rises relative to artifact 015, the anchor paths may be quotient-pair paths rather than literal G60 pair-walks.",
+  "per_state": {
+    "B0": {
+      "all_steps_supported": true,
+      "any_steps_supported": true,
+      "closed_path": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "step_count": 3,
+      "steps": [
+        {
+          "from_pair": [
+            0,
+            4
+          ],
+          "from_residues": [
+            0,
+            4
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  2,
+                  45
+                ]
+              ],
+              "from_residue": 0,
+              "support_count": 1,
+              "to_residue": 2
+            }
+          ],
+          "residue_cross_hit_count": 1,
+          "residue_cross_support_count": 1,
+          "residue_pair_supported": true,
+          "state": "B0",
+          "step": 0,
+          "to_pair": [
+            2,
+            17
+          ],
+          "to_residues": [
+            2
+          ]
+        },
+        {
+          "from_pair": [
+            2,
+            17
+          ],
+          "from_residues": [
+            2
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  17,
+                  23
+                ],
+                [
+                  32,
+                  38
+                ],
+                [
+                  47,
+                  53
+                ]
+              ],
+              "from_residue": 2,
+              "support_count": 3,
+              "to_residue": 8
+            }
+          ],
+          "residue_cross_hit_count": 1,
+          "residue_cross_support_count": 3,
+          "residue_pair_supported": true,
+          "state": "B0",
+          "step": 1,
+          "to_pair": [
+            8,
+            18
+          ],
+          "to_residues": [
+            3,
+            8
+          ]
+        },
+        {
+          "from_pair": [
+            8,
+            18
+          ],
+          "from_residues": [
+            3,
+            8
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  3,
+                  49
+                ]
+              ],
+              "from_residue": 3,
+              "support_count": 1,
+              "to_residue": 4
+            },
+            {
+              "examples": [
+                [
+                  8,
+                  30
+                ]
+              ],
+              "from_residue": 8,
+              "support_count": 1,
+              "to_residue": 0
+            },
+            {
+              "examples": [
+                [
+                  19,
+                  23
+                ],
+                [
+                  49,
+                  53
+                ]
+              ],
+              "from_residue": 8,
+              "support_count": 2,
+              "to_residue": 4
+            }
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 4,
+          "residue_pair_supported": true,
+          "state": "B0",
+          "step": 2,
+          "to_pair": [
+            0,
+            4
+          ],
+          "to_residues": [
+            0,
+            4
+          ]
+        }
+      ],
+      "supported_step_count": 3
+    },
+    "B1": {
+      "all_steps_supported": true,
+      "any_steps_supported": true,
+      "closed_path": [
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      "step_count": 3,
+      "steps": [
+        {
+          "from_pair": [
+            7,
+            10
+          ],
+          "from_residues": [
+            7,
+            10
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  18,
+                  22
+                ],
+                [
+                  33,
+                  37
+                ],
+                [
+                  48,
+                  52
+                ]
+              ],
+              "from_residue": 7,
+              "support_count": 3,
+              "to_residue": 3
+            },
+            {
+              "examples": [
+                [
+                  3,
+                  55
+                ]
+              ],
+              "from_residue": 10,
+              "support_count": 1,
+              "to_residue": 3
+            }
+          ],
+          "residue_cross_hit_count": 2,
+          "residue_cross_support_count": 4,
+          "residue_pair_supported": true,
+          "state": "B1",
+          "step": 0,
+          "to_pair": [
+            8,
+            18
+          ],
+          "to_residues": [
+            3,
+            8
+          ]
+        },
+        {
+          "from_pair": [
+            8,
+            18
+          ],
+          "from_residues": [
+            3,
+            8
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  17,
+                  23
+                ],
+                [
+                  32,
+                  38
+                ],
+                [
+                  47,
+                  53
+                ]
+              ],
+              "from_residue": 8,
+              "support_count": 3,
+              "to_residue": 2
+            }
+          ],
+          "residue_cross_hit_count": 1,
+          "residue_cross_support_count": 3,
+          "residue_pair_supported": true,
+          "state": "B1",
+          "step": 1,
+          "to_pair": [
+            13,
+            17
+          ],
+          "to_residues": [
+            2,
+            13
+          ]
+        },
+        {
+          "from_pair": [
+            13,
+            17
+          ],
+          "from_residues": [
+            2,
+            13
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  2,
+                  25
+                ]
+              ],
+              "from_residue": 2,
+              "support_count": 1,
+              "to_residue": 10
+            },
+            {
+              "examples": [
+                [
+                  22,
+                  28
+                ],
+                [
+                  37,
+                  43
+                ],
+                [
+                  52,
+                  58
+                ]
+              ],
+              "from_residue": 13,
+              "support_count": 3,
+              "to_residue": 7
+            }
+          ],
+          "residue_cross_hit_count": 2,
+          "residue_cross_support_count": 4,
+          "residue_pair_supported": true,
+          "state": "B1",
+          "step": 2,
+          "to_pair": [
+            7,
+            10
+          ],
+          "to_residues": [
+            7,
+            10
+          ]
+        }
+      ],
+      "supported_step_count": 3
+    },
+    "O0": {
+      "all_steps_supported": true,
+      "any_steps_supported": true,
+      "closed_path": [
+        [
+          23,
+          24
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          23,
+          24
+        ]
+      ],
+      "step_count": 3,
+      "steps": [
+        {
+          "from_pair": [
+            23,
+            24
+          ],
+          "from_residues": [
+            8,
+            9
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  23,
+                  27
+                ],
+                [
+                  38,
+                  42
+                ],
+                [
+                  53,
+                  57
+                ]
+              ],
+              "from_residue": 8,
+              "support_count": 3,
+              "to_residue": 12
+            },
+            {
+              "examples": [
+                [
+                  12,
+                  24
+                ],
+                [
+                  42,
+                  54
+                ]
+              ],
+              "from_residue": 9,
+              "support_count": 2,
+              "to_residue": 12
+            }
+          ],
+          "residue_cross_hit_count": 2,
+          "residue_cross_support_count": 5,
+          "residue_pair_supported": true,
+          "state": "O0",
+          "step": 0,
+          "to_pair": [
+            7,
+            12
+          ],
+          "to_residues": [
+            7,
+            12
+          ]
+        },
+        {
+          "from_pair": [
+            7,
+            12
+          ],
+          "from_residues": [
+            7,
+            12
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  7,
+                  34
+                ],
+                [
+                  22,
+                  34
+                ]
+              ],
+              "from_residue": 7,
+              "support_count": 2,
+              "to_residue": 4
+            },
+            {
+              "examples": [
+                [
+                  7,
+                  20
+                ]
+              ],
+              "from_residue": 7,
+              "support_count": 1,
+              "to_residue": 5
+            },
+            {
+              "examples": [
+                [
+                  19,
+                  27
+                ],
+                [
+                  49,
+                  57
+                ]
+              ],
+              "from_residue": 12,
+              "support_count": 2,
+              "to_residue": 4
+            }
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 5,
+          "residue_pair_supported": true,
+          "state": "O0",
+          "step": 1,
+          "to_pair": [
+            4,
+            5
+          ],
+          "to_residues": [
+            4,
+            5
+          ]
+        },
+        {
+          "from_pair": [
+            4,
+            5
+          ],
+          "from_residues": [
+            4,
+            5
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  19,
+                  23
+                ],
+                [
+                  49,
+                  53
+                ]
+              ],
+              "from_residue": 4,
+              "support_count": 2,
+              "to_residue": 8
+            },
+            {
+              "examples": [
+                [
+                  8,
+                  50
+                ]
+              ],
+              "from_residue": 5,
+              "support_count": 1,
+              "to_residue": 8
+            }
+          ],
+          "residue_cross_hit_count": 2,
+          "residue_cross_support_count": 3,
+          "residue_pair_supported": true,
+          "state": "O0",
+          "step": 2,
+          "to_pair": [
+            23,
+            24
+          ],
+          "to_residues": [
+            8,
+            9
+          ]
+        }
+      ],
+      "supported_step_count": 3
+    },
+    "O1": {
+      "all_steps_supported": true,
+      "any_steps_supported": true,
+      "closed_path": [
+        [
+          28,
+          29
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          28,
+          29
+        ]
+      ],
+      "step_count": 3,
+      "steps": [
+        {
+          "from_pair": [
+            28,
+            29
+          ],
+          "from_residues": [
+            13,
+            14
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  13,
+                  17
+                ],
+                [
+                  28,
+                  32
+                ],
+                [
+                  43,
+                  47
+                ]
+              ],
+              "from_residue": 13,
+              "support_count": 3,
+              "to_residue": 2
+            },
+            {
+              "examples": [
+                [
+                  15,
+                  59
+                ],
+                [
+                  30,
+                  44
+                ]
+              ],
+              "from_residue": 14,
+              "support_count": 2,
+              "to_residue": 0
+            },
+            {
+              "examples": [
+                [
+                  17,
+                  59
+                ],
+                [
+                  32,
+                  44
+                ]
+              ],
+              "from_residue": 14,
+              "support_count": 2,
+              "to_residue": 2
+            }
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 7,
+          "residue_pair_supported": true,
+          "state": "O1",
+          "step": 0,
+          "to_pair": [
+            0,
+            2
+          ],
+          "to_residues": [
+            0,
+            2
+          ]
+        },
+        {
+          "from_pair": [
+            0,
+            2
+          ],
+          "from_residues": [
+            0,
+            2
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  0,
+                  19
+                ],
+                [
+                  4,
+                  15
+                ],
+                [
+                  4,
+                  45
+                ]
+              ],
+              "from_residue": 0,
+              "support_count": 3,
+              "to_residue": 4
+            },
+            {
+              "examples": [
+                [
+                  39,
+                  45
+                ]
+              ],
+              "from_residue": 0,
+              "support_count": 1,
+              "to_residue": 9
+            },
+            {
+              "examples": [
+                [
+                  2,
+                  39
+                ],
+                [
+                  39,
+                  47
+                ]
+              ],
+              "from_residue": 2,
+              "support_count": 2,
+              "to_residue": 9
+            }
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 6,
+          "residue_pair_supported": true,
+          "state": "O1",
+          "step": 1,
+          "to_pair": [
+            4,
+            9
+          ],
+          "to_residues": [
+            4,
+            9
+          ]
+        },
+        {
+          "from_pair": [
+            4,
+            9
+          ],
+          "from_residues": [
+            4,
+            9
+          ],
+          "hits": [
+            {
+              "examples": [
+                [
+                  28,
+                  34
+                ]
+              ],
+              "from_residue": 4,
+              "support_count": 1,
+              "to_residue": 13
+            },
+            {
+              "examples": [
+                [
+                  4,
+                  59
+                ]
+              ],
+              "from_residue": 4,
+              "support_count": 1,
+              "to_residue": 14
+            },
+            {
+              "examples": [
+                [
+                  39,
+                  43
+                ]
+              ],
+              "from_residue": 9,
+              "support_count": 1,
+              "to_residue": 13
+            }
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 3,
+          "residue_pair_supported": true,
+          "state": "O1",
+          "step": 2,
+          "to_pair": [
+            28,
+            29
+          ],
+          "to_residues": [
+            13,
+            14
+          ]
+        }
+      ],
+      "supported_step_count": 3
+    }
+  },
+  "rows": [
+    {
+      "from_pair": [
+        23,
+        24
+      ],
+      "from_residues": [
+        8,
+        9
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              23,
+              27
+            ],
+            [
+              38,
+              42
+            ],
+            [
+              53,
+              57
+            ]
+          ],
+          "from_residue": 8,
+          "support_count": 3,
+          "to_residue": 12
+        },
+        {
+          "examples": [
+            [
+              12,
+              24
+            ],
+            [
+              42,
+              54
+            ]
+          ],
+          "from_residue": 9,
+          "support_count": 2,
+          "to_residue": 12
+        }
+      ],
+      "residue_cross_hit_count": 2,
+      "residue_cross_support_count": 5,
+      "residue_pair_supported": true,
+      "state": "O0",
+      "step": 0,
+      "to_pair": [
+        7,
+        12
+      ],
+      "to_residues": [
+        7,
+        12
+      ]
+    },
+    {
+      "from_pair": [
+        7,
+        12
+      ],
+      "from_residues": [
+        7,
+        12
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              7,
+              34
+            ],
+            [
+              22,
+              34
+            ]
+          ],
+          "from_residue": 7,
+          "support_count": 2,
+          "to_residue": 4
+        },
+        {
+          "examples": [
+            [
+              7,
+              20
+            ]
+          ],
+          "from_residue": 7,
+          "support_count": 1,
+          "to_residue": 5
+        },
+        {
+          "examples": [
+            [
+              19,
+              27
+            ],
+            [
+              49,
+              57
+            ]
+          ],
+          "from_residue": 12,
+          "support_count": 2,
+          "to_residue": 4
+        }
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 5,
+      "residue_pair_supported": true,
+      "state": "O0",
+      "step": 1,
+      "to_pair": [
+        4,
+        5
+      ],
+      "to_residues": [
+        4,
+        5
+      ]
+    },
+    {
+      "from_pair": [
+        4,
+        5
+      ],
+      "from_residues": [
+        4,
+        5
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              19,
+              23
+            ],
+            [
+              49,
+              53
+            ]
+          ],
+          "from_residue": 4,
+          "support_count": 2,
+          "to_residue": 8
+        },
+        {
+          "examples": [
+            [
+              8,
+              50
+            ]
+          ],
+          "from_residue": 5,
+          "support_count": 1,
+          "to_residue": 8
+        }
+      ],
+      "residue_cross_hit_count": 2,
+      "residue_cross_support_count": 3,
+      "residue_pair_supported": true,
+      "state": "O0",
+      "step": 2,
+      "to_pair": [
+        23,
+        24
+      ],
+      "to_residues": [
+        8,
+        9
+      ]
+    },
+    {
+      "from_pair": [
+        28,
+        29
+      ],
+      "from_residues": [
+        13,
+        14
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              13,
+              17
+            ],
+            [
+              28,
+              32
+            ],
+            [
+              43,
+              47
+            ]
+          ],
+          "from_residue": 13,
+          "support_count": 3,
+          "to_residue": 2
+        },
+        {
+          "examples": [
+            [
+              15,
+              59
+            ],
+            [
+              30,
+              44
+            ]
+          ],
+          "from_residue": 14,
+          "support_count": 2,
+          "to_residue": 0
+        },
+        {
+          "examples": [
+            [
+              17,
+              59
+            ],
+            [
+              32,
+              44
+            ]
+          ],
+          "from_residue": 14,
+          "support_count": 2,
+          "to_residue": 2
+        }
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 7,
+      "residue_pair_supported": true,
+      "state": "O1",
+      "step": 0,
+      "to_pair": [
+        0,
+        2
+      ],
+      "to_residues": [
+        0,
+        2
+      ]
+    },
+    {
+      "from_pair": [
+        0,
+        2
+      ],
+      "from_residues": [
+        0,
+        2
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              0,
+              19
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              4,
+              45
+            ]
+          ],
+          "from_residue": 0,
+          "support_count": 3,
+          "to_residue": 4
+        },
+        {
+          "examples": [
+            [
+              39,
+              45
+            ]
+          ],
+          "from_residue": 0,
+          "support_count": 1,
+          "to_residue": 9
+        },
+        {
+          "examples": [
+            [
+              2,
+              39
+            ],
+            [
+              39,
+              47
+            ]
+          ],
+          "from_residue": 2,
+          "support_count": 2,
+          "to_residue": 9
+        }
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 6,
+      "residue_pair_supported": true,
+      "state": "O1",
+      "step": 1,
+      "to_pair": [
+        4,
+        9
+      ],
+      "to_residues": [
+        4,
+        9
+      ]
+    },
+    {
+      "from_pair": [
+        4,
+        9
+      ],
+      "from_residues": [
+        4,
+        9
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              28,
+              34
+            ]
+          ],
+          "from_residue": 4,
+          "support_count": 1,
+          "to_residue": 13
+        },
+        {
+          "examples": [
+            [
+              4,
+              59
+            ]
+          ],
+          "from_residue": 4,
+          "support_count": 1,
+          "to_residue": 14
+        },
+        {
+          "examples": [
+            [
+              39,
+              43
+            ]
+          ],
+          "from_residue": 9,
+          "support_count": 1,
+          "to_residue": 13
+        }
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 3,
+      "residue_pair_supported": true,
+      "state": "O1",
+      "step": 2,
+      "to_pair": [
+        28,
+        29
+      ],
+      "to_residues": [
+        13,
+        14
+      ]
+    },
+    {
+      "from_pair": [
+        0,
+        4
+      ],
+      "from_residues": [
+        0,
+        4
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              2,
+              45
+            ]
+          ],
+          "from_residue": 0,
+          "support_count": 1,
+          "to_residue": 2
+        }
+      ],
+      "residue_cross_hit_count": 1,
+      "residue_cross_support_count": 1,
+      "residue_pair_supported": true,
+      "state": "B0",
+      "step": 0,
+      "to_pair": [
+        2,
+        17
+      ],
+      "to_residues": [
+        2
+      ]
+    },
+    {
+      "from_pair": [
+        2,
+        17
+      ],
+      "from_residues": [
+        2
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              17,
+              23
+            ],
+            [
+              32,
+              38
+            ],
+            [
+              47,
+              53
+            ]
+          ],
+          "from_residue": 2,
+          "support_count": 3,
+          "to_residue": 8
+        }
+      ],
+      "residue_cross_hit_count": 1,
+      "residue_cross_support_count": 3,
+      "residue_pair_supported": true,
+      "state": "B0",
+      "step": 1,
+      "to_pair": [
+        8,
+        18
+      ],
+      "to_residues": [
+        3,
+        8
+      ]
+    },
+    {
+      "from_pair": [
+        8,
+        18
+      ],
+      "from_residues": [
+        3,
+        8
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              3,
+              49
+            ]
+          ],
+          "from_residue": 3,
+          "support_count": 1,
+          "to_residue": 4
+        },
+        {
+          "examples": [
+            [
+              8,
+              30
+            ]
+          ],
+          "from_residue": 8,
+          "support_count": 1,
+          "to_residue": 0
+        },
+        {
+          "examples": [
+            [
+              19,
+              23
+            ],
+            [
+              49,
+              53
+            ]
+          ],
+          "from_residue": 8,
+          "support_count": 2,
+          "to_residue": 4
+        }
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 4,
+      "residue_pair_supported": true,
+      "state": "B0",
+      "step": 2,
+      "to_pair": [
+        0,
+        4
+      ],
+      "to_residues": [
+        0,
+        4
+      ]
+    },
+    {
+      "from_pair": [
+        7,
+        10
+      ],
+      "from_residues": [
+        7,
+        10
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              18,
+              22
+            ],
+            [
+              33,
+              37
+            ],
+            [
+              48,
+              52
+            ]
+          ],
+          "from_residue": 7,
+          "support_count": 3,
+          "to_residue": 3
+        },
+        {
+          "examples": [
+            [
+              3,
+              55
+            ]
+          ],
+          "from_residue": 10,
+          "support_count": 1,
+          "to_residue": 3
+        }
+      ],
+      "residue_cross_hit_count": 2,
+      "residue_cross_support_count": 4,
+      "residue_pair_supported": true,
+      "state": "B1",
+      "step": 0,
+      "to_pair": [
+        8,
+        18
+      ],
+      "to_residues": [
+        3,
+        8
+      ]
+    },
+    {
+      "from_pair": [
+        8,
+        18
+      ],
+      "from_residues": [
+        3,
+        8
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              17,
+              23
+            ],
+            [
+              32,
+              38
+            ],
+            [
+              47,
+              53
+            ]
+          ],
+          "from_residue": 8,
+          "support_count": 3,
+          "to_residue": 2
+        }
+      ],
+      "residue_cross_hit_count": 1,
+      "residue_cross_support_count": 3,
+      "residue_pair_supported": true,
+      "state": "B1",
+      "step": 1,
+      "to_pair": [
+        13,
+        17
+      ],
+      "to_residues": [
+        2,
+        13
+      ]
+    },
+    {
+      "from_pair": [
+        13,
+        17
+      ],
+      "from_residues": [
+        2,
+        13
+      ],
+      "hits": [
+        {
+          "examples": [
+            [
+              2,
+              25
+            ]
+          ],
+          "from_residue": 2,
+          "support_count": 1,
+          "to_residue": 10
+        },
+        {
+          "examples": [
+            [
+              22,
+              28
+            ],
+            [
+              37,
+              43
+            ],
+            [
+              52,
+              58
+            ]
+          ],
+          "from_residue": 13,
+          "support_count": 3,
+          "to_residue": 7
+        }
+      ],
+      "residue_cross_hit_count": 2,
+      "residue_cross_support_count": 4,
+      "residue_pair_supported": true,
+      "state": "B1",
+      "step": 2,
+      "to_pair": [
+        7,
+        10
+      ],
+      "to_residues": [
+        7,
+        10
+      ]
+    }
+  ],
+  "status": "native_g60_anchor_node_path_residue_pair_support_recorded",
+  "supported_residue_pair_step_count": 12,
+  "total_anchor_pair_step_count": 12,
+  "unsupported_residue_pair_step_count": 0
+}
