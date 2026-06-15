@@ -1,0 +1,23 @@
+{
+  "audit_id": "001",
+  "copied_source_missing_count": 0,
+  "copied_source_success_count": 23,
+  "date": "2026-06-15",
+  "inherited_closed_stack": [
+    "Project 22 derives the local Lift & Twist answer-cell kernel.",
+    "Project 23 derives the reduced 16-candidate universe from that local-cell kernel."
+  ],
+  "open_boundary": [
+    "Does not yet derive the local-cell kernel from native G60 provenance.",
+    "Does not derive the full role-labeled shared_B edge universe.",
+    "Does not close Gap A."
+  ],
+  "project": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance",
+  "source_projects": {
+    "project18": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission",
+    "project22": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist",
+    "project23": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe"
+  },
+  "status": "native_local_cell_provenance_project_created",
+  "working_target": "native G60 provenance -> local Lift & Twist answer cell"
+}

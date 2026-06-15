@@ -1,0 +1,634 @@
+{
+  "audit_id": "011",
+  "boundary": "This is a theorem for the four-state local answer-cell target. It still does not derive the anchor node paths themselves, does not derive the full reduced 16-candidate universe from native G60 provenance, and does not close Gap A.",
+  "checks": {
+    "all_generated_rows_match_006_target": true,
+    "anchor_cols_match_expected": true,
+    "c_rows_match_expected": true,
+    "overlap_signatures_match_expected": true,
+    "project22_006_theorem_pass": true,
+    "project22_007_theorem_pass": true,
+    "project22_008_theorem_pass": true,
+    "project22_009_theorem_pass": true,
+    "project22_010_theorem_pass": true,
+    "selected_candidates_match_expected": true
+  },
+  "claim": "The four-state local answer-cell target from 006 is generated from the two bits b,r by the consolidated Lift & Twist laws from 007-010. The generator reproduces the C row, anchor column, selected candidate, C key, anchor key, C path values, anchor residue set, and overlap markers for O0,O1,B0,B1.",
+  "comparison_rows": [
+    {
+      "all_fields_match": true,
+      "field_checks": {
+        "anchor_col": true,
+        "anchor_key": true,
+        "anchor_residues": true,
+        "c_key": true,
+        "c_row": true,
+        "c_values": true,
+        "overlap": true,
+        "overlap_count": true,
+        "rank": true,
+        "selected_candidate_index": true,
+        "shell": true,
+        "state": true
+      },
+      "generated": {
+        "anchor_col": 1,
+        "anchor_key": 0,
+        "anchor_offsets": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          12
+        ],
+        "anchor_residues": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          12
+        ],
+        "c_key": 11,
+        "c_offsets": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "c_path": [
+          11,
+          2,
+          14,
+          11
+        ],
+        "c_row": 0,
+        "c_values": [
+          2,
+          11,
+          14
+        ],
+        "overlap": [],
+        "overlap_count": 0,
+        "rank": 0,
+        "rank_bit": 0,
+        "selected_candidate_index": 1,
+        "shell": "ordinary",
+        "shell_bit": 0,
+        "state": "O0"
+      },
+      "observed": {
+        "anchor_col": 1,
+        "anchor_key": 0,
+        "anchor_residues": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          12
+        ],
+        "c_key": 11,
+        "c_row": 0,
+        "c_values": [
+          2,
+          11,
+          14
+        ],
+        "overlap": [],
+        "overlap_count": 0,
+        "rank": 0,
+        "selected_candidate_index": 1,
+        "shell": "ordinary",
+        "state": "O0"
+      },
+      "state": "O0"
+    },
+    {
+      "all_fields_match": true,
+      "field_checks": {
+        "anchor_col": true,
+        "anchor_key": true,
+        "anchor_residues": true,
+        "c_key": true,
+        "c_row": true,
+        "c_values": true,
+        "overlap": true,
+        "overlap_count": true,
+        "rank": true,
+        "selected_candidate_index": true,
+        "shell": true,
+        "state": true
+      },
+      "generated": {
+        "anchor_col": 2,
+        "anchor_key": 12,
+        "anchor_offsets": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          12
+        ],
+        "anchor_residues": [
+          0,
+          2,
+          4,
+          9,
+          13,
+          14
+        ],
+        "c_key": 13,
+        "c_offsets": [
+          0,
+          3,
+          12,
+          0
+        ],
+        "c_path": [
+          13,
+          1,
+          10,
+          13
+        ],
+        "c_row": 1,
+        "c_values": [
+          1,
+          10,
+          13
+        ],
+        "overlap": [
+          13
+        ],
+        "overlap_count": 1,
+        "rank": 1,
+        "rank_bit": 1,
+        "selected_candidate_index": 6,
+        "shell": "ordinary",
+        "shell_bit": 0,
+        "state": "O1"
+      },
+      "observed": {
+        "anchor_col": 2,
+        "anchor_key": 12,
+        "anchor_residues": [
+          0,
+          2,
+          4,
+          9,
+          13,
+          14
+        ],
+        "c_key": 13,
+        "c_row": 1,
+        "c_values": [
+          1,
+          10,
+          13
+        ],
+        "overlap": [
+          13
+        ],
+        "overlap_count": 1,
+        "rank": 1,
+        "selected_candidate_index": 6,
+        "shell": "ordinary",
+        "state": "O1"
+      },
+      "state": "O1"
+    },
+    {
+      "all_fields_match": true,
+      "field_checks": {
+        "anchor_col": true,
+        "anchor_key": true,
+        "anchor_residues": true,
+        "c_key": true,
+        "c_row": true,
+        "c_values": true,
+        "overlap": true,
+        "overlap_count": true,
+        "rank": true,
+        "selected_candidate_index": true,
+        "shell": true,
+        "state": true
+      },
+      "generated": {
+        "anchor_col": 0,
+        "anchor_key": 4,
+        "anchor_offsets": [
+          0,
+          4,
+          11,
+          13,
+          14
+        ],
+        "anchor_residues": [
+          0,
+          2,
+          3,
+          4,
+          8
+        ],
+        "c_key": 2,
+        "c_offsets": [
+          0,
+          3,
+          13,
+          0
+        ],
+        "c_path": [
+          2,
+          5,
+          0,
+          2
+        ],
+        "c_row": 2,
+        "c_values": [
+          0,
+          2,
+          5
+        ],
+        "overlap": [
+          0,
+          2
+        ],
+        "overlap_count": 2,
+        "rank": 0,
+        "rank_bit": 0,
+        "selected_candidate_index": 8,
+        "shell": "branch",
+        "shell_bit": 1,
+        "state": "B0"
+      },
+      "observed": {
+        "anchor_col": 0,
+        "anchor_key": 4,
+        "anchor_residues": [
+          0,
+          2,
+          3,
+          4,
+          8
+        ],
+        "c_key": 2,
+        "c_row": 2,
+        "c_values": [
+          0,
+          2,
+          5
+        ],
+        "overlap": [
+          0,
+          2
+        ],
+        "overlap_count": 2,
+        "rank": 0,
+        "selected_candidate_index": 8,
+        "shell": "branch",
+        "state": "B0"
+      },
+      "state": "B0"
+    },
+    {
+      "all_fields_match": true,
+      "field_checks": {
+        "anchor_col": true,
+        "anchor_key": true,
+        "anchor_residues": true,
+        "c_key": true,
+        "c_row": true,
+        "c_values": true,
+        "overlap": true,
+        "overlap_count": true,
+        "rank": true,
+        "selected_candidate_index": true,
+        "shell": true,
+        "state": true
+      },
+      "generated": {
+        "anchor_col": 3,
+        "anchor_key": 13,
+        "anchor_offsets": [
+          0,
+          4,
+          5,
+          9,
+          10,
+          12
+        ],
+        "anchor_residues": [
+          2,
+          3,
+          7,
+          8,
+          10,
+          13
+        ],
+        "c_key": 4,
+        "c_offsets": [
+          0,
+          1,
+          13,
+          0
+        ],
+        "c_path": [
+          4,
+          5,
+          2,
+          4
+        ],
+        "c_row": 3,
+        "c_values": [
+          2,
+          4,
+          5
+        ],
+        "overlap": [
+          2
+        ],
+        "overlap_count": 1,
+        "rank": 1,
+        "rank_bit": 1,
+        "selected_candidate_index": 15,
+        "shell": "branch",
+        "shell_bit": 1,
+        "state": "B1"
+      },
+      "observed": {
+        "anchor_col": 3,
+        "anchor_key": 13,
+        "anchor_residues": [
+          2,
+          3,
+          7,
+          8,
+          10,
+          13
+        ],
+        "c_key": 4,
+        "c_row": 3,
+        "c_values": [
+          2,
+          4,
+          5
+        ],
+        "overlap": [
+          2
+        ],
+        "overlap_count": 1,
+        "rank": 1,
+        "selected_candidate_index": 15,
+        "shell": "branch",
+        "state": "B1"
+      },
+      "state": "B1"
+    }
+  ],
+  "generated_rows": [
+    {
+      "anchor_col": 1,
+      "anchor_key": 0,
+      "anchor_offsets": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "anchor_residues": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "c_key": 11,
+      "c_offsets": [
+        0,
+        6,
+        3,
+        0
+      ],
+      "c_path": [
+        11,
+        2,
+        14,
+        11
+      ],
+      "c_row": 0,
+      "c_values": [
+        2,
+        11,
+        14
+      ],
+      "overlap": [],
+      "overlap_count": 0,
+      "rank": 0,
+      "rank_bit": 0,
+      "selected_candidate_index": 1,
+      "shell": "ordinary",
+      "shell_bit": 0,
+      "state": "O0"
+    },
+    {
+      "anchor_col": 2,
+      "anchor_key": 12,
+      "anchor_offsets": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        12
+      ],
+      "anchor_residues": [
+        0,
+        2,
+        4,
+        9,
+        13,
+        14
+      ],
+      "c_key": 13,
+      "c_offsets": [
+        0,
+        3,
+        12,
+        0
+      ],
+      "c_path": [
+        13,
+        1,
+        10,
+        13
+      ],
+      "c_row": 1,
+      "c_values": [
+        1,
+        10,
+        13
+      ],
+      "overlap": [
+        13
+      ],
+      "overlap_count": 1,
+      "rank": 1,
+      "rank_bit": 1,
+      "selected_candidate_index": 6,
+      "shell": "ordinary",
+      "shell_bit": 0,
+      "state": "O1"
+    },
+    {
+      "anchor_col": 0,
+      "anchor_key": 4,
+      "anchor_offsets": [
+        0,
+        4,
+        11,
+        13,
+        14
+      ],
+      "anchor_residues": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "c_key": 2,
+      "c_offsets": [
+        0,
+        3,
+        13,
+        0
+      ],
+      "c_path": [
+        2,
+        5,
+        0,
+        2
+      ],
+      "c_row": 2,
+      "c_values": [
+        0,
+        2,
+        5
+      ],
+      "overlap": [
+        0,
+        2
+      ],
+      "overlap_count": 2,
+      "rank": 0,
+      "rank_bit": 0,
+      "selected_candidate_index": 8,
+      "shell": "branch",
+      "shell_bit": 1,
+      "state": "B0"
+    },
+    {
+      "anchor_col": 3,
+      "anchor_key": 13,
+      "anchor_offsets": [
+        0,
+        4,
+        5,
+        9,
+        10,
+        12
+      ],
+      "anchor_residues": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13
+      ],
+      "c_key": 4,
+      "c_offsets": [
+        0,
+        1,
+        13,
+        0
+      ],
+      "c_path": [
+        4,
+        5,
+        2,
+        4
+      ],
+      "c_row": 3,
+      "c_values": [
+        2,
+        4,
+        5
+      ],
+      "overlap": [
+        2
+      ],
+      "overlap_count": 1,
+      "rank": 1,
+      "rank_bit": 1,
+      "selected_candidate_index": 15,
+      "shell": "branch",
+      "shell_bit": 1,
+      "state": "B1"
+    }
+  ],
+  "generator_domain": [
+    {
+      "b": 0,
+      "r": 0,
+      "state": "O0"
+    },
+    {
+      "b": 0,
+      "r": 1,
+      "state": "O1"
+    },
+    {
+      "b": 1,
+      "r": 0,
+      "state": "B0"
+    },
+    {
+      "b": 1,
+      "r": 1,
+      "state": "B1"
+    }
+  ],
+  "inputs": {
+    "006": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_local_answer_cell_target_006.v1.json",
+    "007": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_local_answer_cell_bit_law_007.v1.json",
+    "008": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_payload_overlap_marker_law_008.v1.json",
+    "009": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_c_payload_path_law_009.v1.json",
+    "010": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_anchor_residue_set_law_010.v1.json"
+  },
+  "laws": {
+    "anchor_col": "1 + r + b*(2*r - 1)",
+    "anchor_key": "4*b + 12*r + 12*b*r mod 15",
+    "anchor_offsets": "ordinary and branch offset laws from 010",
+    "anchor_residues": "[anchor_key + offset mod 15 for offset in anchor_offsets]",
+    "c_key": "11 + 6*b + 2*r mod 15",
+    "c_offsets": "[0, 6-3*b-3*r+b*r, (1-b)*(3+9*r)+13*b, 0] mod 15",
+    "c_path": "[c_key + offset mod 15 for offset in c_offsets]",
+    "c_row": "2*b + r",
+    "overlap": "intersection(c_values, anchor_residues)",
+    "selected_candidate_index": "4*c_row + anchor_col"
+  },
+  "selected_candidate_indices": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "status": "lift_twist_local_answer_cell_generator_theorem_recorded",
+  "theorem_pass": true
+}

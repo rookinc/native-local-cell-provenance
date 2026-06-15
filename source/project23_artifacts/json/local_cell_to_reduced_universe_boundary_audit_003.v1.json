@@ -1,0 +1,27 @@
+{
+  "audit_id": "003",
+  "boundary_pass": true,
+  "checks": {
+    "derivation_002_candidate_count_16": true,
+    "derivation_002_diagonal_exact": true,
+    "derivation_002_theorem_pass": true,
+    "derivation_002_visible_permutation_exact": true,
+    "forbidden_unqualified_claims_absent": true,
+    "main_has_all_sections": true,
+    "project_creation_status_ok": true,
+    "required_boundary_phrases_present": true,
+    "required_closed_phrases_present": true
+  },
+  "closed_statement": "Project 23 derives the reduced 16-candidate universe as the product of two readouts of the Project 22 local-cell kernel, with hidden diagonal [1,6,8,15] and visible permutation [1,2,0,3].",
+  "forbidden_hits": [],
+  "inputs": {
+    "001": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe/artifacts/json/project_creation_001.v1.json",
+    "002": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe/artifacts/json/local_cell_to_reduced_universe_derivation_002.v1.json",
+    "paper_main": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe/paper/main.tex",
+    "paper_sections": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe/paper/sections"
+  },
+  "missing_boundary_phrases": [],
+  "missing_closed_phrases": [],
+  "open_boundary": "The derivation remains conditional on the Project 22 local-cell kernel. It does not derive that kernel from native G60 provenance, does not derive the full role-labeled shared_B edge universe, and does not close Gap A.",
+  "status": "local_cell_to_reduced_universe_boundary_audit_recorded"
+}

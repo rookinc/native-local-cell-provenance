@@ -1,0 +1,304 @@
+{
+  "anchor_cols": [
+    1,
+    2,
+    0,
+    3
+  ],
+  "audit_id": "006",
+  "boundary": "This is a target-table construction, not a native derivation. It organizes the payloads that must be generated from one local answer cell, but it does not yet derive those payloads or close Gap A.",
+  "branch_states": [
+    "B0",
+    "B1"
+  ],
+  "c_rows": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "checks": {
+    "anchor_cols_match_expected": true,
+    "branch_states_match_expected": true,
+    "c_rows_match_expected": true,
+    "ordinary_states_match_expected": true,
+    "project22_003_theorem_pass": true,
+    "project22_005_theorem_pass": true,
+    "selected_indices_match_expected": true,
+    "state_order_matches_expected": true
+  },
+  "claim": "The Project 22 reduced Lift & Twist data can be consolidated into one four-state local answer-cell target. Each hidden state has one C readout payload, one anchor readout payload, and one selected diagonal candidate. This target table is the object a stronger native generator must derive.",
+  "inputs": {
+    "003": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_two_readout_universe_003.v1.json",
+    "005": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_payload_state_reconstruction_005.v1.json"
+  },
+  "ordinary_states": [
+    "O0",
+    "O1"
+  ],
+  "selected_candidate_indices": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "state_order": [
+    "O0",
+    "O1",
+    "B0",
+    "B1"
+  ],
+  "status": "lift_twist_local_answer_cell_target_recorded",
+  "target_rows": [
+    {
+      "anchor_col": 1,
+      "anchor_payload": {
+        "anchor_nodes": [
+          "[23,24]",
+          "[7,12]",
+          "[4,5]"
+        ],
+        "anchor_path": [
+          "[23,24]",
+          "[7,12]",
+          "[4,5]",
+          "[23,24]"
+        ],
+        "anchor_sum_mod15": 0,
+        "residues": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          12
+        ]
+      },
+      "anchor_rank_key": 0,
+      "anchor_residues": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "c_anchor_value_overlap": [],
+      "c_payload": {
+        "c_path": [
+          11,
+          2,
+          14,
+          11
+        ],
+        "c_sum_mod15": 12,
+        "c_values": [
+          2,
+          11,
+          14
+        ]
+      },
+      "c_rank_key": 11,
+      "c_row": 0,
+      "c_values": [
+        2,
+        11,
+        14
+      ],
+      "overlap_count": 0,
+      "rank": 0,
+      "selected_candidate_index": 1,
+      "shell": "ordinary",
+      "state": "O0"
+    },
+    {
+      "anchor_col": 2,
+      "anchor_payload": {
+        "anchor_nodes": [
+          "[28,29]",
+          "[0,2]",
+          "[4,9]"
+        ],
+        "anchor_path": [
+          "[28,29]",
+          "[0,2]",
+          "[4,9]",
+          "[28,29]"
+        ],
+        "anchor_sum_mod15": 12,
+        "residues": [
+          0,
+          2,
+          4,
+          9,
+          13,
+          14
+        ]
+      },
+      "anchor_rank_key": 12,
+      "anchor_residues": [
+        0,
+        2,
+        4,
+        9,
+        13,
+        14
+      ],
+      "c_anchor_value_overlap": [
+        13
+      ],
+      "c_payload": {
+        "c_path": [
+          13,
+          1,
+          10,
+          13
+        ],
+        "c_sum_mod15": 9,
+        "c_values": [
+          1,
+          10,
+          13
+        ]
+      },
+      "c_rank_key": 13,
+      "c_row": 1,
+      "c_values": [
+        1,
+        10,
+        13
+      ],
+      "overlap_count": 1,
+      "rank": 1,
+      "selected_candidate_index": 6,
+      "shell": "ordinary",
+      "state": "O1"
+    },
+    {
+      "anchor_col": 0,
+      "anchor_payload": {
+        "anchor_nodes": [
+          "[0,4]",
+          "[2,17]",
+          "[8,18]"
+        ],
+        "anchor_path": [
+          "[0,4]",
+          "[2,17]",
+          "[8,18]",
+          "[0,4]"
+        ],
+        "anchor_sum_mod15": 4,
+        "residues": [
+          0,
+          2,
+          3,
+          4,
+          8
+        ]
+      },
+      "anchor_rank_key": 4,
+      "anchor_residues": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "c_anchor_value_overlap": [
+        0,
+        2
+      ],
+      "c_payload": {
+        "c_path": [
+          2,
+          5,
+          0,
+          2
+        ],
+        "c_sum_mod15": 7,
+        "c_values": [
+          0,
+          2,
+          5
+        ]
+      },
+      "c_rank_key": 2,
+      "c_row": 2,
+      "c_values": [
+        0,
+        2,
+        5
+      ],
+      "overlap_count": 2,
+      "rank": 0,
+      "selected_candidate_index": 8,
+      "shell": "branch",
+      "state": "B0"
+    },
+    {
+      "anchor_col": 3,
+      "anchor_payload": {
+        "anchor_nodes": [
+          "[7,10]",
+          "[8,18]",
+          "[13,17]"
+        ],
+        "anchor_path": [
+          "[7,10]",
+          "[8,18]",
+          "[13,17]",
+          "[7,10]"
+        ],
+        "anchor_sum_mod15": 13,
+        "residues": [
+          2,
+          3,
+          7,
+          8,
+          10,
+          13
+        ]
+      },
+      "anchor_rank_key": 13,
+      "anchor_residues": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13
+      ],
+      "c_anchor_value_overlap": [
+        2
+      ],
+      "c_payload": {
+        "c_path": [
+          4,
+          5,
+          2,
+          4
+        ],
+        "c_sum_mod15": 11,
+        "c_values": [
+          2,
+          4,
+          5
+        ]
+      },
+      "c_rank_key": 4,
+      "c_row": 3,
+      "c_values": [
+        2,
+        4,
+        5
+      ],
+      "overlap_count": 1,
+      "rank": 1,
+      "selected_candidate_index": 15,
+      "shell": "branch",
+      "state": "B1"
+    }
+  ],
+  "theorem_pass": true
+}

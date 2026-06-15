@@ -1,0 +1,29 @@
+{
+  "audit_id": "004",
+  "boundary": "The paper preserves the boundary that this does not derive the local-cell kernel from native G60 provenance, does not derive the full role-labeled shared_B edge universe, and does not close Gap A.",
+  "boundary_003_pass": true,
+  "candidate_count": 16,
+  "claim": "Synced the paper to the audited Project 23 theorem: the Project 22 local-cell kernel generates the reduced 16-candidate universe as C(L) x A(L), and the hidden diagonal selects [1,6,8,15] with visible permutation [1,2,0,3].",
+  "derivation_002_theorem_pass": true,
+  "diagonal_indices": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "inputs": {
+    "002": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe/artifacts/json/local_cell_to_reduced_universe_derivation_002.v1.json",
+    "003": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe/artifacts/json/local_cell_to_reduced_universe_boundary_audit_003.v1.json"
+  },
+  "outputs": {
+    "section_05": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe/paper/sections/05_reduced_universe_theorem.tex",
+    "section_06": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe/paper/sections/06_boundary_and_next_problem.tex"
+  },
+  "status": "reduced_universe_theorem_sync_recorded",
+  "visible_permutation": [
+    1,
+    2,
+    0,
+    3
+  ]
+}

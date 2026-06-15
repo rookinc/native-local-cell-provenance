@@ -1,0 +1,26 @@
+{
+  "audit_id": "014",
+  "boundary_pass": true,
+  "checks": {
+    "forbidden_strong_claims_absent": true,
+    "local_cell_section_before_conclusion": true,
+    "main_has_conclusion": true,
+    "main_has_local_cell_section": true,
+    "project22_011_theorem_pass": true,
+    "project22_012_theorem_pass": true,
+    "project22_013_section_recorded": true,
+    "required_boundary_phrases_present": true
+  },
+  "closed_statement": "The paper now records a local Lift & Twist answer-cell theorem: within the four-state reduced target, the state bits generate the C row, anchor column, selected candidate, C key, anchor key, C path, C values, anchor residue set, overlap markers, and closed anchor node path.",
+  "forbidden_hits": [],
+  "inputs": {
+    "011": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_local_answer_cell_generator_theorem_011.v1.json",
+    "012": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/lift_twist_anchor_node_path_geometry_012.v1.json",
+    "013": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/artifacts/json/local_cell_theorem_section_013.v1.json",
+    "main": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/paper/main.tex",
+    "section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist/paper/sections/08_local_answer_cell_theorem.tex"
+  },
+  "missing_required_phrases": [],
+  "open_boundary": "The result remains local to the four-state reduced target. It does not derive the full reduced 16-candidate universe from native G60 provenance, does not derive a full G60-native generator, and does not close Gap A.",
+  "status": "local_cell_theorem_boundary_audit_recorded"
+}

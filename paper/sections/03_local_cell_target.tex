@@ -1,0 +1,27 @@
+\section{The local-cell target}
+
+The local-cell target is the four-state object \(L\).  It must recover the Project 22 generated rows:
+
+\[
+\begin{array}{c|c|c}
+\mathrm{state} & b & r\\
+\hline
+O0 & 0 & 0\\
+O1 & 0 & 1\\
+B0 & 1 & 0\\
+B1 & 1 & 1
+\end{array}
+\]
+
+A successful native provenance derivation should explain all of the following from upstream structure:
+
+\begin{enumerate}[label=(\arabic*)]
+\item why there are four local states;
+\item why they split into ordinary and branch shells;
+\item why each shell has two ranks;
+\item why the C readout order is \(O0,O1,B0,B1\);
+\item why the anchor readout order is \(B0,O0,O1,B1\);
+\item why the C paths and anchor residue sets match Project 22;
+\item why the overlap markers match the local-cell theorem;
+\item why the anchor node paths close.
+\end{enumerate}
