@@ -1,0 +1,11 @@
+group,item,status,evidence
+closed_or_stabilized,local_scalar_provenance_normal_form,stabilized,048 records the local scalar-provenance normal form after 046 and 047.
+closed_or_stabilized,same_layer_station_header_source_absent,bounded_negative,047 reports header_source_remains_open_small_bit_header_only.
+closed_or_stabilized,imported_upstream_header_source_absent,bounded_negative,049 reports upstream_header_source_not_found_in_imported_sources.
+closed_or_stabilized,header_target_set,stabilized,"049 confirms the remaining headers are exactly free_sum, relay_max, and relay_sum."
+open,free_sum_header_source,open,049 found no exact upstream source for free_sum.
+open,relay_max_header_source,open,049 found no exact upstream source for relay_max.
+open,relay_sum_header_source,open,049 found no exact upstream source for relay_sum.
+open,native_two_bit_header_mechanism,open,The bounded header remains open after same-layer and imported-upstream searches.
+open,full_role_labeled_shared_B_universe,open,048 and 049 explicitly do not derive the full role-labeled shared_B universe.
+open,Gap_A_closure,open,048 and 049 explicitly state this is not Gap A closure.
