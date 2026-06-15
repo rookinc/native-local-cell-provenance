@@ -1,0 +1,690 @@
+{
+  "audit_id": "017",
+  "boundary": "This proves quotient-pair support for inherited Project 22 anchor paths. It does not derive why these exact anchor paths are selected, does not derive the lift masks, does not test station fields, does not select unique relay mediators, does not derive the full role-labeled shared_B universe, and does not close Gap A.",
+  "checks": {
+    "all_anchor_residue_pair_steps_supported": true,
+    "all_states_have_three_supported_residue_steps": true,
+    "literal_edge_support_015_checks_pass": true,
+    "literal_support_total_was_12": true,
+    "literal_support_was_partial": true,
+    "paper_boundary_014_pass": true,
+    "residue_pair_support_016_checks_pass": true,
+    "residue_support_total_is_12": true,
+    "residue_supported_count_is_12": true,
+    "residue_uncovered_count_is_0": true
+  },
+  "claim": "Every Project 22 closed anchor node-path step is supported after projecting canonical G60 vertices to mod15 residue pairs. The anchor paths are not literal native G60 pair-walks, but they are fully supported as quotient-pair walks.",
+  "inputs": {
+    "literal_anchor_support_015": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_node_path_edge_support_015.v1.json",
+    "paper_boundary_014": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/c_path_cover_paper_boundary_audit_014.v1.json",
+    "residue_pair_support_016": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_anchor_node_path_residue_pair_support_016.v1.json"
+  },
+  "interpretation": "Artifact 015 showed that literal G60 pair-walk support covers only 1/12 anchor path steps. Artifact 016 showed that mod15 residue-pair support covers 12/12. Thus the inherited anchor paths are quotient-visible native structures rather than arbitrary literal edge walks.",
+  "literal_supported_step_count_015": 1,
+  "literal_unsupported_step_count_015": 11,
+  "per_state": {
+    "B0": {
+      "closed_path": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "literal_supported_step_count_015": 0,
+      "literal_total_step_count_015": 3,
+      "residue_all_steps_supported": true,
+      "residue_supported_step_count_016": 3,
+      "residue_total_step_count_016": 3,
+      "steps": [
+        {
+          "from_pair": [
+            0,
+            4
+          ],
+          "from_residues": [
+            0,
+            4
+          ],
+          "residue_cross_hit_count": 1,
+          "residue_cross_support_count": 1,
+          "residue_pair_supported": true,
+          "state": "B0",
+          "step": 0,
+          "to_pair": [
+            2,
+            17
+          ],
+          "to_residues": [
+            2
+          ]
+        },
+        {
+          "from_pair": [
+            2,
+            17
+          ],
+          "from_residues": [
+            2
+          ],
+          "residue_cross_hit_count": 1,
+          "residue_cross_support_count": 3,
+          "residue_pair_supported": true,
+          "state": "B0",
+          "step": 1,
+          "to_pair": [
+            8,
+            18
+          ],
+          "to_residues": [
+            3,
+            8
+          ]
+        },
+        {
+          "from_pair": [
+            8,
+            18
+          ],
+          "from_residues": [
+            3,
+            8
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 4,
+          "residue_pair_supported": true,
+          "state": "B0",
+          "step": 2,
+          "to_pair": [
+            0,
+            4
+          ],
+          "to_residues": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    "B1": {
+      "closed_path": [
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      "literal_supported_step_count_015": 0,
+      "literal_total_step_count_015": 3,
+      "residue_all_steps_supported": true,
+      "residue_supported_step_count_016": 3,
+      "residue_total_step_count_016": 3,
+      "steps": [
+        {
+          "from_pair": [
+            7,
+            10
+          ],
+          "from_residues": [
+            7,
+            10
+          ],
+          "residue_cross_hit_count": 2,
+          "residue_cross_support_count": 4,
+          "residue_pair_supported": true,
+          "state": "B1",
+          "step": 0,
+          "to_pair": [
+            8,
+            18
+          ],
+          "to_residues": [
+            3,
+            8
+          ]
+        },
+        {
+          "from_pair": [
+            8,
+            18
+          ],
+          "from_residues": [
+            3,
+            8
+          ],
+          "residue_cross_hit_count": 1,
+          "residue_cross_support_count": 3,
+          "residue_pair_supported": true,
+          "state": "B1",
+          "step": 1,
+          "to_pair": [
+            13,
+            17
+          ],
+          "to_residues": [
+            2,
+            13
+          ]
+        },
+        {
+          "from_pair": [
+            13,
+            17
+          ],
+          "from_residues": [
+            2,
+            13
+          ],
+          "residue_cross_hit_count": 2,
+          "residue_cross_support_count": 4,
+          "residue_pair_supported": true,
+          "state": "B1",
+          "step": 2,
+          "to_pair": [
+            7,
+            10
+          ],
+          "to_residues": [
+            7,
+            10
+          ]
+        }
+      ]
+    },
+    "O0": {
+      "closed_path": [
+        [
+          23,
+          24
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          23,
+          24
+        ]
+      ],
+      "literal_supported_step_count_015": 1,
+      "literal_total_step_count_015": 3,
+      "residue_all_steps_supported": true,
+      "residue_supported_step_count_016": 3,
+      "residue_total_step_count_016": 3,
+      "steps": [
+        {
+          "from_pair": [
+            23,
+            24
+          ],
+          "from_residues": [
+            8,
+            9
+          ],
+          "residue_cross_hit_count": 2,
+          "residue_cross_support_count": 5,
+          "residue_pair_supported": true,
+          "state": "O0",
+          "step": 0,
+          "to_pair": [
+            7,
+            12
+          ],
+          "to_residues": [
+            7,
+            12
+          ]
+        },
+        {
+          "from_pair": [
+            7,
+            12
+          ],
+          "from_residues": [
+            7,
+            12
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 5,
+          "residue_pair_supported": true,
+          "state": "O0",
+          "step": 1,
+          "to_pair": [
+            4,
+            5
+          ],
+          "to_residues": [
+            4,
+            5
+          ]
+        },
+        {
+          "from_pair": [
+            4,
+            5
+          ],
+          "from_residues": [
+            4,
+            5
+          ],
+          "residue_cross_hit_count": 2,
+          "residue_cross_support_count": 3,
+          "residue_pair_supported": true,
+          "state": "O0",
+          "step": 2,
+          "to_pair": [
+            23,
+            24
+          ],
+          "to_residues": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    "O1": {
+      "closed_path": [
+        [
+          28,
+          29
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          28,
+          29
+        ]
+      ],
+      "literal_supported_step_count_015": 0,
+      "literal_total_step_count_015": 3,
+      "residue_all_steps_supported": true,
+      "residue_supported_step_count_016": 3,
+      "residue_total_step_count_016": 3,
+      "steps": [
+        {
+          "from_pair": [
+            28,
+            29
+          ],
+          "from_residues": [
+            13,
+            14
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 7,
+          "residue_pair_supported": true,
+          "state": "O1",
+          "step": 0,
+          "to_pair": [
+            0,
+            2
+          ],
+          "to_residues": [
+            0,
+            2
+          ]
+        },
+        {
+          "from_pair": [
+            0,
+            2
+          ],
+          "from_residues": [
+            0,
+            2
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 6,
+          "residue_pair_supported": true,
+          "state": "O1",
+          "step": 1,
+          "to_pair": [
+            4,
+            9
+          ],
+          "to_residues": [
+            4,
+            9
+          ]
+        },
+        {
+          "from_pair": [
+            4,
+            9
+          ],
+          "from_residues": [
+            4,
+            9
+          ],
+          "residue_cross_hit_count": 3,
+          "residue_cross_support_count": 3,
+          "residue_pair_supported": true,
+          "state": "O1",
+          "step": 2,
+          "to_pair": [
+            28,
+            29
+          ],
+          "to_residues": [
+            13,
+            14
+          ]
+        }
+      ]
+    }
+  },
+  "residue_pair_supported_step_count_016": 12,
+  "residue_pair_unsupported_step_count_016": 0,
+  "rows": [
+    {
+      "from_pair": [
+        23,
+        24
+      ],
+      "from_residues": [
+        8,
+        9
+      ],
+      "residue_cross_hit_count": 2,
+      "residue_cross_support_count": 5,
+      "residue_pair_supported": true,
+      "state": "O0",
+      "step": 0,
+      "to_pair": [
+        7,
+        12
+      ],
+      "to_residues": [
+        7,
+        12
+      ]
+    },
+    {
+      "from_pair": [
+        7,
+        12
+      ],
+      "from_residues": [
+        7,
+        12
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 5,
+      "residue_pair_supported": true,
+      "state": "O0",
+      "step": 1,
+      "to_pair": [
+        4,
+        5
+      ],
+      "to_residues": [
+        4,
+        5
+      ]
+    },
+    {
+      "from_pair": [
+        4,
+        5
+      ],
+      "from_residues": [
+        4,
+        5
+      ],
+      "residue_cross_hit_count": 2,
+      "residue_cross_support_count": 3,
+      "residue_pair_supported": true,
+      "state": "O0",
+      "step": 2,
+      "to_pair": [
+        23,
+        24
+      ],
+      "to_residues": [
+        8,
+        9
+      ]
+    },
+    {
+      "from_pair": [
+        28,
+        29
+      ],
+      "from_residues": [
+        13,
+        14
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 7,
+      "residue_pair_supported": true,
+      "state": "O1",
+      "step": 0,
+      "to_pair": [
+        0,
+        2
+      ],
+      "to_residues": [
+        0,
+        2
+      ]
+    },
+    {
+      "from_pair": [
+        0,
+        2
+      ],
+      "from_residues": [
+        0,
+        2
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 6,
+      "residue_pair_supported": true,
+      "state": "O1",
+      "step": 1,
+      "to_pair": [
+        4,
+        9
+      ],
+      "to_residues": [
+        4,
+        9
+      ]
+    },
+    {
+      "from_pair": [
+        4,
+        9
+      ],
+      "from_residues": [
+        4,
+        9
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 3,
+      "residue_pair_supported": true,
+      "state": "O1",
+      "step": 2,
+      "to_pair": [
+        28,
+        29
+      ],
+      "to_residues": [
+        13,
+        14
+      ]
+    },
+    {
+      "from_pair": [
+        0,
+        4
+      ],
+      "from_residues": [
+        0,
+        4
+      ],
+      "residue_cross_hit_count": 1,
+      "residue_cross_support_count": 1,
+      "residue_pair_supported": true,
+      "state": "B0",
+      "step": 0,
+      "to_pair": [
+        2,
+        17
+      ],
+      "to_residues": [
+        2
+      ]
+    },
+    {
+      "from_pair": [
+        2,
+        17
+      ],
+      "from_residues": [
+        2
+      ],
+      "residue_cross_hit_count": 1,
+      "residue_cross_support_count": 3,
+      "residue_pair_supported": true,
+      "state": "B0",
+      "step": 1,
+      "to_pair": [
+        8,
+        18
+      ],
+      "to_residues": [
+        3,
+        8
+      ]
+    },
+    {
+      "from_pair": [
+        8,
+        18
+      ],
+      "from_residues": [
+        3,
+        8
+      ],
+      "residue_cross_hit_count": 3,
+      "residue_cross_support_count": 4,
+      "residue_pair_supported": true,
+      "state": "B0",
+      "step": 2,
+      "to_pair": [
+        0,
+        4
+      ],
+      "to_residues": [
+        0,
+        4
+      ]
+    },
+    {
+      "from_pair": [
+        7,
+        10
+      ],
+      "from_residues": [
+        7,
+        10
+      ],
+      "residue_cross_hit_count": 2,
+      "residue_cross_support_count": 4,
+      "residue_pair_supported": true,
+      "state": "B1",
+      "step": 0,
+      "to_pair": [
+        8,
+        18
+      ],
+      "to_residues": [
+        3,
+        8
+      ]
+    },
+    {
+      "from_pair": [
+        8,
+        18
+      ],
+      "from_residues": [
+        3,
+        8
+      ],
+      "residue_cross_hit_count": 1,
+      "residue_cross_support_count": 3,
+      "residue_pair_supported": true,
+      "state": "B1",
+      "step": 1,
+      "to_pair": [
+        13,
+        17
+      ],
+      "to_residues": [
+        2,
+        13
+      ]
+    },
+    {
+      "from_pair": [
+        13,
+        17
+      ],
+      "from_residues": [
+        2,
+        13
+      ],
+      "residue_cross_hit_count": 2,
+      "residue_cross_support_count": 4,
+      "residue_pair_supported": true,
+      "state": "B1",
+      "step": 2,
+      "to_pair": [
+        7,
+        10
+      ],
+      "to_residues": [
+        7,
+        10
+      ]
+    }
+  ],
+  "status": "native_g60_anchor_path_quotient_pair_theorem_recorded",
+  "theorem_pass": true,
+  "total_anchor_path_step_count": 12
+}
