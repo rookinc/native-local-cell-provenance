@@ -1,0 +1,58 @@
+{
+  "audit_id": "014",
+  "boundary_hits": {
+    "This paper does not claim Gap A closure": true,
+    "does not close Gap A": true,
+    "does not derive the anchor paths or lift masks from native G60 provenance": true,
+    "does not derive the full role-labeled shared": true,
+    "does not select unique mediators for every relay": true,
+    "does not yet derive the Project 22 local-cell kernel from native G60 provenance": true
+  },
+  "boundary_pass": false,
+  "checks": {
+    "abstract_updated_for_intermediate_theorem": true,
+    "all_required_boundary_phrases_present": true,
+    "all_required_closed_phrases_present": false,
+    "artifact_012_theorem_pass": true,
+    "artifact_013_section_recorded": true,
+    "boundary_section_still_refuses_gap_a_closure": true,
+    "counts_match_012": true,
+    "cover_section_before_boundary_section": true,
+    "cover_section_before_conclusion": true,
+    "cover_section_contains_boundary": true,
+    "cover_section_contains_theorem": true,
+    "main_includes_cover_section": true,
+    "no_forbidden_unqualified_claims_present": true
+  },
+  "closed_hits": {
+    "0\\ \text{uncovered steps}": false,
+    "12/12\\ \text{C-path steps covered}": false,
+    "6\\ \text{direct residue steps}": false,
+    "6\\ \text{unlifted anchor-relay steps}": false,
+    "C-path quotient-anchor cover": true,
+    "Every Project 22 C-path step is covered": true,
+    "direct mod15 G60 residue support": true,
+    "one completed intermediate cover theorem": true,
+    "same-state unlifted anchor-path relay support": true
+  },
+  "closed_statement": "The paper now records one completed intermediate theorem: every Project 22 C-path step is covered by direct mod15 G60 residue support or same-state unlifted anchor-path relay support.",
+  "forbidden_hits": {
+    "Gap A closure is proved": false,
+    "Gap A is closed": false,
+    "full role-labeled shared_B edge universe is derived": false,
+    "the local cell is derived from native G60 provenance": false,
+    "unique mediator is selected for every relay": false,
+    "we derive the local cell from native G60 provenance": false
+  },
+  "inputs": {
+    "abstract": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/00_abstract.tex",
+    "boundary_section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/06_boundary.tex",
+    "c_path_cover_012": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_quotient_anchor_cover_012.v1.json",
+    "conclusion": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/07_conclusion.tex",
+    "cover_section": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/08_c_path_quotient_anchor_cover.tex",
+    "main": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/main.tex",
+    "section_013": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/c_path_cover_theorem_section_013.v1.json"
+  },
+  "open_boundary": "The paper still does not derive the anchor paths or lift masks from native G60 provenance, does not select unique mediators for every relay, does not derive the full role-labeled shared_B edge universe, and does not close Gap A.",
+  "status": "c_path_cover_paper_boundary_audit_recorded"
+}
