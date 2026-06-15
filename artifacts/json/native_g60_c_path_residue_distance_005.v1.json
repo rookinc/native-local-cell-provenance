@@ -1,0 +1,333 @@
+{
+  "all_checks_pass": true,
+  "audit_id": "005",
+  "boundary": "This is only a shortest-path audit in the simple vertex mod15 residue quotient. It does not derive native local-cell provenance, does not test station provenance fields, lifted masks, or alternate quotient maps, and does not close Gap A.",
+  "checks": {
+    "all_target_residue_steps_reachable": true,
+    "g60_edge_count_is_120": true,
+    "residue_support_004_checks_passed": true,
+    "residue_vertex_count_is_15": true,
+    "source_ledger_ready": true,
+    "tested_c_path_step_count_is_12": true
+  },
+  "distance_counts": {
+    "1": 6,
+    "2": 6
+  },
+  "g60_edge_count": 120,
+  "inputs": {
+    "g60_edges": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv",
+    "residue_support_004": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_residue_support_004.v1.json",
+    "source_ledger_002": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/source_ledger_and_target_alignment_002.v1.json"
+  },
+  "interpretation": "This tests whether C-path transitions that are not direct mod15 residue edges are nevertheless nearby in the residue quotient graph induced by canonical G60 edges. If all target transitions have small quotient distance, the C paths may be quotient-walk or closure paths rather than literal edges. If distances are large or unreachable, the mod15 residue quotient is probably the wrong native support layer.",
+  "max_finite_distance": 2,
+  "per_state": {
+    "B0": {
+      "all_reachable": true,
+      "distances": [
+        2,
+        2,
+        1
+      ],
+      "max_distance": 2,
+      "path": [
+        2,
+        5,
+        0,
+        2
+      ],
+      "shortest_paths": [
+        [
+          2,
+          8,
+          5
+        ],
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "B1": {
+      "all_reachable": true,
+      "distances": [
+        1,
+        2,
+        2
+      ],
+      "max_distance": 2,
+      "path": [
+        4,
+        5,
+        2,
+        4
+      ],
+      "shortest_paths": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          8,
+          2
+        ],
+        [
+          2,
+          0,
+          4
+        ]
+      ]
+    },
+    "O0": {
+      "all_reachable": true,
+      "distances": [
+        1,
+        1,
+        2
+      ],
+      "max_distance": 2,
+      "path": [
+        11,
+        2,
+        14,
+        11
+      ],
+      "shortest_paths": [
+        [
+          11,
+          2
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          0,
+          11
+        ]
+      ]
+    },
+    "O1": {
+      "all_reachable": true,
+      "distances": [
+        1,
+        1,
+        2
+      ],
+      "max_distance": 2,
+      "path": [
+        13,
+        1,
+        10,
+        13
+      ],
+      "shortest_paths": [
+        [
+          13,
+          1
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          10,
+          1,
+          13
+        ]
+      ]
+    }
+  },
+  "residue_vertex_count": 15,
+  "residue_vertices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "rows": [
+    {
+      "direct_support_count": 0,
+      "direct_supported": false,
+      "from_c": 2,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        2,
+        8,
+        5
+      ],
+      "state": "B0",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "direct_support_count": 0,
+      "direct_supported": false,
+      "from_c": 5,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        5,
+        1,
+        0
+      ],
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "direct_support_count": 1,
+      "direct_supported": true,
+      "from_c": 0,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        0,
+        2
+      ],
+      "state": "B0",
+      "step": 2,
+      "to_c": 2
+    },
+    {
+      "direct_support_count": 1,
+      "direct_supported": true,
+      "from_c": 4,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        4,
+        5
+      ],
+      "state": "B1",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "direct_support_count": 0,
+      "direct_supported": false,
+      "from_c": 5,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        5,
+        8,
+        2
+      ],
+      "state": "B1",
+      "step": 1,
+      "to_c": 2
+    },
+    {
+      "direct_support_count": 0,
+      "direct_supported": false,
+      "from_c": 2,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        2,
+        0,
+        4
+      ],
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "direct_support_count": 2,
+      "direct_supported": true,
+      "from_c": 11,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        11,
+        2
+      ],
+      "state": "O0",
+      "step": 0,
+      "to_c": 2
+    },
+    {
+      "direct_support_count": 2,
+      "direct_supported": true,
+      "from_c": 2,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        2,
+        14
+      ],
+      "state": "O0",
+      "step": 1,
+      "to_c": 14
+    },
+    {
+      "direct_support_count": 0,
+      "direct_supported": false,
+      "from_c": 14,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        14,
+        0,
+        11
+      ],
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "direct_support_count": 2,
+      "direct_supported": true,
+      "from_c": 13,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        13,
+        1
+      ],
+      "state": "O1",
+      "step": 0,
+      "to_c": 1
+    },
+    {
+      "direct_support_count": 2,
+      "direct_supported": true,
+      "from_c": 1,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        1,
+        10
+      ],
+      "state": "O1",
+      "step": 1,
+      "to_c": 10
+    },
+    {
+      "direct_support_count": 0,
+      "direct_supported": false,
+      "from_c": 10,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        10,
+        1,
+        13
+      ],
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    }
+  ],
+  "status": "native_g60_c_path_residue_distance_recorded",
+  "target_step_count": 12
+}
