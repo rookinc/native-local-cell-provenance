@@ -1,0 +1,293 @@
+{
+  "anchor_mediated_count": 6,
+  "audit_id": "008",
+  "boundary": "This is an anchor-mediation audit over the simple mod15 residue quotient. It does not select a unique mediator in every case, does not derive the local cell from native G60 provenance, does not test station fields or lifted masks, does not derive the full role-labeled shared_B edge universe, and does not close Gap A.",
+  "c_value_mediated_count": 2,
+  "checks": {
+    "all_unsupported_are_anchor_mediated": true,
+    "all_unsupported_have_two_hop_relay": true,
+    "not_all_unsupported_are_c_value_mediated": true,
+    "not_all_unsupported_are_overlap_mediated": true,
+    "project22_011_theorem_pass": true,
+    "relay_007_theorem_pass": true,
+    "source_ledger_ready": true,
+    "unsupported_row_count_is_6": true
+  },
+  "claim": "Every unsupported C transition from artifact 006 has a two-hop residue relay from artifact 007 whose mediator intersects the same state's Project 22 anchor residue set. The mediation is not explained by C values or overlap markers alone.",
+  "inputs": {
+    "project22_011": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_local_answer_cell_generator_theorem_011.v1.json",
+    "source_ledger_002": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/source_ledger_and_target_alignment_002.v1.json",
+    "two_hop_relay_007": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_residue_two_hop_relay_007.v1.json"
+  },
+  "interpretation": "The missing half of the direct C-residue support pattern is repaired through the anchor-residue payload of the same local state. This suggests that C-side closure and anchor-side residue structure are coupled inside the local Lift & Twist cell.",
+  "overlap_mediated_count": 0,
+  "rows": [
+    {
+      "anchor_hit_count": 1,
+      "anchor_mediated": true,
+      "anchor_mediator_hits": [
+        8
+      ],
+      "anchor_residues": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "c_value_hit_count": 0,
+      "c_value_mediated": false,
+      "c_value_mediator_hits": [],
+      "c_values": [
+        0,
+        2,
+        5
+      ],
+      "from_c": 2,
+      "mediators": [
+        8,
+        11,
+        14
+      ],
+      "overlap": [
+        0,
+        2
+      ],
+      "overlap_hit_count": 0,
+      "overlap_mediated": false,
+      "overlap_mediator_hits": [],
+      "rank_bit": 0,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "anchor_hit_count": 2,
+      "anchor_mediated": true,
+      "anchor_mediator_hits": [
+        4,
+        8
+      ],
+      "anchor_residues": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "c_value_hit_count": 0,
+      "c_value_mediated": false,
+      "c_value_mediator_hits": [],
+      "c_values": [
+        0,
+        2,
+        5
+      ],
+      "from_c": 5,
+      "mediators": [
+        1,
+        4,
+        8,
+        11,
+        14
+      ],
+      "overlap": [
+        0,
+        2
+      ],
+      "overlap_hit_count": 0,
+      "overlap_mediated": false,
+      "overlap_mediator_hits": [],
+      "rank_bit": 0,
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "anchor_hit_count": 1,
+      "anchor_mediated": true,
+      "anchor_mediator_hits": [
+        8
+      ],
+      "anchor_residues": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13
+      ],
+      "c_value_hit_count": 0,
+      "c_value_mediated": false,
+      "c_value_mediator_hits": [],
+      "c_values": [
+        2,
+        4,
+        5
+      ],
+      "from_c": 5,
+      "mediators": [
+        8,
+        11,
+        14
+      ],
+      "overlap": [
+        2
+      ],
+      "overlap_hit_count": 0,
+      "overlap_mediated": false,
+      "overlap_mediator_hits": [],
+      "rank_bit": 1,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 1,
+      "to_c": 2
+    },
+    {
+      "anchor_hit_count": 3,
+      "anchor_mediated": true,
+      "anchor_mediator_hits": [
+        8,
+        10,
+        13
+      ],
+      "anchor_residues": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13
+      ],
+      "c_value_hit_count": 0,
+      "c_value_mediated": false,
+      "c_value_mediator_hits": [],
+      "c_values": [
+        2,
+        4,
+        5
+      ],
+      "from_c": 2,
+      "mediators": [
+        0,
+        8,
+        10,
+        11,
+        13,
+        14
+      ],
+      "overlap": [
+        2
+      ],
+      "overlap_hit_count": 0,
+      "overlap_mediated": false,
+      "overlap_mediator_hits": [],
+      "rank_bit": 1,
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "anchor_hit_count": 4,
+      "anchor_mediated": true,
+      "anchor_mediator_hits": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "anchor_residues": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "c_value_hit_count": 1,
+      "c_value_mediated": true,
+      "c_value_mediator_hits": [
+        2
+      ],
+      "c_values": [
+        2,
+        11,
+        14
+      ],
+      "from_c": 14,
+      "mediators": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "overlap": [],
+      "overlap_hit_count": 0,
+      "overlap_mediated": false,
+      "overlap_mediator_hits": [],
+      "rank_bit": 0,
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "anchor_hit_count": 3,
+      "anchor_mediated": true,
+      "anchor_mediator_hits": [
+        2,
+        4,
+        9
+      ],
+      "anchor_residues": [
+        0,
+        2,
+        4,
+        9,
+        13,
+        14
+      ],
+      "c_value_hit_count": 1,
+      "c_value_mediated": true,
+      "c_value_mediator_hits": [
+        1
+      ],
+      "c_values": [
+        1,
+        10,
+        13
+      ],
+      "from_c": 10,
+      "mediators": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        9
+      ],
+      "overlap": [
+        13
+      ],
+      "overlap_hit_count": 0,
+      "overlap_mediated": false,
+      "overlap_mediator_hits": [],
+      "rank_bit": 1,
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    }
+  ],
+  "status": "native_g60_c_relay_anchor_mediation_recorded",
+  "theorem_pass": true,
+  "unique_anchor_mediated_count": 2,
+  "unsupported_count": 6
+}
