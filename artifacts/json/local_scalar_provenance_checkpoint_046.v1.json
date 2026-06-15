@@ -1,0 +1,383 @@
+{
+  "audit_id": "046",
+  "boundary": "This checkpoint is a reduced four-state local result. It does not derive the bounded header from native G60 structure, does not derive the full role-labeled shared_B universe, and does not close Gap A.",
+  "boundary_statement": "This is a reduced four-state local normal form, not native closure. It does not derive the bounded header from native G60 structure, does not derive the full role-labeled shared_B universe, and is not Gap A closure.",
+  "checkpoint_pass": true,
+  "checks": {
+    "all_residuals_compress_target_bit_law": true,
+    "all_residuals_small_header": true,
+    "canonical_24_row_station_register": true,
+    "clean_state_to_station_join": true,
+    "corrected_or_zero_count_is_3": true,
+    "coupled_register_043_pass": true,
+    "direct_station_derivation_not_claimed": true,
+    "forbidden_phrases_absent": true,
+    "max_residual_abs_coeff_at_most_3": true,
+    "max_residual_coeff_l1_at_most_9": true,
+    "nontrivial_target_count_is_6": true,
+    "remaining_small_header_count_is_3": true,
+    "required_boundary_phrases_present": true,
+    "required_closed_phrases_present": true,
+    "residual_correction_044_pass": true,
+    "shared_header_045_pass": true,
+    "station_extract_041_pass": true,
+    "station_scalar_join_042_pass": true
+  },
+  "classification_targets_045": {
+    "exact_station_register_correction": [
+      "free_min",
+      "relay_min"
+    ],
+    "small_header_residual_remaining": [
+      "free_sum",
+      "relay_max",
+      "relay_sum"
+    ],
+    "station_base_exact_zero_residual": [
+      "relay_size"
+    ]
+  },
+  "closed_statement": "Given the reduced four-state Lift/Twist local-cell target and the imported canonical 24-row station register, Project 24 now records a local scalar-provenance normal form. The station register gives a clean state-to-station join. Each scalar target is represented as a station-register base readout, plus an exact station-register correction where available, plus a bounded two-bit residual header over basis [1,b,r,b*r].",
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "coupled_register_043": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/coupled_register_residual_audit_043.v1.json",
+    "residual_correction_044": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/residual_correction_law_audit_044.v1.json",
+    "shared_residual_grammar_045": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/shared_residual_correction_grammar_045.v1.json",
+    "station_extract_041": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/imported_station_row_extract_041.v1.json",
+    "station_scalar_join_042": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/station_scalar_join_audit_042.v1.json"
+  },
+  "interpretation": "This checkpoint packages artifacts 041 through 045 into one bounded local result. The scalar-provenance problem is compressed into a station-register normal form with a small residual header, but it is not closed.",
+  "missing_boundary_phrases": [],
+  "missing_closed_phrases": [],
+  "normal_form": {
+    "formula": "scalar target = station-register base readout + exact station correction where available + bounded two-bit residual header",
+    "header_basis": [
+      "1",
+      "b",
+      "r",
+      "b*r"
+    ],
+    "header_bound": "max_abs_coeff <= 3 and coefficient_l1 <= 9",
+    "name": "local scalar-provenance normal form"
+  },
+  "result_statement": "The six nontrivial scalar targets split as follows: relay_size has station-base exact zero residual; free_min and relay_min have exact station-register corrections; free_sum, relay_max, and relay_sum remain as small bounded two-bit header residuals.",
+  "station_register_summary_041": {
+    "canonical_fiber_mod15_matches_C": null,
+    "canonical_role_class_counts": {
+      "reverse_partner": 12,
+      "shared_B": 12
+    },
+    "canonical_station_role_counts": {
+      "IW": 4,
+      "TI": 4,
+      "WX": 4,
+      "XY": 4,
+      "YZ": 4,
+      "ZT": 4
+    },
+    "canonical_station_row_count": 24,
+    "canonical_transition_count": 12,
+    "extract_pass": true
+  },
+  "status": "local_scalar_provenance_checkpoint_recorded",
+  "target_rows": [
+    {
+      "base_coeff_l1": 36,
+      "base_feature": "set__q3__to_C__range",
+      "base_values": {
+        "B0": 0,
+        "B1": 0,
+        "O0": 9,
+        "O1": 0
+      },
+      "classification": "exact_station_register_correction",
+      "exact_non_bit_correction_count_first_saved": 1,
+      "residual": {
+        "B0": 0,
+        "B1": 2,
+        "O0": -1,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 4,
+        "coefficients": {
+          "p0": -1,
+          "pb": 1,
+          "pbr": 1,
+          "pr": 1
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 1,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 2,
+          "O0": -1,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 4,
+      "residual_max_abs_coeff": 1,
+      "target": "free_min",
+      "target_coeff_l1": 34,
+      "target_values": {
+        "B0": 0,
+        "B1": 2,
+        "O0": 8,
+        "O1": 0
+      }
+    },
+    {
+      "base_coeff_l1": 61,
+      "base_feature": "op__q0__A_delta__cpath_minus__sum",
+      "base_values": {
+        "B0": 5,
+        "B1": 11,
+        "O0": 27,
+        "O1": 24
+      },
+      "classification": "small_header_residual_remaining",
+      "exact_non_bit_correction_count_first_saved": 0,
+      "residual": {
+        "B0": 0,
+        "B1": 1,
+        "O0": 2,
+        "O1": 3
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 2,
+          "pb": -2,
+          "pbr": 0,
+          "pr": 1
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 2,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 1,
+          "O0": 2,
+          "O1": 3
+        }
+      },
+      "residual_coeff_l1": 5,
+      "residual_max_abs_coeff": 2,
+      "target": "free_sum",
+      "target_coeff_l1": 64,
+      "target_values": {
+        "B0": 5,
+        "B1": 12,
+        "O0": 29,
+        "O1": 27
+      }
+    },
+    {
+      "base_coeff_l1": 12,
+      "base_feature": "set__rolepair_IW_YZ__to_A__max",
+      "base_values": {
+        "B0": 10,
+        "B1": 12,
+        "O0": 7,
+        "O1": 9
+      },
+      "classification": "small_header_residual_remaining",
+      "exact_non_bit_correction_count_first_saved": 0,
+      "residual": {
+        "B0": -2,
+        "B1": 1,
+        "O0": 0,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 5,
+        "coefficients": {
+          "p0": 0,
+          "pb": -2,
+          "pbr": 3,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "pb",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -2,
+          "B1": 1,
+          "O0": 0,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 5,
+      "residual_max_abs_coeff": 3,
+      "target": "relay_max",
+      "target_coeff_l1": 13,
+      "target_values": {
+        "B0": 8,
+        "B1": 13,
+        "O0": 7,
+        "O1": 9
+      }
+    },
+    {
+      "base_coeff_l1": 20,
+      "base_feature": "op__shared__A_delta__minus_cpath__min",
+      "base_values": {
+        "B0": 4,
+        "B1": 8,
+        "O0": 6,
+        "O1": 2
+      },
+      "classification": "exact_station_register_correction",
+      "exact_non_bit_correction_count_first_saved": 39,
+      "residual": {
+        "B0": 0,
+        "B1": 0,
+        "O0": -2,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 8,
+        "coefficients": {
+          "p0": -2,
+          "pb": 2,
+          "pbr": -2,
+          "pr": 2
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 2,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": 0,
+          "B1": 0,
+          "O0": -2,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 8,
+      "residual_max_abs_coeff": 2,
+      "target": "relay_min",
+      "target_coeff_l1": 12,
+      "target_values": {
+        "B0": 4,
+        "B1": 8,
+        "O0": 4,
+        "O1": 2
+      }
+    },
+    {
+      "base_coeff_l1": 5,
+      "base_feature": "op__q0__B_delta__cpath_minus__size",
+      "base_values": {
+        "B0": 2,
+        "B1": 3,
+        "O0": 3,
+        "O1": 3
+      },
+      "classification": "station_base_exact_zero_residual",
+      "exact_non_bit_correction_count_first_saved": 40,
+      "residual": {
+        "B0": 0,
+        "B1": 0,
+        "O0": 0,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 0,
+        "coefficients": {
+          "p0": 0,
+          "pb": 0,
+          "pbr": 0,
+          "pr": 0
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 0,
+        "nonzero_terms": [],
+        "predictions": {
+          "B0": 0,
+          "B1": 0,
+          "O0": 0,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 0,
+      "residual_max_abs_coeff": 0,
+      "target": "relay_size",
+      "target_coeff_l1": 5,
+      "target_values": {
+        "B0": 2,
+        "B1": 3,
+        "O0": 3,
+        "O1": 3
+      }
+    },
+    {
+      "base_coeff_l1": 50,
+      "base_feature": "op__all__A_delta__minus_cpath__sum",
+      "base_values": {
+        "B0": 13,
+        "B1": 30,
+        "O0": 19,
+        "O1": 15
+      },
+      "classification": "small_header_residual_remaining",
+      "exact_non_bit_correction_count_first_saved": 0,
+      "residual": {
+        "B0": -1,
+        "B1": 1,
+        "O0": -3,
+        "O1": 0
+      },
+      "residual_bit_law": {
+        "coefficient_l1": 9,
+        "coefficients": {
+          "p0": -3,
+          "pb": 2,
+          "pbr": -1,
+          "pr": 3
+        },
+        "formula": "p0 + pb*b + pr*r + pbr*b*r",
+        "max_abs_coeff": 3,
+        "nonzero_terms": [
+          "p0",
+          "pb",
+          "pr",
+          "pbr"
+        ],
+        "predictions": {
+          "B0": -1,
+          "B1": 1,
+          "O0": -3,
+          "O1": 0
+        }
+      },
+      "residual_coeff_l1": 9,
+      "residual_max_abs_coeff": 3,
+      "target": "relay_sum",
+      "target_coeff_l1": 41,
+      "target_values": {
+        "B0": 12,
+        "B1": 31,
+        "O0": 16,
+        "O1": 15
+      }
+    }
+  ]
+}
