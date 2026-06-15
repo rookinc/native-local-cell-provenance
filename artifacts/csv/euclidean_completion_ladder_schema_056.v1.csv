@@ -1,0 +1,11 @@
+kind,level,name,state,c_row,headers,construction_role,euclidean_reading,active_in_reduced_cell
+ladder,0,null,,,,pre-given absence,no constructed object is yet given,False
+ladder,1,point,,,,primitive mark,a position is marked,False
+ladder,2,edge,,,,first relation,two marked points are joined,True
+ladder,3,hinge,,,,open angle or local turn,two joined edges share a point but remain open,True
+ladder,4,closed_face,,,,closed boundary,the hinge closes into a bounded face,True
+ladder,5,filled_cell,,,,bounded interior,the closed boundary is treated as carrying interior,True
+state_window,2,edge,O0,0,"[2, 0, -3]",first relation,two marked points are joined,True
+state_window,3,hinge,O1,1,"[3, 0, 0]",open angle or local turn,two joined edges share a point but remain open,True
+state_window,4,closed_face,B0,2,"[0, -2, -1]",closed boundary,the hinge closes into a bounded face,True
+state_window,5,filled_cell,B1,3,"[1, 1, 1]",bounded interior,the closed boundary is treated as carrying interior,True
