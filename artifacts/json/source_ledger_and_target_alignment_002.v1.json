@@ -1,0 +1,237 @@
+{
+  "alignment_checks": {
+    "local_state_count_is_4": true,
+    "local_states_match_expected": true,
+    "project22_011_theorem_pass": true,
+    "project22_012_theorem_pass": true,
+    "project22_014_boundary_pass": true,
+    "project23_002_theorem_pass": true,
+    "project23_003_boundary_pass": true,
+    "project23_diagonal_matches_project22_selected": true,
+    "required_project22_sources_present": true,
+    "required_project23_sources_present": true,
+    "selected_candidates_match_expected": true
+  },
+  "audit_id": "002",
+  "available_optional": [
+    {
+      "exists": true,
+      "group": "native_payload",
+      "key": "g60_local_edges",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv",
+      "required": false,
+      "size_bytes": 817
+    }
+  ],
+  "closed_inputs": [
+    "Project 22 local-cell kernel is available.",
+    "Project 23 reduced-universe derivation is available."
+  ],
+  "ledger": [
+    {
+      "exists": true,
+      "group": "project22",
+      "key": "target_006",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_local_answer_cell_target_006.v1.json",
+      "required": true,
+      "size_bytes": 5829
+    },
+    {
+      "exists": true,
+      "group": "project22",
+      "key": "bit_law_007",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_local_answer_cell_bit_law_007.v1.json",
+      "required": true,
+      "size_bytes": 4103
+    },
+    {
+      "exists": true,
+      "group": "project22",
+      "key": "overlap_008",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_payload_overlap_marker_law_008.v1.json",
+      "required": true,
+      "size_bytes": 4088
+    },
+    {
+      "exists": true,
+      "group": "project22",
+      "key": "c_path_009",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_c_payload_path_law_009.v1.json",
+      "required": true,
+      "size_bytes": 4991
+    },
+    {
+      "exists": true,
+      "group": "project22",
+      "key": "anchor_residue_010",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_anchor_residue_set_law_010.v1.json",
+      "required": true,
+      "size_bytes": 5675
+    },
+    {
+      "exists": true,
+      "group": "project22",
+      "key": "generator_011",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_local_answer_cell_generator_theorem_011.v1.json",
+      "required": true,
+      "size_bytes": 12659
+    },
+    {
+      "exists": true,
+      "group": "project22",
+      "key": "anchor_path_012",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_anchor_node_path_geometry_012.v1.json",
+      "required": true,
+      "size_bytes": 10105
+    },
+    {
+      "exists": true,
+      "group": "project22",
+      "key": "boundary_014",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/local_cell_theorem_boundary_audit_014.v1.json",
+      "required": true,
+      "size_bytes": 1858
+    },
+    {
+      "exists": true,
+      "group": "project23",
+      "key": "reduced_universe_002",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project23_artifacts/json/local_cell_to_reduced_universe_derivation_002.v1.json",
+      "required": true,
+      "size_bytes": 9627
+    },
+    {
+      "exists": true,
+      "group": "project23",
+      "key": "boundary_003",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project23_artifacts/json/local_cell_to_reduced_universe_boundary_audit_003.v1.json",
+      "required": true,
+      "size_bytes": 1741
+    },
+    {
+      "exists": true,
+      "group": "project23",
+      "key": "paper_sync_004",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project23_artifacts/json/reduced_universe_theorem_sync_004.v1.json",
+      "required": true,
+      "size_bytes": 1507
+    },
+    {
+      "exists": true,
+      "group": "native_payload",
+      "key": "g60_local_edges",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv",
+      "required": false,
+      "size_bytes": 817
+    }
+  ],
+  "local_cell_target": {
+    "anchor_residues": {
+      "B0": [
+        0,
+        2,
+        3,
+        4,
+        8
+      ],
+      "B1": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        13
+      ],
+      "O0": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "O1": [
+        0,
+        2,
+        4,
+        9,
+        13,
+        14
+      ]
+    },
+    "c_paths": {
+      "B0": [
+        2,
+        5,
+        0,
+        2
+      ],
+      "B1": [
+        4,
+        5,
+        2,
+        4
+      ],
+      "O0": [
+        11,
+        2,
+        14,
+        11
+      ],
+      "O1": [
+        13,
+        1,
+        10,
+        13
+      ]
+    },
+    "overlaps": {
+      "B0": [
+        0,
+        2
+      ],
+      "B1": [
+        2
+      ],
+      "O0": [],
+      "O1": [
+        13
+      ]
+    },
+    "selected_candidates": [
+      1,
+      6,
+      8,
+      15
+    ],
+    "states": [
+      "O0",
+      "O1",
+      "B0",
+      "B1"
+    ]
+  },
+  "missing_optional": [],
+  "missing_required": [],
+  "native_payload_report": {
+    "g60_local_edges_exists": true,
+    "g60_local_edges_header": [
+      "local_u",
+      "local_v"
+    ],
+    "g60_local_edges_row_count": 120
+  },
+  "next_route": [
+    "Use copied g60_local_edges.csv as initial native edge source.",
+    "Test whether Project 22 C paths are literal G60 paths, quotient-supported paths, or transition overlays.",
+    "Test whether anchor residue sets correspond to G60 neighborhoods, lifted masks, or station-pair closures.",
+    "Search for ordinary/branch shell markers in native payload fields."
+  ],
+  "open_boundary": [
+    "No native local-cell provenance theorem is claimed.",
+    "No full role-labeled shared_B edge universe is derived.",
+    "Gap A is not closed."
+  ],
+  "ready_for_native_search": true,
+  "status": "source_ledger_and_target_alignment_recorded"
+}

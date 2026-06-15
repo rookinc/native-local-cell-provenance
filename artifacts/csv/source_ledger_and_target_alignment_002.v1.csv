@@ -1,0 +1,13 @@
+group,key,required,exists,size_bytes,path
+project22,target_006,True,True,5829,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_local_answer_cell_target_006.v1.json
+project22,bit_law_007,True,True,4103,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_local_answer_cell_bit_law_007.v1.json
+project22,overlap_008,True,True,4088,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_payload_overlap_marker_law_008.v1.json
+project22,c_path_009,True,True,4991,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_c_payload_path_law_009.v1.json
+project22,anchor_residue_010,True,True,5675,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_anchor_residue_set_law_010.v1.json
+project22,generator_011,True,True,12659,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_local_answer_cell_generator_theorem_011.v1.json
+project22,anchor_path_012,True,True,10105,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_anchor_node_path_geometry_012.v1.json
+project22,boundary_014,True,True,1858,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/local_cell_theorem_boundary_audit_014.v1.json
+project23,reduced_universe_002,True,True,9627,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project23_artifacts/json/local_cell_to_reduced_universe_derivation_002.v1.json
+project23,boundary_003,True,True,1741,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project23_artifacts/json/local_cell_to_reduced_universe_boundary_audit_003.v1.json
+project23,paper_sync_004,True,True,1507,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project23_artifacts/json/reduced_universe_theorem_sync_004.v1.json
+native_payload,g60_local_edges,False,True,817,/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project18_payload/g60_local_edges.csv
