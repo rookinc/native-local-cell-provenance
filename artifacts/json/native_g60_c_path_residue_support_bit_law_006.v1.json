@@ -1,0 +1,308 @@
+{
+  "audit_id": "006",
+  "boundary": "This is a support-pattern law over the simple mod15 residue projection only. It does not derive the C paths, does not derive the local cell from native G60 provenance, does not derive the full role-labeled shared_B edge universe, and does not close Gap A.",
+  "candidate_law": "direct residue support iff (shell_bit=0 and step in {0,1}) or (shell_bit=1 and step=2*(1-rank_bit))",
+  "checks": {
+    "bit_step_law_exact": true,
+    "observed_supported_count_is_6": true,
+    "project22_011_theorem_pass": true,
+    "residue_distance_005_checks_pass": true,
+    "residue_support_004_checks_pass": true,
+    "row_count_is_12": true
+  },
+  "inputs": {
+    "project22_011": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/project22_artifacts/json/lift_twist_local_answer_cell_generator_theorem_011.v1.json",
+    "residue_distance_005": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_residue_distance_005.v1.json",
+    "residue_support_004": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/native_g60_c_path_residue_support_004.v1.json"
+  },
+  "interpretation": "The direct mod15 residue support pattern is generated exactly by a local bit/step law. This does not prove native local-cell provenance, but it shows that the half-supported quotient signal is structured by the same shell/rank bits that generate the local Lift & Twist cell.",
+  "mismatches": [],
+  "rows": [
+    {
+      "from_c": 2,
+      "observed_direct_residue_support": false,
+      "predicted_direct_residue_support": false,
+      "prediction_match": true,
+      "rank_bit": 0,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        2,
+        8,
+        5
+      ],
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "from_c": 5,
+      "observed_direct_residue_support": false,
+      "predicted_direct_residue_support": false,
+      "prediction_match": true,
+      "rank_bit": 0,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        5,
+        1,
+        0
+      ],
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 1,
+      "to_c": 0
+    },
+    {
+      "from_c": 0,
+      "observed_direct_residue_support": true,
+      "predicted_direct_residue_support": true,
+      "prediction_match": true,
+      "rank_bit": 0,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        0,
+        2
+      ],
+      "shell_bit": 1,
+      "state": "B0",
+      "step": 2,
+      "to_c": 2
+    },
+    {
+      "from_c": 4,
+      "observed_direct_residue_support": true,
+      "predicted_direct_residue_support": true,
+      "prediction_match": true,
+      "rank_bit": 1,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        4,
+        5
+      ],
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 0,
+      "to_c": 5
+    },
+    {
+      "from_c": 5,
+      "observed_direct_residue_support": false,
+      "predicted_direct_residue_support": false,
+      "prediction_match": true,
+      "rank_bit": 1,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        5,
+        8,
+        2
+      ],
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 1,
+      "to_c": 2
+    },
+    {
+      "from_c": 2,
+      "observed_direct_residue_support": false,
+      "predicted_direct_residue_support": false,
+      "prediction_match": true,
+      "rank_bit": 1,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        2,
+        0,
+        4
+      ],
+      "shell_bit": 1,
+      "state": "B1",
+      "step": 2,
+      "to_c": 4
+    },
+    {
+      "from_c": 11,
+      "observed_direct_residue_support": true,
+      "predicted_direct_residue_support": true,
+      "prediction_match": true,
+      "rank_bit": 0,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        11,
+        2
+      ],
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 0,
+      "to_c": 2
+    },
+    {
+      "from_c": 2,
+      "observed_direct_residue_support": true,
+      "predicted_direct_residue_support": true,
+      "prediction_match": true,
+      "rank_bit": 0,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        2,
+        14
+      ],
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 1,
+      "to_c": 14
+    },
+    {
+      "from_c": 14,
+      "observed_direct_residue_support": false,
+      "predicted_direct_residue_support": false,
+      "prediction_match": true,
+      "rank_bit": 0,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        14,
+        0,
+        11
+      ],
+      "shell_bit": 0,
+      "state": "O0",
+      "step": 2,
+      "to_c": 11
+    },
+    {
+      "from_c": 13,
+      "observed_direct_residue_support": true,
+      "predicted_direct_residue_support": true,
+      "prediction_match": true,
+      "rank_bit": 1,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        13,
+        1
+      ],
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 0,
+      "to_c": 1
+    },
+    {
+      "from_c": 1,
+      "observed_direct_residue_support": true,
+      "predicted_direct_residue_support": true,
+      "prediction_match": true,
+      "rank_bit": 1,
+      "residue_distance": 1,
+      "residue_shortest_path": [
+        1,
+        10
+      ],
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 1,
+      "to_c": 10
+    },
+    {
+      "from_c": 10,
+      "observed_direct_residue_support": false,
+      "predicted_direct_residue_support": false,
+      "prediction_match": true,
+      "rank_bit": 1,
+      "residue_distance": 2,
+      "residue_shortest_path": [
+        10,
+        1,
+        13
+      ],
+      "shell_bit": 0,
+      "state": "O1",
+      "step": 2,
+      "to_c": 13
+    }
+  ],
+  "status": "native_g60_c_path_residue_support_bit_law_recorded",
+  "support_profile": {
+    "supported_count": 6,
+    "supported_slots": [
+      [
+        "B0",
+        2,
+        0,
+        2
+      ],
+      [
+        "B1",
+        0,
+        4,
+        5
+      ],
+      [
+        "O0",
+        0,
+        11,
+        2
+      ],
+      [
+        "O0",
+        1,
+        2,
+        14
+      ],
+      [
+        "O1",
+        0,
+        13,
+        1
+      ],
+      [
+        "O1",
+        1,
+        1,
+        10
+      ]
+    ],
+    "unsupported_count": 6,
+    "unsupported_slots": [
+      [
+        "B0",
+        0,
+        2,
+        5,
+        2
+      ],
+      [
+        "B0",
+        1,
+        5,
+        0,
+        2
+      ],
+      [
+        "B1",
+        1,
+        5,
+        2,
+        2
+      ],
+      [
+        "B1",
+        2,
+        2,
+        4,
+        2
+      ],
+      [
+        "O0",
+        2,
+        14,
+        11,
+        2
+      ],
+      [
+        "O1",
+        2,
+        10,
+        13,
+        2
+      ]
+    ]
+  },
+  "theorem_pass": true
+}
