@@ -1,0 +1,5 @@
+form_index,euclidean_name,row_count,slot_max,slot_range,slot_unique_max,slot_unique_range,fiber_min,fiber_unique_min
+0,edge,6,9,9,9,9,12,12
+1,hinge,6,12,12,12,12,3,3
+2,closed_face,6,13,13,13,13,2,2
+3,filled_cell,6,14,14,14,14,1,1
