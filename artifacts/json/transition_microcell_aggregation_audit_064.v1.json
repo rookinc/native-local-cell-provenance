@@ -1,0 +1,5095 @@
+{
+  "audit_id": "064",
+  "audit_pass": true,
+  "base_component_sizes": [
+    2,
+    2,
+    2,
+    2,
+    8,
+    8
+  ],
+  "best_candidate": {
+    "exact_aggregation": false,
+    "group_count": 4,
+    "group_count_penalty": 0,
+    "groups": [
+      {
+        "boundary_gap": -9,
+        "form_counts": {
+          "0": 4,
+          "3": 2
+        },
+        "inside_fiber_residual": 12,
+        "key": [
+          0,
+          0
+        ],
+        "majority_count": 4,
+        "majority_form": 0,
+        "microcell_count": 3,
+        "microcell_ids": [
+          0,
+          5,
+          9
+        ],
+        "outside_boundary_span": 3,
+        "row_count": 6
+      },
+      {
+        "boundary_gap": 9,
+        "form_counts": {
+          "1": 4,
+          "2": 2
+        },
+        "inside_fiber_residual": 3,
+        "key": [
+          1,
+          3
+        ],
+        "majority_count": 4,
+        "majority_form": 1,
+        "microcell_count": 3,
+        "microcell_ids": [
+          1,
+          2,
+          11
+        ],
+        "outside_boundary_span": 12,
+        "row_count": 6
+      },
+      {
+        "boundary_gap": 11,
+        "form_counts": {
+          "0": 2,
+          "2": 4,
+          "3": 2
+        },
+        "inside_fiber_residual": 2,
+        "key": [
+          0,
+          2
+        ],
+        "majority_count": 4,
+        "majority_form": 2,
+        "microcell_count": 4,
+        "microcell_ids": [
+          4,
+          6,
+          7,
+          10
+        ],
+        "outside_boundary_span": 13,
+        "row_count": 8
+      },
+      {
+        "boundary_gap": 13,
+        "form_counts": {
+          "1": 2,
+          "3": 2
+        },
+        "inside_fiber_residual": 1,
+        "key": [
+          1,
+          1
+        ],
+        "majority_count": 2,
+        "majority_form": 1,
+        "microcell_count": 2,
+        "microcell_ids": [
+          3,
+          8
+        ],
+        "outside_boundary_span": 14,
+        "row_count": 4
+      }
+    ],
+    "key_name": "C_delta_mod15_mod_2|C_delta_mod15_mod_4",
+    "majority_order_by_boundary_gap": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "ordered_exact_by_boundary_gap": false,
+    "purity_total": 14,
+    "score": 10,
+    "size_deviation": 4
+  },
+  "boundary": "This is an aggregation audit, not native closure. A hit would be a candidate requiring validation; a miss only bounds the tested quotient family. answer-label leakage remains open, this is not full role-labeled shared_B universe derivation, and is not Gap A closure.",
+  "checks": {
+    "aggregation_candidate_count": 20910,
+    "all_microcells_are_form_pure": true,
+    "all_microcells_have_two_rows": true,
+    "answer_label_leakage_remains_open": true,
+    "base_component_count": 6,
+    "best_candidate_exists": true,
+    "best_candidate_group_count": 4,
+    "best_candidate_key": "C_delta_mod15_mod_2|C_delta_mod15_mod_4",
+    "best_candidate_purity_total": 14,
+    "best_candidate_score": 10,
+    "edge_records_found": true,
+    "exact_aggregation_hit_count": 0,
+    "forbidden_phrases_absent": true,
+    "form_index_used_only_for_evaluation": true,
+    "inside_outside_boundary_grammar_060_pass": true,
+    "microcell_count_is_12": true,
+    "microcell_feature_count": 204,
+    "native_provenance_confirmed": false,
+    "ordered_exact_aggregation_hit_count": 0,
+    "required_phrases_present": true,
+    "row_count_is_24": true,
+    "six_component_refinement_063_pass": true,
+    "source_json_exists": true
+  },
+  "exact_hits_first": [],
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "edge_records_path": [
+      "edge_records"
+    ],
+    "inside_outside_boundary_grammar_audit_060": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/inside_outside_boundary_grammar_audit_060.v1.json",
+    "six_component_incidence_refinement_audit_063": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/six_component_incidence_refinement_audit_063.v1.json",
+    "source_json": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json"
+  },
+  "interpretation": "Artifact 064 tests whether the pure transition-cell layer can be quotiented back into the four Euclidean forms. This is the natural next layer after 063: 063 found purity at 12 microcells, while 064 asks whether a native aggregation law recovers the four-form partition.",
+  "microcell_feature_names": [
+    "C_delta_mod15",
+    "C_delta_mod15_floor_div_2",
+    "C_delta_mod15_floor_div_3",
+    "C_delta_mod15_floor_div_4",
+    "C_delta_mod15_floor_div_5",
+    "C_delta_mod15_floor_div_6",
+    "C_delta_mod15_mod_2",
+    "C_delta_mod15_mod_3",
+    "C_delta_mod15_mod_4",
+    "C_delta_mod15_mod_5",
+    "C_delta_mod15_mod_6",
+    "C_delta_mod15_mod_7",
+    "base_component_id",
+    "base_component_id_floor_div_2",
+    "base_component_id_floor_div_3",
+    "base_component_id_floor_div_4",
+    "base_component_id_floor_div_5",
+    "base_component_id_floor_div_6",
+    "base_component_id_mod_2",
+    "base_component_id_mod_3",
+    "base_component_id_mod_4",
+    "base_component_id_mod_5",
+    "base_component_id_mod_6",
+    "base_component_id_mod_7",
+    "base_minus_C_delta_mod4",
+    "base_plus_C_delta_mod3",
+    "base_plus_C_delta_mod4",
+    "base_times_C_delta_mod4",
+    "boundary_gap",
+    "boundary_gap_floor_div_2",
+    "boundary_gap_floor_div_3",
+    "boundary_gap_floor_div_4",
+    "boundary_gap_floor_div_5",
+    "boundary_gap_floor_div_6",
+    "boundary_gap_mod_2",
+    "boundary_gap_mod_3",
+    "boundary_gap_mod_4",
+    "boundary_gap_mod_5",
+    "boundary_gap_mod_6",
+    "boundary_gap_mod_7",
+    "boundary_gap_sign",
+    "edge_role_signature",
+    "fiber_max",
+    "fiber_max_floor_div_2",
+    "fiber_max_floor_div_3",
+    "fiber_max_floor_div_4",
+    "fiber_max_floor_div_5",
+    "fiber_max_floor_div_6",
+    "fiber_max_mod_2",
+    "fiber_max_mod_3",
+    "fiber_max_mod_4",
+    "fiber_max_mod_5",
+    "fiber_max_mod_6",
+    "fiber_max_mod_7",
+    "fiber_min",
+    "fiber_min_floor_div_2",
+    "fiber_min_floor_div_3",
+    "fiber_min_floor_div_4",
+    "fiber_min_floor_div_5",
+    "fiber_min_floor_div_6",
+    "fiber_min_mod_2",
+    "fiber_min_mod_3",
+    "fiber_min_mod_4",
+    "fiber_min_mod_5",
+    "fiber_min_mod_6",
+    "fiber_min_mod_7",
+    "from_C_max",
+    "from_C_max_floor_div_2",
+    "from_C_max_floor_div_3",
+    "from_C_max_floor_div_4",
+    "from_C_max_floor_div_5",
+    "from_C_max_floor_div_6",
+    "from_C_max_mod_2",
+    "from_C_max_mod_3",
+    "from_C_max_mod_4",
+    "from_C_max_mod_5",
+    "from_C_max_mod_6",
+    "from_C_max_mod_7",
+    "from_C_min",
+    "from_C_min_floor_div_2",
+    "from_C_min_floor_div_3",
+    "from_C_min_floor_div_4",
+    "from_C_min_floor_div_5",
+    "from_C_min_floor_div_6",
+    "from_C_min_mod_2",
+    "from_C_min_mod_3",
+    "from_C_min_mod_4",
+    "from_C_min_mod_5",
+    "from_C_min_mod_6",
+    "from_C_min_mod_7",
+    "from_C_sum",
+    "from_C_sum_floor_div_2",
+    "from_C_sum_floor_div_3",
+    "from_C_sum_floor_div_4",
+    "from_C_sum_floor_div_5",
+    "from_C_sum_floor_div_6",
+    "from_C_sum_mod_2",
+    "from_C_sum_mod_3",
+    "from_C_sum_mod_4",
+    "from_C_sum_mod_5",
+    "from_C_sum_mod_6",
+    "from_C_sum_mod_7",
+    "inside_captured",
+    "inside_fiber_residual",
+    "inside_fiber_residual_floor_div_2",
+    "inside_fiber_residual_floor_div_3",
+    "inside_fiber_residual_floor_div_4",
+    "inside_fiber_residual_floor_div_5",
+    "inside_fiber_residual_floor_div_6",
+    "inside_fiber_residual_mod_2",
+    "inside_fiber_residual_mod_3",
+    "inside_fiber_residual_mod_4",
+    "inside_fiber_residual_mod_5",
+    "inside_fiber_residual_mod_6",
+    "inside_fiber_residual_mod_7",
+    "lift_q_signature",
+    "outside_boundary_span",
+    "outside_boundary_span_floor_div_2",
+    "outside_boundary_span_floor_div_3",
+    "outside_boundary_span_floor_div_4",
+    "outside_boundary_span_floor_div_5",
+    "outside_boundary_span_floor_div_6",
+    "outside_boundary_span_mod_2",
+    "outside_boundary_span_mod_3",
+    "outside_boundary_span_mod_4",
+    "outside_boundary_span_mod_5",
+    "outside_boundary_span_mod_6",
+    "outside_boundary_span_mod_7",
+    "outside_minus_inside_mod3",
+    "outside_minus_inside_mod4",
+    "outside_plus_inside_mod3",
+    "outside_plus_inside_mod4",
+    "row_count",
+    "row_count_floor_div_2",
+    "row_count_floor_div_3",
+    "row_count_floor_div_4",
+    "row_count_floor_div_5",
+    "row_count_floor_div_6",
+    "row_count_mod_2",
+    "row_count_mod_3",
+    "row_count_mod_4",
+    "row_count_mod_5",
+    "row_count_mod_6",
+    "row_count_mod_7",
+    "slot_max",
+    "slot_max_floor_div_2",
+    "slot_max_floor_div_3",
+    "slot_max_floor_div_4",
+    "slot_max_floor_div_5",
+    "slot_max_floor_div_6",
+    "slot_max_mod_2",
+    "slot_max_mod_3",
+    "slot_max_mod_4",
+    "slot_max_mod_5",
+    "slot_max_mod_6",
+    "slot_max_mod_7",
+    "slot_min",
+    "slot_min_floor_div_2",
+    "slot_min_floor_div_3",
+    "slot_min_floor_div_4",
+    "slot_min_floor_div_5",
+    "slot_min_floor_div_6",
+    "slot_min_mod_2",
+    "slot_min_mod_3",
+    "slot_min_mod_4",
+    "slot_min_mod_5",
+    "slot_min_mod_6",
+    "slot_min_mod_7",
+    "to_C_max",
+    "to_C_max_floor_div_2",
+    "to_C_max_floor_div_3",
+    "to_C_max_floor_div_4",
+    "to_C_max_floor_div_5",
+    "to_C_max_floor_div_6",
+    "to_C_max_mod_2",
+    "to_C_max_mod_3",
+    "to_C_max_mod_4",
+    "to_C_max_mod_5",
+    "to_C_max_mod_6",
+    "to_C_max_mod_7",
+    "to_C_min",
+    "to_C_min_floor_div_2",
+    "to_C_min_floor_div_3",
+    "to_C_min_floor_div_4",
+    "to_C_min_floor_div_5",
+    "to_C_min_floor_div_6",
+    "to_C_min_mod_2",
+    "to_C_min_mod_3",
+    "to_C_min_mod_4",
+    "to_C_min_mod_5",
+    "to_C_min_mod_6",
+    "to_C_min_mod_7",
+    "to_C_sum",
+    "to_C_sum_floor_div_2",
+    "to_C_sum_floor_div_3",
+    "to_C_sum_floor_div_4",
+    "to_C_sum_floor_div_5",
+    "to_C_sum_floor_div_6",
+    "to_C_sum_mod_2",
+    "to_C_sum_mod_3",
+    "to_C_sum_mod_4",
+    "to_C_sum_mod_5",
+    "to_C_sum_mod_6",
+    "to_C_sum_mod_7"
+  ],
+  "microcells": [
+    {
+      "C_delta_mod15": 12,
+      "base_component_id": 0,
+      "boundary_gap": -54,
+      "edge_role_values": [
+        "WX",
+        "ZT"
+      ],
+      "fiber_max": 57,
+      "fiber_min": 57,
+      "form_counts": {
+        "0": 2
+      },
+      "from_C_max": 14,
+      "from_C_min": 14,
+      "from_C_sum": 28,
+      "inside_fiber_residual": 57,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 0,
+      "microcell_id": 0,
+      "outside_boundary_span": 3,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        0,
+        3
+      ],
+      "slot_max": 3,
+      "slot_min": 0,
+      "source_record_ids": [
+        0,
+        3
+      ],
+      "to_C_max": 11,
+      "to_C_min": 11,
+      "to_C_sum": 22
+    },
+    {
+      "C_delta_mod15": 3,
+      "base_component_id": 1,
+      "boundary_gap": 9,
+      "edge_role_values": [
+        "WX",
+        "ZT"
+      ],
+      "fiber_max": 3,
+      "fiber_min": 3,
+      "form_counts": {
+        "1": 2
+      },
+      "from_C_max": 10,
+      "from_C_min": 10,
+      "from_C_sum": 20,
+      "inside_fiber_residual": 3,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 1,
+      "microcell_id": 1,
+      "outside_boundary_span": 12,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        6,
+        9
+      ],
+      "slot_max": 12,
+      "slot_min": 0,
+      "source_record_ids": [
+        6,
+        9
+      ],
+      "to_C_max": 13,
+      "to_C_min": 13,
+      "to_C_sum": 26
+    },
+    {
+      "C_delta_mod15": 3,
+      "base_component_id": 2,
+      "boundary_gap": -36,
+      "edge_role_values": [
+        "TI",
+        "XY"
+      ],
+      "fiber_max": 48,
+      "fiber_min": 48,
+      "form_counts": {
+        "1": 2
+      },
+      "from_C_max": 13,
+      "from_C_min": 13,
+      "from_C_sum": 26,
+      "inside_fiber_residual": 48,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 1,
+      "microcell_id": 2,
+      "outside_boundary_span": 12,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        7,
+        10
+      ],
+      "slot_max": 12,
+      "slot_min": 0,
+      "source_record_ids": [
+        7,
+        10
+      ],
+      "to_C_max": 1,
+      "to_C_min": 1,
+      "to_C_sum": 2
+    },
+    {
+      "C_delta_mod15": 9,
+      "base_component_id": 3,
+      "boundary_gap": -3,
+      "edge_role_values": [
+        "IW",
+        "YZ"
+      ],
+      "fiber_max": 9,
+      "fiber_min": 9,
+      "form_counts": {
+        "1": 2
+      },
+      "from_C_max": 1,
+      "from_C_min": 1,
+      "from_C_sum": 2,
+      "inside_fiber_residual": 9,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 1,
+      "microcell_id": 3,
+      "outside_boundary_span": 6,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        8,
+        11
+      ],
+      "slot_max": 6,
+      "slot_min": 0,
+      "source_record_ids": [
+        8,
+        11
+      ],
+      "to_C_max": 10,
+      "to_C_min": 10,
+      "to_C_sum": 20
+    },
+    {
+      "C_delta_mod15": 10,
+      "base_component_id": 4,
+      "boundary_gap": -50,
+      "edge_role_values": [
+        "IW",
+        "YZ"
+      ],
+      "fiber_max": 55,
+      "fiber_min": 55,
+      "form_counts": {
+        "2": 2
+      },
+      "from_C_max": 5,
+      "from_C_min": 5,
+      "from_C_sum": 10,
+      "inside_fiber_residual": 55,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 2,
+      "microcell_id": 4,
+      "outside_boundary_span": 5,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        14,
+        17
+      ],
+      "slot_max": 5,
+      "slot_min": 0,
+      "source_record_ids": [
+        14,
+        17
+      ],
+      "to_C_max": 0,
+      "to_C_min": 0,
+      "to_C_sum": 0
+    },
+    {
+      "C_delta_mod15": 12,
+      "base_component_id": 4,
+      "boundary_gap": -54,
+      "edge_role_values": [
+        "IW",
+        "YZ"
+      ],
+      "fiber_max": 57,
+      "fiber_min": 57,
+      "form_counts": {
+        "3": 2
+      },
+      "from_C_max": 5,
+      "from_C_min": 5,
+      "from_C_sum": 10,
+      "inside_fiber_residual": 57,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 3,
+      "microcell_id": 5,
+      "outside_boundary_span": 3,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        20,
+        23
+      ],
+      "slot_max": 3,
+      "slot_min": 0,
+      "source_record_ids": [
+        20,
+        23
+      ],
+      "to_C_max": 2,
+      "to_C_min": 2,
+      "to_C_sum": 4
+    },
+    {
+      "C_delta_mod15": 2,
+      "base_component_id": 4,
+      "boundary_gap": 11,
+      "edge_role_values": [
+        "WX",
+        "ZT"
+      ],
+      "fiber_max": 2,
+      "fiber_min": 2,
+      "form_counts": {
+        "2": 2
+      },
+      "from_C_max": 0,
+      "from_C_min": 0,
+      "from_C_sum": 0,
+      "inside_fiber_residual": 2,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 2,
+      "microcell_id": 6,
+      "outside_boundary_span": 13,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        12,
+        15
+      ],
+      "slot_max": 13,
+      "slot_min": 0,
+      "source_record_ids": [
+        12,
+        15
+      ],
+      "to_C_max": 2,
+      "to_C_min": 2,
+      "to_C_sum": 4
+    },
+    {
+      "C_delta_mod15": 6,
+      "base_component_id": 4,
+      "boundary_gap": -42,
+      "edge_role_values": [
+        "TI",
+        "XY"
+      ],
+      "fiber_max": 51,
+      "fiber_min": 51,
+      "form_counts": {
+        "0": 2
+      },
+      "from_C_max": 11,
+      "from_C_min": 11,
+      "from_C_sum": 22,
+      "inside_fiber_residual": 51,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 0,
+      "microcell_id": 7,
+      "outside_boundary_span": 9,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        1,
+        4
+      ],
+      "slot_max": 9,
+      "slot_min": 0,
+      "source_record_ids": [
+        1,
+        4
+      ],
+      "to_C_max": 2,
+      "to_C_min": 2,
+      "to_C_sum": 4
+    },
+    {
+      "C_delta_mod15": 1,
+      "base_component_id": 5,
+      "boundary_gap": 13,
+      "edge_role_values": [
+        "TI",
+        "XY"
+      ],
+      "fiber_max": 1,
+      "fiber_min": 1,
+      "form_counts": {
+        "3": 2
+      },
+      "from_C_max": 4,
+      "from_C_min": 4,
+      "from_C_sum": 8,
+      "inside_fiber_residual": 1,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 3,
+      "microcell_id": 8,
+      "outside_boundary_span": 14,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        19,
+        22
+      ],
+      "slot_max": 14,
+      "slot_min": 0,
+      "source_record_ids": [
+        19,
+        22
+      ],
+      "to_C_max": 5,
+      "to_C_min": 5,
+      "to_C_sum": 10
+    },
+    {
+      "C_delta_mod15": 12,
+      "base_component_id": 5,
+      "boundary_gap": -9,
+      "edge_role_values": [
+        "IW",
+        "YZ"
+      ],
+      "fiber_max": 12,
+      "fiber_min": 12,
+      "form_counts": {
+        "0": 2
+      },
+      "from_C_max": 2,
+      "from_C_min": 2,
+      "from_C_sum": 4,
+      "inside_fiber_residual": 12,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 0,
+      "microcell_id": 9,
+      "outside_boundary_span": 3,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        2,
+        5
+      ],
+      "slot_max": 3,
+      "slot_min": 0,
+      "source_record_ids": [
+        2,
+        5
+      ],
+      "to_C_max": 14,
+      "to_C_min": 14,
+      "to_C_sum": 28
+    },
+    {
+      "C_delta_mod15": 2,
+      "base_component_id": 5,
+      "boundary_gap": 11,
+      "edge_role_values": [
+        "WX",
+        "ZT"
+      ],
+      "fiber_max": 2,
+      "fiber_min": 2,
+      "form_counts": {
+        "3": 2
+      },
+      "from_C_max": 2,
+      "from_C_min": 2,
+      "from_C_sum": 4,
+      "inside_fiber_residual": 2,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 3,
+      "microcell_id": 10,
+      "outside_boundary_span": 13,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        18,
+        21
+      ],
+      "slot_max": 13,
+      "slot_min": 0,
+      "source_record_ids": [
+        18,
+        21
+      ],
+      "to_C_max": 4,
+      "to_C_min": 4,
+      "to_C_sum": 8
+    },
+    {
+      "C_delta_mod15": 3,
+      "base_component_id": 5,
+      "boundary_gap": 9,
+      "edge_role_values": [
+        "TI",
+        "XY"
+      ],
+      "fiber_max": 3,
+      "fiber_min": 3,
+      "form_counts": {
+        "2": 2
+      },
+      "from_C_max": 2,
+      "from_C_min": 2,
+      "from_C_sum": 4,
+      "inside_fiber_residual": 3,
+      "lift_q_values": [],
+      "majority_count": 2,
+      "majority_form": 2,
+      "microcell_id": 11,
+      "outside_boundary_span": 12,
+      "pure": true,
+      "row_count": 2,
+      "row_ids": [
+        13,
+        16
+      ],
+      "slot_max": 12,
+      "slot_min": 0,
+      "source_record_ids": [
+        13,
+        16
+      ],
+      "to_C_max": 5,
+      "to_C_min": 5,
+      "to_C_sum": 10
+    }
+  ],
+  "missing_required_phrases": [],
+  "ordered_exact_hits_first": [],
+  "statement": "Artifact 064 is a transition microcell aggregation audit. It starts from the 12 pure transition cells exposed by C_delta_mod15 in 063 and searches for a native quotient law that aggregates them into the four Euclidean forms. form_index is used only for evaluation.",
+  "status": "transition_microcell_aggregation_audit_recorded",
+  "top_candidates": [
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            1,
+            3
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            1
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_2|C_delta_mod15_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            3
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            0,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_2|outside_boundary_span_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            3
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            0,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_2|slot_max_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": 0,
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": 3,
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": 2,
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": 1,
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|base_component_id_floor_div_6",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|from_C_sum_mod_2",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            ""
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            ""
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            ""
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            ""
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|lift_q_signature",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|outside_boundary_span_mod_2",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            3
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|outside_boundary_span_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|outside_plus_inside_mod3",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            1
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_floor_div_2",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_floor_div_3",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_floor_div_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_floor_div_5",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_floor_div_6",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_mod_2",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_mod_3",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_mod_5",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_mod_6",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            2
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|row_count_mod_7",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_max_mod_2",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            3
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_max_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_floor_div_2",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_floor_div_3",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_floor_div_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_floor_div_5",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_floor_div_6",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_mod_2",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_mod_3",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_mod_5",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_mod_6",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|slot_min_mod_7",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            3,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            2,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            1,
+            0
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "C_delta_mod15_mod_4|to_C_sum_mod_2",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            3
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            0,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "base_component_id_floor_div_6|outside_boundary_span_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            3
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            0,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "base_component_id_floor_div_6|slot_max_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    },
+    {
+      "exact_aggregation": false,
+      "group_count": 4,
+      "group_count_penalty": 0,
+      "groups": [
+        {
+          "boundary_gap": -9,
+          "form_counts": {
+            "0": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 12,
+          "key": [
+            0,
+            3
+          ],
+          "majority_count": 4,
+          "majority_form": 0,
+          "microcell_count": 3,
+          "microcell_ids": [
+            0,
+            5,
+            9
+          ],
+          "outside_boundary_span": 3,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 9,
+          "form_counts": {
+            "1": 4,
+            "2": 2
+          },
+          "inside_fiber_residual": 3,
+          "key": [
+            0,
+            0
+          ],
+          "majority_count": 4,
+          "majority_form": 1,
+          "microcell_count": 3,
+          "microcell_ids": [
+            1,
+            2,
+            11
+          ],
+          "outside_boundary_span": 12,
+          "row_count": 6
+        },
+        {
+          "boundary_gap": 11,
+          "form_counts": {
+            "0": 2,
+            "2": 4,
+            "3": 2
+          },
+          "inside_fiber_residual": 2,
+          "key": [
+            0,
+            1
+          ],
+          "majority_count": 4,
+          "majority_form": 2,
+          "microcell_count": 4,
+          "microcell_ids": [
+            4,
+            6,
+            7,
+            10
+          ],
+          "outside_boundary_span": 13,
+          "row_count": 8
+        },
+        {
+          "boundary_gap": 13,
+          "form_counts": {
+            "1": 2,
+            "3": 2
+          },
+          "inside_fiber_residual": 1,
+          "key": [
+            0,
+            2
+          ],
+          "majority_count": 2,
+          "majority_form": 1,
+          "microcell_count": 2,
+          "microcell_ids": [
+            3,
+            8
+          ],
+          "outside_boundary_span": 14,
+          "row_count": 4
+        }
+      ],
+      "key_name": "from_C_sum_mod_2|outside_boundary_span_mod_4",
+      "majority_order_by_boundary_gap": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "ordered_exact_by_boundary_gap": false,
+      "purity_total": 14,
+      "score": 10,
+      "size_deviation": 4
+    }
+  ],
+  "verdict": "transition_microcell_aggregation_not_found_in_tested_family"
+}
