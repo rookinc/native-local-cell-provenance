@@ -1,0 +1,12 @@
+class,item,support,statement
+proved_or_locked,non_label_monotone_order_signal,057 and 058,slot_delta_mod15 and fiber_delta_mod60 are non-label edge-record fields whose opposite monotones recover the Euclidean order once the four groups are known.
+proved_or_locked,inside_outside_boundary_reading,060,"outside boundary span rises while inside fiber residual falls; boundary_gap orders edge, hinge, closed_face, filled_cell."
+proved_or_locked,transition_microcell_layer,063 and 064,C_delta_mod15 exposes 12 form-pure two-row transition microcells.
+negative_or_bounded,delta_fields_do_not_partition_forms,059,native delta fields alone do not reconstruct the four six-row form groups exactly.
+negative_or_bounded,flat_row_field_cut_not_found,061,"2,951 tested flat non-label row-field combinations did not cut the 24 rows into the four forms."
+negative_or_bounded,simple_incidence_cut_not_found,062,40 tested shared-endpoint/reciprocal incidence relations did not yield the four-form cut.
+negative_or_bounded,six_component_refinement_not_found,063,the six C-endpoint incidence components could not be refined into four forms by the tested second-field family.
+negative_or_bounded,microcell_aggregation_not_found,064,"20,910 tested microcell quotient aggregations did not recover the four Euclidean forms."
+next_allowed_target,source_construction_audit,,the failed cut searches suggest the missing grouping law may be in the upstream construction process rather than row fields.
+next_allowed_target,manuscript_boundary_section,,the project needs a clean written boundary before more searches.
+next_allowed_target,falsification_tests,,shuffle/ablation tests can tell whether the monotone and microcell signals survive without form labels.
