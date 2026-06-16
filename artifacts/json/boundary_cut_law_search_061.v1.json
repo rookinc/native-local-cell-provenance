@@ -1,0 +1,437 @@
+{
+  "audit_id": "061",
+  "audit_pass": true,
+  "best_candidate": null,
+  "boundary": "This is a bounded search, not native closure. A hit would be a candidate cut law requiring validation; a miss does not refute the inside/outside boundary grammar. answer-label leakage remains open, this is not full role-labeled shared_B universe derivation, and is not Gap A closure.",
+  "checks": {
+    "all_combos_exclude_form_index_record_order_answer_labels": true,
+    "answer_label_leakage_remains_open": true,
+    "best_candidate_exists": false,
+    "best_candidate_group_count": null,
+    "best_candidate_purity_total": null,
+    "best_candidate_score": null,
+    "candidate_feature_count": 26,
+    "edge_records_found": true,
+    "exact_cut_law_hit_count": 0,
+    "forbidden_phrases_absent": true,
+    "form_index_used_only_for_evaluation": true,
+    "inside_outside_boundary_grammar_060_pass": true,
+    "kept_evaluation_count": 0,
+    "native_provenance_confirmed": false,
+    "ordered_exact_cut_law_hit_count": 0,
+    "required_phrases_present": true,
+    "row_count_is_24": true,
+    "source_json_exists": true,
+    "tested_combo_count": 2951
+  },
+  "exact_hits_first": [],
+  "feature_inventory_first": [
+    {
+      "feature": "edge_role",
+      "preferred_score": 2,
+      "unique_count": 6,
+      "unique_values": [
+        "IW",
+        "TI",
+        "WX",
+        "XY",
+        "YZ",
+        "ZT"
+      ]
+    },
+    {
+      "feature": "derived.C_delta_mod15",
+      "preferred_score": 2,
+      "unique_count": 7,
+      "unique_values": [
+        "1",
+        "10",
+        "12",
+        "2",
+        "3",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "feature": "from_A",
+      "preferred_score": 2,
+      "unique_count": 8,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "12",
+        "2",
+        "3",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "feature": "slot_delta_mod15",
+      "preferred_score": 2,
+      "unique_count": 8,
+      "unique_values": [
+        "0",
+        "12",
+        "13",
+        "14",
+        "3",
+        "5",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "feature": "to_A",
+      "preferred_score": 2,
+      "unique_count": 8,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "12",
+        "2",
+        "3",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "feature": "fiber_delta_mod60",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "1",
+        "12",
+        "2",
+        "3",
+        "48",
+        "51",
+        "55",
+        "57",
+        "9"
+      ]
+    },
+    {
+      "feature": "from_B",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "from_C",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "from_fiber",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "from_slot",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "to_B",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "to_C",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "to_fiber",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "to_slot",
+      "preferred_score": 2,
+      "unique_count": 9,
+      "unique_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "derived.boundary_gap_sign",
+      "preferred_score": 1,
+      "unique_count": 2,
+      "unique_values": [
+        "neg",
+        "pos"
+      ]
+    },
+    {
+      "feature": "derived.inside_captured_row",
+      "preferred_score": 1,
+      "unique_count": 2,
+      "unique_values": [
+        "no",
+        "yes"
+      ]
+    },
+    {
+      "feature": "edge_index",
+      "preferred_score": 1,
+      "unique_count": 6,
+      "unique_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "from_columns.__range",
+      "preferred_score": 1,
+      "unique_count": 7,
+      "unique_values": [
+        "1",
+        "10",
+        "15",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "to_columns.__range",
+      "preferred_score": 1,
+      "unique_count": 7,
+      "unique_values": [
+        "1",
+        "10",
+        "15",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "feature": "from_columns.__min",
+      "preferred_score": 1,
+      "unique_count": 8,
+      "unique_values": [
+        "0",
+        "13",
+        "2",
+        "23",
+        "28",
+        "4",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "feature": "to_columns.__min",
+      "preferred_score": 1,
+      "unique_count": 8,
+      "unique_values": [
+        "0",
+        "13",
+        "2",
+        "23",
+        "28",
+        "4",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "feature": "from_columns.__max",
+      "preferred_score": 1,
+      "unique_count": 10,
+      "unique_values": [
+        "10",
+        "12",
+        "17",
+        "18",
+        "2",
+        "24",
+        "29",
+        "4",
+        "5",
+        "9"
+      ]
+    },
+    {
+      "feature": "from_columns.__sum",
+      "preferred_score": 1,
+      "unique_count": 10,
+      "unique_values": [
+        "13",
+        "17",
+        "19",
+        "2",
+        "26",
+        "30",
+        "4",
+        "47",
+        "57",
+        "9"
+      ]
+    },
+    {
+      "feature": "to_columns.__max",
+      "preferred_score": 1,
+      "unique_count": 10,
+      "unique_values": [
+        "10",
+        "12",
+        "17",
+        "18",
+        "2",
+        "24",
+        "29",
+        "4",
+        "5",
+        "9"
+      ]
+    },
+    {
+      "feature": "to_columns.__sum",
+      "preferred_score": 1,
+      "unique_count": 10,
+      "unique_values": [
+        "13",
+        "17",
+        "19",
+        "2",
+        "26",
+        "30",
+        "4",
+        "47",
+        "57",
+        "9"
+      ]
+    },
+    {
+      "feature": "derived.C_transition",
+      "preferred_score": 1,
+      "unique_count": 12,
+      "unique_values": [
+        "0->2",
+        "1->10",
+        "10->13",
+        "11->2",
+        "13->1",
+        "14->11",
+        "2->14",
+        "2->4",
+        "2->5",
+        "4->5",
+        "5->0",
+        "5->2"
+      ]
+    }
+  ],
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "edge_records_path": [
+      "edge_records"
+    ],
+    "inside_outside_boundary_grammar_audit_060": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/inside_outside_boundary_grammar_audit_060.v1.json",
+    "source_json": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/source/upstream_station_provenance/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json"
+  },
+  "interpretation": "Artifact 061 tests whether the missing form partition is supplied by a native boundary cut law. It keeps 060 as the order grammar and asks for a native row-field cut into four lawful six-row forms. The result is bounded by the tested feature family and does not settle native provenance.",
+  "missing_required_phrases": [],
+  "ordered_exact_hits_first": [],
+  "statement": "Artifact 061 is a boundary cut law search. It uses the inside/outside boundary grammar from 060 and searches non-label native row fields for a cut law that partitions the 24 edge records into the four six-row Euclidean forms. form_index is used only for evaluation.",
+  "status": "boundary_cut_law_search_recorded",
+  "top_candidates": [],
+  "verdict": "boundary_cut_law_not_found_in_tested_family"
+}
