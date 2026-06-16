@@ -1,0 +1,31 @@
+{
+  "audit_id": "069",
+  "audit_pass": true,
+  "checks": {
+    "forbidden_phrases_absent": true,
+    "input_068_pass": true,
+    "main_exists": true,
+    "required_phrases_present": true,
+    "section_contains_boundary_language": true,
+    "section_exists": true,
+    "token_present_after": true
+  },
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "main_tex": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/main.tex",
+    "manuscript_boundary_section_068": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/manuscript_boundary_section_068.v1.json",
+    "section_tex": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/sections/10_local_completion_boundary.tex"
+  },
+  "inserted": true,
+  "insertion_anchor": "\\bibliographystyle",
+  "missing_required_phrases": [],
+  "outputs": {
+    "json": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/artifacts/json/wire_boundary_section_into_main_069.v1.json",
+    "main_tex": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/paper/main.tex",
+    "note": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/24-native-local-cell-provenance/notes/wire_boundary_section_into_main_069.md"
+  },
+  "statement": "Artifact 069 records that the local completion boundary section has been wired into main.tex. This is a manuscript assembly step, not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure. answer-label leakage remains open.",
+  "status": "boundary_section_wired_into_main",
+  "token": "\\input{sections/10_local_completion_boundary}",
+  "verdict": "boundary_section_wired_into_main_tex"
+}
