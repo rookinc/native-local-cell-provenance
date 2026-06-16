@@ -1,0 +1,14 @@
+section,name,support,claim_or_reason
+locked_support,monotone order signal,"057, 058",slot_delta_mod15 and fiber_delta_mod60 recover the Euclidean order once the four groups are already known.
+locked_support,inside/outside reading,060,"outside boundary span rises while inside fiber residual falls, giving a bounded local completion grammar."
+locked_support,transition microcell layer,"063, 064",C_delta_mod15 exposes 12 form-pure two-row transition microcells.
+locked_support,count-level grid hint,066,"24 rows can be visually read as 2 x 3 x 4 at the count level, but native sheet and channel coordinates were not found."
+negative_result,delta partition failure,059,native delta fields alone do not reconstruct the four six-row forms.
+negative_result,flat cut failure,061,"2,951 flat row-field cuts did not derive the four-form partition."
+negative_result,incidence cut failure,062,40 reciprocal or shared-endpoint incidence cuts did not derive the four-form partition.
+negative_result,refinement failure,063,six C-endpoint incidence components did not refine into the four forms in the tested family.
+negative_result,microcell aggregation failure,064,"20,910 tested microcell quotient aggregations did not recover the four forms."
+negative_result,grid coordinate failure,066,no tested native row field supplied the two-sheet or three-channel coordinate.
+next_work,source construction audit,,the missing grouping law may live upstream in the source construction rather than in row fields.
+next_work,manuscript boundary section,,the project needs a human-readable boundary before more searches.
+next_work,shuffle and ablation tests,,the monotone and microcell signals should be tested against label shuffles and source perturbations.
